@@ -2,17 +2,17 @@
     "@class": "com.kony.gen.viz.model.container.KVizScrollFlexForm",
     "DNDConfig": null,
     "_margin_": [
-        0,
-        0,
-        0,
-        0
+        10,
+        10,
+        10,
+        10
     ],
     "_orientation_": 1,
     "_padding_": [
-        0,
-        0,
-        0,
-        0
+        10,
+        10,
+        10,
+        10
     ],
     "_percent_": true,
     "_skin_": "s101eb228ad3455ca8449fb2729c2a88",
