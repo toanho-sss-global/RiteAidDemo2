@@ -1,0 +1,83 @@
+{
+    "AS_Button_dcd1cedb94a349138c553bbeea22ccfe": {
+        "id": "AS_Button_dcd1cedb94a349138c553bbeea22ccfe",
+        "type": "ACTION_SEQUENCE",
+        "params": [
+            {
+                "datatype": "collection",
+                "name": "eventobject"
+            },
+            {
+                "datatype": "string",
+                "name": "x"
+            },
+            {
+                "datatype": "string",
+                "name": "y"
+            }
+        ],
+        "contextObj": {
+            "name": "Login",
+            "type": "forms",
+            "platform": "",
+            "KUID": "f000485ea72d4bdabb58767c123f33d9"
+        },
+        "language": "js",
+        "eventType": "onTouchStart",
+        "actions": [
+            {
+                "id": "ADD_SNIPPET_fac724d0695746b7a9b79a57dba66c74",
+                "type": "ADD_SNIPPET",
+                "codeSnippet": "function validateLogin() {\n        var email = this.view.txtBoxEmail.text;\n        var password = this.view.txtBoxPassword.text;\n  \n        var emailPattern = /^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/;\n        if (!email || !emailPattern.test(email)) {\n            alert(\"Please enter a valid email!\");\n            return;\n        }\n        \n        if (!password || password.length < 6 || \n          !/[A-Z]/.test(password) ||  \n          !/[a-z]/.test(password) ||   \n          !/[0-9]/.test(password) || \n          !/[!@#$%^&*(),.?\":{}|<>]/.test(password)) {\n          alert(\"Password must be at least 6 characters and include at least one uppercase letter, one lowercase letter, one number, and one special character!\");\n          return;\n      \t}\n  \t\t\t\n  \t\tif(email != \"email@gmail.com\") {\n            alert(\"Invalid email!\");\n          return;\n        }\n  \n        if(password != \"!Admin00\") {\n            alert(\"Invalid password!\");\n          return;\n        }\n        \n        alert(\"Login successful!\");\n  \t\treturn true;\n    }\n",
+                "parentId": null
+            },
+            {
+                "id": "ADD_LOCAL_VARIABLE_d9c10d1f043f4cb3b69179452013f997",
+                "type": "ADD_LOCAL_VARIABLE",
+                "name": "isLogin",
+                "isGlobal": false,
+                "valuetype": "expression",
+                "datatype": "boolean",
+                "value": "false",
+                "parentId": null
+            },
+            {
+                "id": "ADD_MAPPING_b52145863ff947009dbde1063152ac5e",
+                "type": "ADD_MAPPING",
+                "mappings": {},
+                "mappingsOrder": [],
+                "parentId": null,
+                "enableMappingEditor": true
+            },
+            {
+                "id": "_f4651e39ef724ad9a1d0ed5754c596de",
+                "type": "IF_CONDITION",
+                "conditions": [
+                    {
+                        "leftValueType": "varvalue",
+                        "leftValue": "isLogin",
+                        "operator": "===",
+                        "rightValue": "true",
+                        "rightValueType": "value"
+                    }
+                ],
+                "parentId": null,
+                "criteria": "all"
+            },
+            {
+                "id": "NAVIGATE_TO_FORM__a291d9646e954aac9dccfd12b07ffd78",
+                "type": "NAVIGATE_TO_FORM",
+                "formId": "Home",
+                "formKUID": "fec1a9196fb147b99cf270799578c1ae",
+                "projectName": "RiteAidDemo",
+                "mappings": {},
+                "mappingsOrder": [],
+                "parentId": null,
+                "callbackType": null,
+                "enableMappingEditor": true,
+                "package": "",
+                "isCustomInput": false
+            }
+        ]
+    }
+}
