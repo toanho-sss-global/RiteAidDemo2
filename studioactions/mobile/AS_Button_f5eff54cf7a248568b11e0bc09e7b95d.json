@@ -1,0 +1,33 @@
+{
+    "AS_Button_f5eff54cf7a248568b11e0bc09e7b95d": {
+        "id": "AS_Button_f5eff54cf7a248568b11e0bc09e7b95d",
+        "type": "ACTION_SEQUENCE",
+        "params": [
+            {
+                "datatype": "collection",
+                "name": "eventobject"
+            }
+        ],
+        "contextObj": {
+            "name": "Login",
+            "type": "forms",
+            "platform": "",
+            "KUID": "f000485ea72d4bdabb58767c123f33d9"
+        },
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [
+            {
+                "id": "INVOKE_FUNCTION__b6305c54814048e08fae0c366f5467b7",
+                "type": "INVOKE_FUNCTION",
+                "sequenceKUID": "validateLogin",
+                "display": "validateLogin",
+                "inputparams": [],
+                "parentId": null,
+                "callbackType": null,
+                "disabled": null,
+                "source": "controller"
+            }
+        ]
+    }
+}

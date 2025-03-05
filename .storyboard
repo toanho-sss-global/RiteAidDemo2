@@ -2,7 +2,34 @@
     "models": {
         "mobile": {
             "class": "GraphLinksModel",
-            "linkDataArray": [],
+            "linkDataArray": [
+                {
+                    "actionId": "NAVIGATE_TO_FORM__a291d9646e954aac9dccfd12b07ffd78",
+                    "actionSequenceId": "AS_Button_dcd1cedb94a349138c553bbeea22ccfe",
+                    "beautifiedPath": "Login > btnLogin > onTouchStart",
+                    "evt": "ide_onTouchStart",
+                    "from": "f000485ea72d4bdabb58767c123f33d9",
+                    "isPSP": false,
+                    "points": [
+                        168,
+                        778.0452636718751,
+                        178,
+                        778.0452636718751,
+                        180,
+                        778.0452636718751,
+                        180,
+                        778.0452636718751,
+                        268,
+                        778.0452636718751,
+                        268,
+                        501.24526367187497,
+                        268,
+                        491.24526367187497
+                    ],
+                    "to": "fec1a9196fb147b99cf270799578c1ae",
+                    "widgetKUID": "cf3629cb49c24cc0babe8079bb3e9aad"
+                }
+            ],
             "nodeDataArray": [
                 {
                     "formKUID": "b22302b04a3b42bba8790624f67dce44",
@@ -10,6 +37,22 @@
                     "isStartupForm": true,
                     "key": "b22302b04a3b42bba8790624f67dce44",
                     "loc": "8 24.845263671875003",
+                    "thumbnailURL": null
+                },
+                {
+                    "formKUID": "fec1a9196fb147b99cf270799578c1ae",
+                    "formName": "Home",
+                    "isStartupForm": false,
+                    "key": "fec1a9196fb147b99cf270799578c1ae",
+                    "loc": "188 184.845263671875",
+                    "thumbnailURL": null
+                },
+                {
+                    "formKUID": "f000485ea72d4bdabb58767c123f33d9",
+                    "formName": "Login",
+                    "isStartupForm": false,
+                    "key": "f000485ea72d4bdabb58767c123f33d9",
+                    "loc": "8 624.845263671875",
                     "thumbnailURL": null
                 }
             ]
