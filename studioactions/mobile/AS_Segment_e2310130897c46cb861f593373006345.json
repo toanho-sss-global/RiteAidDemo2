@@ -1,0 +1,23 @@
+{
+    "AS_Segment_e2310130897c46cb861f593373006345": {
+        "id": "AS_Segment_e2310130897c46cb861f593373006345",
+        "type": "ACTION_SEQUENCE",
+        "params": [
+            {
+                "datatype": "collection",
+                "name": "eventobject"
+            },
+            {
+                "datatype": "string",
+                "name": "x"
+            },
+            {
+                "datatype": "string",
+                "name": "y"
+            }
+        ],
+        "language": "js",
+        "eventType": "onTouchStart",
+        "actions": []
+    }
+}

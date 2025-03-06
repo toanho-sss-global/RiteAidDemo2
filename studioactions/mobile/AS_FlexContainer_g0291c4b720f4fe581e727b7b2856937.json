@@ -1,0 +1,33 @@
+{
+    "AS_FlexContainer_g0291c4b720f4fe581e727b7b2856937": {
+        "id": "AS_FlexContainer_g0291c4b720f4fe581e727b7b2856937",
+        "type": "ACTION_SEQUENCE",
+        "params": [
+            {
+                "datatype": "collection",
+                "name": "eventobject"
+            },
+            {
+                "datatype": "string",
+                "name": "x"
+            },
+            {
+                "datatype": "string",
+                "name": "y"
+            },
+            {
+                "datatype": "collection",
+                "name": "context"
+            }
+        ],
+        "contextObj": {
+            "name": "Temp0f769e62fdc364c",
+            "type": "templates",
+            "platform": "",
+            "KUID": "j3b63ca6ee37415f9395e18137ea0ca5"
+        },
+        "language": "js",
+        "eventType": "onTouchEnd",
+        "actions": []
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "AS_Image_e7c675674a324c1ea1ac472b21cd3222": {
+        "id": "AS_Image_e7c675674a324c1ea1ac472b21cd3222",
+        "type": "ACTION_SEQUENCE",
+        "params": [
+            {
+                "datatype": "collection",
+                "name": "eventobject"
+            },
+            {
+                "datatype": "string",
+                "name": "x"
+            },
+            {
+                "datatype": "string",
+                "name": "y"
+            },
+            {
+                "datatype": "collection",
+                "name": "context"
+            }
+        ],
+        "contextObj": {
+            "name": "Temp0f769e62fdc364c",
+            "type": "templates",
+            "platform": "",
+            "KUID": "j3b63ca6ee37415f9395e18137ea0ca5"
+        },
+        "language": "js",
+        "eventType": "onTouchStart",
+        "actions": []
+    }
+}

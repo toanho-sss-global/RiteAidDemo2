@@ -1,0 +1,28 @@
+{
+    "AS_Segment_da00ed5056a54d2f800037d0f3fd4e04": {
+        "id": "AS_Segment_da00ed5056a54d2f800037d0f3fd4e04",
+        "type": "ACTION_SEQUENCE",
+        "params": [
+            {
+                "datatype": "collection",
+                "name": "eventobject"
+            },
+            {
+                "datatype": "number",
+                "name": "sectionNumber"
+            },
+            {
+                "datatype": "number",
+                "name": "rowNumber"
+            }
+        ],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "f2de8d23cd624c45a0ac84b15141a69b"
+        },
+        "language": "js",
+        "eventType": "onRowClick",
+        "actions": []
+    }
+}

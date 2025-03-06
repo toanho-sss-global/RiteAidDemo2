@@ -1,0 +1,28 @@
+{
+    "AS_Segment_b1068840fd284a72984e73be0755e3fb": {
+        "id": "AS_Segment_b1068840fd284a72984e73be0755e3fb",
+        "type": "ACTION_SEQUENCE",
+        "params": [
+            {
+                "datatype": "collection",
+                "name": "eventobject"
+            },
+            {
+                "datatype": "string",
+                "name": "x"
+            },
+            {
+                "datatype": "string",
+                "name": "y"
+            }
+        ],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "f2de8d23cd624c45a0ac84b15141a69b"
+        },
+        "language": "js",
+        "eventType": "onTouchStart",
+        "actions": []
+    }
+}
