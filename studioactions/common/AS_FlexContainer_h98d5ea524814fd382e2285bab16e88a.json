@@ -1,0 +1,26 @@
+{
+    "AS_FlexContainer_h98d5ea524814fd382e2285bab16e88a": {
+        "id": "AS_FlexContainer_h98d5ea524814fd382e2285bab16e88a",
+        "type": "ACTION_SEQUENCE",
+        "params": [
+            {
+                "datatype": "collection",
+                "name": "eventobject"
+            }
+        ],
+        "contextObj": {
+            "type": "userwidgets",
+            "KUID": "uf6c75eac79241d7afccb563f4ce3341"
+        },
+        "language": "js",
+        "actions": [
+            {
+                "id": "ADD_SNIPPET__i97a036da19b47a68dbd2b4aef79b9e3",
+                "type": "ADD_SNIPPET",
+                "codeSnippet": "this.mapValue();",
+                "parentId": null,
+                "callbackType": null
+            }
+        ]
+    }
+}

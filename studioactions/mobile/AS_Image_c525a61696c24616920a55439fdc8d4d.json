@@ -1,0 +1,36 @@
+{
+    "AS_Image_c525a61696c24616920a55439fdc8d4d": {
+        "id": "AS_Image_c525a61696c24616920a55439fdc8d4d",
+        "type": "ACTION_SEQUENCE",
+        "params": [
+            {
+                "datatype": "collection",
+                "name": "eventobject"
+            },
+            {
+                "datatype": "string",
+                "name": "x"
+            },
+            {
+                "datatype": "string",
+                "name": "y"
+            }
+        ],
+        "contextObj": {
+            "name": "ShoppingCart",
+            "type": "forms",
+            "platform": "",
+            "KUID": "h474507793f0428d825097126f811904"
+        },
+        "language": "js",
+        "eventType": "onTouchStart",
+        "actions": [
+            {
+                "id": "ADD_SNIPPET_fdc89a680a664b38bd589471b91ff8d9",
+                "type": "ADD_SNIPPET",
+                "codeSnippet": "self.view.ProductQuantity.text = (parseInt(self.view.ProductQuantity.text, 10) + 1).toString();",
+                "parentId": null
+            }
+        ]
+    }
+}
