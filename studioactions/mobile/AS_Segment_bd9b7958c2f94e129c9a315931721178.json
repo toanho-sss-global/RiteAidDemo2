@@ -1,0 +1,17 @@
+{
+    "AS_Segment_bd9b7958c2f94e129c9a315931721178": {
+        "id": "AS_Segment_bd9b7958c2f94e129c9a315931721178",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "eventType": "onReachingBeginning",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onReachingBeginning_e53988a0f6434980a7573d1be97489de",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "function logger() {\n  console.log(\"hello log 1\");\n}\nlogger();"
+        }]
+    }
+}

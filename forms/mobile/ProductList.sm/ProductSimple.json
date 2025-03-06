@@ -1,0 +1,140 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "5%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_right_": {
+        "type": "string",
+        "value": "5%"
+    },
+    "_skin_": "sf48100605194ec0875e6d192d50891d",
+    "_top_": {
+        "type": "string",
+        "value": "40%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "areflexpropsreferenced": false,
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "ProductSimple": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "dd8255d657ce4011802faa6c3ed4488b",
+                "srcKUID": "ud2baf61e87b4d09b4dc51f5bba83e5f",
+                "wType": "FlexContainer"
+            },
+            "isVisible": true,
+            "left": {
+                "Default": {
+                    "type": "string",
+                    "value": "5%"
+                }
+            },
+            "right": {
+                "Default": {
+                    "type": "string",
+                    "value": "5%"
+                }
+            },
+            "top": {
+                "Default": {
+                    "type": "string",
+                    "value": "40%"
+                }
+            },
+            "width": {
+                "Default": {
+                    "type": "string",
+                    "value": "90%"
+                }
+            }
+        },
+        "segTemp": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b0cb592ac02942efb393309e9e468a75",
+                "srcKUID": "u8e91660a5a348509453b5493177b6dd",
+                "wType": "Segment"
+            },
+            "data": {
+                "mobile": [
+                    {
+                        "img": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": "",
+                            "type": "Image"
+                        },
+                        "lblCategory": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "",
+                            "type": "Label"
+                        },
+                        "lblCost": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "",
+                            "type": "Label"
+                        },
+                        "lblCostDiscount": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "",
+                            "type": "Label"
+                        },
+                        "lblDescription": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "",
+                            "type": "Label"
+                        },
+                        "lblDiscount": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "",
+                            "type": "Label"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "enablescrolling": true,
+    "id": "ProductSimple",
+    "info": null,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kuid": "dd8255d657ce4011802faa6c3ed4488b",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "ProductList",
+    "pf": "ProductList",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "ud2baf61e87b4d09b4dc51f5bba83e5f",
+    "wType": "UserWidgetInstance"
+}

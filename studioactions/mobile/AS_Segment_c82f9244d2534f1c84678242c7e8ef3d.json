@@ -1,0 +1,19 @@
+{
+    "AS_Segment_c82f9244d2534f1c84678242c7e8ef3d": {
+        "id": "AS_Segment_c82f9244d2534f1c84678242c7e8ef3d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "seguiWidget"
+        }, {
+            "datatype": "number",
+            "name": "sectionIndex"
+        }, {
+            "datatype": "number",
+            "name": "rowIndex"
+        }],
+        "language": "js",
+        "eventType": "onSwipe",
+        "actions": []
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "AS_Segment_hb6ae569b7b84da9b72245cd8cf44425": {
+        "id": "AS_Segment_hb6ae569b7b84da9b72245cd8cf44425",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "ShoppingCart",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ha7c833ee655478198cd45ef98c04fa2"
+        },
+        "language": "js",
+        "eventType": "onRowClick",
+        "actions": [{
+            "id": "ADD_SNIPPET_gb7ca82620e54d848bc252a7b4e868ec",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var segmentData = self.view.ProductSimple.segTemp.data;\nconsole.log(segmentData);",
+            "parentId": null
+        }]
+    }
+}

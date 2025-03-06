@@ -1,0 +1,86 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizListBox",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "5%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "28dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        3,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "Please Select",
+    "_skin_": "sa4dbe8686cf4c7d8e3bd076d09722b8",
+    "_top_": {
+        "type": "string",
+        "value": "33%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "30%"
+    },
+    "android": {
+        "psp": {
+            "applySkinsToPopup": true
+        }
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "dropdownimage": "listboxarw.png",
+    "enablehapticfeedback": false,
+    "focusskin": "sf860ccc1a9941dd89871e3010482244",
+    "groupcells": false,
+    "id": "ListBoxFeature",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "g0b421c1f48a4638b5faf69ae78ec234",
+    "masterdata": [
+        [
+            "lb1",
+            "Featured"
+        ],
+        [
+            "lb2",
+            "Price (Low to High)"
+        ],
+        [
+            "lb3",
+            "Price (High to Low)"
+        ]
+    ],
+    "name": "kony.ui.ListBox",
+    "parent": "ProductList",
+    "pf": "ProductList",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "selectedkey": "lb1",
+    "selectedkeys": null,
+    "selectedkeyvalue": [
+        "lb1",
+        "Featured"
+    ],
+    "selectedkeyvalues": null,
+    "size": 18,
+    "viewconfig": {
+        "toggleViewConfig": {
+            "viewStyle": 0
+        }
+    },
+    "viewtype": 0,
+    "wType": "ListBox",
+    "zindex": 1
+}

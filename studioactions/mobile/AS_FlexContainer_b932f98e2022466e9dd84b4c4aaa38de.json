@@ -1,0 +1,40 @@
+{
+    "AS_FlexContainer_b932f98e2022466e9dd84b4c4aaa38de": {
+        "id": "AS_FlexContainer_b932f98e2022466e9dd84b4c4aaa38de",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "ProductList",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b79e93a47a8a42038218541a0de1b8ba"
+        },
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "_d6c26560d87d4bf3b61f13bc7afb9938",
+            "type": "IF_CONDITION",
+            "conditions": [{
+                "leftValueType": "widgetprop",
+                "leftValue": "this.view.TxtSearch.text",
+                "operator": "!==",
+                "rightValueType": "value",
+                "rightValue": "\"\"",
+                "leftItemKUID": "b79e93a47a8a42038218541a0de1b8ba",
+                "leftWidgetKUID": "a27ab47c6dd041e0b01752c49c547d8f"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "criteria": "all"
+        }, {
+            "id": "ADD_SNIPPET_b829120e50ea42d5929103df492de1fe",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "self.view.TxtSearch.text = \"\";\nself.view.IconClose.isVisible = false;\nself.view.ContentProductEmpty.isVisible = false;\nself.view.ProductSimple.segTemp.setData(self.originalSegmentData);",
+            "parentId": "_d6c26560d87d4bf3b61f13bc7afb9938",
+            "callbackType": null
+        }]
+    }
+}

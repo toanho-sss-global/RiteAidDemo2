@@ -1,0 +1,19 @@
+{
+    "AS_Segment_a57abff4e45f4a25b22e88cd065ac200": {
+        "id": "AS_Segment_a57abff4e45f4a25b22e88cd065ac200",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "language": "js",
+        "eventType": "onTouchEnd",
+        "actions": []
+    }
+}

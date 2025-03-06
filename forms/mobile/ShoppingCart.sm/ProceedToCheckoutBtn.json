@@ -1,0 +1,66 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_bottom_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_skin_": "s6420c28a1b5479784b492079f6c749a",
+    "_text_": "Proceed to Checkout",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s9e61e475df9437ea22721ca898166de",
+    "id": "ProceedToCheckoutBtn",
+    "ide_onClick": "AS_Button_dbc57fe8c9084f11abc5a16b65efc71e",
+    "info": null,
+    "isvisible": true,
+    "kuid": "dd92210ae5ba4cbc8cae5edf69c6ff28",
+    "masterType": 1,
+    "name": "kony.ui.Button",
+    "parent": "ProcessToCheckoutBtn",
+    "pf": "ShoppingCart",
+    "wType": "Button",
+    "zindex": 1
+}

@@ -1,0 +1,53 @@
+{
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "200dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "sb07476f88e544e2978c634280730d24",
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "children": [
+        "itemContent"
+    ],
+    "clipbounds": true,
+    "containerId": true,
+    "containerweight": 100,
+    "controllerInfo": {
+        "default": {
+            "channel": "mobile",
+            "name": "FlxSegController"
+        }
+    },
+    "defaultunit": 2,
+    "enablescrolling": true,
+    "friendlyName": "",
+    "id": "FlxSeg",
+    "info": null,
+    "isTemplate": true,
+    "isvisible": true,
+    "kuid": "ba78fe30bcb84f5ab4b13d1e90a35cc4",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "SegTemp",
+    "pf": "SegTemp",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1
+}

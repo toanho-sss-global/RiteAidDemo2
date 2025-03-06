@@ -1,0 +1,57 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s935551fa04c4e71b6a6e53768efc6fe",
+    "_text_": "Button",
+    "_top_": {
+        "type": "string",
+        "value": "60%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "80%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerId": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s0cb3935f71f4e6b89e0a314561f183d",
+    "id": "Button0b820f12e10ad40",
+    "ide_onClick": "AS_Button_h39a0419d00544678f14f209ca26aa0d",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "af3370a7eb6649b7aa5ef645484a9a2e",
+    "name": "kony.ui.Button",
+    "parent": "Flextop",
+    "pf": "Temp0f769e62fdc364c",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

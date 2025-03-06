@@ -1,0 +1,28 @@
+{
+    "AS_Image_af2b5531ea9e45ed8540cd839398a250": {
+        "id": "AS_Image_af2b5531ea9e45ed8540cd839398a250",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "Temp0f769e62fdc364c",
+            "type": "templates",
+            "platform": "",
+            "KUID": "e2ba739423ea4a57989c22662b2cf6e2"
+        },
+        "language": "js",
+        "eventType": "onTouchEnd",
+        "actions": []
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "_base64_": null,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sab4c3b1f1194bc39b421ec60d1c76a4",
+    "_src_": "",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "101%"
+    },
+    "canUpdateUI": true,
+    "containerId": true,
+    "containerweight": 100,
+    "id": "Image0e9df41a9488949",
+    "ide_onTouchEnd": "AS_Image_af2b5531ea9e45ed8540cd839398a250",
+    "ide_onTouchStart": "AS_Image_d7893ace00f64f8dba85dd36d87b2938",
+    "imagescalemode": 0,
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "fb9e90cc036944febe3f569589bc7332",
+    "name": "kony.ui.Image2",
+    "parent": "FlexContainer0e55384438ac945",
+    "pf": "Temp0f769e62fdc364c",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5,
+    "zindex": 1
+}

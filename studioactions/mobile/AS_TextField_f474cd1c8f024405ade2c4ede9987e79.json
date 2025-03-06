@@ -1,0 +1,28 @@
+{
+    "AS_TextField_f474cd1c8f024405ade2c4ede9987e79": {
+        "id": "AS_TextField_f474cd1c8f024405ade2c4ede9987e79",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "contextObj": {
+            "name": "ProductList",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b79e93a47a8a42038218541a0de1b8ba"
+        },
+        "language": "js",
+        "eventType": "onTextChange",
+        "actions": [{
+            "id": "ADD_SNIPPET_fd1901f4ec344e85b8526c4b867d5473",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var searchText = self.view.TxtSearch.text.trim().toLowerCase();\n    if (!self.originalSegmentData) {\n        self.originalSegmentData = self.view.ProductSimple.segTemp.data;\n      \tconsole.log(self.originalSegmentData);\n    }\n \n    if (searchText !== \"\") {\n        self.view.IconClose.isVisible = true;\n        var filteredData = self.originalSegmentData.filter(function(item) {\n            return item.lblCategory.toLowerCase().includes(searchText);\n        });\n\n\t\tif(filteredData.length === 0){\n        \tself.view.ContentProductEmpty.isVisible = true;\n        } else {\n          \tself.view.ContentProductEmpty.isVisible = false;\n\t\t}\n        self.view.ProductSimple.segTemp.setData(filteredData);\n\n    } else {\n      \tself.view.ContentProductEmpty.isVisible = false;\n        self.view.IconClose.isVisible = false;\n        self.view.ProductSimple.segTemp.setData(self.originalSegmentData);\n    }\n ",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,333 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_data_": [
+        {},
+        {},
+        {}
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "05",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segTemp",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "none"
+        }
+    },
+    "isvisible": true,
+    "kuid": "u8e91660a5a348509453b5493177b6dd",
+    "masterdata": {},
+    "mobile": {
+        "_data_": [
+            {
+                "img": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "fi4ohuxot842j9f5bjqg__preview.png",
+                    "type": "Image"
+                },
+                "lblCategory": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Grocery",
+                    "type": "Label"
+                },
+                "lblCost": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "$11.99",
+                    "type": "Label"
+                },
+                "lblCostDiscount": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Label",
+                    "type": "Label"
+                },
+                "lblDescription": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Rite Aid Passion Fruit Triple Hydration Electrolyte Drink Mix - 3.49 oz",
+                    "type": "Label"
+                },
+                "lblDiscount": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "90% Off",
+                    "type": "Label"
+                }
+            },
+            {
+                "img": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "https://vendure.demo.universalcommerce.io/assets/preview/f1/bpdavryry2kptkyfej93__preview.webp",
+                    "type": "Image"
+                },
+                "lblCategory": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Gummy",
+                    "type": "Label"
+                },
+                "lblCost": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "$38.39",
+                    "type": "Label"
+                },
+                "lblCostDiscount": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Label",
+                    "type": "Label"
+                },
+                "lblDescription": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Qunol Turmeric & Ginger Gummy - 60 ct",
+                    "type": "Label"
+                },
+                "lblDiscount": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "90% Off",
+                    "type": "Label"
+                }
+            },
+            {
+                "img": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "https://vendure.demo.universalcommerce.io/assets/preview/3e/fi4ohuxot842j9f5bjqg__preview.webp",
+                    "type": "Image"
+                },
+                "lblCategory": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Moisturizer",
+                    "type": "Label"
+                },
+                "lblCost": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "$5.28",
+                    "type": "Label"
+                },
+                "lblCostDiscount": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Label",
+                    "type": "Label"
+                },
+                "lblDescription": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Olay Regenerist Vitamin C + Peptide 24 Face Moisturizer - 1.7 oz",
+                    "type": "Label"
+                },
+                "lblDiscount": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "90% Off",
+                    "type": "Label"
+                }
+            },
+            {
+                "img": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "https://vendure.demo.universalcommerce.io/assets/preview/8a/xfovgufizvy4rjr6sfup__preview.webp",
+                    "type": "Image"
+                },
+                "lblCategory": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Softgel",
+                    "type": "Label"
+                },
+                "lblCost": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "$8.40",
+                    "type": "Label"
+                },
+                "lblCostDiscount": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Label",
+                    "type": "Label"
+                },
+                "lblDescription": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Nature Made Vitamin D3 Softgels, 50mcg - 90 ct",
+                    "type": "Label"
+                },
+                "lblDiscount": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "90% Off",
+                    "type": "Label"
+                }
+            },
+            {
+                "img": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "https://vendure.demo.universalcommerce.io/assets/preview/c6/kv5nocv4wgdpifeg87l8__02__preview.webp",
+                    "type": "Image"
+                },
+                "lblCategory": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Wash",
+                    "type": "Label"
+                },
+                "lblCost": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "$1.26",
+                    "type": "Label"
+                },
+                "lblCostDiscount": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Label",
+                    "type": "Label"
+                },
+                "lblDescription": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Listerine Total Care Anticavity Fluoride Mouthwash - Fresh Mint, 1 lt",
+                    "type": "Label"
+                },
+                "lblDiscount": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "90% Off",
+                    "type": "Label"
+                }
+            },
+            {
+                "img": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "https://vendure.demo.universalcommerce.io/assets/preview/72/n2qipva5zy4fv9irdokq__preview.webp",
+                    "type": "Image"
+                },
+                "lblCategory": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Grocery",
+                    "type": "Label"
+                },
+                "lblCost": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "$9.00",
+                    "type": "Label"
+                },
+                "lblCostDiscount": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Label",
+                    "type": "Label"
+                },
+                "lblDescription": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Lindt Gourmet Truffles Box - 6.8 oz",
+                    "type": "Label"
+                },
+                "lblDiscount": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "90% Off",
+                    "type": "Label"
+                }
+            }
+        ],
+        "rowTemplateId": "b12d16fb73f948c0b4eb81bdc30a3582",
+        "rowtemplate": "CopyflxSeg2",
+        "sectionHeaderTemplateId": null,
+        "selectionBehaviorConfig": {},
+        "widgetdatamap": {
+            "FlxSeg": "FlxSeg",
+            "flxImg": "flxImg",
+            "img": "img",
+            "itemContent": "itemContent",
+            "lblCategory": "lblCategory",
+            "lblCost": "lblCost",
+            "lblCostDiscount": "lblCostDiscount",
+            "lblDescription": "lblDescription",
+            "lblDiscount": "lblDiscount"
+        }
+    },
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "paddingLocked": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom",
+        "vdistance": 1
+    },
+    "parent": "ProductSimple",
+    "pf": "userwidgetmodel",
+    "retainselection": false,
+    "rowcounter": 5,
+    "rowfocusskin": "s47fa5e5ce6d45219f93c16bdbc6a24a",
+    "rowskin": "s4d082ed52a143ab962dce7b6ae1d0ae",
+    "rowtemplate": "CopyflxSeg2",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s6e83db159ef44438350cd648201893a",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": null,
+    "selectionbehavior": "singleselect",
+    "selectionbehaviorconfig": {},
+    "separatorcolor": "ffffff00",
+    "separatorrequired": true,
+    "separatorthickness": 5,
+    "showscrollbars": false,
+    "swipeContext": {
+        "currentPage": 0,
+        "imageWidth": 1170,
+        "widthRatio": 0
+    },
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "CopyflxSeg2": "CopyflxSeg2",
+        "flxImg": "flxImg",
+        "flxImgMain": "flxImgMain",
+        "flxProductColor": "flxProductColor",
+        "img": "img",
+        "img1": "img1",
+        "img2": "img2",
+        "img3": "img3",
+        "img4": "img4",
+        "img5": "img5",
+        "lblCost": "lblCost",
+        "lblDescription": "lblDescription",
+        "lblProdName": "lblProdName",
+        "lblStock": "lblStock",
+        "productOne": "productOne",
+        "productThree": "productThree",
+        "productTwo": "productTwo"
+    },
+    "zindex": 1
+}

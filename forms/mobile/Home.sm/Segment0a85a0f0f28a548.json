@@ -1,0 +1,231 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_data_": [
+        {
+            "Button0b820f12e10ad40": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Shop now",
+                "type": "Button"
+            },
+            "Image0e9df41a9488949": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "header1.png",
+                "type": "Image"
+            },
+            "Label0ie096a2cf5e442": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Nature Made vitamins & supplements 50% off",
+                "type": "Label"
+            },
+            "backgroundImg": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "image.jpg",
+                "type": "Image"
+            }
+        },
+        {
+            "Button0b820f12e10ad40": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Shop now",
+                "type": "Button"
+            },
+            "Image0e9df41a9488949": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "header2.png",
+                "type": "Image"
+            },
+            "Label0ie096a2cf5e442": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Valentine’s Day UP TO 90% OFF",
+                "type": "Label"
+            },
+            "backgroundImg": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "untitled4.png",
+                "type": "Image"
+            }
+        },
+        {
+            "Button0b820f12e10ad40": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Schedule",
+                "type": "Button"
+            },
+            "Image0e9df41a9488949": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "header3.png",
+                "type": "Image"
+            },
+            "Label0ie096a2cf5e442": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Get your flu shot TEST!!",
+                "type": "Label"
+            },
+            "backgroundImg": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "untitled2.png",
+                "type": "Image"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "1000px"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "02",
+    "enablehapticfeedback": false,
+    "focusedindex": 0,
+    "focuseditem": {
+        "Button0b820f12e10ad40": {
+            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+            "text": "Shop now",
+            "type": "Button"
+        },
+        "Image0e9df41a9488949": {
+            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+            "src": "header1.png",
+            "type": "Image"
+        },
+        "Label0ie096a2cf5e442": {
+            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+            "text": "Nature Made vitamins & supplements 50% off",
+            "type": "Label"
+        },
+        "backgroundImg": {
+            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+            "src": "image.jpg",
+            "type": "Image"
+        }
+    },
+    "generatedtemplate": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "Segment0a85a0f0f28a548",
+    "ide_onReachingBeginning": "AS_Segment_bd9b7958c2f94e129c9a315931721178",
+    "ide_onReachingEnd": "AS_Segment_f77deb876e3d469fbd7eb58f02dadc02",
+    "ide_onRowClick": "AS_Segment_i8992e512edf470ab88e6aa3bad20d0d",
+    "ide_onSwipe": "AS_Segment_c82f9244d2534f1c84678242c7e8ef3d",
+    "ide_onTouchEnd": "AS_Segment_a57abff4e45f4a25b22e88cd065ac200",
+    "ide_onTouchMove": "AS_Segment_cd5d6316d00c464d881ccaf22252d0e5",
+    "ide_onTouchStart": "AS_Segment_b87c12c6bc5849499d52fbb0f2a7ba98",
+    "info": null,
+    "invokedProperty": "pageOnDotImage",
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "a50df748d41b4d34b53f017678981d9c",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom",
+        "vdistance": 1
+    },
+    "parent": "Home",
+    "pf": "Home",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "e2ba739423ea4a57989c22662b2cf6e2",
+    "rowcounter": 2,
+    "rowfocusskin": "sb65288bf0c74cf09c9a4b2beb257b4c",
+    "rowskin": "scb3373156f44d6fbaeda147e8570593",
+    "rowtemplate": "Flex0f2795775352a48",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s18b4b7cebc04180b309be5c8749494f",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": [
+        0,
+        0
+    ],
+    "selectedindices": null,
+    "selecteditems": {
+        "Button0b820f12e10ad40": {
+            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+            "text": "Shop now",
+            "type": "Button"
+        },
+        "Image0e9df41a9488949": {
+            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+            "src": "header1.png",
+            "type": "Image"
+        },
+        "Label0ie096a2cf5e442": {
+            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+            "text": "Nature Made vitamins & supplements 50% off",
+            "type": "Label"
+        },
+        "backgroundImg": {
+            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+            "src": "image.jpg",
+            "type": "Image"
+        }
+    },
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "selectionbehaviorconfig": null,
+    "separatorrequired": false,
+    "showscrollbars": true,
+    "swipeContext": {
+        "currentPage": 0,
+        "imageWidth": 1284,
+        "widthRatio": 0
+    },
+    "viewtype": "pageview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "Button0b820f12e10ad40": "Button0b820f12e10ad40",
+        "Flex0f2795775352a48": "Flex0f2795775352a48",
+        "FlexContainer0e55384438ac945": "FlexContainer0e55384438ac945",
+        "Flextop": "Flextop",
+        "Image0e9df41a9488949": "Image0e9df41a9488949",
+        "Label0ie096a2cf5e442": "Label0ie096a2cf5e442",
+        "backgroundImg": "backgroundImg"
+    },
+    "zindex": 1
+}

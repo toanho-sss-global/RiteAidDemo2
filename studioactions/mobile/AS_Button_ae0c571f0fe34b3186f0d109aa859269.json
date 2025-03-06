@@ -1,0 +1,25 @@
+{
+    "AS_Button_ae0c571f0fe34b3186f0d109aa859269": {
+        "id": "AS_Button_ae0c571f0fe34b3186f0d109aa859269",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "Login",
+            "type": "forms",
+            "platform": "",
+            "KUID": "fe24c9db0b3843b8b65fb7f139c8b005"
+        },
+        "language": "js",
+        "eventType": "onTouchStart",
+        "actions": []
+    }
+}

@@ -1,0 +1,81 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizTextBox2",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "80%"
+    },
+    "_left_": {
+        "type": "number",
+        "value": "0"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        3,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "Categories, price, color, ...",
+    "_skin_": "s6ec785a63334f67b4780619e7b12799",
+    "_text_": "",
+    "_top_": {
+        "type": "number",
+        "value": "10"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "75.36%"
+    },
+    "autocapitalize": "none",
+    "autocomplete": false,
+    "autocorrect": false,
+    "autofilter": false,
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "47.74%"
+    },
+    "containerheight": "",
+    "containerheightmode": 1,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "focusskin": "s34b9cc69e8a440e887a5cbdf8d80480",
+    "id": "TxtSearch",
+    "ide_onTextChange": "AS_TextField_f474cd1c8f024405ade2c4ede9987e79",
+    "info": null,
+    "iphone": {
+        "psp": {
+            "leftViewImage": "",
+            "showClearButton": false,
+            "showCloseButton": false,
+            "showProgressIndicator": false
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "keyboardstyle": "A",
+    "keyboardtype": "A",
+    "kuid": "a27ab47c6dd041e0b01752c49c547d8f",
+    "leftviewimage": "search.png",
+    "mode": "A",
+    "name": "kony.ui.TextBox2",
+    "parent": "SearchBox",
+    "pf": "ProductList",
+    "placeholderskin": "sbfea0ab5ea94b3abe6d98a93ed6da7b",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "securetextentry": false,
+    "showclearbutton": true,
+    "showoprogressindicator": false,
+    "textinputmode": "A",
+    "tooltip": "",
+    "viewtype": "default",
+    "wType": "TextField",
+    "zindex": 1
+}

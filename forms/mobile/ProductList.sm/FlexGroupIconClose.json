@@ -1,0 +1,68 @@
+{
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "30.68%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0.00%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "secc8bd52a0d40b69fb871d2778cfe06",
+    "_top_": {
+        "type": "string",
+        "value": "15%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "4%"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "49.38%"
+    },
+    "children": [
+        "IconClose"
+    ],
+    "clipbounds": false,
+    "containerweight": 100,
+    "defaultunit": 2,
+    "disabledSkins": {},
+    "enablescrolling": true,
+    "focusskin": "s78ef0a75b4b447fb362fbf72b2ac4e2",
+    "id": "FlexGroupIconClose",
+    "ide_onClick": "AS_FlexContainer_b932f98e2022466e9dd84b4c4aaa38de",
+    "info": null,
+    "iscustomlayout": false,
+    "ismodalcontainer": false,
+    "isvisible": true,
+    "kuid": "jea49f2dfa7b408c8abdb3c17311d912",
+    "layouttype": 3,
+    "name": "kony.ui.FlexContainer",
+    "parent": "SearchBox",
+    "pf": "ProductList",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": false,
+    "wType": "FlexContainer",
+    "widgetalignment": 1
+}
