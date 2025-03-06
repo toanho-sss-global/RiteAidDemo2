@@ -1,0 +1,38 @@
+{
+    "AS_FlexContainer_i70a193178dc4de6bc6377e9303011c8": {
+        "id": "AS_FlexContainer_i70a193178dc4de6bc6377e9303011c8",
+        "type": "ACTION_SEQUENCE",
+        "params": [
+            {
+                "datatype": "collection",
+                "name": "eventobject"
+            },
+            {
+                "datatype": "collection",
+                "name": "context"
+            }
+        ],
+        "contextObj": {
+            "name": "Temp0f769e62fdc364c",
+            "type": "templates",
+            "platform": null,
+            "KUID": "j3b63ca6ee37415f9395e18137ea0ca5"
+        },
+        "language": "js",
+        "eventType": "preShow",
+        "actions": [
+            {
+                "id": "TIMEOUT_ACTION_c9523593b6a24d238db2418129618f21",
+                "timeout": 1000000,
+                "type": "TIMEOUT_ACTION",
+                "timerId": "TIMEOUT_ACTION_c9523593b6a24d238db2418129618f21",
+                "repeats": false
+            },
+            {
+                "id": "ADD_SNIPPET_ca20f671f4ce4e0badf6c1565f2b2988",
+                "type": "ADD_SNIPPET",
+                "codeSnippet": "var container = document.getElementById(\"Flex0f2795775352a48\"); \nif (container) {\n    var swipeEvent = new Event('swipeleft');  // Hoặc 'swiperight' nếu muốn vuốt phải\n    container.dispatchEvent(swipeEvent);\n}\n"
+            }
+        ]
+    }
+}

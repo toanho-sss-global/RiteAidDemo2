@@ -18,9 +18,9 @@
     "_pxMenuIndex": [
         0,
         1,
-        1
+        5
     ],
-    "_skin_": "s75996b201e84771b2cf35389c16e1d1",
+    "_skin_": "s022005489644101bf914e1cebd83ac5",
     "_title_": null,
     "addWidgetsdone": false,
     "allboxes": [],
@@ -38,7 +38,7 @@
     },
     "canUpdateUI": true,
     "children": [
-        "segmentHeder"
+        "Segment0a85a0f0f28a548"
     ],
     "containerweight": 100,
     "controllerInfo": {
@@ -55,6 +55,8 @@
     "displayorientation": 1,
     "enabledforidletimeout": false,
     "id": "Home",
+    "ide_init": "AS_Form_d5cf907c7d874adc93179eb70fa80f2c",
+    "ide_postShow": "AS_Form_i2e8e40537324ea7ae51ad6ce7661bdc",
     "info": null,
     "initdone": false,
     "inputaccessoryviewtype": 4,
@@ -72,7 +74,7 @@
             "titleBarAttributes": {
                 "barStyle": 0,
                 "hidesBackButton": false,
-                "kuid": "ef54de24d5604366a827f6c2b0445151",
+                "kuid": "h353b6acaba04ed5809da91846b955ab",
                 "leftBarButtonItems": [],
                 "leftItemsSupplementBackButton": true,
                 "prompt": "",
@@ -83,7 +85,7 @@
                         "info": {
                             "title": "Edit"
                         },
-                        "kuid": "fa27c34c5bd8428487a5c3fb99df1213",
+                        "kuid": "ea2624444edd440eb483aa261abfc29f",
                         "style": 0,
                         "tintColor": "4b88f100",
                         "type": 1
@@ -100,7 +102,7 @@
     "kiosk": {
         "needAppMenu": false
     },
-    "kuid": "fec1a9196fb147b99cf270799578c1ae",
+    "kuid": "ha53ee838d5f44859891deab5a86a839",
     "layouttype": 2,
     "name": "kony.ui.Form2",
     "needappmenu": false,
@@ -131,7 +133,7 @@
     "spawinphone8": {
         "needAppMenu": false
     },
-    "titleBarSkin": "s04e02c2175f46f5ad2cf0fff5c44435",
+    "titleBarSkin": "s7f5da1a49604668aa49235593946743",
     "titlebar": true,
     "type": 3,
     "wType": "Form",

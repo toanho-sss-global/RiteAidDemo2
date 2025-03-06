@@ -1,0 +1,27 @@
+{
+    "AS_Segment_d814412185ba45deaf0a4b8c78003d9f": {
+        "id": "AS_Segment_d814412185ba45deaf0a4b8c78003d9f",
+        "type": "ACTION_SEQUENCE",
+        "params": [
+            {
+                "datatype": "collection",
+                "name": "eventobject"
+            }
+        ],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "f2de8d23cd624c45a0ac84b15141a69b"
+        },
+        "language": "js",
+        "eventType": "onReachingBeginning",
+        "actions": [
+            {
+                "id": "ADD_SNIPPET_je7596a332d04b8f9eb48aa0ffe3b93a",
+                "type": "ADD_SNIPPET",
+                "codeSnippet": "function logger() {\n  console.log(\"hello log 1\");\n}\nlogger();",
+                "parentId": null
+            }
+        ]
+    }
+}

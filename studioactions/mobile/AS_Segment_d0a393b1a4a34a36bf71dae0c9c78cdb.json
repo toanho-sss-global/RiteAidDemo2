@@ -1,0 +1,23 @@
+{
+    "AS_Segment_d0a393b1a4a34a36bf71dae0c9c78cdb": {
+        "id": "AS_Segment_d0a393b1a4a34a36bf71dae0c9c78cdb",
+        "type": "ACTION_SEQUENCE",
+        "params": [
+            {
+                "datatype": "collection",
+                "name": "eventobject"
+            },
+            {
+                "datatype": "string",
+                "name": "x"
+            },
+            {
+                "datatype": "string",
+                "name": "y"
+            }
+        ],
+        "language": "js",
+        "eventType": "onTouchMove",
+        "actions": []
+    }
+}

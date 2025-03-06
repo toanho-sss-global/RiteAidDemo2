@@ -1,0 +1,29 @@
+{
+    "AS_FlexScrollContainer_b609fbbb9dfc491da74d30e3d211cb06": {
+        "id": "AS_FlexScrollContainer_b609fbbb9dfc491da74d30e3d211cb06",
+        "type": "ACTION_SEQUENCE",
+        "params": [
+            {
+                "datatype": "collection",
+                "name": "eventobject"
+            },
+            {
+                "datatype": "string",
+                "name": "x"
+            },
+            {
+                "datatype": "string",
+                "name": "y"
+            }
+        ],
+        "contextObj": {
+            "name": "Home",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ha53ee838d5f44859891deab5a86a839"
+        },
+        "language": "js",
+        "eventType": "onTouchMove",
+        "actions": []
+    }
+}

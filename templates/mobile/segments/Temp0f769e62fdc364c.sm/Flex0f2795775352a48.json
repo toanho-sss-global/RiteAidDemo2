@@ -1,0 +1,89 @@
+{
+    "DNDConfig": null,
+    "_blur_": {
+        "enabled": false,
+        "value": 0
+    },
+    "_height_": {
+        "type": "string",
+        "value": "1000px"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "se76726d379441b0a6e5667a68305340",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "children": [
+        "Flextop",
+        "FlexContainer0e55384438ac945"
+    ],
+    "clipbounds": true,
+    "containerId": true,
+    "containerweight": 100,
+    "controllerInfo": {
+        "default": {
+            "channel": "mobile",
+            "name": "Flex0f2795775352a48Controller"
+        }
+    },
+    "enablescrolling": true,
+    "id": "Flex0f2795775352a48",
+    "ide_onTouchEnd": "AS_FlexContainer_g0291c4b720f4fe581e727b7b2856937",
+    "ide_onTouchStart": "AS_FlexContainer_b7ff4c0bae7e4ebc82ba727e9fe0ef50",
+    "ide_postShow": "AS_FlexContainer_d053c8625e2f4d4ba61366bd08978dfb",
+    "ide_preShow": "AS_FlexContainer_i70a193178dc4de6bc6377e9303011c8",
+    "info": null,
+    "isTemplate": true,
+    "iscustomlayout": false,
+    "ismodalcontainer": false,
+    "isvisible": true,
+    "kuid": "g9dec6c299a24bafa97986b6de61cb8e",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "Temp0f769e62fdc364c",
+    "pf": "Temp0f769e62fdc364c",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": false,
+    "swipeConfig": {
+        "enableSwipe": true,
+        "enableSwipeLeft": false,
+        "enableSwipeRight": false,
+        "leftType": 0,
+        "rightType": 0
+    },
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "winphone8": {
+        "psp": {
+            "enableCache": false
+        }
+    }
+}
