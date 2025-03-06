@@ -2,7 +2,7 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "50dp"
+        "value": "100%"
     },
     "_margin_": [
         0,
@@ -18,39 +18,45 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s159225086ce43c9874e3705d4af720e",
-    "_width_": {
+    "_right_": {
         "type": "string",
-        "value": "100%"
+        "value": "0dp"
+    },
+    "_skin_": "sc409f5c89364447a5ddc050b41c3aca",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "number",
+        "value": "30"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "leftHeaderGroup",
-        "rightHeaderGroup"
+        "cartHeaderButton",
+        "cartBadgeCount"
     ],
-    "clipbounds": true,
+    "clipbounds": false,
     "containerId": true,
     "containerweight": 100,
-    "controllerInfo": {
-        "default": {
-            "channel": "mobile",
-            "name": "flxSectionHeaderTemplateController"
-        }
-    },
     "enablescrolling": true,
-    "id": "flxSectionHeaderTemplate",
+    "id": "cartHeaderGroup",
     "info": null,
-    "isTemplate": true,
+    "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "a7dc88bdcce745efa7378ca46a8b88c3",
+    "kuid": "ee2f107807ac4e9b950cebb0a88b9ca1",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "SampleSectionHeaderTemplate",
+    "parent": "rightHeaderGroup",
     "pf": "SampleSectionHeaderTemplate",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
     "snapgridsize": 10,
     "snaptogrid": true,
     "wType": "FlexContainer",
-    "widgetalignment": 1
+    "widgetalignment": 1,
+    "zindex": 1
 }
