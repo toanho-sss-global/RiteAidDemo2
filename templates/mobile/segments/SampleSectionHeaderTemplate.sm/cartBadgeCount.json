@@ -1,14 +1,9 @@
 {
     "@class": "com.kony.gen.viz.model.component.KVizLabel",
     "DNDConfig": null,
-    "__parentReadjusting__": false,
     "_height_": {
-        "type": "ref",
-        "value": "preferred"
-    },
-    "_left_": {
         "type": "string",
-        "value": "4%"
+        "value": "10dp"
     },
     "_margin_": [
         1,
@@ -22,11 +17,19 @@
         0,
         0
     ],
-    "_skin_": "s17f6d166e64470fb497f17c72e05f5b",
-    "_text_": "Heading",
+    "_right_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_skin_": "s677007a1deb420faba71110a03b37e3",
+    "_text_": "0",
+    "_top_": {
+        "type": "string",
+        "value": "10dp"
+    },
     "_width_": {
         "type": "string",
-        "value": "75%"
+        "value": "10dp"
     },
     "_wrapping_": 2,
     "android": {
@@ -36,14 +39,10 @@
         }
     },
     "canUpdateUI": true,
-    "centery": {
-        "type": "string",
-        "value": "50%"
-    },
     "containerId": true,
     "containerweight": 100,
-    "contentalignment": 4,
-    "id": "lblHeading",
+    "contentalignment": 8,
+    "id": "cartBadgeCount",
     "info": null,
     "ipad": {
         "psp": {
@@ -55,15 +54,14 @@
             "wrapping": 2
         }
     },
+    "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "j444abb80fd54311af62a218cc1c33c9",
-    "maxwidth": {
-        "type": "string",
-        "value": "50%"
-    },
+    "kuid": "c5d950245bd8418cb094f4e3448c9b60",
     "name": "kony.ui.Label",
-    "parent": "flxSectionHeaderTemplate",
+    "parent": "cartHeaderGroup",
     "pf": "SampleSectionHeaderTemplate",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
     "textstyle": {},
     "tooltip": "",
     "wType": "Label",

@@ -15,7 +15,7 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s82082f6885a47e5b94bbbbd50e7c67f",
+    "_skin_": "s4b3b299a4dd4ab4b872e20cf2ddaceb",
     "_title_": null,
     "addWidgetsdone": false,
     "allboxes": [],
@@ -31,6 +31,10 @@
     "enabledforidletimeout": false,
     "id": "SampleSectionHeaderTemplate",
     "info": null,
+    "infoForSave": {
+        "channel": "mobile",
+        "templateType": "segments"
+    },
     "initdone": false,
     "inputaccessoryviewtype": 4,
     "intransitionconfig": {
@@ -49,7 +53,6 @@
     "prevDevice": "iPhoneX",
     "prevPlatform": "iphone",
     "retainscrollposition": false,
-    "shellCSS": "and_GalaxyS5",
     "titleBarSkin": "s1e83989032d483380543c4a1dc594f6",
     "titlebar": true,
     "type": 3,
