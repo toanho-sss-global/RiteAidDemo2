@@ -1,0 +1,34 @@
+{
+    "AS_Button_g2788a6307df4abbb8e156ca95cf90c3": {
+        "id": "AS_Button_g2788a6307df4abbb8e156ca95cf90c3",
+        "type": "ACTION_SEQUENCE",
+        "params": [
+            {
+                "datatype": "collection",
+                "name": "eventobject"
+            }
+        ],
+        "contextObj": {
+            "name": "ShoppingCart",
+            "type": "forms",
+            "platform": null,
+            "KUID": "h474507793f0428d825097126f811904"
+        },
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [
+            {
+                "id": "NAVIGATE_TO_FORM__a79800b63f764c53999ef69f37f3a5bd",
+                "type": "NAVIGATE_TO_FORM",
+                "formId": "Checkout",
+                "formKUID": "fe305565c2674287964c282e44252ce8",
+                "projectName": "RiteAidDemo",
+                "mappings": {},
+                "mappingsOrder": [],
+                "enableMappingEditor": true,
+                "package": "",
+                "isCustomInput": false
+            }
+        ]
+    }
+}

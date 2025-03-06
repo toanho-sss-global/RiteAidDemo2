@@ -18,7 +18,7 @@
     "_pxMenuIndex": [
         0,
         1,
-        0
+        1
     ],
     "_skin_": "s75996b201e84771b2cf35389c16e1d1",
     "_title_": null,
@@ -37,7 +37,9 @@
         }
     },
     "canUpdateUI": true,
-    "children": [],
+    "children": [
+        "segmentHeder"
+    ],
     "containerweight": 100,
     "controllerInfo": {
         "default": {

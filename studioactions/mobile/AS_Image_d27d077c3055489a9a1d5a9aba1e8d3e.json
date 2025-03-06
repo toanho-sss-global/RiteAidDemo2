@@ -1,0 +1,29 @@
+{
+    "AS_Image_d27d077c3055489a9a1d5a9aba1e8d3e": {
+        "id": "AS_Image_d27d077c3055489a9a1d5a9aba1e8d3e",
+        "type": "ACTION_SEQUENCE",
+        "params": [
+            {
+                "datatype": "collection",
+                "name": "eventobject"
+            },
+            {
+                "datatype": "string",
+                "name": "x"
+            },
+            {
+                "datatype": "string",
+                "name": "y"
+            }
+        ],
+        "contextObj": {
+            "name": "ShoppingCart",
+            "type": "forms",
+            "platform": "",
+            "KUID": "h474507793f0428d825097126f811904"
+        },
+        "language": "js",
+        "eventType": "onTouchEnd",
+        "actions": []
+    }
+}

@@ -1,0 +1,189 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_data_": [
+        [
+            {
+                "cartBadgeCount": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "0"
+                },
+                "cartHeaderButton": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "logo": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "logo2": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "menu": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "userHeader": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                }
+            },
+            [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ]
+        ],
+        [
+            {
+                "cartBadgeCount": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "0"
+                },
+                "cartHeaderButton": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "logo": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "logo2": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "menu": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "userHeader": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                }
+            },
+            [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ]
+        ]
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "19",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": true,
+    "id": "Segment0c8cd6f8e60cc41",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "bc98ada3262044adac0df7ea8eaea7db",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "ShoppingCart",
+    "pf": "ShoppingCart",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowcounter": 9,
+    "rowfocusskin": "s144dd2167e2435fbee2e75f70d597cb",
+    "rowskin": "sf9fc6dc6d56418d8b18d09a32c03686",
+    "rowtemplate": null,
+    "screenlevelwidget": false,
+    "seccounter": 1,
+    "sectionHeaderTemplateId": "e26323594f2f46acbb6a487d66ea2968",
+    "sectionheaderskin": "s638dd8f646a474ca2b881d05ced5ca9",
+    "sectionheadertemplate": "flxSectionHeaderTemplate",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "aaaaaa00",
+    "separatorrequired": true,
+    "separatorthickness": 1,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "cartBadgeCount": "cartBadgeCount",
+        "cartHeaderButton": "cartHeaderButton",
+        "cartHeaderGroup": "cartHeaderGroup",
+        "flxSectionHeaderTemplate": "flxSectionHeaderTemplate",
+        "leftHeaderGroup": "leftHeaderGroup",
+        "logo": "logo",
+        "logo2": "logo2",
+        "menu": "menu",
+        "rightHeaderGroup": "rightHeaderGroup",
+        "userHeader": "userHeader"
+    },
+    "zindex": 1
+}

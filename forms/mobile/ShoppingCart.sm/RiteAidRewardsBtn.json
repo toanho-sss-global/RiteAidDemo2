@@ -1,0 +1,55 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "13dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s55a81b781c9498dba4b37834e765e6d",
+    "_text_": "Rite Aid Rewards",
+    "_top_": {
+        "type": "string",
+        "value": "20dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "sdedbf41c47b4a32ab10b74e67710641",
+    "id": "RiteAidRewardsBtn",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "ca686f5de57c4ea59aadcc526a7156f6",
+    "name": "kony.ui.Button",
+    "parent": "CheckoutAndPromoteContainer",
+    "pf": "ShoppingCart",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

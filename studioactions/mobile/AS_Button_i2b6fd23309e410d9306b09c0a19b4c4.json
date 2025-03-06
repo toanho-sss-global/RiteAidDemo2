@@ -1,0 +1,28 @@
+{
+    "AS_Button_i2b6fd23309e410d9306b09c0a19b4c4": {
+        "id": "AS_Button_i2b6fd23309e410d9306b09c0a19b4c4",
+        "type": "ACTION_SEQUENCE",
+        "params": [
+            {
+                "datatype": "collection",
+                "name": "eventobject"
+            }
+        ],
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [
+            {
+                "id": "NAVIGATE_TO_FORM__ide_onClick_eb9c4d26953b4886a41c8129aee6dff5",
+                "type": "NAVIGATE_TO_FORM",
+                "formId": "Checkout",
+                "formKUID": "fe305565c2674287964c282e44252ce8",
+                "projectName": "RiteAidDemo",
+                "mappings": {},
+                "mappingsOrder": [],
+                "enableMappingEditor": true,
+                "package": "",
+                "isCustomInput": false
+            }
+        ]
+    }
+}
