@@ -13,7 +13,6 @@
             "name": "rowNumber"
         }],
         "contextObj": {
-            "name": "ShoppingCart",
             "type": "forms",
             "platform": "",
             "KUID": "ha7c833ee655478198cd45ef98c04fa2"

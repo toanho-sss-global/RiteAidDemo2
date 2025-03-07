@@ -1,0 +1,108 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "10%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_right_": {
+        "type": "string",
+        "value": "8%"
+    },
+    "_skin_": "s6dc37f73297478d9a45c492abf76a53",
+    "_top_": {
+        "type": "string",
+        "value": "10%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "45%"
+    },
+    "areflexpropsreferenced": false,
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "clipbounds": false,
+    "containerweight": 0,
+    "dataDiffs": {
+        "AddProduct": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "bad55434f92745cda1c9b76a39b8d0d2",
+                "srcKUID": "u71141a4c2c842b4aebcefe32593963f",
+                "wType": "FlexContainer"
+            },
+            "right": {
+                "Default": {
+                    "type": "string",
+                    "value": "8%"
+                }
+            },
+            "top": {
+                "Default": {
+                    "type": "string",
+                    "value": "10%"
+                }
+            }
+        },
+        "BorderLeft": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "fd22acdb6b2c4c3aa7995d5fb9f0c53e",
+                "srcKUID": "u183bc597dc844849d3b1997974c7328",
+                "wType": "FlexContainer"
+            }
+        },
+        "lblDismiss": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "c0866c1fd2534ca3b2b121923eaac7a7",
+                "srcKUID": "u6c5b1b8a96d4170b298dd5b642142ec",
+                "wType": "Label"
+            }
+        },
+        "lblProduct": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ab19c5cb4f664aa7a283a7291c02476e",
+                "srcKUID": "u32081eb069d468d892af82a2601f6f9",
+                "wType": "Label"
+            }
+        }
+    },
+    "enablescrolling": true,
+    "id": "AddProduct",
+    "info": null,
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kuid": "bad55434f92745cda1c9b76a39b8d0d2",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "FCPopup",
+    "pf": "PopupAddProduct",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "u71141a4c2c842b4aebcefe32593963f",
+    "wType": "UserWidgetInstance",
+    "zindex": 1
+}

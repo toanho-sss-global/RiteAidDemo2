@@ -1,0 +1,24 @@
+{
+    "AS_Form_e6663594279c467ba18a65eb3a2e03b2": {
+        "id": "AS_Form_e6663594279c467ba18a65eb3a2e03b2",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "PopupAddProduct",
+            "type": "forms",
+            "platform": "",
+            "KUID": "hc5cc89bbeaa4a1399d909c75b40af06"
+        },
+        "language": "js",
+        "eventType": "init",
+        "actions": [{
+            "id": "ADD_SNIPPET_he170d376e2346feb158152a5f7d718b",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "self.view.FCPopup.isVisible = false;",
+            "parentId": null
+        }]
+    }
+}
