@@ -15,12 +15,7 @@
         0
     ],
     "_percent_": true,
-    "_pxMenuIndex": [
-        0,
-        1,
-        0
-    ],
-    "_skin_": "s3996c53cd3e40aca8a2ad66ac2a8ee7",
+    "_skin_": "sfbe0b910dfe4363bf286a9d2ada7748",
     "_title_": null,
     "addWidgetsdone": false,
     "allboxes": [],
@@ -38,29 +33,24 @@
     },
     "canUpdateUI": true,
     "children": [
-        "ShoppingCartHeader",
-        "CheckoutAndPromoteContainer",
-        "RecommendedLabel",
-        "ProductSimple",
-        "ProductListCarousel",
-        "FooterDemo"
+        "FlexContainer"
     ],
     "containerweight": 100,
     "controllerInfo": {
         "default": {
             "channel": "mobile",
-            "name": "CopyShoppingCartController"
+            "name": "PopupAddProductController"
         }
     },
     "currentLocale": "default",
     "desktopweb": {
         "needAppMenu": false
     },
-    "device": "iPhone14",
+    "device": "iPhone14ProMax",
     "displayorientation": 1,
     "enabledforidletimeout": false,
-    "id": "CopyShoppingCart",
-    "ide_init": "AS_Form_db4456019d814bd8b1e08186eeaf27d9",
+    "id": "PopupAddProduct",
+    "ide_init": "AS_Form_e6663594279c467ba18a65eb3a2e03b2",
     "info": null,
     "initdone": false,
     "inputaccessoryviewtype": 4,
@@ -78,7 +68,7 @@
             "titleBarAttributes": {
                 "barStyle": 0,
                 "hidesBackButton": false,
-                "kuid": "abdb42b46e0c41178fd0856e4135258d",
+                "kuid": "acb19c1431e646a6b6e2fbb90946eff2",
                 "leftBarButtonItems": [],
                 "leftItemsSupplementBackButton": true,
                 "prompt": "",
@@ -89,7 +79,7 @@
                         "info": {
                             "title": "Edit"
                         },
-                        "kuid": "ifd3cee0459f4658898dad313e55b080",
+                        "kuid": "be3e6206e06f4fb8bcb129a568b8b7dd",
                         "style": 0,
                         "tintColor": "4b88f100",
                         "type": 1
@@ -106,7 +96,7 @@
     "kiosk": {
         "needAppMenu": false
     },
-    "kuid": "g2f808f3aabf4a22af7f84d9273533ed",
+    "kuid": "hc5cc89bbeaa4a1399d909c75b40af06",
     "layouttype": 2,
     "name": "kony.ui.Form2",
     "needappmenu": false,
@@ -137,7 +127,7 @@
     "spawinphone8": {
         "needAppMenu": false
     },
-    "titleBarSkin": "s8ee4e70c1b745cd8ec9ea2069e2aa1c",
+    "titleBarSkin": "s7c2028af1a84384b11825e5ea71b5d2",
     "titlebar": true,
     "type": 3,
     "wType": "Form",

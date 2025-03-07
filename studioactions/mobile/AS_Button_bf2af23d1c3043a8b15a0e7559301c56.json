@@ -1,0 +1,24 @@
+{
+    "AS_Button_bf2af23d1c3043a8b15a0e7559301c56": {
+        "id": "AS_Button_bf2af23d1c3043a8b15a0e7559301c56",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "PopupAddProduct",
+            "type": "forms",
+            "platform": "",
+            "KUID": "hc5cc89bbeaa4a1399d909c75b40af06"
+        },
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "ADD_SNIPPET_c8fe68100d104fc28cae22a038a988fd",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "self.view.FCPopup.left = \"100%\";\n    self.view.FCPopup.isVisible = true;\n\n    self.view.FCPopup.animate(\n        kony.ui.createAnimation({\n            \"100\": {\n                \"left\": \"0%\",\n                \"stepConfig\": { \"timingFunction\": kony.anim.EASE_IN_OUT }\n            }\n        }),\n        {\n            \"delay\": 0,\n            \"duration\": 0.3,\n            \"iterationCount\": 1,\n            \"fillMode\": kony.anim.FILL_MODE_FORWARDS\n        },\n        {\n            \"animationEnd\": function() {\n                setTimeout(function() {\n                    self.view.FCPopup.animate(\n                        kony.ui.createAnimation({\n                            \"100\": {\n                                \"left\": \"100%\",\n                                \"stepConfig\": { \"timingFunction\": kony.anim.EASE_IN_OUT }\n                            }\n                        }),\n                        {\n                            \"delay\": 0,\n                            \"duration\": 0.3,\n                            \"iterationCount\": 1,\n                            \"fillMode\": kony.anim.FILL_MODE_FORWARDS\n                        },\n                        {\n                            \"animationEnd\": function() {\n                                self.view.FCPopup.isVisible = false;\n                            }\n                        }\n                    );\n                }, 2500);\n            }\n        }\n    );",
+            "parentId": null
+        }]
+    }
+}

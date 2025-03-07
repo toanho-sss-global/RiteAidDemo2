@@ -70,54 +70,11 @@
             }
         },
         "segTemp": {
-            "__events__": {
-                "ide_onRowClick": "AS_Segment_e67e1aad5df44f77bc0e87b4f7f0c4e9"
-            },
+            "__events__": {},
             "__info__": {
-                "kuid": "ad3abf2020b44154a31bc341d404095b",
-                "srcKUID": "u428cbeba37e4fab8596ad854432b602",
+                "kuid": "b8104f1dfaed4a0ba91a4710e6c6a7e8",
+                "srcKUID": "u8e91660a5a348509453b5493177b6dd",
                 "wType": "Segment"
-            },
-            "data": {
-                "mobile": [
-                    {
-                        "DeleteIcon": {
-                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                            "src": "",
-                            "type": "Image"
-                        },
-                        "MinusIcon": {
-                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                            "src": "",
-                            "type": "Image"
-                        },
-                        "PlusIcon": {
-                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                            "src": "",
-                            "type": "Image"
-                        },
-                        "ProductQuantity": {
-                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                            "text": "",
-                            "type": "Label"
-                        },
-                        "img": {
-                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                            "src": "",
-                            "type": "Image"
-                        },
-                        "lblCost": {
-                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                            "text": "",
-                            "type": "Label"
-                        },
-                        "lblDescription": {
-                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                            "text": "",
-                            "type": "Label"
-                        }
-                    }
-                ]
             }
         }
     },
