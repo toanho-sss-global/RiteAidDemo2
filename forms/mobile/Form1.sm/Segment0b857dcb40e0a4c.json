@@ -1,0 +1,166 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_data_": [
+        {
+            "Image0b444a437263f48": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "https://www.riteaid.com/shop/media/catalog/product/b/t/btyhvquf9je0a3cxmcoe.jpg"
+            },
+            "NetWeight": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "90 Ct"
+            },
+            "ProductName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": " Skin  With Biotin Softgels"
+            },
+            "ProductPrice": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "price : $19.99 "
+            },
+            "ProductType": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Nature Made"
+            }
+        },
+        {
+            "Image0b444a437263f48": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "NetWeight": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "ProductName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "ProductPrice": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "ProductType": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "440dp"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "13dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "30dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "95.24%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "01",
+    "disabledSkins": {
+        "widgetSkin": "sd23ea2e84c248999b6b11d231c97914"
+    },
+    "enablehapticfeedback": true,
+    "enablereordering": false,
+    "focusedindex": null,
+    "focuseditem": null,
+    "generatedtemplate": "c1f5222016ff485c957868698c54e3f3",
+    "groupcells": false,
+    "hasSections": false,
+    "id": "Segment0b857dcb40e0a4c",
+    "info": null,
+    "invokedProperty": "pageOnDotImage",
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "ec2c8099d90e47089b02158039797838",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": false,
+    "pageoffdotimage": "slider_ios7.png",
+    "pageondotimage": "slider.png",
+    "paginationconfig": {
+        "position": "bottom",
+        "vdistance": 1
+    },
+    "parent": "FlxSclFrequentlyBoughtProducts",
+    "pf": "Form1",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "c1f5222016ff485c957868698c54e3f3",
+    "rowcounter": 1,
+    "rowfocusskin": "s7056488998d48e3bad585f9aaf1be68",
+    "rowskin": "s61710a180334841af1bb09df3fa23e3",
+    "rowtemplate": "CopyFBox0eea1207dbf814d",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s481a639b9594349b022d2e42c982a47",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "selectionbehaviorconfig": null,
+    "separatorcolor": "82828200",
+    "separatorrequired": true,
+    "separatorthickness": 0,
+    "showscrollbars": true,
+    "swipeContext": {
+        "currentPage": 0,
+        "imageWidth": 984,
+        "widthRatio": 0
+    },
+    "viewtype": "pageview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "FlexContainer0gb5dc6d99e664d": "FlexContainer0gb5dc6d99e664d",
+        "Image0b444a437263f48": "Image0b444a437263f48",
+        "NetWeight": "NetWeight",
+        "ProductName": "ProductName",
+        "ProductPrice": "ProductPrice",
+        "ProductType": "ProductType"
+    },
+    "winphone8": {
+        "psp": {
+            "enableCache": true
+        }
+    }
+}

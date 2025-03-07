@@ -1,0 +1,60 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "Default": {
+        "contentAlignment": 5
+    },
+    "_blur_": {
+        "enabled": false,
+        "value": 0
+    },
+    "_height_": {
+        "type": "string",
+        "value": "63dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "11dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "se4841744f514e87bb53f6ef131bc1bb",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "625dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "329dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "displaytext": true,
+    "enablehapticfeedback": false,
+    "focusskin": "s279ff0965e846d798360889da33525c",
+    "id": "Safety",
+    "ide_onClick": "AS_Button_da2e49ec51ba4324a1a849c2687f9e12",
+    "info": null,
+    "iphone": {},
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "j4b780e2ad974e0e9047e79feeb82ada",
+    "name": "kony.ui.Button",
+    "parent": "FlxProductRelatedInformations",
+    "pf": "Form1",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button"
+}

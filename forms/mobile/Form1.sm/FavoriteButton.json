@@ -1,0 +1,54 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_bottom_": {
+        "type": "string",
+        "value": "20dp"
+    },
+    "_height_": {
+        "type": "string",
+        "value": "30dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "2dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "2dp"
+    },
+    "_skin_": "se4841744f514e87bb53f6ef131bc1bb",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "5dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s279ff0965e846d798360889da33525c",
+    "id": "FavoriteButton",
+    "ide_onClick": "AS_Button_e280b801acac44b5bfc6ffdcb3d1b76a",
+    "info": null,
+    "isvisible": true,
+    "kuid": "ade72d02103e41888355f5d29d1cf9aa",
+    "masterType": 1,
+    "name": "kony.ui.Button",
+    "parent": "FlxFavorites",
+    "pf": "Form1",
+    "wType": "Button",
+    "zindex": 1
+}

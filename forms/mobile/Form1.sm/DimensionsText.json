@@ -1,0 +1,56 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizRichText",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "17dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sae61bf895fb49c9a999c5e243d3f1e4",
+    "_text_": "Product Dimensions: 2.5\" x 2.5\" x 4.5\"\n    Product Weight: 3.2 oz\n    Serving Size: 1 softgel\n    Servings Per Container: 90\n    Package Type: Plastic bottle with safety seal",
+    "_top_": {
+        "type": "string",
+        "value": "13dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "_wrapping_": 2,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 1,
+    "id": "DimensionsText",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "aafffcbda4ea4eee96cedda6690bb51a",
+    "linkskin": "s2dd197d5a624e5f821abc7f14c93fe1",
+    "name": "kony.ui.RichText",
+    "parent": "FlxDimensionsText",
+    "pf": "Form1",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "RichText",
+    "widgetalignment": 5,
+    "winphone8": {
+        "psp": {
+            "enableCache": false
+        }
+    }
+}

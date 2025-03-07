@@ -1,0 +1,52 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizRichText",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sc8088700e3d48b2bd98de0bb7b639c2",
+    "_text_": "Nature Made Vitamin D3 2000 IU Softgels (50 mcg) offer an easy way to add Vitamin D supplements to your daily routine to support bone, teeth and muscle health.",
+    "_top_": {
+        "type": "string",
+        "value": "263dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_wrapping_": 2,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 7,
+    "id": "Description",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "ec9e9abc0b7245e6b3b81e1efbf8db2d",
+    "linkskin": "s2dd197d5a624e5f821abc7f14c93fe1",
+    "name": "kony.ui.RichText",
+    "parent": "FlxProductDetails",
+    "pf": "Form1",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "RichText",
+    "widgetalignment": 5,
+    "zindex": 1
+}
