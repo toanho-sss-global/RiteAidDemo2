@@ -1,0 +1,23 @@
+{
+    "AS_Button_b98b257415804034acf0604954e686cc": {
+        "id": "AS_Button_b98b257415804034acf0604954e686cc",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__b4391b569d384d73a4d785a9422d2c1a",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "increaseQuantity",
+            "display": "increaseQuantity",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

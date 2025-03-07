@@ -376,6 +376,14 @@
     "keyStoreFilePathandwear": "",
     "keyStorePassword": "",
     "keyStorePasswordandwear": "",
+    "kfAppInfo": {
+        "2de178fc-cf3f-40c7-8eb9-3b22cceef874": {
+            "appName": "SampleRiteAid",
+            "baseId": "892eacf7-9d72-47b2-b8c6-8f04092b89c7",
+            "id": "892eacf7-9d72-47b2-b8c6-8f04092b89c7",
+            "version": "1.0"
+        }
+    },
     "konyVizVersion": "9.5.50",
     "lastmodifiedtime": "1534146194069",
     "location": "false",
@@ -689,7 +697,7 @@
     "spawindows480basefontsize": "12",
     "spawindowstabbasefontsize": "17",
     "splashlogokey": "",
-    "startupformkey": "hc5cc89bbeaa4a1399d909c75b40af06",
+    "startupformkey": "de3cc7bf1716453593e603a75b0ab250",
     "statusBarHidden": "false",
     "statusBarStyle": "STATUS_BAR_STYLE_DEFAULT",
     "studiovizproject": "true",

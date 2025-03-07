@@ -1,0 +1,23 @@
+{
+    "AS_Button_ge82e1bc249241e3be2af5f299263930": {
+        "id": "AS_Button_ge82e1bc249241e3be2af5f299263930",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ia217661c434495cad1c78f5ef0d6bdf",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "decreaseQuantity",
+            "display": "decreaseQuantity",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "Default": {
+        "contentAlignment": 5
+    },
+    "_blur_": {
+        "enabled": false,
+        "value": 0
+    },
+    "_height_": {
+        "type": "string",
+        "value": "63dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "se4841744f514e87bb53f6ef131bc1bb",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "422dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "329dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "displaytext": true,
+    "enablehapticfeedback": false,
+    "focusskin": "s279ff0965e846d798360889da33525c",
+    "id": "Ingredients",
+    "ide_onClick": "AS_Button_a1266b1b00664e1fb98315a3811d2efb",
+    "info": null,
+    "iphone": {},
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "ja538207907f474cb2414943bef67ba4",
+    "name": "kony.ui.Button",
+    "parent": "FlxProductRelatedInformations",
+    "pf": "Form1",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button"
+}

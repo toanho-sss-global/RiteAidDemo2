@@ -1,0 +1,56 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizRichText",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "17dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sae61bf895fb49c9a999c5e243d3f1e4",
+    "_text_": "Nature Made Hair, Skin & Nails with Biotin provides essential nutrients that support healthy hair, skin and nails. \n    This supplement contains 2500mcg of Biotin along with other vital nutrients like Vitamin C, Vitamin E, and Zinc. \n    Each serving is specially formulated to support your body's natural beauty from within.",
+    "_top_": {
+        "type": "string",
+        "value": "13dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "_wrapping_": 2,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 1,
+    "id": "MoreInfoText",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "dfa2255a695b4d0b806809557a44322d",
+    "linkskin": "s2dd197d5a624e5f821abc7f14c93fe1",
+    "name": "kony.ui.RichText",
+    "parent": "FlxMoreInfoText",
+    "pf": "Form1",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "RichText",
+    "widgetalignment": 5,
+    "winphone8": {
+        "psp": {
+            "enableCache": false
+        }
+    }
+}

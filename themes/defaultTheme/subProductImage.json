@@ -21,8 +21,8 @@
         "font_name": "Helvetica",
         "isForked": true,
         "shadow": {
-            "br": 10,
-            "color": "00000089",
+            "br": 0,
+            "color": "0000007f",
             "inner": false,
             "nm": 0,
             "x": 0,
@@ -44,8 +44,8 @@
         "font_name": "System",
         "isForked": true,
         "shadow": {
-            "br": 10,
-            "color": "00000089",
+            "br": 0,
+            "color": "0000007f",
             "inner": false,
             "nm": 0,
             "x": 0,
@@ -56,8 +56,8 @@
         "font_name": "System",
         "isForked": true,
         "shadow": {
-            "br": 10,
-            "color": "00000089",
+            "br": 0,
+            "color": "0000007f",
             "inner": false,
             "nm": 0,
             "x": 0,
@@ -68,7 +68,7 @@
     "kiosk": {
         "font_name": "Helvetica"
     },
-    "kuid": "sc7c0246eb9842638d23582aad990b65",
+    "kuid": "s8a185b57486490d8eda1b64aa312bf9",
     "nativemac": {
         "bottom_left_border_color": "000000ff",
         "bottom_left_border_style": "plain",
@@ -79,8 +79,8 @@
         "font_name": "Helvetica",
         "isForked": true,
         "shadow": {
-            "br": 10,
-            "color": "00000089",
+            "br": 0,
+            "color": "0000007f",
             "inner": false,
             "nm": 0,
             "x": 0,
@@ -103,8 +103,8 @@
         "font_name": "Helvetica",
         "isForked": true,
         "shadow": {
-            "br": 10,
-            "color": "00000089",
+            "br": 0,
+            "color": "0000007f",
             "inner": false,
             "nm": 0,
             "x": 0,
@@ -127,8 +127,8 @@
         "font_name": "Helvetica",
         "isForked": true,
         "shadow": {
-            "br": 10,
-            "color": "00000089",
+            "br": 0,
+            "color": "0000007f",
             "inner": false,
             "nm": 0,
             "x": 0,
@@ -151,8 +151,8 @@
         "font_name": "Helvetica",
         "isForked": true,
         "shadow": {
-            "br": 10,
-            "color": "00000089",
+            "br": 0,
+            "color": "0000007f",
             "inner": false,
             "nm": 0,
             "x": 0,
@@ -175,8 +175,8 @@
         "font_name": "Helvetica",
         "isForked": true,
         "shadow": {
-            "br": 10,
-            "color": "00000089",
+            "br": 0,
+            "color": "0000007f",
             "inner": false,
             "nm": 0,
             "x": 0,
@@ -199,8 +199,8 @@
         "font_name": "Helvetica",
         "isForked": true,
         "shadow": {
-            "br": 10,
-            "color": "00000089",
+            "br": 0,
+            "color": "0000007f",
             "inner": false,
             "nm": 0,
             "x": 0,
@@ -223,8 +223,8 @@
         "font_name": "Helvetica",
         "isForked": true,
         "shadow": {
-            "br": 10,
-            "color": "00000089",
+            "br": 0,
+            "color": "0000007f",
             "inner": false,
             "nm": 0,
             "x": 0,
@@ -247,8 +247,8 @@
         "font_name": "Helvetica",
         "isForked": true,
         "shadow": {
-            "br": 10,
-            "color": "00000089",
+            "br": 0,
+            "color": "0000007f",
             "inner": false,
             "nm": 0,
             "x": 0,
