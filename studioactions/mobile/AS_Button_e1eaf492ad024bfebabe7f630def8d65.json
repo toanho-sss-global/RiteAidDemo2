@@ -1,0 +1,24 @@
+{
+    "AS_Button_e1eaf492ad024bfebabe7f630def8d65": {
+        "id": "AS_Button_e1eaf492ad024bfebabe7f630def8d65",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__ide_onClick_adfa9b3fa0744936a671e08bc2b7f640",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "Home",
+            "formKUID": "fb6e88e7d7c94c68aa13478d43b174b5",
+            "projectName": "SampleRiteAid",
+            "mappings": {},
+            "mappingsOrder": [],
+            "enableMappingEditor": true,
+            "package": "",
+            "isCustomInput": false
+        }]
+    }
+}

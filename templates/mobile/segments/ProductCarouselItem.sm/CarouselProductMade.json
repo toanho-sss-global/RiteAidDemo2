@@ -2,8 +2,8 @@
     "@class": "com.kony.gen.viz.model.component.KVizLabel",
     "DNDConfig": null,
     "_height_": {
-        "type": "string",
-        "value": "22%"
+        "type": "ref",
+        "value": "preferred"
     },
     "_margin_": [
         1,
@@ -17,19 +17,15 @@
         0,
         0
     ],
-    "_right_": {
-        "type": "string",
-        "value": "0"
-    },
-    "_skin_": "s4baa2ad77714031ae3f2d6907a09c14",
-    "_text_": "Unisex Black Runnning Shoe Product description lines",
+    "_skin_": "sa5f8b504e154236b1e086345937e5b9",
+    "_text_": "Nature Made",
     "_top_": {
         "type": "string",
-        "value": "18%"
+        "value": "156dp"
     },
     "_width_": {
-        "type": "string",
-        "value": "57%"
+        "type": "ref",
+        "value": "preferred"
     },
     "_wrapping_": 2,
     "android": {
@@ -39,10 +35,14 @@
         }
     },
     "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50.00%"
+    },
     "containerId": true,
     "containerweight": 100,
-    "contentalignment": 1,
-    "id": "lblDescription",
+    "contentalignment": 4,
+    "id": "CarouselProductMade",
     "info": null,
     "ipad": {
         "psp": {
@@ -54,11 +54,14 @@
             "wrapping": 2
         }
     },
+    "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "j5dc1028f3da4e7c9e4357cc4c4af0db",
+    "kuid": "efc83448ce974ad7a2044e0165df0f1d",
     "name": "kony.ui.Label",
-    "parent": "CopyflxSeg2",
-    "pf": "CartProductItem",
+    "parent": "ProductCarouselContainer",
+    "pf": "ProductCarouselItem",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
     "textstyle": {},
     "tooltip": "",
     "wType": "Label",
