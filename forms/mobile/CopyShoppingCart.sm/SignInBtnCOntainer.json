@@ -2,11 +2,11 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "75%"
+        "value": "60dp"
     },
     "_left_": {
         "type": "string",
-        "value": "0"
+        "value": "0dp"
     },
     "_margin_": [
         0,
@@ -22,39 +22,45 @@
         0
     ],
     "_percent_": true,
-    "_right_": {
+    "_skin_": "s64a82cfc04742679154455019c68c33",
+    "_top_": {
         "type": "string",
-        "value": "73%"
+        "value": "233dp"
     },
-    "_skin_": "sf48100605194ec0875e6d192d50891d",
     "_width_": {
         "type": "string",
-        "value": "40%"
+        "value": "90%"
     },
     "allboxes": [],
-    "autogrowmode": 0,
+    "android": {
+        "height": {
+            "type": "string",
+            "value": "45dp"
+        }
+    },
     "canUpdateUI": true,
-    "centery": {
+    "centerx": {
         "type": "string",
         "value": "50%"
     },
     "children": [
-        "img"
+        "SignInBtn"
     ],
     "clipbounds": true,
-    "containerId": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "flxImg",
+    "id": "SignInBtnCOntainer",
     "info": null,
     "isvisible": true,
-    "kuid": "j98a0b05b875441eb63e9e18473edf9b",
+    "kuid": "df00d10ac1d94b3280f103980c31649d",
     "layouttype": 2,
+    "masterType": 1,
     "name": "kony.ui.FlexContainer",
-    "parent": "CopyflxSeg2",
-    "pf": "CartProductItem",
+    "parent": "CheckoutAndPromoteContainer",
+    "pf": "CopyShoppingCart",
     "snapgridsize": 10,
     "snaptogrid": true,
+    "spa": {},
     "wType": "FlexContainer",
     "widgetalignment": 1,
     "zindex": 1

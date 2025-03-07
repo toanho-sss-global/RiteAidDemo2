@@ -4,11 +4,11 @@
     "_base64_": null,
     "_height_": {
         "type": "string",
-        "value": "50dp"
+        "value": "150dp"
     },
     "_left_": {
         "type": "string",
-        "value": "323dp"
+        "value": "102dp"
     },
     "_margin_": [
         0,
@@ -23,27 +23,31 @@
         0
     ],
     "_skin_": "se7c23e3ff1a47c4a81fcf01c33ce421",
-    "_src_": "trashicon.png",
+    "_src_": "cartproductimg.png",
     "_top_": {
         "type": "string",
-        "value": "112dp"
+        "value": "6dp"
     },
     "_width_": {
         "type": "string",
-        "value": "50dp"
+        "value": "150dp"
     },
     "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50.00%"
+    },
     "containerId": true,
     "containerweight": 100,
-    "id": "DeleteIcon",
+    "id": "CarouselProductImg",
     "imagescalemode": 1,
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "a0f42cb343624749b5955cd8c23cd7b4",
+    "kuid": "i21b549374fe415f8cdfa5cf2384af3f",
     "name": "kony.ui.Image2",
-    "parent": "CopyflxSeg2",
-    "pf": "CartProductItem",
+    "parent": "ProductCarouselContainer",
+    "pf": "ProductCarouselItem",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "srcType": 1,

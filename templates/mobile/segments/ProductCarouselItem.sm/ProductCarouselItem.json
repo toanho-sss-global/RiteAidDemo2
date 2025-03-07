@@ -15,13 +15,13 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s8e63b1258ab4bdbad1c71c2e2f35586",
+    "_skin_": "sfbe0b910dfe4363bf286a9d2ada7748",
     "_title_": null,
     "addWidgetsdone": false,
     "allboxes": [],
     "canUpdateUI": true,
     "children": [
-        "CopyflxSeg2"
+        "ProductCarouselContainer"
     ],
     "containerId": true,
     "containerweight": 100,
@@ -29,19 +29,16 @@
     "device": "iPhone14",
     "displayorientation": 3,
     "enabledforidletimeout": false,
-    "id": "CartProductItem",
+    "id": "ProductCarouselItem",
     "info": null,
-    "infoForSave": {
-        "channel": "mobile",
-        "templateType": "segments"
-    },
     "initdone": false,
     "inputaccessoryviewtype": 4,
     "intransitionconfig": {
         "formTransition": "None"
     },
+    "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "ca1ed5c4c49145f5919705c5d85f8977",
+    "kuid": "abdcaa8364804aaba1a581fbfc1308b7",
     "name": "kony.ui.Form2",
     "needappmenu": true,
     "outtransitionconfig": {
@@ -51,8 +48,9 @@
     "platform": "iphone",
     "prevDevice": "iPhone14",
     "prevPlatform": "iphone",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
     "retainscrollposition": false,
-    "titleBarSkin": "sbf67b7040f5476babf842a60c95701b",
     "titlebar": true,
     "type": 3,
     "wType": "Form"

@@ -1,0 +1,354 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_data_": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "240dp"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "20dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "09",
+    "focusedindex": 0,
+    "focuseditem": {},
+    "groupcells": false,
+    "hasSections": false,
+    "id": "ProductCarousel",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "u7782daa1c06493b9153826b739a02a3",
+    "masterdata": {},
+    "mobile": {
+        "_data_": [
+            {
+                "CarouselPoductUnitQuantity": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Label"
+                },
+                "CarouselProductImg": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "cartproductimg.png"
+                },
+                "CarouselProductMade": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Nature Made"
+                },
+                "CarouselProductName": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Label"
+                },
+                "CarouselProductPrice": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Label"
+                }
+            },
+            {
+                "CarouselPoductUnitQuantity": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Label"
+                },
+                "CarouselProductImg": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "cartproductimg.png"
+                },
+                "CarouselProductMade": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Nature Made"
+                },
+                "CarouselProductName": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Label"
+                },
+                "CarouselProductPrice": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Label"
+                }
+            },
+            {
+                "CarouselPoductUnitQuantity": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Label"
+                },
+                "CarouselProductImg": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "cartproductimg.png"
+                },
+                "CarouselProductMade": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Nature Made"
+                },
+                "CarouselProductName": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Label"
+                },
+                "CarouselProductPrice": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Label"
+                }
+            },
+            {
+                "CarouselPoductUnitQuantity": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Label"
+                },
+                "CarouselProductImg": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "cartproductimg.png"
+                },
+                "CarouselProductMade": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Nature Made"
+                },
+                "CarouselProductName": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Label"
+                },
+                "CarouselProductPrice": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Label"
+                }
+            },
+            {
+                "CarouselPoductUnitQuantity": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Label"
+                },
+                "CarouselProductImg": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "cartproductimg.png"
+                },
+                "CarouselProductMade": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Nature Made"
+                },
+                "CarouselProductName": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Label"
+                },
+                "CarouselProductPrice": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Label"
+                }
+            },
+            {
+                "CarouselPoductUnitQuantity": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Label"
+                },
+                "CarouselProductImg": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "cartproductimg.png"
+                },
+                "CarouselProductMade": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Nature Made"
+                },
+                "CarouselProductName": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Label"
+                },
+                "CarouselProductPrice": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Label"
+                }
+            },
+            {
+                "CarouselPoductUnitQuantity": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Label"
+                },
+                "CarouselProductImg": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "cartproductimg.png"
+                },
+                "CarouselProductMade": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Nature Made"
+                },
+                "CarouselProductName": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Label"
+                },
+                "CarouselProductPrice": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Label"
+                }
+            },
+            {
+                "CarouselPoductUnitQuantity": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Label"
+                },
+                "CarouselProductImg": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "cartproductimg.png"
+                },
+                "CarouselProductMade": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Nature Made"
+                },
+                "CarouselProductName": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Label"
+                },
+                "CarouselProductPrice": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Label"
+                }
+            },
+            {
+                "CarouselPoductUnitQuantity": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Label"
+                },
+                "CarouselProductImg": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "cartproductimg.png"
+                },
+                "CarouselProductMade": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Nature Made"
+                },
+                "CarouselProductName": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Label"
+                },
+                "CarouselProductPrice": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Label"
+                }
+            },
+            {
+                "CarouselPoductUnitQuantity": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Label"
+                },
+                "CarouselProductImg": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "cartproductimg.png"
+                },
+                "CarouselProductMade": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Nature Made"
+                },
+                "CarouselProductName": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Label"
+                },
+                "CarouselProductPrice": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Label"
+                }
+            }
+        ],
+        "rowTemplateId": "abdcaa8364804aaba1a581fbfc1308b7",
+        "rowtemplate": "Flex0h3ba5d5becc54d",
+        "sectionHeaderTemplateId": null,
+        "selectionBehaviorConfig": null,
+        "widgetdatamap": {
+            "CarouselPoductUnitQuantity": "CarouselPoductUnitQuantity",
+            "CarouselProductImg": "CarouselProductImg",
+            "CarouselProductMade": "CarouselProductMade",
+            "CarouselProductName": "CarouselProductName",
+            "CarouselProductPrice": "CarouselProductPrice",
+            "ProductCarouselContainer": "ProductCarouselContainer"
+        }
+    },
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom",
+        "vdistance": 1
+    },
+    "parent": "ProductListCarousel",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowcounter": 9,
+    "rowfocusskin": "sb65288bf0c74cf09c9a4b2beb257b4c",
+    "rowskin": "scb3373156f44d6fbaeda147e8570593",
+    "rowtemplate": null,
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s18b4b7cebc04180b309be5c8749494f",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": [
+        0,
+        0
+    ],
+    "selectedindices": null,
+    "selecteditems": {},
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "selectionbehaviorconfig": null,
+    "separatorcolor": "aaaaaa00",
+    "separatorrequired": true,
+    "separatorthickness": 1,
+    "showscrollbars": false,
+    "swipeContext": {
+        "currentPage": 0,
+        "imageWidth": 1170,
+        "widthRatio": 0
+    },
+    "viewtype": "pageview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "Flex0h3ba5d5becc54d": "Flex0h3ba5d5becc54d"
+    },
+    "zindex": 1
+}

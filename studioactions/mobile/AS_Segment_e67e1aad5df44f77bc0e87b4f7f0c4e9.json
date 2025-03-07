@@ -1,0 +1,30 @@
+{
+    "AS_Segment_e67e1aad5df44f77bc0e87b4f7f0c4e9": {
+        "id": "AS_Segment_e67e1aad5df44f77bc0e87b4f7f0c4e9",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "CopyShoppingCart",
+            "type": "forms",
+            "platform": "",
+            "KUID": "g2f808f3aabf4a22af7f84d9273533ed"
+        },
+        "language": "js",
+        "eventType": "onRowClick",
+        "actions": [{
+            "id": "ADD_SNIPPET_gb7ca82620e54d848bc252a7b4e868ec",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var segmentData = self.view.ProductSimple.segTemp.data;\nconsole.log(segmentData);",
+            "parentId": null
+        }]
+    }
+}

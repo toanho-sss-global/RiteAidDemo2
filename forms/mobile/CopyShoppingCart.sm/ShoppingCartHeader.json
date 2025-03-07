@@ -2,8 +2,8 @@
     "@class": "com.kony.gen.viz.model.component.KVizLabel",
     "DNDConfig": null,
     "_height_": {
-        "type": "string",
-        "value": "22%"
+        "type": "ref",
+        "value": "preferred"
     },
     "_margin_": [
         1,
@@ -17,19 +17,15 @@
         0,
         0
     ],
-    "_right_": {
-        "type": "string",
-        "value": "0"
-    },
-    "_skin_": "s4baa2ad77714031ae3f2d6907a09c14",
-    "_text_": "Unisex Black Runnning Shoe Product description lines",
+    "_skin_": "sea80552dc454313bd79a0dbf9e0667a",
+    "_text_": "Shopping Cart",
     "_top_": {
         "type": "string",
-        "value": "18%"
+        "value": "37dp"
     },
     "_width_": {
-        "type": "string",
-        "value": "57%"
+        "type": "ref",
+        "value": "preferred"
     },
     "_wrapping_": 2,
     "android": {
@@ -39,10 +35,13 @@
         }
     },
     "canUpdateUI": true,
-    "containerId": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
     "containerweight": 100,
-    "contentalignment": 1,
-    "id": "lblDescription",
+    "contentalignment": 5,
+    "id": "ShoppingCartHeader",
     "info": null,
     "ipad": {
         "psp": {
@@ -54,11 +53,14 @@
             "wrapping": 2
         }
     },
+    "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "j5dc1028f3da4e7c9e4357cc4c4af0db",
+    "kuid": "b18a689c4dea43aea0f5cfdba7ea6d14",
     "name": "kony.ui.Label",
-    "parent": "CopyflxSeg2",
-    "pf": "CartProductItem",
+    "parent": "CopyShoppingCart",
+    "pf": "CopyShoppingCart",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
     "textstyle": {},
     "tooltip": "",
     "wType": "Label",

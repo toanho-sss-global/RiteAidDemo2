@@ -1,5 +1,5 @@
 {
-    "@class": "com.kony.gen.viz.model.container.KVizScrollFlexForm",
+    "@class": "com.kony.gen.viz.model.container.KVizForm",
     "DNDConfig": null,
     "_margin_": [
         0,
@@ -15,33 +15,42 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s8e63b1258ab4bdbad1c71c2e2f35586",
+    "_skin_": "sfbe0b910dfe4363bf286a9d2ada7748",
     "_title_": null,
     "addWidgetsdone": false,
     "allboxes": [],
+    "breakpointInfo": {
+        "b1": {
+            "width": 1366
+        },
+        "b2": {
+            "width": 1024
+        },
+        "b3": {
+            "width": 640
+        }
+    },
     "canUpdateUI": true,
     "children": [
-        "CopyflxSeg2"
+        "ProductListCarousel"
     ],
-    "containerId": true,
     "containerweight": 100,
     "currentLocale": "default",
     "device": "iPhone14",
     "displayorientation": 3,
     "enabledforidletimeout": false,
-    "id": "CartProductItem",
+    "id": "userwidgetmodel",
     "info": null,
-    "infoForSave": {
-        "channel": "mobile",
-        "templateType": "segments"
-    },
     "initdone": false,
     "inputaccessoryviewtype": 4,
     "intransitionconfig": {
         "formTransition": "None"
     },
+    "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "ca1ed5c4c49145f5919705c5d85f8977",
+    "kuid": "u01d7eeff6fe4d76b48808665b57a5ae",
+    "layouttype": 2,
+    "masterType": 0,
     "name": "kony.ui.Form2",
     "needappmenu": true,
     "outtransitionconfig": {
@@ -51,8 +60,9 @@
     "platform": "iphone",
     "prevDevice": "iPhone14",
     "prevPlatform": "iphone",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
     "retainscrollposition": false,
-    "titleBarSkin": "sbf67b7040f5476babf842a60c95701b",
     "titlebar": true,
     "type": 3,
     "wType": "Form"

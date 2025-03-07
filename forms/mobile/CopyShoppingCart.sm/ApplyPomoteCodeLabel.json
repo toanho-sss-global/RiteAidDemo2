@@ -2,8 +2,12 @@
     "@class": "com.kony.gen.viz.model.component.KVizLabel",
     "DNDConfig": null,
     "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
         "type": "string",
-        "value": "22%"
+        "value": "19dp"
     },
     "_margin_": [
         1,
@@ -17,19 +21,15 @@
         0,
         0
     ],
-    "_right_": {
-        "type": "string",
-        "value": "0"
-    },
-    "_skin_": "s4baa2ad77714031ae3f2d6907a09c14",
-    "_text_": "Unisex Black Runnning Shoe Product description lines",
+    "_skin_": "sbfabe1c7dad40869067f84b85e1fa07",
+    "_text_": "Apply Promote Code",
     "_top_": {
         "type": "string",
-        "value": "18%"
+        "value": "495dp"
     },
     "_width_": {
         "type": "string",
-        "value": "57%"
+        "value": "90%"
     },
     "_wrapping_": 2,
     "android": {
@@ -39,10 +39,13 @@
         }
     },
     "canUpdateUI": true,
-    "containerId": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
     "containerweight": 100,
-    "contentalignment": 1,
-    "id": "lblDescription",
+    "contentalignment": 4,
+    "id": "ApplyPomoteCodeLabel",
     "info": null,
     "ipad": {
         "psp": {
@@ -54,11 +57,14 @@
             "wrapping": 2
         }
     },
+    "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "j5dc1028f3da4e7c9e4357cc4c4af0db",
+    "kuid": "d2dde4af05b140cdb37c6236360c9409",
     "name": "kony.ui.Label",
-    "parent": "CopyflxSeg2",
-    "pf": "CartProductItem",
+    "parent": "CheckoutAndPromoteContainer",
+    "pf": "CopyShoppingCart",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
     "textstyle": {},
     "tooltip": "",
     "wType": "Label",
