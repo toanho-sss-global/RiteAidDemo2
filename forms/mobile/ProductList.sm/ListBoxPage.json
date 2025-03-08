@@ -20,12 +20,12 @@
     "_placeholder_": "Please Select",
     "_right_": {
         "type": "string",
-        "value": "28dp"
+        "value": "5%"
     },
     "_skin_": "sa4dbe8686cf4c7d8e3bd076d09722b8",
     "_top_": {
         "type": "string",
-        "value": "33.00%"
+        "value": "33%"
     },
     "_width_": {
         "type": "string",
@@ -57,7 +57,7 @@
         ]
     ],
     "name": "kony.ui.ListBox",
-    "parent": "ProductList",
+    "parent": "Content",
     "pf": "ProductList",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

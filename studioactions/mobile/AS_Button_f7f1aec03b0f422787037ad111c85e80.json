@@ -1,6 +1,6 @@
 {
-    "AS_Button_af92b84ed3e44c09b40c672ecfc740c0": {
-        "id": "AS_Button_af92b84ed3e44c09b40c672ecfc740c0",
+    "AS_Button_f7f1aec03b0f422787037ad111c85e80": {
+        "id": "AS_Button_f7f1aec03b0f422787037ad111c85e80",
         "type": "ACTION_SEQUENCE",
         "params": [{
             "datatype": "collection",
@@ -15,7 +15,7 @@
         "language": "js",
         "eventType": "onClick",
         "actions": [{
-            "id": "INVOKE_FUNCTION__b6305c54814048e08fae0c366f5467b7",
+            "id": "INVOKE_FUNCTION__i58dc0c10dc94f7d957d28f61c946924",
             "type": "INVOKE_FUNCTION",
             "sequenceKUID": "LoginApi",
             "display": "LoginApi",

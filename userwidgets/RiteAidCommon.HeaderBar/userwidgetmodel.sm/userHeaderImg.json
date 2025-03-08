@@ -1,15 +1,16 @@
 {
-    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
     "DNDConfig": null,
+    "_base64_": null,
     "_height_": {
         "type": "string",
         "value": "30dp"
     },
     "_margin_": [
-        6,
-        6,
-        6,
-        6
+        0,
+        0,
+        0,
+        0
     ],
     "_padding_": [
         0,
@@ -19,33 +20,33 @@
     ],
     "_right_": {
         "type": "string",
-        "value": "5dp"
+        "value": "0dp"
     },
-    "_skin_": "saf138c6d6f4414bb606592b5624bb0a",
-    "_text_": "",
-    "_top_": {
-        "type": "string",
-        "value": "10dp"
-    },
+    "_skin_": "se7c23e3ff1a47c4a81fcf01c33ce421",
+    "_src_": "grey_user_icon.png",
     "_width_": {
         "type": "string",
         "value": "30dp"
     },
     "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
     "containerweight": 100,
-    "contentalignment": 5,
-    "displaytext": true,
-    "focusskin": "s0cb3935f71f4e6b89e0a314561f183d",
-    "id": "userHeader",
+    "id": "userHeaderImg",
+    "imagescalemode": 1,
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "f28cded645ac449cb5033b561e67695c",
-    "name": "kony.ui.Button",
+    "kuid": "c569c6f938b24487b37d1586428d3fc4",
+    "name": "kony.ui.Image2",
     "parent": "rightHeaderGroup",
     "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
-    "wType": "Button",
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5,
     "zindex": 1
 }

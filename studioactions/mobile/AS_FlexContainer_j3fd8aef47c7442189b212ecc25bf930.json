@@ -14,15 +14,6 @@
         },
         "language": "js",
         "eventType": "onClick",
-        "actions": [{
-            "id": "NAVIGATE_TO_FORM__e0bf1721e810447e96d3b3b51ec6114f",
-            "type": "NAVIGATE_TO_FORM",
-            "formKUID": "ie8c5f9286304a8686e89eedbaccf4d0",
-            "mappings": {},
-            "mappingsOrder": [],
-            "enableMappingEditor": true,
-            "package": "",
-            "isCustomInput": false
-        }]
+        "actions": []
     }
 }

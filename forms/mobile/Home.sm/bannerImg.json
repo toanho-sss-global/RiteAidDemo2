@@ -4,11 +4,7 @@
     "_base64_": null,
     "_height_": {
         "type": "string",
-        "value": "30dp"
-    },
-    "_left_": {
-        "type": "string",
-        "value": "0dp"
+        "value": "60dp"
     },
     "_margin_": [
         0,
@@ -23,26 +19,31 @@
         0
     ],
     "_skin_": "se7c23e3ff1a47c4a81fcf01c33ce421",
-    "_src_": "logo_2.png",
+    "_src_": "header_image.png",
+    "_top_": {
+        "type": "string",
+        "value": "20dp"
+    },
     "_width_": {
         "type": "string",
-        "value": "40dp"
+        "value": "100%"
     },
     "canUpdateUI": true,
-    "centery": {
+    "centerx": {
         "type": "string",
         "value": "50%"
     },
     "containerweight": 100,
-    "id": "logo2",
+    "id": "bannerImg",
     "imagescalemode": 1,
     "info": null,
+    "invokedProperty": "src",
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "dbb32df9b5444a648a8b21831522ef68",
+    "kuid": "dd0c6dfef9ba41a4baf52f1c51a5dcf3",
     "name": "kony.ui.Image2",
-    "parent": "leftHeaderGroup",
-    "pf": "userwidgetmodel",
+    "parent": "contentScroll",
+    "pf": "Home",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "srcType": 1,

@@ -18,7 +18,7 @@
     "_pxMenuIndex": [
         0,
         1,
-        0
+        4
     ],
     "_skin_": "sfbe0b910dfe4363bf286a9d2ada7748",
     "_title_": null,
@@ -104,7 +104,7 @@
         "needAppMenu": false
     },
     "kuid": "fb6e88e7d7c94c68aa13478d43b174b5",
-    "layouttype": 2,
+    "layouttype": 4,
     "name": "kony.ui.Form2",
     "needappmenu": false,
     "paddinginpixel": false,

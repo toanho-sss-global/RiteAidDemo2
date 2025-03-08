@@ -14,6 +14,17 @@
         }],
         "language": "js",
         "eventType": "onRowClick",
-        "actions": []
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__d57eb13d4b3c40beb4c54aa17c12ff97",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "ProductList",
+            "formKUID": "b79e93a47a8a42038218541a0de1b8ba",
+            "projectName": "SampleRiteAid",
+            "mappings": {},
+            "mappingsOrder": [],
+            "enableMappingEditor": true,
+            "package": "",
+            "isCustomInput": false
+        }]
     }
 }

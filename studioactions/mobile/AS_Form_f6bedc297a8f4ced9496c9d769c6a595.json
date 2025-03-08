@@ -1,24 +1,24 @@
 {
-    "AS_Button_af92b84ed3e44c09b40c672ecfc740c0": {
-        "id": "AS_Button_af92b84ed3e44c09b40c672ecfc740c0",
+    "AS_Form_f6bedc297a8f4ced9496c9d769c6a595": {
+        "id": "AS_Form_f6bedc297a8f4ced9496c9d769c6a595",
         "type": "ACTION_SEQUENCE",
         "params": [{
             "datatype": "collection",
             "name": "eventobject"
         }],
         "contextObj": {
-            "name": "Login",
+            "name": "ProductList",
             "type": "forms",
             "platform": "",
-            "KUID": "fe24c9db0b3843b8b65fb7f139c8b005"
+            "KUID": "b79e93a47a8a42038218541a0de1b8ba"
         },
         "language": "js",
-        "eventType": "onClick",
+        "eventType": "preShow",
         "actions": [{
-            "id": "INVOKE_FUNCTION__b6305c54814048e08fae0c366f5467b7",
+            "id": "INVOKE_FUNCTION__hd4029b2de344c7c87f3e63aef646bb6",
             "type": "INVOKE_FUNCTION",
-            "sequenceKUID": "LoginApi",
-            "display": "LoginApi",
+            "sequenceKUID": "initProductData",
+            "display": "initProductData",
             "inputparams": [],
             "parentId": null,
             "callbackType": null,

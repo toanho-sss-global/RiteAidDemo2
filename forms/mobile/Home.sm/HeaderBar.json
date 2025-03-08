@@ -34,13 +34,17 @@
         "value": "100%"
     },
     "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
     "containerweight": 0,
     "data": {},
     "id": "HeaderBar",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "i7a48918d9e947329b59a087df07a2d7",
+    "kuid": "ff1e9b89115b4553a256f0b740b5f78a",
     "masterType": 1,
     "name": "kony.ui.UserWidgetInstance",
     "parent": "Home",

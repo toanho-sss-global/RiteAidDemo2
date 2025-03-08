@@ -1,0 +1,30 @@
+{
+    "AS_UWI_e271aa1453e243ed826b9ed089295a2f": {
+        "id": "AS_UWI_e271aa1453e243ed826b9ed089295a2f",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "Home",
+            "type": "forms",
+            "platform": "",
+            "KUID": "fb6e88e7d7c94c68aa13478d43b174b5"
+        },
+        "language": "js",
+        "eventType": "onLogoClicked",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__a04f98a8aafa40d99fa4770dba88246e",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "Home",
+            "formKUID": "fb6e88e7d7c94c68aa13478d43b174b5",
+            "projectName": "SampleRiteAid",
+            "mappings": {},
+            "mappingsOrder": [],
+            "enableMappingEditor": true,
+            "package": "",
+            "isCustomInput": false
+        }]
+    }
+}
