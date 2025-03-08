@@ -15,6 +15,11 @@
         0
     ],
     "_percent_": true,
+    "_pxMenuIndex": [
+        0,
+        1,
+        1
+    ],
     "_skin_": "sfbe0b910dfe4363bf286a9d2ada7748",
     "_title_": null,
     "addWidgetsdone": false,
@@ -33,23 +38,26 @@
     },
     "canUpdateUI": true,
     "children": [
-        "headerSegment"
+        "lblTitle",
+        "FlexContainer1",
+        "FlexContainer2"
     ],
     "containerweight": 100,
     "controllerInfo": {
         "default": {
             "channel": "mobile",
-            "name": "HeaderFormController"
+            "name": "DashboardController"
         }
     },
     "currentLocale": "default",
     "desktopweb": {
         "needAppMenu": false
     },
-    "device": "iPhone14",
+    "device": "iPhone14ProMax",
     "displayorientation": 1,
     "enabledforidletimeout": false,
-    "id": "HeaderForm",
+    "id": "Dashboard",
+    "ide_init": "AS_Form_df9fad743af14d9987518f2b8ee5f6db",
     "info": null,
     "initdone": false,
     "inputaccessoryviewtype": 4,
@@ -67,7 +75,7 @@
             "titleBarAttributes": {
                 "barStyle": 0,
                 "hidesBackButton": false,
-                "kuid": "c300819ece0c4cb6b4be04e099065416",
+                "kuid": "ba34ae737b5a48998af0ebf1b7e558c6",
                 "leftBarButtonItems": [],
                 "leftItemsSupplementBackButton": true,
                 "prompt": "",
@@ -78,7 +86,7 @@
                         "info": {
                             "title": "Edit"
                         },
-                        "kuid": "a24b28e48c6b4d9295b874a57e8ee515",
+                        "kuid": "f7d45afc18c34ef4924531158c2de2a1",
                         "style": 0,
                         "tintColor": "4b88f100",
                         "type": 1
@@ -95,7 +103,7 @@
     "kiosk": {
         "needAppMenu": false
     },
-    "kuid": "f553bfaa657c42a392edb9520675aee6",
+    "kuid": "c2417149800147c59e6f865367cba828",
     "layouttype": 2,
     "name": "kony.ui.Form2",
     "needappmenu": false,

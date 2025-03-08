@@ -38,7 +38,8 @@
     },
     "canUpdateUI": true,
     "children": [
-        "Segment0a85a0f0f28a548"
+        "HeaderBar",
+        "contentScroll"
     ],
     "containerweight": 100,
     "controllerInfo": {
