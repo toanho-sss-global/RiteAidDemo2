@@ -1,0 +1,305 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_data_": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "100dp"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "237dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "49.96%"
+    },
+    "containerweight": 100,
+    "counter": "09",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "OrderSummaryItemList",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "u59b19d6e9794113b9cb0c660fd39619",
+    "masterdata": {},
+    "mobile": {
+        "_data_": [
+            {
+                "OrderSummaryItemImg": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "cartproductimg.png"
+                },
+                "OrderSummaryProductName": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Nature Made Vitamin D3 Softgels, 50mcg - 90 ct"
+                },
+                "OrderSummaryProductPrice": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "$16.79"
+                },
+                "OrderSummaryProductQty": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Label"
+                }
+            },
+            {
+                "OrderSummaryItemImg": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "cartproductimg.png"
+                },
+                "OrderSummaryProductName": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Nature Made Vitamin D3 Softgels, 50mcg - 90 ct"
+                },
+                "OrderSummaryProductPrice": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "$16.79"
+                },
+                "OrderSummaryProductQty": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Label"
+                }
+            },
+            {
+                "OrderSummaryItemImg": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "cartproductimg.png"
+                },
+                "OrderSummaryProductName": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Nature Made Vitamin D3 Softgels, 50mcg - 90 ct"
+                },
+                "OrderSummaryProductPrice": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "$16.79"
+                },
+                "OrderSummaryProductQty": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Label"
+                }
+            },
+            {
+                "OrderSummaryItemImg": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "cartproductimg.png"
+                },
+                "OrderSummaryProductName": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Nature Made Vitamin D3 Softgels, 50mcg - 90 ct"
+                },
+                "OrderSummaryProductPrice": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "$16.79"
+                },
+                "OrderSummaryProductQty": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Label"
+                }
+            },
+            {
+                "OrderSummaryItemImg": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "cartproductimg.png"
+                },
+                "OrderSummaryProductName": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Nature Made Vitamin D3 Softgels, 50mcg - 90 ct"
+                },
+                "OrderSummaryProductPrice": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "$16.79"
+                },
+                "OrderSummaryProductQty": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Label"
+                }
+            },
+            {
+                "OrderSummaryItemImg": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "cartproductimg.png"
+                },
+                "OrderSummaryProductName": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Nature Made Vitamin D3 Softgels, 50mcg - 90 ct"
+                },
+                "OrderSummaryProductPrice": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "$16.79"
+                },
+                "OrderSummaryProductQty": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Label"
+                }
+            },
+            {
+                "OrderSummaryItemImg": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "cartproductimg.png"
+                },
+                "OrderSummaryProductName": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Nature Made Vitamin D3 Softgels, 50mcg - 90 ct"
+                },
+                "OrderSummaryProductPrice": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "$16.79"
+                },
+                "OrderSummaryProductQty": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Label"
+                }
+            },
+            {
+                "OrderSummaryItemImg": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "cartproductimg.png"
+                },
+                "OrderSummaryProductName": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Nature Made Vitamin D3 Softgels, 50mcg - 90 ct"
+                },
+                "OrderSummaryProductPrice": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "$16.79"
+                },
+                "OrderSummaryProductQty": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Label"
+                }
+            },
+            {
+                "OrderSummaryItemImg": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "cartproductimg.png"
+                },
+                "OrderSummaryProductName": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Nature Made Vitamin D3 Softgels, 50mcg - 90 ct"
+                },
+                "OrderSummaryProductPrice": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "$16.79"
+                },
+                "OrderSummaryProductQty": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Label"
+                }
+            },
+            {
+                "OrderSummaryItemImg": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "cartproductimg.png"
+                },
+                "OrderSummaryProductName": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Nature Made Vitamin D3 Softgels, 50mcg - 90 ct"
+                },
+                "OrderSummaryProductPrice": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "$16.79"
+                },
+                "OrderSummaryProductQty": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Label"
+                }
+            }
+        ],
+        "rowTemplateId": "eda0f52c5c2a47c8b5d6f3b548715ae3",
+        "rowtemplate": "Flex0c2c011142bfc40",
+        "widgetdatamap": {
+            "OrderSummaryItemImg": "OrderSummaryItemImg",
+            "OrderSummaryItemListCtn": "OrderSummaryItemListCtn",
+            "OrderSummaryProductName": "OrderSummaryProductName",
+            "OrderSummaryProductPrice": "OrderSummaryProductPrice",
+            "OrderSummaryProductQty": "OrderSummaryProductQty"
+        }
+    },
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "OrderSummary",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowcounter": 9,
+    "rowfocusskin": "sb65288bf0c74cf09c9a4b2beb257b4c",
+    "rowskin": "scb3373156f44d6fbaeda147e8570593",
+    "rowtemplate": null,
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s18b4b7cebc04180b309be5c8749494f",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "aaaaaa00",
+    "separatorrequired": true,
+    "separatorthickness": 1,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "Flex0c2c011142bfc40": "Flex0c2c011142bfc40"
+    },
+    "zindex": 1
+}

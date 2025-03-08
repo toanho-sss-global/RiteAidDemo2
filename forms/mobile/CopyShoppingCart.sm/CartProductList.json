@@ -27,7 +27,7 @@
     "_skin_": "sf48100605194ec0875e6d192d50891d",
     "_top_": {
         "type": "string",
-        "value": "117dp"
+        "value": "120dp"
     },
     "_width_": {
         "type": "string",
@@ -39,12 +39,12 @@
     "clipbounds": true,
     "containerweight": 0,
     "dataDiffs": {
-        "ProductSimple": {
+        "CartProductList": {
             "__events__": {},
             "__info__": {
                 "isRoot": true,
-                "kuid": "b6498500ab244602b1ef484c7ffcb14c",
-                "srcKUID": "ud2baf61e87b4d09b4dc51f5bba83e5f",
+                "kuid": "f7a0622159d648daba2b1b82686e7a7b",
+                "srcKUID": "u96e8efed3fc4d858abe4cf21b82b2b4",
                 "wType": "FlexContainer"
             },
             "autogrowMode": {
@@ -56,34 +56,28 @@
                     "value": "200dp"
                 }
             },
-            "left": {
-                "Default": {
-                    "type": "string",
-                    "value": "0dp"
-                }
-            },
             "top": {
                 "Default": {
                     "type": "string",
-                    "value": "117dp"
+                    "value": "120dp"
                 }
             }
         },
-        "segTemp": {
+        "ProductList": {
             "__events__": {},
             "__info__": {
-                "kuid": "b8104f1dfaed4a0ba91a4710e6c6a7e8",
-                "srcKUID": "u8e91660a5a348509453b5493177b6dd",
+                "kuid": "acceac147a634fb38379e436a0e46016",
+                "srcKUID": "u4bf1e55098b4211be1f84dc378ab325",
                 "wType": "Segment"
             }
         }
     },
     "enablescrolling": true,
-    "id": "ProductSimple",
+    "id": "CartProductList",
     "info": null,
     "isdatareferenced": false,
     "isvisible": true,
-    "kuid": "b6498500ab244602b1ef484c7ffcb14c",
+    "kuid": "f7a0622159d648daba2b1b82686e7a7b",
     "layouttype": 2,
     "masterType": 0,
     "name": "kony.ui.UserWidgetInstance",
@@ -91,6 +85,6 @@
     "pf": "CopyShoppingCart",
     "snapgridsize": 10,
     "snaptogrid": true,
-    "sourceUserWidget": "ud2baf61e87b4d09b4dc51f5bba83e5f",
+    "sourceUserWidget": "u96e8efed3fc4d858abe4cf21b82b2b4",
     "wType": "UserWidgetInstance"
 }

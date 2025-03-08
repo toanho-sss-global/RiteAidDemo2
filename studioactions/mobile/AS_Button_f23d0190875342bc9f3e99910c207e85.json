@@ -1,0 +1,21 @@
+{
+    "AS_Button_f23d0190875342bc9f3e99910c207e85": {
+        "id": "AS_Button_f23d0190875342bc9f3e99910c207e85",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__fcc465f8b0de40119c06b37cd0d2a943",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "navigateToCheckout",
+            "display": "navigateToCheckout",
+            "inputparams": [],
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

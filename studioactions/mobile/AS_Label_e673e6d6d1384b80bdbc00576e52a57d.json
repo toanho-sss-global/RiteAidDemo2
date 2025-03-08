@@ -1,0 +1,30 @@
+{
+    "AS_Label_e673e6d6d1384b80bdbc00576e52a57d": {
+        "id": "AS_Label_e673e6d6d1384b80bdbc00576e52a57d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "CheckoutAddress",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a0f2ba1a2db44238ae888c9c0e565544"
+        },
+        "language": "js",
+        "eventType": "onTouchStart",
+        "actions": [{
+            "id": "ADD_SNIPPET_bccefcebe2d94a57aa016d81da9f57eb",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "",
+            "parentId": null
+        }]
+    }
+}

@@ -41,9 +41,9 @@
         "ShoppingCartHeader",
         "CheckoutAndPromoteContainer",
         "RecommendedLabel",
-        "ProductSimple",
         "ProductListCarousel",
-        "FooterDemo"
+        "FooterDemo",
+        "CartProductList"
     ],
     "containerweight": 100,
     "controllerInfo": {

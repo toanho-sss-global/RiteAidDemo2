@@ -1,0 +1,29 @@
+{
+    "AS_Form_e65583c028c94c1f81be330e3ae684cd": {
+        "id": "AS_Form_e65583c028c94c1f81be330e3ae684cd",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "CheckoutAddress",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a0f2ba1a2db44238ae888c9c0e565544"
+        },
+        "language": "js",
+        "eventType": "init",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__g6cc066811194ef4bf3c3720533e0c9f",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "getOrderSummaryData",
+            "display": "getOrderSummaryData",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}
