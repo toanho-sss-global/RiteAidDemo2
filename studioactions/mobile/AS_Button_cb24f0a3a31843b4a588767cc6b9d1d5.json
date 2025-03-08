@@ -1,0 +1,29 @@
+{
+    "AS_Button_cb24f0a3a31843b4a588767cc6b9d1d5": {
+        "id": "AS_Button_cb24f0a3a31843b4a588767cc6b9d1d5",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "CopyShoppingCart",
+            "type": "forms",
+            "platform": "",
+            "KUID": "g2f808f3aabf4a22af7f84d9273533ed"
+        },
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__j1ccf23603dc488794848b4bbdfd9e91",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "navigateToCheckout",
+            "display": "navigateToCheckout",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

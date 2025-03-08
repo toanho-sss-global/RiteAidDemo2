@@ -71,10 +71,15 @@ ProductList: [
 
     self.view.ProductSimple.segTemp.setData(updatedProductList);
     console.log(updatedProductList);
-}
-
-
-  
-  
-  
+},
+  getProducts: function () {
+    var serviceName = 'VendureApis';
+    var operationName = 'GetProducts';
+    var requestBody = {
+      "query": "query Products { products { totalItems items { id name featuredAsset { preview } facetValues { name } variants { id name currencyCode priceWithTax featuredAsset { preview } } optionGroups { name options { name } } collections { id name } } } }"
+    };
+    voltmx.net.invokeServiceAsync(serviceName, requestBody, function(response) {
+		
+    });
+  },
  });

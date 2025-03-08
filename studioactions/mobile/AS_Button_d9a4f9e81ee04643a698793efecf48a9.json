@@ -1,0 +1,195 @@
+{
+    "AS_Button_d9a4f9e81ee04643a698793efecf48a9": {
+        "id": "AS_Button_d9a4f9e81ee04643a698793efecf48a9",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "Login",
+            "type": "forms",
+            "platform": "",
+            "KUID": "fe24c9db0b3843b8b65fb7f139c8b005"
+        },
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__hd2916d28527499e99124e6d35b9b720",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "Home",
+            "formKUID": "fb6e88e7d7c94c68aa13478d43b174b5",
+            "projectName": "SampleRiteAid",
+            "mappings": {
+                "ME_Mapping_h014ae1c90754af58f4adc9bf09a5564": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_h014ae1c90754af58f4adc9bf09a5564",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Variables",
+                        "propertyName": "result",
+                        "propertyKey": "variable_result",
+                        "dataType": "string",
+                        "forkedPlatform": "all"
+                    },
+                    "target": {
+                        "forkedPlatform": "all"
+                    }
+                }
+            },
+            "mappingsOrder": ["ME_Mapping_h014ae1c90754af58f4adc9bf09a5564"],
+            "parentId": "_b6e600dab8524dd783e02eb5713ca07f",
+            "enableMappingEditor": true,
+            "package": "",
+            "enableNavigationObj": true,
+            "navigationObj": "{\n    \"variable_result\": result,\n    \"_meta_\": {\n        \"eventName\": \"\",\n        \"widgetId\": \"\"\n    }\n}",
+            "isCustomInput": false
+        }, {
+            "id": "ADD_MAPPING_bfc1f7a73ecc4f9b9f19be9c527097cc",
+            "type": "ADD_MAPPING",
+            "mappings": {
+                "ME_Mapping_f70496675b6046a8901e714de09bdead": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_f70496675b6046a8901e714de09bdead",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Services",
+                        "propertyName": "httpStatusCode",
+                        "dataType": "number",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "VendureApis",
+                            "serviceid": "93764da3-5c68-4a7b-a6db-ccf3009ee27a",
+                            "type": "integration",
+                            "operationname": "Login",
+                            "operationid": "551768"
+                        }
+                    },
+                    "target": {
+                        "type": "Variables",
+                        "propertyName": "result",
+                        "dataType": "number",
+                        "forkedPlatform": "all"
+                    }
+                }
+            },
+            "mappingsOrder": ["ME_Mapping_f70496675b6046a8901e714de09bdead"],
+            "parentId": "INVOKE_SERVICE_c4a31d4fabd749cf8fd3e08896cd12c6",
+            "callbackType": "Callback",
+            "enableMappingEditor": true
+        }, {
+            "id": "_b6e600dab8524dd783e02eb5713ca07f",
+            "type": "IF_CONDITION",
+            "conditions": [{
+                "leftValueType": "varvalue",
+                "leftValue": "result",
+                "operator": "===",
+                "rightValueType": "value",
+                "rightValue": "200"
+            }],
+            "parentId": "INVOKE_SERVICE_c4a31d4fabd749cf8fd3e08896cd12c6",
+            "callbackType": "Callback",
+            "criteria": "all"
+        }, {
+            "id": "ADD_LOCAL_VARIABLE_ffe3d0020ed443c2b6b0a89e03161970",
+            "type": "ADD_LOCAL_VARIABLE",
+            "name": "result",
+            "isGlobal": false,
+            "valuetype": "expression",
+            "datatype": "number",
+            "value": "0"
+        }, {
+            "id": "INVOKE_SERVICE_c4a31d4fabd749cf8fd3e08896cd12c6",
+            "type": "INVOKE_ASYNC_SERVICE",
+            "inputparams": null,
+            "httpheaders": [{
+                "name": "",
+                "value": ""
+            }, {
+                "name": "",
+                "value": ""
+            }],
+            "httpconfigs": null,
+            "isasynchronous": true,
+            "mappings": {
+                "ME_Mapping_i13f631729f84f6e80013e82c66d328b": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_i13f631729f84f6e80013e82c66d328b",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Forms",
+                        "propertyName": "text",
+                        "widgetId": "txtBoxEmail",
+                        "widgetPath": "this.view.txtBoxEmail",
+                        "widgetType": "TextField",
+                        "dataType": "string",
+                        "itemId": "Login",
+                        "widgetKUID": "fae1a88cd89f4018bcbefb54c9a8afe9",
+                        "itemKUID": "fe24c9db0b3843b8b65fb7f139c8b005",
+                        "forkedPlatform": "all"
+                    },
+                    "target": {
+                        "type": "Services",
+                        "propertyName": "username",
+                        "dataType": "string",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "VendureApis",
+                            "serviceid": "93764da3-5c68-4a7b-a6db-ccf3009ee27a",
+                            "type": "integration",
+                            "operationname": "Login",
+                            "operationid": "551768"
+                        }
+                    }
+                },
+                "ME_Mapping_c88f327127ed40b0a9a881011e42e5d8": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_c88f327127ed40b0a9a881011e42e5d8",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Forms",
+                        "propertyName": "text",
+                        "widgetId": "txtBoxPassword",
+                        "widgetPath": "this.view.txtBoxPassword",
+                        "widgetType": "TextField",
+                        "dataType": "string",
+                        "itemId": "Login",
+                        "widgetKUID": "e229e7940c8f40a588253dd20d0065c5",
+                        "itemKUID": "fe24c9db0b3843b8b65fb7f139c8b005",
+                        "forkedPlatform": "all"
+                    },
+                    "target": {
+                        "type": "Services",
+                        "propertyName": "userpassword",
+                        "dataType": "string",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "VendureApis",
+                            "serviceid": "93764da3-5c68-4a7b-a6db-ccf3009ee27a",
+                            "type": "integration",
+                            "operationname": "Login",
+                            "operationid": "551768"
+                        }
+                    }
+                }
+            },
+            "mappingsOrder": ["ME_Mapping_i13f631729f84f6e80013e82c66d328b", "ME_Mapping_c88f327127ed40b0a9a881011e42e5d8"],
+            "serviceconfig": {
+                "servicename": "VendureApis",
+                "serviceid": "93764da3-5c68-4a7b-a6db-ccf3009ee27a",
+                "type": "integration",
+                "operationname": "Login",
+                "operationid": "551768"
+            },
+            "enableMappingEditor": true
+        }]
+    }
+}

@@ -1,0 +1,242 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_data_": [
+        {},
+        {},
+        {}
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "02",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "ProductList",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "none"
+        }
+    },
+    "isvisible": true,
+    "kuid": "u4bf1e55098b4211be1f84dc378ab325",
+    "masterdata": {},
+    "mobile": {
+        "_data_": [
+            {
+                "DeleteIcon": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "trashicon.png",
+                    "type": "Image"
+                },
+                "MinusIcon": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "minusicon.png",
+                    "type": "Image"
+                },
+                "PlusIcon": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "plusicon.png",
+                    "type": "Image"
+                },
+                "ProductQuantity": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "1",
+                    "type": "Label"
+                },
+                "img": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "https://vendure.demo.universalcommerce.io/assets/preview/d8/xfovgufizvy4rjr6sfup-fotor-20250225162552__preview.png",
+                    "type": "Image"
+                },
+                "lblCost": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Price: $16.79",
+                    "type": "Label"
+                },
+                "lblDescription": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Nature Made Vitamin D3 Softgels, 50mcg - 90 ct",
+                    "type": "Label"
+                }
+            },
+            {
+                "DeleteIcon": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "trashicon.png",
+                    "type": "Image"
+                },
+                "MinusIcon": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "minusicon.png",
+                    "type": "Image"
+                },
+                "PlusIcon": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "plusicon.png",
+                    "type": "Image"
+                },
+                "ProductQuantity": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "1",
+                    "type": "Label"
+                },
+                "img": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "https://www.riteaid.com/shop/media/catalog/product/b/t/btyhvquf9je0a3cxmcoe.jpg",
+                    "type": "Image"
+                },
+                "lblCost": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Price: $19.99",
+                    "type": "Label"
+                },
+                "lblDescription": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Skin with Biotin Softgels",
+                    "type": "Label"
+                }
+            },
+            {
+                "DeleteIcon": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "trashicon.png",
+                    "type": "Image"
+                },
+                "MinusIcon": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "minusicon.png",
+                    "type": "Image"
+                },
+                "PlusIcon": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "plusicon.png",
+                    "type": "Image"
+                },
+                "ProductQuantity": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "1",
+                    "type": "Label"
+                },
+                "img": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "https://www.riteaid.com/shop/media/catalog/product/s/8/s8uczbbfmqpcqosjcenp.jpg",
+                    "type": "Image"
+                },
+                "lblCost": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Price: $11.99",
+                    "type": "Label"
+                },
+                "lblDescription": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Hair Skin and Nails",
+                    "type": "Label"
+                }
+            }
+        ],
+        "rowTemplateId": "ca1ed5c4c49145f5919705c5d85f8977",
+        "rowtemplate": "CopyflxSeg2",
+        "widgetdatamap": {
+            "CopyflxSeg2": "CopyflxSeg2",
+            "DeleteIcon": "DeleteIcon",
+            "MinusIcon": "MinusIcon",
+            "PlusIcon": "PlusIcon",
+            "ProductQuantity": "ProductQuantity",
+            "flxImg": "flxImg",
+            "img": "img",
+            "lblCost": "lblCost",
+            "lblDescription": "lblDescription"
+        }
+    },
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "CartProductList",
+    "pf": "userwidgetmodel",
+    "retainselection": false,
+    "rowcounter": 2,
+    "rowfocusskin": "s47fa5e5ce6d45219f93c16bdbc6a24a",
+    "rowskin": "sbf3bb89a30443cc88bf3c6e0a01652c",
+    "rowtemplate": "CopyflxSeg2",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s6e83db159ef44438350cd648201893a",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "c8c7cc00",
+    "separatorrequired": true,
+    "separatorthickness": 1,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "CopyflxSeg2": "CopyflxSeg2",
+        "flxImg": "flxImg",
+        "flxImgMain": "flxImgMain",
+        "flxProductColor": "flxProductColor",
+        "img": "img",
+        "img1": "img1",
+        "img2": "img2",
+        "img3": "img3",
+        "img4": "img4",
+        "img5": "img5",
+        "lblCost": "lblCost",
+        "lblDescription": "lblDescription",
+        "lblProdName": "lblProdName",
+        "lblStock": "lblStock",
+        "productOne": "productOne",
+        "productThree": "productThree",
+        "productTwo": "productTwo"
+    },
+    "zindex": 1
+}

@@ -1,0 +1,56 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "21dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s87e266eea3c46048ffdbec38c60ea8b",
+    "_text_": "Continue",
+    "_top_": {
+        "type": "string",
+        "value": "1439dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50.16%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s0cb3935f71f4e6b89e0a314561f183d",
+    "id": "CheckoutContinueButton",
+    "ide_onClick": "AS_Button_g2d635f049804bbabdf0f9c59fabfb0d",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "a2987f14bda445faa34fc68923595884",
+    "name": "kony.ui.Button",
+    "parent": "CheckoutAddress",
+    "pf": "CheckoutAddress",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

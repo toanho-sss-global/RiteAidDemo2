@@ -1,0 +1,28 @@
+{
+    "AS_Image_f9126fe26c3448ad9e038b1fb1817b7b": {
+        "id": "AS_Image_f9126fe26c3448ad9e038b1fb1817b7b",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "CartProductItem",
+            "type": "templates",
+            "platform": "",
+            "KUID": "ca1ed5c4c49145f5919705c5d85f8977"
+        },
+        "language": "js",
+        "eventType": "onTouchStart",
+        "actions": []
+    }
+}
