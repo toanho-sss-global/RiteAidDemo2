@@ -71,7 +71,7 @@
     ],
     "_height_": {
         "type": "string",
-        "value": "1000px"
+        "value": "350dp"
     },
     "_indicator_": "none",
     "_left_": {
@@ -104,29 +104,8 @@
     "containerweight": 100,
     "counter": "02",
     "enablehapticfeedback": false,
-    "focusedindex": 0,
-    "focuseditem": {
-        "Button0b820f12e10ad40": {
-            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-            "text": "Shop now",
-            "type": "Button"
-        },
-        "Image0e9df41a9488949": {
-            "@class": "com.viz.ide.model.segment.ImageSegmentData",
-            "src": "header1.png",
-            "type": "Image"
-        },
-        "Label0ie096a2cf5e442": {
-            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-            "text": "Nature Made vitamins & supplements 50% off",
-            "type": "Label"
-        },
-        "backgroundImg": {
-            "@class": "com.viz.ide.model.segment.ImageSegmentData",
-            "src": "image.jpg",
-            "type": "Image"
-        }
-    },
+    "focusedindex": null,
+    "focuseditem": null,
     "generatedtemplate": null,
     "groupcells": false,
     "hasSections": false,
@@ -162,7 +141,7 @@
         "position": "bottom",
         "vdistance": 1
     },
-    "parent": "Home",
+    "parent": "contentScroll",
     "pf": "Home",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
@@ -177,33 +156,9 @@
     "sectionheaderskin": "s18b4b7cebc04180b309be5c8749494f",
     "selectedRows": null,
     "selectedState": false,
-    "selectedindex": [
-        0,
-        0
-    ],
+    "selectedindex": null,
     "selectedindices": null,
-    "selecteditems": {
-        "Button0b820f12e10ad40": {
-            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-            "text": "Shop now",
-            "type": "Button"
-        },
-        "Image0e9df41a9488949": {
-            "@class": "com.viz.ide.model.segment.ImageSegmentData",
-            "src": "header1.png",
-            "type": "Image"
-        },
-        "Label0ie096a2cf5e442": {
-            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-            "text": "Nature Made vitamins & supplements 50% off",
-            "type": "Label"
-        },
-        "backgroundImg": {
-            "@class": "com.viz.ide.model.segment.ImageSegmentData",
-            "src": "image.jpg",
-            "type": "Image"
-        }
-    },
+    "selecteditems": null,
     "selectedsectionindex": 0,
     "selectionbehavior": "default",
     "selectionbehaviorconfig": null,

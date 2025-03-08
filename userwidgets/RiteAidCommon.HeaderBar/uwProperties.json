@@ -1,0 +1,125 @@
+{
+    "classname": "HeaderBar",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "c255f8d3002b40299fff89cb9b58cba3",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 2,
+                    "propertyKey": "onMenuClicked",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onMenuClicked",
+                        "srcWidget": "menu",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "d2f1e58c6b19429db1e1569393da5e93",
+                    "translateAtInstance": false
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "h5277b0319ea44379632f4ab61dec110",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 3,
+                    "propertyKey": "onRiteAidLogoClicked",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onRiteAidLogoClicked",
+                        "srcWidget": "logo",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "a3523d089f6b4a8aa6d095413ca9d918",
+                    "translateAtInstance": false
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "a6151a3e1b2a4877a4204ca524b58347",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 4,
+                    "propertyKey": "onLogo2Clicked",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onLogo2Clicked",
+                        "srcWidget": "logo2",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "bca3d101c97f48449dbb87167fe2e2b5",
+                    "translateAtInstance": false
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "a3bc0dd832fc4c1b9897ecb79ddc68d4",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 5,
+                    "propertyKey": "onCartClicked",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onCartClicked",
+                        "srcWidget": "cartHeaderButton",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "e582c9c5149e42dd8f735a163672ad38",
+                    "translateAtInstance": false
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "dd9bdd4ddd814febb5e47f21f4e4ccb4",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 6,
+                    "propertyKey": "onUserClicked",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onUserClicked",
+                        "srcWidget": "userHeader",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "f28cded645ac449cb5033b561e67695c",
+                    "translateAtInstance": false
+                }
+            ]
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "RiteAidCommon",
+    "version": "1.0.0"
+}

@@ -1,0 +1,55 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "25dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "36dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "scffad292b5f4e16ad70b7a176af4338",
+    "_text_": "View My Weekly Ad",
+    "_top_": {
+        "type": "string",
+        "value": "75%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "300dp"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "49.58%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s0cb3935f71f4e6b89e0a314561f183d",
+    "id": "btn3",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "dffca4c038504842a159d1c6f1445746",
+    "name": "kony.ui.Button",
+    "parent": "FlexContainer0ec0403d4e6fd41",
+    "pf": "Dashboard",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

@@ -1,0 +1,19 @@
+{
+    "AS_Form_df9fad743af14d9987518f2b8ee5f6db": {
+        "id": "AS_Form_df9fad743af14d9987518f2b8ee5f6db",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "Dashboard",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c2417149800147c59e6f865367cba828"
+        },
+        "language": "js",
+        "eventType": "init",
+        "actions": []
+    }
+}

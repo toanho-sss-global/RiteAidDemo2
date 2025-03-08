@@ -1,0 +1,51 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "25dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "scf8b8d4848144c6ae56eff020960601",
+    "_text_": "KidCents Donations",
+    "_top_": {
+        "type": "string",
+        "value": "93%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "300dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s0cb3935f71f4e6b89e0a314561f183d",
+    "id": "btn6",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "g2bcef9eea454fc3a839b6683964470b",
+    "name": "kony.ui.Button",
+    "parent": "FlexContainer0ec0403d4e6fd41",
+    "pf": "Dashboard",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

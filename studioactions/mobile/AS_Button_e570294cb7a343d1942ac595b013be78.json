@@ -1,0 +1,29 @@
+{
+    "AS_Button_e570294cb7a343d1942ac595b013be78": {
+        "id": "AS_Button_e570294cb7a343d1942ac595b013be78",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "Dashboard",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c2417149800147c59e6f865367cba828"
+        },
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__b7343df4a45a43938c2444a211a5a95e",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "AddPoint",
+            "display": "AddPoint",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}
