@@ -11,7 +11,7 @@
                 {
                     "access": "Enable",
                     "group": "General",
-                    "kuid": "e1946b3df1cd44bc96d9c24082fd3573",
+                    "kuid": "dcc256abd73f41a3abdd6e42ae4e52ea",
                     "originalPropertyKey": "onClick",
                     "propertyIndex": 7,
                     "propertyKey": "onCartClicked",
@@ -30,8 +30,8 @@
                 {
                     "access": "Enable",
                     "group": "General",
-                    "kuid": "b96bf7dea60041fbaa0a9c02f550b50a",
-                    "originalPropertyKey": "onDownloadComplete",
+                    "kuid": "j694d18c4bc6436ea6024f645cf13b61",
+                    "originalPropertyKey": "onTouchStart",
                     "propertyIndex": 8,
                     "propertyKey": "onMenuClicked",
                     "pw": {
@@ -49,8 +49,8 @@
                 {
                     "access": "Enable",
                     "group": "General",
-                    "kuid": "dba596478ad345a18a836ec836c9fad7",
-                    "originalPropertyKey": "onDownloadComplete",
+                    "kuid": "c1f866751e424d0fa5882fd4d3b0580a",
+                    "originalPropertyKey": "onTouchStart",
                     "propertyIndex": 9,
                     "propertyKey": "onLogoClicked",
                     "pw": {
@@ -68,8 +68,8 @@
                 {
                     "access": "Enable",
                     "group": "General",
-                    "kuid": "d43395305baf43a9bfda5da3bd5434f3",
-                    "originalPropertyKey": "onDownloadComplete",
+                    "kuid": "cdf39007e3914a90bbef4b42000d6a92",
+                    "originalPropertyKey": "onTouchStart",
                     "propertyIndex": 10,
                     "propertyKey": "onUserClicked",
                     "pw": {

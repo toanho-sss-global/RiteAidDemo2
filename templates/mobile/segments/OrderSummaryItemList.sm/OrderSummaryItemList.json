@@ -31,6 +31,10 @@
     "enabledforidletimeout": false,
     "id": "OrderSummaryItemList",
     "info": null,
+    "infoForSave": {
+        "channel": "mobile",
+        "templateType": "segments"
+    },
     "initdone": false,
     "inputaccessoryviewtype": 4,
     "intransitionconfig": {

@@ -18,7 +18,7 @@ validateLogin: function(email, password) {
 //           return false;
 //       	}
   
-   if (password ==="" ) {
+   if (password === "" ) {
           alert("Password must be at least 8 characters!");
           return false;
       	}
@@ -50,13 +50,15 @@ validateLogin: function(email, password) {
        httpclient.onReadyStateChange = function() {
                 if (httpclient.readyState === 4 && httpclient.status === 200) {
                   
-                    var response = JSON.parse(httpclient.response);
-                    if (response.data.login.identifier === email) {
-                        var nav = new voltmx.mvc.Navigation("Home");
-                        nav.navigate();
-                    } else if (response.errors) {
-                         alert(response.errors[0].message);
-                    }
+                  var response = JSON.parse(httpclient.response);
+                  var userData = response.data.login;
+                  if (userData !== null) {
+                    voltmx.store.setItem('userData', JSON.stringify(userData))
+                    var nav = new voltmx.mvc.Navigation("Home");
+                    nav.navigate();
+                  } else if (response.errors) {
+                    alert(response.errors[0].message);
+                  }
                 }
             };
     }

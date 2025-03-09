@@ -39,7 +39,9 @@
         "value": "50%"
     },
     "containerweight": 0,
-    "data": {},
+    "data": {
+        "ide_onUserClicked": "AS_UWI_a980d7aeea5f459bbd36dcc0d9ad5d96"
+    },
     "id": "HeaderBar",
     "info": null,
     "iscustomlayout": false,

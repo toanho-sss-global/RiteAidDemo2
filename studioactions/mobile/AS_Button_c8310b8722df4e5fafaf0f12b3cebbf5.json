@@ -1,0 +1,83 @@
+{
+    "AS_Button_c8310b8722df4e5fafaf0f12b3cebbf5": {
+        "id": "AS_Button_c8310b8722df4e5fafaf0f12b3cebbf5",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "CheckoutShippingMethod",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b17f76394c484295b64c306ec564fc4f"
+        },
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__gfba5c06b206417f8b445e1ad8cc30df",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "Home",
+            "formKUID": "fb6e88e7d7c94c68aa13478d43b174b5",
+            "projectName": "SampleRiteAid",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "INVOKE_SERVICE_da2c7bb35c504e93892c7e0b86f5b7f4",
+            "callbackType": "Callback",
+            "enableMappingEditor": true,
+            "package": "",
+            "isCustomInput": false
+        }, {
+            "id": "INVOKE_SERVICE_da2c7bb35c504e93892c7e0b86f5b7f4",
+            "type": "INVOKE_ASYNC_SERVICE",
+            "inputparams": null,
+            "httpheaders": null,
+            "httpconfigs": null,
+            "isasynchronous": true,
+            "mappings": {
+                "ME_Mapping_b962b3e772c3488abd4faf2555817153": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_b962b3e772c3488abd4faf2555817153",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Forms",
+                        "propertyName": "key",
+                        "widgetId": "ShippingOptions",
+                        "widgetPath": "this.view.ShippingOptions",
+                        "widgetType": "RadioButtonGroup",
+                        "dataType": "string",
+                        "itemId": "CheckoutShippingMethod",
+                        "collectionId": "masterDataMap",
+                        "widgetKUID": "h1e489f91d514310aacb515c21f4f8b5",
+                        "itemKUID": "b17f76394c484295b64c306ec564fc4f",
+                        "forkedPlatform": "all"
+                    },
+                    "target": {
+                        "type": "Services",
+                        "propertyName": "id",
+                        "dataType": "string",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "VendureApis",
+                            "serviceid": "93764da3-5c68-4a7b-a6db-ccf3009ee27a",
+                            "type": "integration",
+                            "operationname": "SetShippingMethod",
+                            "operationid": "551787"
+                        }
+                    }
+                }
+            },
+            "mappingsOrder": ["ME_Mapping_b962b3e772c3488abd4faf2555817153"],
+            "serviceconfig": {
+                "servicename": "VendureApis",
+                "serviceid": "93764da3-5c68-4a7b-a6db-ccf3009ee27a",
+                "type": "integration",
+                "operationname": "SetShippingMethod",
+                "operationid": "551787"
+            },
+            "enableMappingEditor": true
+        }]
+    }
+}

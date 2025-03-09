@@ -38,7 +38,8 @@
         "product1",
         "product2",
         "product3",
-        "product4"
+        "product4",
+        "FooterDemo"
     ],
     "clipbounds": false,
     "containerweight": 100,

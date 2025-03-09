@@ -1,0 +1,29 @@
+{
+    "AS_UWI_a980d7aeea5f459bbd36dcc0d9ad5d96": {
+        "id": "AS_UWI_a980d7aeea5f459bbd36dcc0d9ad5d96",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "Home",
+            "type": "forms",
+            "platform": "",
+            "KUID": "fb6e88e7d7c94c68aa13478d43b174b5"
+        },
+        "language": "js",
+        "eventType": "onUserClicked",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__f1bfb477e26946c6aac0ccbf8f6870b4",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "handleMoveOnUserClicked",
+            "display": "handleMoveOnUserClicked",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

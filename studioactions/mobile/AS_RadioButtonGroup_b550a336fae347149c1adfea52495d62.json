@@ -1,0 +1,39 @@
+{
+    "AS_RadioButtonGroup_b550a336fae347149c1adfea52495d62": {
+        "id": "AS_RadioButtonGroup_b550a336fae347149c1adfea52495d62",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "CheckoutShippingMethod",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b17f76394c484295b64c306ec564fc4f"
+        },
+        "language": "js",
+        "eventType": "onSelection",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__j042b0de14844897b06c54b3f964ed09",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "showMap",
+            "display": "showMap",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }, {
+            "id": "INVOKE_FUNCTION__db5c218e8dbe487699620e068d1abf72",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "showShippingConfirmation",
+            "display": "showShippingConfirmation",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

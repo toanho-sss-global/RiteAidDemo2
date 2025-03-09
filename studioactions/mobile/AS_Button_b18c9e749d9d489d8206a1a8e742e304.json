@@ -1,0 +1,29 @@
+{
+    "AS_Button_b18c9e749d9d489d8206a1a8e742e304": {
+        "id": "AS_Button_b18c9e749d9d489d8206a1a8e742e304",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "CheckoutShippingMethod",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b17f76394c484295b64c306ec564fc4f"
+        },
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ab61974f695a4daabf0d0cc953b8ea50",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "hideMap",
+            "display": "hideMap",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}
