@@ -1,6 +1,7 @@
 {
-    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
     "DNDConfig": null,
+    "_base64_": null,
     "_height_": {
         "type": "string",
         "value": "30dp"
@@ -10,10 +11,10 @@
         "value": "0dp"
     },
     "_margin_": [
-        6,
-        6,
-        6,
-        6
+        0,
+        0,
+        0,
+        0
     ],
     "_padding_": [
         0,
@@ -21,31 +22,35 @@
         0,
         0
     ],
-    "_skin_": "s5be50013e424dc9a963fe416833f868",
-    "_text_": "",
+    "_skin_": "se7c23e3ff1a47c4a81fcf01c33ce421",
+    "_src_": "rite_aid_logo.png",
     "_top_": {
         "type": "string",
-        "value": "10dp"
+        "value": "1dp"
     },
     "_width_": {
         "type": "string",
         "value": "66dp"
     },
     "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
     "containerweight": 100,
-    "contentalignment": 5,
-    "displaytext": true,
-    "focusskin": "s0cb3935f71f4e6b89e0a314561f183d",
     "id": "logo",
+    "imagescalemode": 1,
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "a3523d089f6b4a8aa6d095413ca9d918",
-    "name": "kony.ui.Button",
+    "kuid": "b30e8cff55f54d98becdf63e346ab32c",
+    "name": "kony.ui.Image2",
     "parent": "leftHeaderGroup",
     "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
-    "wType": "Button",
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5,
     "zindex": 1
 }

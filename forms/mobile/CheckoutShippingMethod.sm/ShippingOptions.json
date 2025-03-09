@@ -1,0 +1,103 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizRadio",
+    "DNDConfig": null,
+    "_blur_": {
+        "enabled": false,
+        "value": 0
+    },
+    "_height_": {
+        "type": "string",
+        "value": "100dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sc438cc2ab424f4da2ac909940438c63",
+    "_top_": {
+        "type": "string",
+        "value": "60dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "android": {
+        "psp": {
+            "viewType": 0
+        }
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50.00%"
+    },
+    "containerweight": 100,
+    "enablehapticfeedback": false,
+    "groupcells": false,
+    "id": "ShippingOptions",
+    "ide_onSelection": "AS_RadioButtonGroup_b550a336fae347149c1adfea52495d62",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "viewType": 0
+        }
+    },
+    "iphone": {
+        "psp": {
+            "viewType": 3
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "itemorientation": "vertical",
+    "kuid": "h1e489f91d514310aacb515c21f4f8b5",
+    "masterdata": [
+        [
+            "shipToAddress",
+            "Ship to my address"
+        ],
+        [
+            "PickFormPharmacy",
+            "Pick from Pharmacy"
+        ],
+        [
+            "ShipFormPharmacy",
+            "Ship from Pharmacy"
+        ]
+    ],
+    "name": "kony.ui.RadioButtonGroup",
+    "parent": "ShippingModeContainer",
+    "pf": "CheckoutShippingMethod",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "selectedkey": "shipToAddress",
+    "selectedkeyvalue": [
+        "shipToAddress",
+        "Ship to my address"
+    ],
+    "size": 18,
+    "tickedimage": "selectedradioicon.png",
+    "untickedimage": "unselectedradioicon.png",
+    "viewconfig": {
+        "toggleViewConfig": {
+            "viewStyle": 0
+        }
+    },
+    "viewtype": 0,
+    "wType": "RadioButtonGroup",
+    "widgetalignment": 5,
+    "zindex": 1
+}

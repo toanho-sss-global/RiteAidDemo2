@@ -1,0 +1,24 @@
+{
+    "AS_UWI_bf4bb10a6612486297a105af0cff144a": {
+        "id": "AS_UWI_bf4bb10a6612486297a105af0cff144a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "eventType": "onRiteAidLogoClicked",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__ide_onRiteAidLogoClicked_i05066782522400baa7cd73cf5dd6b94",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "Home",
+            "formKUID": "fb6e88e7d7c94c68aa13478d43b174b5",
+            "projectName": "SampleRiteAid",
+            "mappings": {},
+            "mappingsOrder": [],
+            "enableMappingEditor": true,
+            "package": "",
+            "isCustomInput": false
+        }]
+    }
+}

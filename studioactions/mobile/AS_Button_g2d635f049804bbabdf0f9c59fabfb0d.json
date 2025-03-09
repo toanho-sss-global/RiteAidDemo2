@@ -17,8 +17,8 @@
         "actions": [{
             "id": "NAVIGATE_TO_FORM__e8f06412c8f24303b88c296528a8d377",
             "type": "NAVIGATE_TO_FORM",
-            "formId": "Home",
-            "formKUID": "fb6e88e7d7c94c68aa13478d43b174b5",
+            "formId": "CheckoutShippingMethod",
+            "formKUID": "b17f76394c484295b64c306ec564fc4f",
             "projectName": "SampleRiteAid",
             "mappings": {},
             "mappingsOrder": [],

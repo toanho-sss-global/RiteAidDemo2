@@ -51,7 +51,7 @@
     "kuid": "gfb55bfff39241bdb4c8a9544e74149c",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "Dashboard",
+    "parent": "contentScroll",
     "pf": "Dashboard",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

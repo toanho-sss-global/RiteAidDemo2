@@ -1,85 +1,77 @@
-define({ 
-  
-ProductList: [  
-        {
-         lblDescription: "Rite Aid Passion Fruit Triple Hydration Electrolyte Drink Mix - 3.49 oz",
-         lblCost: "$11.99",
-         lblCategory: 'Grocery',
-         lblDiscount: '80% Off',
-         lblCostDiscount: '$9.99', 
-         img: 'fi4ohuxot842j9f5bjqg__preview.png'
-        },
-        {
-         lblDescription:"Qunol Turmeric & Ginger Gummy - 60 ct",
-          lblCost:"$12.99",
-          lblCategory: 'Wash',
-          lblDiscount: '', 
-          lblCostDiscount: '', 
-          img: 'fi4ohuxot842j9f5bjqg__preview.png'
-        },
-        {
-         lblDescription:"Olay Regenerist Vitamin C + Peptide 24 Face Moisturizer - 1.7 oz",
-         lblCost:"$13.99",
-          lblCategory: 'Softgel',
-          lblDiscount: '', 
-          lblCostDiscount: '', 
-          img: 'fi4ohuxot842j9f5bjqg__preview.png'
-        },
-        {
-          lblDescription:"Nature Made Vitamin D3 Softgels, 50mcg - 90 ct",
-          lblCost:"$14.99", 
-          lblCategory: 'Moisturizer', 
-          lblDiscount: '90% Off', 
-          lblCostDiscount: '$19.99', 
-          img: 'fi4ohuxot842j9f5bjqg__preview.png'},
-        {
-         lblDescription:"Listerine Total Care Anticavity Fluoride Mouthwash - Fresh Mint, 1 lt",
-          lblCost:"$15.99", 
-          lblCategory: 'Gummy', 
-          lblDiscount: '', 
-          lblCostDiscount: '', 
-          img: 'fi4ohuxot842j9f5bjqg__preview.png'
-        },
-        {
-         lblDescription:"Lindt Gourmet Truffles Box - 6.8 oz",
-          lblCost:"$16.99", 
-          lblCategory: 'Grocery', 
-          lblDiscount: '', 
-          lblCostDiscount: '', 
-          img: 'fi4ohuxot842j9f5bjqg__preview.png'
-        },
-    ],
-  
-   	initProductData: function () {
+define({
+  ProductList: [],
+
+  initProductData: function () {
     var updatedProductList = [];
     var self = this;
 
     for (var i = 0; i < self.ProductList.length; i++) {
-        var item = self.ProductList[i];
+      var item = self.ProductList[i];
 
-        if (item.lblCostDiscount !== '') {
-            item.lblCost = {
-                text: item.lblCost,
-                textStyle: { 
-                  strikeThrough: true
-                }
-            };
-        }
+      if (item.lblCostDiscount !== '') {
+        item.lblCost = {
+          text: item.lblCost,
+          textStyle: {
+            strikeThrough: true
+          }
+        };
+      }
 
-        updatedProductList.push(item);
+      updatedProductList.push(item);
     }
 
     self.view.ProductSimple.segTemp.setData(updatedProductList);
-    console.log(updatedProductList);
-},
-  getProducts: function () {
-    var serviceName = 'VendureApis';
-    var operationName = 'GetProducts';
-    var requestBody = {
-      "query": "query Products { products { totalItems items { id name featuredAsset { preview } facetValues { name } variants { id name currencyCode priceWithTax featuredAsset { preview } } optionGroups { name options { name } } collections { id name } } } }"
-    };
-    voltmx.net.invokeServiceAsync(serviceName, requestBody, function(response) {
-		
-    });
   },
- });
+
+  fetchProducts: function () {
+    var self = this;
+    var url = "https://m100004273001.demo-hclvoltmx.net/services/VendureApis/GetProducts";
+
+    var httpRequest = new voltmx.net.HttpRequest();
+    httpRequest.responseType = constants.HTTP_RESPONSE_TYPE_JSON;
+
+    httpRequest.onReadyStateChange = function () {
+      if (httpRequest.readyState === constants.HTTP_READY_STATE_DONE) {
+        if (httpRequest.status === 200) {
+          var response = httpRequest.response;
+          console.log("API Response:", response);
+
+          if (response && response.opstatus === 0) {
+            self.handleProducts(response.data);
+          }
+        } else {
+          console.error("HTTP Error:", httpRequest.status, httpRequest.response);
+        }
+      }
+    };
+
+    httpRequest.open(constants.HTTP_METHOD_POST, url);
+    httpRequest.setRequestHeader("Content-Type", "application/json");
+    httpRequest.send(JSON.stringify({}));
+  },
+
+  handleProducts: function (data) {
+    if (!data || !data.products || !data.products.items || !Array.isArray(data.products.items)) {
+      return;
+    }
+
+    var formattedProducts = data.products.items.map(item => {
+      var firstVariant = item.variants && item.variants.length > 0 ? item.variants[0] : {};
+      var firstFacet = item.facetValues && item.facetValues.length > 0 ? item.facetValues[0].name : "Unknown";
+
+      return {
+        lblDescription: firstVariant.name || "No Name",
+        lblCost: firstVariant.priceWithTax ? `$${(firstVariant.priceWithTax / 100).toFixed(2)}` : "N/A",
+        lblCategory: firstFacet,
+        lblDiscount: "",
+        lblCostDiscount: "",
+        img: item.featuredAsset.preview ? item.featuredAsset.preview : "default.png"
+      };
+    });
+
+    this.ProductList = formattedProducts;
+    console.log("Update product list:", this.ProductList);
+
+    this.initProductData();
+  }
+});

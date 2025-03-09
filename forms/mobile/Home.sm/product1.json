@@ -6,10 +6,6 @@
         "type": "string",
         "value": "380dp"
     },
-    "_left_": {
-        "type": "string",
-        "value": "89dp"
-    },
     "_margin_": [
         0,
         0,
@@ -23,7 +19,7 @@
         0
     ],
     "_skin_": "se7c23e3ff1a47c4a81fcf01c33ce421",
-    "_src_": "https://www.riteaid.com/shop/media/wysiwyg/Frame_1_53.png",
+    "_src_": "product_1.png",
     "_top_": {
         "type": "string",
         "value": "20dp"
@@ -44,7 +40,7 @@
     "invokedProperty": "src",
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "gbd1940a90b840b8a2875a587749870c",
+    "kuid": "e1d42705f0034c0da9a7612f53ca8a09",
     "name": "kony.ui.Image2",
     "parent": "contentScroll",
     "pf": "Home",

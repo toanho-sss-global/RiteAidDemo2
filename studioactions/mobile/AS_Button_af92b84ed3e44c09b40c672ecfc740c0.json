@@ -17,8 +17,8 @@
         "actions": [{
             "id": "INVOKE_FUNCTION__b6305c54814048e08fae0c366f5467b7",
             "type": "INVOKE_FUNCTION",
-            "sequenceKUID": "isLogin",
-            "display": "isLogin",
+            "sequenceKUID": "LoginApi",
+            "display": "LoginApi",
             "inputparams": [],
             "parentId": null,
             "callbackType": null,

@@ -38,12 +38,8 @@
     },
     "canUpdateUI": true,
     "children": [
-        "ImgBanner",
-        "SearchBox",
-        "ListBoxFeature",
-        "ListBoxPage",
-        "ProductSimple",
-        "ContentProductEmpty"
+        "HeaderBar",
+        "Content"
     ],
     "containerweight": 100,
     "controllerInfo": {
@@ -61,6 +57,7 @@
     "enabledforidletimeout": false,
     "id": "ProductList",
     "ide_init": "AS_Form_f8c2751bca3b4d3e9d55942876fc74cb",
+    "ide_preShow": "AS_Form_f6bedc297a8f4ced9496c9d769c6a595",
     "info": null,
     "initdone": false,
     "inputaccessoryviewtype": 4,

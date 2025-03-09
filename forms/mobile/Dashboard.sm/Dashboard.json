@@ -18,7 +18,7 @@
     "_pxMenuIndex": [
         0,
         1,
-        1
+        3
     ],
     "_skin_": "sfbe0b910dfe4363bf286a9d2ada7748",
     "_title_": null,
@@ -38,9 +38,8 @@
     },
     "canUpdateUI": true,
     "children": [
-        "lblTitle",
-        "FlexContainer1",
-        "FlexContainer2"
+        "HeaderBar",
+        "contentScroll"
     ],
     "containerweight": 100,
     "controllerInfo": {

@@ -5,6 +5,10 @@
         "type": "string",
         "value": "30dp"
     },
+    "_left_": {
+        "type": "string",
+        "value": "308dp"
+    },
     "_margin_": [
         6,
         6,
@@ -17,33 +21,30 @@
         0,
         0
     ],
-    "_right_": {
-        "type": "string",
-        "value": "0"
-    },
-    "_skin_": "s0e74233b850456fa43086593daab2f7",
-    "_text_": "",
+    "_skin_": "s2b3c0b7f7264e29974dc5de79ac92d5",
+    "_text_": "Cancel",
     "_top_": {
         "type": "string",
-        "value": "10dp"
+        "value": "341dp"
     },
     "_width_": {
         "type": "string",
-        "value": "30dp"
+        "value": "100dp"
     },
     "canUpdateUI": true,
     "containerweight": 100,
     "contentalignment": 5,
     "displaytext": true,
     "focusskin": "s0cb3935f71f4e6b89e0a314561f183d",
-    "id": "cartHeaderButton",
+    "id": "CancelBtn",
+    "ide_onClick": "AS_Button_b18c9e749d9d489d8206a1a8e742e304",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "e582c9c5149e42dd8f735a163672ad38",
+    "kuid": "b02e2cdcde9f4e31ae785babdb935545",
     "name": "kony.ui.Button",
-    "parent": "cartHeaderGroup",
-    "pf": "userwidgetmodel",
+    "parent": "MapContainer",
+    "pf": "CheckoutShippingMethod",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "wType": "Button",

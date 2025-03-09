@@ -2,7 +2,7 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "100%"
+        "value": "810dp"
     },
     "_left_": {
         "type": "string",
@@ -23,10 +23,6 @@
     ],
     "_percent_": true,
     "_skin_": "se5a411e10b34ab38b20e3c01a1e9819",
-    "_top_": {
-        "type": "string",
-        "value": "0dp"
-    },
     "_width_": {
         "type": "string",
         "value": "100%"
@@ -38,11 +34,12 @@
     "canUpdateUI": true,
     "children": [
         "Segment0a85a0f0f28a548",
-        "headerImage",
+        "bannerImg",
         "product1",
         "product2",
         "product3",
-        "product4"
+        "product4",
+        "FooterDemo"
     ],
     "clipbounds": false,
     "containerweight": 100,

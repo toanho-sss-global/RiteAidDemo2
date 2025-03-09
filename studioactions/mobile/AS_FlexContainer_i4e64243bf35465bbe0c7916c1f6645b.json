@@ -1,0 +1,29 @@
+{
+    "AS_FlexContainer_i4e64243bf35465bbe0c7916c1f6645b": {
+        "id": "AS_FlexContainer_i4e64243bf35465bbe0c7916c1f6645b",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "CheckoutShippingMethod",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b17f76394c484295b64c306ec564fc4f"
+        },
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__gb0ef9483fab4bf382f24c4d809f92a8",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "stopPropagation",
+            "display": "stopPropagation",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

@@ -1,0 +1,130 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "70%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "sc409f5c89364447a5ddc050b41c3aca",
+    "_top_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "areflexpropsreferenced": false,
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "map1": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "ib3c8d55a8914470b22dcdc613ab4c6d",
+                "srcKUID": "u7c69cd9133f41ff847c4248ac009849",
+                "wType": "FlexContainer"
+            },
+            "autogrowMode": {
+                "Default": 0
+            },
+            "centerX": {
+                "Default": {
+                    "type": "string",
+                    "value": "50%"
+                }
+            },
+            "centerY": {
+                "Default": {
+                    "type": "string",
+                    "value": ""
+                }
+            },
+            "height": {
+                "Default": {
+                    "type": "string",
+                    "value": "70%"
+                }
+            },
+            "left": {
+                "Default": {
+                    "type": "string",
+                    "value": "10dp"
+                }
+            },
+            "top": {
+                "Default": {
+                    "type": "string",
+                    "value": "10dp"
+                }
+            },
+            "width": {
+                "Default": {
+                    "type": "string",
+                    "value": "90%"
+                }
+            }
+        },
+        "mapLocations": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "h7927bd355a44b7fb22d99ad21697c34",
+                "srcKUID": "u92e24918149403d9e3ec203def52fa2",
+                "wType": "Map"
+            },
+            "centerX": {
+                "Default": {
+                    "type": "string",
+                    "value": ""
+                }
+            },
+            "left": {
+                "Default": {
+                    "type": "string",
+                    "value": "0%"
+                }
+            }
+        }
+    },
+    "enablescrolling": true,
+    "id": "map1",
+    "info": null,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kuid": "ib3c8d55a8914470b22dcdc613ab4c6d",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "MapContainer",
+    "pf": "CheckoutShippingMethod",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "u7c69cd9133f41ff847c4248ac009849",
+    "wType": "UserWidgetInstance"
+}

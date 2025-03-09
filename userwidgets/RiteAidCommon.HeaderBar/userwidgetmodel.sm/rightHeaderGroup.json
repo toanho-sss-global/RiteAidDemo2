@@ -36,7 +36,7 @@
     "canUpdateUI": true,
     "children": [
         "cartHeaderGroup",
-        "userHeader"
+        "userHeaderImg"
     ],
     "clipbounds": false,
     "containerweight": 100,

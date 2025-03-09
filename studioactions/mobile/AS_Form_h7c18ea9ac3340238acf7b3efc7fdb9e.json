@@ -1,0 +1,39 @@
+{
+    "AS_Form_h7c18ea9ac3340238acf7b3efc7fdb9e": {
+        "id": "AS_Form_h7c18ea9ac3340238acf7b3efc7fdb9e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "CheckoutShippingMethod",
+            "type": "forms",
+            "platform": null,
+            "KUID": "b17f76394c484295b64c306ec564fc4f"
+        },
+        "language": "js",
+        "eventType": "init",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__jd5d0d62879749a39b7040cf8a6976b2",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "updateProgressBar",
+            "display": "updateProgressBar",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }, {
+            "id": "INVOKE_FUNCTION__jed307a3f3834feebd0f576b0d2fe726",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "getOrderSummaryData",
+            "display": "getOrderSummaryData",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

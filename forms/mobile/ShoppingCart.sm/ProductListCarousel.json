@@ -42,49 +42,9 @@
         "ProductCarousel": {
             "__events__": {},
             "__info__": {
-                "kuid": "c84963abbe3f4bfdabc854b6e63c75aa",
-                "srcKUID": "u3c3a9b14aa64e9fbc6174cba6c1373e",
+                "kuid": "h800f316dedb43c0bed8fd327f567663",
+                "srcKUID": "u7782daa1c06493b9153826b739a02a3",
                 "wType": "Segment"
-            },
-            "autogrowMode": {
-                "Default": 0
-            },
-            "data": {
-                "mobile": [
-                    {
-                        "CarouselPoductUnitQuantity": {
-                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                            "text": "",
-                            "type": "Label"
-                        },
-                        "CarouselProductImg": {
-                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                            "src": "",
-                            "type": "Image"
-                        },
-                        "CarouselProductMade": {
-                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                            "text": "",
-                            "type": "Label"
-                        },
-                        "CarouselProductName": {
-                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                            "text": "",
-                            "type": "Label"
-                        },
-                        "CarouselProductPrice": {
-                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                            "text": "",
-                            "type": "Label"
-                        }
-                    }
-                ]
-            },
-            "height": {
-                "Default": {
-                    "type": "string",
-                    "value": "100%"
-                }
             }
         },
         "ProductListCarousel": {

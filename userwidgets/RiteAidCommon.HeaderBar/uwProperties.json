@@ -11,9 +11,28 @@
                 {
                     "access": "Enable",
                     "group": "General",
-                    "kuid": "c255f8d3002b40299fff89cb9b58cba3",
+                    "kuid": "dcc256abd73f41a3abdd6e42ae4e52ea",
                     "originalPropertyKey": "onClick",
-                    "propertyIndex": 2,
+                    "propertyIndex": 7,
+                    "propertyKey": "onCartClicked",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onCartClicked",
+                        "srcWidget": "cartHeaderGroup",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "b0b43c8f71f0486b9f6dd9d269ebc041",
+                    "translateAtInstance": false
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "j694d18c4bc6436ea6024f645cf13b61",
+                    "originalPropertyKey": "onTouchStart",
+                    "propertyIndex": 8,
                     "propertyKey": "onMenuClicked",
                     "pw": {
                         "access": "readwrite",
@@ -22,85 +41,47 @@
                         "srcWidget": "menu",
                         "type": "action",
                         "uiRepresentation": "Label-Label-Button-Button",
-                        "wType": "Button"
+                        "wType": "Image"
                     },
-                    "srcWgtKUID": "d2f1e58c6b19429db1e1569393da5e93",
+                    "srcWgtKUID": "jeec49f4f1af422694cacfd34bc132ab",
                     "translateAtInstance": false
                 },
                 {
                     "access": "Enable",
                     "group": "General",
-                    "kuid": "h5277b0319ea44379632f4ab61dec110",
-                    "originalPropertyKey": "onClick",
-                    "propertyIndex": 3,
-                    "propertyKey": "onRiteAidLogoClicked",
+                    "kuid": "c1f866751e424d0fa5882fd4d3b0580a",
+                    "originalPropertyKey": "onTouchStart",
+                    "propertyIndex": 9,
+                    "propertyKey": "onLogoClicked",
                     "pw": {
                         "access": "readwrite",
                         "category": "action",
-                        "displayName": "onRiteAidLogoClicked",
+                        "displayName": "onLogoClicked",
                         "srcWidget": "logo",
                         "type": "action",
                         "uiRepresentation": "Label-Label-Button-Button",
-                        "wType": "Button"
+                        "wType": "Image"
                     },
-                    "srcWgtKUID": "a3523d089f6b4a8aa6d095413ca9d918",
+                    "srcWgtKUID": "b30e8cff55f54d98becdf63e346ab32c",
                     "translateAtInstance": false
                 },
                 {
                     "access": "Enable",
                     "group": "General",
-                    "kuid": "a6151a3e1b2a4877a4204ca524b58347",
-                    "originalPropertyKey": "onClick",
-                    "propertyIndex": 4,
-                    "propertyKey": "onLogo2Clicked",
-                    "pw": {
-                        "access": "readwrite",
-                        "category": "action",
-                        "displayName": "onLogo2Clicked",
-                        "srcWidget": "logo2",
-                        "type": "action",
-                        "uiRepresentation": "Label-Label-Button-Button",
-                        "wType": "Button"
-                    },
-                    "srcWgtKUID": "bca3d101c97f48449dbb87167fe2e2b5",
-                    "translateAtInstance": false
-                },
-                {
-                    "access": "Enable",
-                    "group": "General",
-                    "kuid": "a3bc0dd832fc4c1b9897ecb79ddc68d4",
-                    "originalPropertyKey": "onClick",
-                    "propertyIndex": 5,
-                    "propertyKey": "onCartClicked",
-                    "pw": {
-                        "access": "readwrite",
-                        "category": "action",
-                        "displayName": "onCartClicked",
-                        "srcWidget": "cartHeaderButton",
-                        "type": "action",
-                        "uiRepresentation": "Label-Label-Button-Button",
-                        "wType": "Button"
-                    },
-                    "srcWgtKUID": "e582c9c5149e42dd8f735a163672ad38",
-                    "translateAtInstance": false
-                },
-                {
-                    "access": "Enable",
-                    "group": "General",
-                    "kuid": "dd9bdd4ddd814febb5e47f21f4e4ccb4",
-                    "originalPropertyKey": "onClick",
-                    "propertyIndex": 6,
+                    "kuid": "cdf39007e3914a90bbef4b42000d6a92",
+                    "originalPropertyKey": "onTouchStart",
+                    "propertyIndex": 10,
                     "propertyKey": "onUserClicked",
                     "pw": {
                         "access": "readwrite",
                         "category": "action",
                         "displayName": "onUserClicked",
-                        "srcWidget": "userHeader",
+                        "srcWidget": "userHeaderImg",
                         "type": "action",
                         "uiRepresentation": "Label-Label-Button-Button",
-                        "wType": "Button"
+                        "wType": "Image"
                     },
-                    "srcWgtKUID": "f28cded645ac449cb5033b561e67695c",
+                    "srcWgtKUID": "c569c6f938b24487b37d1586428d3fc4",
                     "translateAtInstance": false
                 }
             ]

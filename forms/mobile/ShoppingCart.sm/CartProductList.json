@@ -1,0 +1,106 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "200dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "1dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "sf48100605194ec0875e6d192d50891d",
+    "_top_": {
+        "type": "string",
+        "value": "120dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "areflexpropsreferenced": false,
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50.28%"
+    },
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "CartProductList": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "f37282a12bc141869093eb9457fc25da",
+                "srcKUID": "u96e8efed3fc4d858abe4cf21b82b2b4",
+                "wType": "FlexContainer"
+            },
+            "autogrowMode": {
+                "Default": 0
+            },
+            "centerX": {
+                "Default": {
+                    "type": "string",
+                    "value": "50.28%"
+                }
+            },
+            "height": {
+                "Default": {
+                    "type": "string",
+                    "value": "200dp"
+                }
+            },
+            "left": {
+                "Default": {
+                    "type": "string",
+                    "value": "1dp"
+                }
+            },
+            "top": {
+                "Default": {
+                    "type": "string",
+                    "value": "120dp"
+                }
+            }
+        },
+        "ProductList": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "h583c2bb2c0e42d7a39300071ae7496c",
+                "srcKUID": "u4bf1e55098b4211be1f84dc378ab325",
+                "wType": "Segment"
+            }
+        }
+    },
+    "enablescrolling": true,
+    "id": "CartProductList",
+    "info": null,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kuid": "f37282a12bc141869093eb9457fc25da",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "ShoppingCart",
+    "pf": "ShoppingCart",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "u96e8efed3fc4d858abe4cf21b82b2b4",
+    "wType": "UserWidgetInstance"
+}

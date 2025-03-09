@@ -3,7 +3,11 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "30dp"
+        "value": "40dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "201dp"
     },
     "_margin_": [
         6,
@@ -17,33 +21,30 @@
         0,
         0
     ],
-    "_right_": {
-        "type": "string",
-        "value": "5dp"
-    },
-    "_skin_": "saf138c6d6f4414bb606592b5624bb0a",
-    "_text_": "",
+    "_skin_": "s9b7bc9b5ca84a1ca4b3ddebd45e3f47",
+    "_text_": "No",
     "_top_": {
         "type": "string",
-        "value": "10dp"
+        "value": "128dp"
     },
     "_width_": {
         "type": "string",
-        "value": "30dp"
+        "value": "90dp"
     },
     "canUpdateUI": true,
     "containerweight": 100,
     "contentalignment": 5,
     "displaytext": true,
     "focusskin": "s0cb3935f71f4e6b89e0a314561f183d",
-    "id": "userHeader",
+    "id": "NoBtn",
+    "ide_onClick": "AS_Button_f808072056b94c02b6e04e9bd93edbc6",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "f28cded645ac449cb5033b561e67695c",
+    "kuid": "i3920fc53d374591baa9a2b7cf7a706a",
     "name": "kony.ui.Button",
-    "parent": "rightHeaderGroup",
-    "pf": "userwidgetmodel",
+    "parent": "ShippingConfirmationCtn",
+    "pf": "CheckoutShippingMethod",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "wType": "Button",
