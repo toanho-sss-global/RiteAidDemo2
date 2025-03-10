@@ -34,24 +34,20 @@
         "value": "100%"
     },
     "canUpdateUI": true,
-    "centerx": {
-        "type": "string",
-        "value": "50%"
-    },
     "containerweight": 0,
     "data": {
-        "ide_onCartClicked": "AS_UWI_cd9fe1034e7f4f1d9d34beefff0ac45d",
-        "ide_onLogoClicked": "AS_UWI_b1bb7c8060914ef7b8185917144e3b80"
+        "ide_onCartClicked": "AS_UWI_a5893bce3ab949b4b4b3f3226a1f8a9d",
+        "ide_onLogoClicked": "AS_UWI_eb604f21791a44a0a26ff881a8e20804"
     },
     "id": "HeaderBar",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "g7b4ab78756141afa2debf02817c24e8",
+    "kuid": "ce3a350607664e4385792443fa6a4f8a",
     "masterType": 1,
     "name": "kony.ui.UserWidgetInstance",
-    "parent": "ProductList",
-    "pf": "ProductList",
+    "parent": "Dashboard",
+    "pf": "Dashboard",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,

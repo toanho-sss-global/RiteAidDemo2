@@ -34,14 +34,15 @@ define({
 
     if (this.validateLogin(email, password)) {
       var httpclient = new voltmx.net.HttpRequest();
-      httpclient.open(constants.HTTP_METHOD_POST, "https://vendure.demo.universalcommerce.io/shop-api");
+      httpclient.open(constants.HTTP_METHOD_POST, 
+                      "https://vendure.demo.universalcommerce.io/shop-api");
       httpclient.setRequestHeader("Content-Type", "application/json");
 
 
       var jsonStr2 = JSON.stringify({
-        "query": "mutation Login($email: String!, $password: String!) { login(username: $email, password: $password) { ... on CurrentUser { id identifier channels { id token } } ... on InvalidCredentialsError { errorCode message authenticationError } ... on NotVerifiedError { errorCode message } } }",
+        "query"    : "mutation Login($email: String!, $password: String!) { login(username: $email, password: $password) { ... on CurrentUser { id identifier channels { id token } } ... on InvalidCredentialsError { errorCode message authenticationError } ... on NotVerifiedError { errorCode message } } }",
         "variables": {
-          "email": email,
+          "email"   : email,
           "password": password
         }
       });
@@ -52,7 +53,7 @@ define({
 
           var response = JSON.parse(httpclient.response);
           var userData = response.data.login;
-          if (userData !== null) {
+          if (userData !== null && userData.identifier) {
             voltmx.store.setItem('userData', JSON.stringify(userData))
             var nav = new voltmx.mvc.Navigation("Home");
             nav.navigate();

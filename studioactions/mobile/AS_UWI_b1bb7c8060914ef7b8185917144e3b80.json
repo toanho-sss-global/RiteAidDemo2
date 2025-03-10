@@ -1,0 +1,30 @@
+{
+    "AS_UWI_b1bb7c8060914ef7b8185917144e3b80": {
+        "id": "AS_UWI_b1bb7c8060914ef7b8185917144e3b80",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "ProductList",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b79e93a47a8a42038218541a0de1b8ba"
+        },
+        "language": "js",
+        "eventType": "onLogoClicked",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__fd7caa4bb6a846448d667cd11df592b2",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "Home",
+            "formKUID": "fb6e88e7d7c94c68aa13478d43b174b5",
+            "projectName": "SampleRiteAid",
+            "mappings": {},
+            "mappingsOrder": [],
+            "enableMappingEditor": true,
+            "package": "",
+            "isCustomInput": false
+        }]
+    }
+}

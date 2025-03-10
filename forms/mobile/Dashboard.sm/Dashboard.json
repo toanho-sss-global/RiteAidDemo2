@@ -38,9 +38,8 @@
     },
     "canUpdateUI": true,
     "children": [
-        "lblTitle",
-        "FlexContainer1",
-        "FlexContainer2"
+        "HeaderBar",
+        "contentScroll"
     ],
     "containerweight": 100,
     "controllerInfo": {
@@ -104,7 +103,7 @@
         "needAppMenu": false
     },
     "kuid": "c2417149800147c59e6f865367cba828",
-    "layouttype": 2,
+    "layouttype": 4,
     "name": "kony.ui.Form2",
     "needappmenu": false,
     "paddinginpixel": false,

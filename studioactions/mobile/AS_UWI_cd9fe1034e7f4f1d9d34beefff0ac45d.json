@@ -1,0 +1,30 @@
+{
+    "AS_UWI_cd9fe1034e7f4f1d9d34beefff0ac45d": {
+        "id": "AS_UWI_cd9fe1034e7f4f1d9d34beefff0ac45d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "ProductList",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b79e93a47a8a42038218541a0de1b8ba"
+        },
+        "language": "js",
+        "eventType": "onCartClicked",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__d5a75bdcc4914c538bd5ce4f9c8c9bb1",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "ShoppingCart",
+            "formKUID": "c6939cf809d44ca982d87fb479d42f13",
+            "projectName": "SampleRiteAid",
+            "mappings": {},
+            "mappingsOrder": [],
+            "enableMappingEditor": true,
+            "package": "",
+            "isCustomInput": false
+        }]
+    }
+}
