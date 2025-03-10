@@ -62,7 +62,7 @@
         "value": "121"
     },
     "name": "kony.ui.FlexContainer",
-    "parent": "contentScroll",
+    "parent": "Dashboard",
     "pf": "Dashboard",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
