@@ -2,12 +2,10 @@
     "AS_Form_c8b711fcac4b4f44b6bc6665c15ef520": {
         "id": "AS_Form_c8b711fcac4b4f44b6bc6665c15ef520",
         "type": "ACTION_SEQUENCE",
-        "params": [
-            {
-                "datatype": "collection",
-                "name": "eventobject"
-            }
-        ],
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
         "contextObj": {
             "name": "CheckoutSuccessful",
             "type": "forms",
@@ -16,18 +14,16 @@
         },
         "language": "js",
         "eventType": "init",
-        "actions": [
-            {
-                "id": "INVOKE_FUNCTION__d3f76a09388c4333a1ecf6c4dac38ee3",
-                "type": "INVOKE_FUNCTION",
-                "sequenceKUID": "updateProgressBar",
-                "display": "updateProgressBar",
-                "inputparams": [],
-                "parentId": null,
-                "callbackType": null,
-                "disabled": null,
-                "source": "controller"
-            }
-        ]
+        "actions": [{
+            "id": "INVOKE_FUNCTION__d3f76a09388c4333a1ecf6c4dac38ee3",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "updateProgressBar",
+            "display": "updateProgressBar",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
     }
 }

@@ -57,7 +57,7 @@
     "isvisible": true,
     "kuid": "dc76e3210236494081451773cfe5b5c5",
     "name": "kony.ui.Label",
-    "parent": "Dashboard",
+    "parent": "contentScroll",
     "pf": "Dashboard",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

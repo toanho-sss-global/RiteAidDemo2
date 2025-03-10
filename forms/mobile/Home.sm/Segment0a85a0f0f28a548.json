@@ -110,13 +110,7 @@
     "groupcells": false,
     "hasSections": false,
     "id": "Segment0a85a0f0f28a548",
-    "ide_onReachingBeginning": "AS_Segment_bd9b7958c2f94e129c9a315931721178",
-    "ide_onReachingEnd": "AS_Segment_f77deb876e3d469fbd7eb58f02dadc02",
     "ide_onRowClick": "AS_Segment_i8992e512edf470ab88e6aa3bad20d0d",
-    "ide_onSwipe": "AS_Segment_c82f9244d2534f1c84678242c7e8ef3d",
-    "ide_onTouchEnd": "AS_Segment_a57abff4e45f4a25b22e88cd065ac200",
-    "ide_onTouchMove": "AS_Segment_cd5d6316d00c464d881ccaf22252d0e5",
-    "ide_onTouchStart": "AS_Segment_b87c12c6bc5849499d52fbb0f2a7ba98",
     "info": null,
     "invokedProperty": "pageOnDotImage",
     "ipad": {
