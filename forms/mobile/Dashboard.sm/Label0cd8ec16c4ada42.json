@@ -2,8 +2,12 @@
     "@class": "com.kony.gen.viz.model.component.KVizLabel",
     "DNDConfig": null,
     "_height_": {
-        "type": "ref",
-        "value": "preferred"
+        "type": "string",
+        "value": "1dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "44dp"
     },
     "_margin_": [
         1,
@@ -17,11 +21,11 @@
         0,
         0
     ],
-    "_skin_": "s7ee4cf85a3f4c66bfb0fb6efa198442",
-    "_text_": "Automatically sconvert Reward Points to BonusCash every 1,000 points.",
+    "_skin_": "s12e858193b84cf19c3643497967bec7",
+    "_text_": "",
     "_top_": {
         "type": "string",
-        "value": "50%"
+        "value": "67%"
     },
     "_width_": {
         "type": "string",
@@ -40,8 +44,8 @@
         "value": "50%"
     },
     "containerweight": 100,
-    "contentalignment": 5,
-    "id": "Label0ib05ea7b27d845",
+    "contentalignment": 4,
+    "id": "Label0cd8ec16c4ada42",
     "info": null,
     "ipad": {
         "psp": {
@@ -55,7 +59,7 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "fa4cff5142e64c0094c100231ce6c185",
+    "kuid": "b214be5be0774302ad04427465489587",
     "name": "kony.ui.Label",
     "parent": "FlexContainer0ec0403d4e6fd41",
     "pf": "Dashboard",
@@ -64,5 +68,5 @@
     "textstyle": {},
     "tooltip": "",
     "wType": "Label",
-    "zindex": 20
+    "zindex": 1
 }

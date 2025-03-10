@@ -1,0 +1,251 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "9dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s6bb327b4bee4638bdddb042200d9250",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "1096px"
+    },
+    "areflexpropsreferenced": false,
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "clipbounds": false,
+    "containerweight": 0,
+    "dataDiffs": {
+        "CircleLabel1": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f62fde8a7f6d4647b12451d7c38ba0f3",
+                "srcKUID": "u631fc7efe554d4299436b454992c5ee",
+                "wType": "Label"
+            }
+        },
+        "CircleLabel2": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "c2946c0d9f0e49dfbd7e7b0eecbe1b8f",
+                "srcKUID": "uacfd9fe1a01436bb9341e785e55ff6a",
+                "wType": "Label"
+            }
+        },
+        "CircleLabel3": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f99bc3924bc8496285df3ce1d094a93b",
+                "srcKUID": "ue274e4fb09345cc96e383b9564edcbd",
+                "wType": "Label"
+            }
+        },
+        "CircleLabel4": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "fbd78c0348034400b47358a9c5997002",
+                "srcKUID": "u24413b6dfde4deaabb97b6285cecf47",
+                "wType": "Label"
+            }
+        },
+        "ProgressBar": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "faae888afd344deeb8a791a93ef8c524",
+                "srcKUID": "ud4d6c3984cd4e1aae5e91772cffff1e",
+                "wType": "FlexContainer"
+            },
+            "autogrowMode": {
+                "Default": 1
+            },
+            "centerX": {
+                "Default": {
+                    "type": "string",
+                    "value": "50%"
+                }
+            },
+            "height": {
+                "Default": {
+                    "type": "ref",
+                    "value": "preferred"
+                }
+            }
+        },
+        "ProgressBarAddressLabel": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "d5bea5c149544af2b7b49ee0504da509",
+                "srcKUID": "ue950b7766cf4cfdb2e5867a7e991c48",
+                "wType": "Label"
+            }
+        },
+        "ProgressBarCircle1": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "jfc76dc04d8c478398824210bf24a878",
+                "srcKUID": "uc632545a1e149729cd8adc9e6d13025",
+                "wType": "FlexContainer"
+            }
+        },
+        "ProgressBarCircle2": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "dd96ca171ce740f5944ecdb9a139b0fa",
+                "srcKUID": "ucc6f35199714928bc752f76518992af",
+                "wType": "FlexContainer"
+            }
+        },
+        "ProgressBarCircle3": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a6fd8a0d6ed24dd9884bc78c8e8116c3",
+                "srcKUID": "u4f317cb362b4fe08806a6c5a22d63c3",
+                "wType": "FlexContainer"
+            }
+        },
+        "ProgressBarCircle4": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b40d7446a5634715a8e1bc1e61e4117a",
+                "srcKUID": "u43f2acbe89d44e59359630586f2165d",
+                "wType": "FlexContainer"
+            }
+        },
+        "ProgressBarLeft1": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a91ef6c37cdf4f3484535619c165bd39",
+                "srcKUID": "ue9f0ed3b9454018ba0ca9dec50a3c31",
+                "wType": "FlexContainer"
+            }
+        },
+        "ProgressBarLeft2": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "h0a52be57c7e4a10a106cc0977dfe6aa",
+                "srcKUID": "u08f647ce684425fb90339c0f2f7408b",
+                "wType": "FlexContainer"
+            }
+        },
+        "ProgressBarLeft3": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ed7c6ee5f6c34fa08433fbb6daac68af",
+                "srcKUID": "u532cc35c7694465a196b9adaffff5a7",
+                "wType": "FlexContainer"
+            }
+        },
+        "ProgressBarLeft4": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f06e489e4bef43119049e13117cf10fc",
+                "srcKUID": "ub6d495862cb43fa86f732770e83eead",
+                "wType": "FlexContainer"
+            }
+        },
+        "ProgressBarPaymentLabel": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e09937d8d89d4806ae0a4e02052a6a52",
+                "srcKUID": "u9fa07eda8ab4cdead401cbd26dab6d7",
+                "wType": "Label"
+            }
+        },
+        "ProgressBarReviewLabel": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "h420b356e06b4b1d9d25a84267d06519",
+                "srcKUID": "u8e9bb52a6034d5086e2608fa5876f9f",
+                "wType": "Label"
+            }
+        },
+        "ProgressBarRight1": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "d9e57db5a2c84dc5823ea5c3e4af38c4",
+                "srcKUID": "u2f9d14d442e4c178029a39c677ce9e5",
+                "wType": "FlexContainer"
+            }
+        },
+        "ProgressBarRight2": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "bd5bc34de6ca4738a736d6cec47fecf9",
+                "srcKUID": "ufcba80ffe0846bea67832ac1b919913",
+                "wType": "FlexContainer"
+            }
+        },
+        "ProgressBarRight3": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e2541b254af9429fa822739f685eb6e0",
+                "srcKUID": "u4b0c151de984deda5c5cd9aaf94c97e",
+                "wType": "FlexContainer"
+            }
+        },
+        "ProgressBarRight4": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "c7c6a98abb4d48fd8f6dd19b353ce4b0",
+                "srcKUID": "u87ba7161e5d4044b0b678ec9e1edd58",
+                "wType": "FlexContainer"
+            }
+        },
+        "ProgressBarShippingLabel": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "c3d52ab761e94152b00227b3883a1570",
+                "srcKUID": "ucd1c13295a94ce79fd58d358180db72",
+                "wType": "Label"
+            }
+        }
+    },
+    "enablescrolling": true,
+    "id": "ProgressBar",
+    "info": null,
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kuid": "faae888afd344deeb8a791a93ef8c524",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "CheckoutSuccessful",
+    "pf": "CheckoutSuccessful",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "ud4d6c3984cd4e1aae5e91772cffff1e",
+    "wType": "UserWidgetInstance",
+    "zindex": 1
+}

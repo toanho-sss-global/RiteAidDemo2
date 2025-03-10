@@ -1,8 +1,12 @@
 {
     "DNDConfig": null,
+    "_blur_": {
+        "enabled": false,
+        "value": 0
+    },
     "_height_": {
         "type": "string",
-        "value": "100%"
+        "value": "400dp"
     },
     "_left_": {
         "type": "string",
@@ -22,49 +26,53 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "se5a411e10b34ab38b20e3c01a1e9819",
+    "_skin_": "see272690fba4db8a1eba41e0aae40bd",
     "_top_": {
         "type": "string",
-        "value": "50dp"
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "90%"
     },
     "allboxes": [],
-    "allowhorizontalbounce": false,
-    "allowverticalbounce": true,
-    "bounces": true,
+    "autogrowmode": 0,
     "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
     "children": [
-        "lblTitle",
-        "FlexContainer1",
-        "FlexContainer2"
+        "imgSuccess",
+        "lblPaymentSuccess",
+        "lblThanks",
+        "btnGoBack"
     ],
     "clipbounds": false,
     "containerweight": 100,
-    "decelerat": false,
-    "dragg": false,
     "enablescrolling": true,
-    "horizontalscrollindicator": true,
-    "id": "contentScroll",
+    "id": "Payment",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "i54987a4f81d4234a8db716fb51fd7b1",
+    "kuid": "ue6c2732e1a648249c5ca71aa1885fd1",
     "layouttype": 2,
-    "name": "kony.ui.FlexScrollContainer",
-    "pagingenabled": false,
-    "parent": "Dashboard",
-    "pf": "Dashboard",
+    "name": "kony.ui.FlexContainer",
+    "parent": "userwidgetmodel",
+    "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
-    "scrolldirection": 2,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "track": false,
-    "verticalscrollindicator": true,
-    "wType": "FlexScrollContainer",
-    "widgetalignment": 1
+    "vizProps": {
+        "hidewidgethierarchy": false
+    },
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 1
 }

@@ -2,7 +2,7 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "94%"
+        "value": "80.61%"
     },
     "_left_": {
         "type": "string",
@@ -46,7 +46,13 @@
         "btn4",
         "bnt5",
         "btn6",
-        "Label0ib05ea7b27d845"
+        "Label0ee459474a6034d",
+        "Label0cd8ec16c4ada42",
+        "Label0jdd9156ce45c4b",
+        "Label0cd49f2f02e2f4a",
+        "Label0g6a0bd59fe0d47",
+        "Label0aa96162f28cd46",
+        "Label0gd94f14c27e54a"
     ],
     "clipbounds": false,
     "containerweight": 100,

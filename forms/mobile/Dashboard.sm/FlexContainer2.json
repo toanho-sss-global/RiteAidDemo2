@@ -29,7 +29,7 @@
     "_skin_": "s251a1ca609244bbbeba1092b8882c95",
     "_top_": {
         "type": "string",
-        "value": "32%"
+        "value": "31.99%"
     },
     "_width_": {
         "type": "string",
@@ -51,7 +51,7 @@
     "kuid": "gfb55bfff39241bdb4c8a9544e74149c",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "contentScroll",
+    "parent": "Dashboard",
     "pf": "Dashboard",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
