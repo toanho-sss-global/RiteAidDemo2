@@ -44,4 +44,20 @@ define({
       this.view.OrderSummary.OrderSummaryItemList.setData(parsedCartData);
     }
   },
+  preinputInfo: function () {
+    this.view.CheckoutFirstNameInput.text = "Jane";
+    this.view.CheckoutLastNameInput.text = "Doe";
+    this.view.CheckoutCompanyInput.text = "ZaiTen Inc.";
+    this.view.CheckoutAddressInput.text = "123 Main St";
+    this.view.CheckoutAddressDetailInput.text = "Apt 4B";
+    this.view.CheckoutZipCodeInput.text = "10001";
+    this.view.CheckoutCityInput.text = "New York";
+    this.view.CheckoutStateInput.text = "NY";
+    this.view.CheckoutEmailInput.text = "jane.doe@example.com";
+    this.view.CheckoutPhoneInput.text = "+1 555-123-4567";
+    this.view.CheckoutCountryCodeInput.text = "US";
+}
+
+
+  
 });
