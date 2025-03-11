@@ -1,0 +1,96 @@
+{
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "500dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "14dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "sd65f4c167b945fa84971e30f5ceb593",
+    "_top_": {
+        "type": "string",
+        "value": "70dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50.00%"
+    },
+    "children": [
+        "PaymentDetailLabel",
+        "PayPalRadioBtn",
+        "ApplePayRadioBtn",
+        "GooglePayRadioBtn",
+        "HSARadioBtn",
+        "FSARadioBtn",
+        "LoyaltyPtnRadioBtn",
+        "AfterPayRadioBtn",
+        "CreditDebitRadioBtn",
+        "PayPalImg",
+        "ApplePayImg",
+        "GooglePayImg",
+        "ClearPayImg",
+        "VisaImg",
+        "ApplePayLabel",
+        "GooglePayLabel",
+        "HSALabel",
+        "FSALLabel",
+        "LoyaltyPointLabel",
+        "AfterPayLabel",
+        "MasterCardImg",
+        "AmexImg",
+        "CreditDebitLabel",
+        "ApplePayDynamicCheckoutCtn",
+        "GooglePayDynamicCheckoutCtn",
+        "HSADynamicCheckoutCtn",
+        "FSADynamicCheckoutCtn",
+        "PayPalDynamicCheckoutCtn",
+        "LoyaltyPointCheckoutCtn"
+    ],
+    "clipbounds": false,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "PaymentDetailContainer",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "ga056e0c03c94ff5bae2535c6af09149",
+    "layouttype": 2,
+    "minheight": {
+        "type": "string",
+        "value": "550dp"
+    },
+    "name": "kony.ui.FlexContainer",
+    "parent": "SelectPaymentMethodContainer",
+    "pf": "CheckoutPaymentMethod",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 1
+}

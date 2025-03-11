@@ -35,6 +35,7 @@
     },
     "containerweight": 100,
     "id": "userHeaderImg",
+    "ide_onTouchStart": "AS_Image_c8154b247778489bae1213639a65f0e3",
     "imagescalemode": 1,
     "info": null,
     "iscustomlayout": false,

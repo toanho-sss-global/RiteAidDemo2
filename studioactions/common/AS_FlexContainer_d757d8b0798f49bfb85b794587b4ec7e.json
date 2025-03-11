@@ -1,0 +1,19 @@
+{
+    "AS_FlexContainer_d757d8b0798f49bfb85b794587b4ec7e": {
+        "id": "AS_FlexContainer_d757d8b0798f49bfb85b794587b4ec7e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "language": "js",
+        "eventType": "onTouchStart",
+        "actions": []
+    }
+}

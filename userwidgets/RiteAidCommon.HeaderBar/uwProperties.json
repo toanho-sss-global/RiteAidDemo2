@@ -11,7 +11,7 @@
                 {
                     "access": "Enable",
                     "group": "General",
-                    "kuid": "dcc256abd73f41a3abdd6e42ae4e52ea",
+                    "kuid": "bf01c75e586d407e9baaddea5ff24ae5",
                     "originalPropertyKey": "onClick",
                     "propertyIndex": 7,
                     "propertyKey": "onCartClicked",
@@ -30,7 +30,7 @@
                 {
                     "access": "Enable",
                     "group": "General",
-                    "kuid": "j694d18c4bc6436ea6024f645cf13b61",
+                    "kuid": "e1d11fc1f7584a18b9e220805f42fb8a",
                     "originalPropertyKey": "onTouchStart",
                     "propertyIndex": 8,
                     "propertyKey": "onMenuClicked",
@@ -49,7 +49,7 @@
                 {
                     "access": "Enable",
                     "group": "General",
-                    "kuid": "c1f866751e424d0fa5882fd4d3b0580a",
+                    "kuid": "d757466d9d9d43d1982cc119d59a827a",
                     "originalPropertyKey": "onTouchStart",
                     "propertyIndex": 9,
                     "propertyKey": "onLogoClicked",
@@ -63,25 +63,6 @@
                         "wType": "Image"
                     },
                     "srcWgtKUID": "b30e8cff55f54d98becdf63e346ab32c",
-                    "translateAtInstance": false
-                },
-                {
-                    "access": "Enable",
-                    "group": "General",
-                    "kuid": "cdf39007e3914a90bbef4b42000d6a92",
-                    "originalPropertyKey": "onTouchStart",
-                    "propertyIndex": 10,
-                    "propertyKey": "onUserClicked",
-                    "pw": {
-                        "access": "readwrite",
-                        "category": "action",
-                        "displayName": "onUserClicked",
-                        "srcWidget": "userHeaderImg",
-                        "type": "action",
-                        "uiRepresentation": "Label-Label-Button-Button",
-                        "wType": "Image"
-                    },
-                    "srcWgtKUID": "c569c6f938b24487b37d1586428d3fc4",
                     "translateAtInstance": false
                 }
             ]

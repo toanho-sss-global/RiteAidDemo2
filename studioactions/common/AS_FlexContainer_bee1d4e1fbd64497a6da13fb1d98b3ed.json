@@ -1,0 +1,28 @@
+{
+    "AS_FlexContainer_bee1d4e1fbd64497a6da13fb1d98b3ed": {
+        "id": "AS_FlexContainer_bee1d4e1fbd64497a6da13fb1d98b3ed",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "userwidgetmodel",
+            "type": "userwidgets",
+            "KUID": "u15c3823c3e446b4bf645966e8e23c71"
+        },
+        "language": "js",
+        "eventType": "preShow",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__jcd2c51a48ca48f4a18cf428a212c11d",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "getCartBadgeCount",
+            "display": "getCartBadgeCount",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

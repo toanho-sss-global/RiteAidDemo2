@@ -36,7 +36,8 @@
     "canUpdateUI": true,
     "children": [
         "leftHeaderGroup",
-        "rightHeaderGroup"
+        "rightHeaderGroup",
+        "ListInformation"
     ],
     "clipbounds": false,
     "containerweight": 100,

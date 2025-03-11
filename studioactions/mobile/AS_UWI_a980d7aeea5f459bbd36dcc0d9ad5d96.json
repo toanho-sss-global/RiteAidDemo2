@@ -14,16 +14,6 @@
         },
         "language": "js",
         "eventType": "onUserClicked",
-        "actions": [{
-            "id": "INVOKE_FUNCTION__f1bfb477e26946c6aac0ccbf8f6870b4",
-            "type": "INVOKE_FUNCTION",
-            "sequenceKUID": "handleMoveOnUserClicked",
-            "display": "handleMoveOnUserClicked",
-            "inputparams": [],
-            "parentId": null,
-            "callbackType": null,
-            "disabled": null,
-            "source": "controller"
-        }]
+        "actions": []
     }
 }

@@ -39,10 +39,7 @@
         "value": "50%"
     },
     "containerweight": 0,
-    "data": {
-        "ide_onCartClicked": "AS_UWI_cd9fe1034e7f4f1d9d34beefff0ac45d",
-        "ide_onLogoClicked": "AS_UWI_b1bb7c8060914ef7b8185917144e3b80"
-    },
+    "data": {},
     "id": "HeaderBar",
     "info": null,
     "iscustomlayout": false,

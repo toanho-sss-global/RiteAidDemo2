@@ -1,0 +1,27 @@
+{
+    "AS_FlexContainer_e892f004f0af44e8979740a15b0b7bc1": {
+        "id": "AS_FlexContainer_e892f004f0af44e8979740a15b0b7bc1",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "userwidgets",
+            "KUID": "ubae35ea08aa4a128176532db17a5645"
+        },
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__h49d97cff01e4cbf9c2f3ec275c61c87",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "Logout",
+            "display": "Logout",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

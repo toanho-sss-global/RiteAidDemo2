@@ -38,8 +38,8 @@
     },
     "canUpdateUI": true,
     "children": [
-        "HeaderBar",
-        "Content"
+        "Content",
+        "HeaderBar"
     ],
     "containerweight": 100,
     "controllerInfo": {

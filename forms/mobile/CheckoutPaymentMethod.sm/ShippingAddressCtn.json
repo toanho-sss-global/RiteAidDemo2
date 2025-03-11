@@ -1,0 +1,74 @@
+{
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "507dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "3dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s0dff385fddf4da4920d9b13b9f12ed2",
+    "_top_": {
+        "type": "string",
+        "value": "778dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50.11%"
+    },
+    "children": [
+        "CheckoutFirstNameInput2",
+        "CheckoutLastNameInput2",
+        "CheckoutAddressLine1Shipping",
+        "CheckoutAddressLine2Shipping",
+        "CheckoutCityInput2",
+        "CheckoutRegionInput2",
+        "CheckoutPostalCodeInput2",
+        "CheckoutMobileInput2",
+        "CheckoutEmailInput2",
+        "BillingAddress2",
+        "CheckoutCountryDropList2"
+    ],
+    "clipbounds": false,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "ShippingAddressCtn",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": false,
+    "kuid": "e341011ca57d4cf3bfdf2eb4d1c1f3f2",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "CreditCardInfoCtn",
+    "pf": "CheckoutPaymentMethod",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 1
+}

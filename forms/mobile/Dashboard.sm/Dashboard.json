@@ -38,8 +38,8 @@
     },
     "canUpdateUI": true,
     "children": [
-        "HeaderBar",
-        "contentScroll"
+        "contentScroll",
+        "HeaderBar"
     ],
     "containerweight": 100,
     "controllerInfo": {
@@ -103,7 +103,7 @@
         "needAppMenu": false
     },
     "kuid": "c2417149800147c59e6f865367cba828",
-    "layouttype": 4,
+    "layouttype": 2,
     "name": "kony.ui.Form2",
     "needappmenu": false,
     "paddinginpixel": false,

@@ -1,0 +1,33 @@
+{
+    "AS_CheckBoxGroup_h0221158e1b647b2bcd0965b0d8e6a9c": {
+        "id": "AS_CheckBoxGroup_h0221158e1b647b2bcd0965b0d8e6a9c",
+        "type": "ACTION_SEQUENCE",
+        "params": [
+            {
+                "datatype": "collection",
+                "name": "eventobject"
+            }
+        ],
+        "contextObj": {
+            "name": "CheckoutPaymentMethod",
+            "type": "forms",
+            "platform": "",
+            "KUID": "eae0974787e143e8acb5bb70f9da40ab"
+        },
+        "language": "js",
+        "eventType": "onSelection",
+        "actions": [
+            {
+                "id": "INVOKE_FUNCTION__a653cfc1af4f4dd69fce14309f4c6bd9",
+                "type": "INVOKE_FUNCTION",
+                "sequenceKUID": "toggleCreditCardShippingAddress",
+                "display": "toggleCreditCardShippingAddress",
+                "inputparams": [],
+                "parentId": null,
+                "callbackType": null,
+                "disabled": null,
+                "source": "controller"
+            }
+        ]
+    }
+}
