@@ -1,0 +1,37 @@
+{
+    "AS_TextField_ff451d57fae6471dbd1d36eaa42b3627": {
+        "id": "AS_TextField_ff451d57fae6471dbd1d36eaa42b3627",
+        "type": "ACTION_SEQUENCE",
+        "params": [
+            {
+                "datatype": "collection",
+                "name": "eventobject"
+            },
+            {
+                "datatype": "string",
+                "name": "changedtext"
+            }
+        ],
+        "contextObj": {
+            "name": "CheckoutAddress",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a0f2ba1a2db44238ae888c9c0e565544"
+        },
+        "language": "js",
+        "eventType": "onTextChange",
+        "actions": [
+            {
+                "id": "INVOKE_FUNCTION__ef9fbba4812a4d1883fb61fae3b13ef8",
+                "type": "INVOKE_FUNCTION",
+                "sequenceKUID": "fullNameConverter",
+                "display": "fullNameConverter",
+                "inputparams": [],
+                "parentId": null,
+                "callbackType": null,
+                "disabled": null,
+                "source": "controller"
+            }
+        ]
+    }
+}

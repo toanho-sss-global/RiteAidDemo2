@@ -1,0 +1,379 @@
+{
+    "AS_Button_d5c3c02c89114186938390f92a67a154": {
+        "id": "AS_Button_d5c3c02c89114186938390f92a67a154",
+        "type": "ACTION_SEQUENCE",
+        "params": [
+            {
+                "datatype": "collection",
+                "name": "eventobject"
+            }
+        ],
+        "contextObj": {
+            "name": "CheckoutAddress",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a0f2ba1a2db44238ae888c9c0e565544"
+        },
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [
+            {
+                "id": "NAVIGATE_TO_FORM__e8f06412c8f24303b88c296528a8d377",
+                "type": "NAVIGATE_TO_FORM",
+                "formId": "CheckoutShippingMethod",
+                "formKUID": "b17f76394c484295b64c306ec564fc4f",
+                "projectName": "RiteAidDemo2",
+                "mappings": {},
+                "mappingsOrder": [],
+                "parentId": "INVOKE_SERVICE_b4e7b0a3d7b5482cb90ae42ca828867a",
+                "callbackType": "Callback",
+                "enableMappingEditor": true,
+                "package": "",
+                "isCustomInput": false
+            },
+            {
+                "id": "INVOKE_FUNCTION__e898d43def92497e972243f617c46ea6",
+                "type": "INVOKE_FUNCTION",
+                "sequenceKUID": "validateAddressInput",
+                "display": "validateAddressInput",
+                "inputparams": [],
+                "parentId": null,
+                "callbackType": null,
+                "disabled": null,
+                "source": "controller"
+            },
+            {
+                "id": "INVOKE_SERVICE_b4e7b0a3d7b5482cb90ae42ca828867a",
+                "type": "INVOKE_ASYNC_SERVICE",
+                "inputparams": null,
+                "httpheaders": [
+                    {
+                        "name": "FullName",
+                        "value": ""
+                    },
+                    {
+                        "name": "",
+                        "value": ""
+                    },
+                    {
+                        "name": "",
+                        "value": ""
+                    }
+                ],
+                "httpconfigs": null,
+                "isasynchronous": true,
+                "mappings": {
+                    "ME_Mapping_j38d0a525baa42349273558a75949a16": {
+                        "channel": "mobile",
+                        "id": "ME_Mapping_j38d0a525baa42349273558a75949a16",
+                        "type": "MAPPING",
+                        "callbackType": null,
+                        "rectified": true,
+                        "source": {
+                            "type": "Forms",
+                            "propertyName": "text",
+                            "widgetId": "FullNameConverter",
+                            "widgetPath": "this.view.FullNameConverter",
+                            "widgetType": "Label",
+                            "dataType": "string",
+                            "itemId": "CheckoutAddress",
+                            "widgetKUID": "c257556154c04255836aff01b20c8d0f",
+                            "itemKUID": "a0f2ba1a2db44238ae888c9c0e565544",
+                            "forkedPlatform": "all"
+                        },
+                        "target": {
+                            "type": "Services",
+                            "propertyName": "fullName",
+                            "dataType": "string",
+                            "forkedPlatform": "all",
+                            "serviceconfig": {
+                                "servicename": "VendureApis",
+                                "serviceid": "93764da3-5c68-4a7b-a6db-ccf3009ee27a",
+                                "type": "integration",
+                                "operationname": "SetShippingAddress",
+                                "operationid": "551774"
+                            }
+                        }
+                    },
+                    "ME_Mapping_ib3f995026174118874b41db1110f047": {
+                        "channel": "mobile",
+                        "id": "ME_Mapping_ib3f995026174118874b41db1110f047",
+                        "type": "MAPPING",
+                        "callbackType": null,
+                        "rectified": true,
+                        "source": {
+                            "type": "Forms",
+                            "propertyName": "text",
+                            "widgetId": "CheckoutCompanyInput",
+                            "widgetPath": "this.view.CheckoutCompanyInput",
+                            "widgetType": "TextField",
+                            "dataType": "string",
+                            "itemId": "CheckoutAddress",
+                            "widgetKUID": "g7e46c1506d547c68f34a0d644bdac2c",
+                            "itemKUID": "a0f2ba1a2db44238ae888c9c0e565544",
+                            "forkedPlatform": "all"
+                        },
+                        "target": {
+                            "type": "Services",
+                            "propertyName": "company",
+                            "dataType": "string",
+                            "forkedPlatform": "all",
+                            "serviceconfig": {
+                                "servicename": "VendureApis",
+                                "serviceid": "93764da3-5c68-4a7b-a6db-ccf3009ee27a",
+                                "type": "integration",
+                                "operationname": "SetShippingAddress",
+                                "operationid": "551774"
+                            }
+                        }
+                    },
+                    "ME_Mapping_b0614fcce0934f419e10bcf5389f60e3": {
+                        "channel": "mobile",
+                        "id": "ME_Mapping_b0614fcce0934f419e10bcf5389f60e3",
+                        "type": "MAPPING",
+                        "callbackType": null,
+                        "rectified": true,
+                        "source": {
+                            "type": "Forms",
+                            "propertyName": "text",
+                            "widgetId": "CheckoutAddressInput",
+                            "widgetPath": "this.view.CheckoutAddressInput",
+                            "widgetType": "TextField",
+                            "dataType": "string",
+                            "itemId": "CheckoutAddress",
+                            "widgetKUID": "g89ca000f5c44a639d8caca658526808",
+                            "itemKUID": "a0f2ba1a2db44238ae888c9c0e565544",
+                            "forkedPlatform": "all"
+                        },
+                        "target": {
+                            "type": "Services",
+                            "propertyName": "streetLine1",
+                            "dataType": "string",
+                            "forkedPlatform": "all",
+                            "serviceconfig": {
+                                "servicename": "VendureApis",
+                                "serviceid": "93764da3-5c68-4a7b-a6db-ccf3009ee27a",
+                                "type": "integration",
+                                "operationname": "SetShippingAddress",
+                                "operationid": "551774"
+                            }
+                        }
+                    },
+                    "ME_Mapping_gf33c4d5180c416aa2e16fabeaa551b3": {
+                        "channel": "mobile",
+                        "id": "ME_Mapping_gf33c4d5180c416aa2e16fabeaa551b3",
+                        "type": "MAPPING",
+                        "callbackType": null,
+                        "rectified": true,
+                        "source": {
+                            "type": "Forms",
+                            "propertyName": "text",
+                            "widgetId": "CheckoutAddressDetailInput",
+                            "widgetPath": "this.view.CheckoutAddressDetailInput",
+                            "widgetType": "TextField",
+                            "dataType": "string",
+                            "itemId": "CheckoutAddress",
+                            "widgetKUID": "j8e12b2de5e74266b4cb6119933bdeb5",
+                            "itemKUID": "a0f2ba1a2db44238ae888c9c0e565544",
+                            "forkedPlatform": "all"
+                        },
+                        "target": {
+                            "type": "Services",
+                            "propertyName": "streetLine2",
+                            "dataType": "string",
+                            "forkedPlatform": "all",
+                            "serviceconfig": {
+                                "servicename": "VendureApis",
+                                "serviceid": "93764da3-5c68-4a7b-a6db-ccf3009ee27a",
+                                "type": "integration",
+                                "operationname": "SetShippingAddress",
+                                "operationid": "551774"
+                            }
+                        }
+                    },
+                    "ME_Mapping_h6e0029f93c04a7290d4f73babdadbd7": {
+                        "channel": "mobile",
+                        "id": "ME_Mapping_h6e0029f93c04a7290d4f73babdadbd7",
+                        "type": "MAPPING",
+                        "callbackType": null,
+                        "rectified": true,
+                        "source": {
+                            "type": "Forms",
+                            "propertyName": "text",
+                            "widgetId": "CheckoutCityInput",
+                            "widgetPath": "this.view.CheckoutCityInput",
+                            "widgetType": "TextField",
+                            "dataType": "string",
+                            "itemId": "CheckoutAddress",
+                            "widgetKUID": "cef304f060a24dce87b2d271edbac36f",
+                            "itemKUID": "a0f2ba1a2db44238ae888c9c0e565544",
+                            "forkedPlatform": "all"
+                        },
+                        "target": {
+                            "type": "Services",
+                            "propertyName": "city",
+                            "dataType": "string",
+                            "forkedPlatform": "all",
+                            "serviceconfig": {
+                                "servicename": "VendureApis",
+                                "serviceid": "93764da3-5c68-4a7b-a6db-ccf3009ee27a",
+                                "type": "integration",
+                                "operationname": "SetShippingAddress",
+                                "operationid": "551774"
+                            }
+                        }
+                    },
+                    "ME_Mapping_d66212f8dc4b4ce5a7070ef720de60fa": {
+                        "channel": "mobile",
+                        "id": "ME_Mapping_d66212f8dc4b4ce5a7070ef720de60fa",
+                        "type": "MAPPING",
+                        "callbackType": null,
+                        "rectified": true,
+                        "source": {
+                            "type": "Forms",
+                            "propertyName": "text",
+                            "widgetId": "CheckoutStateInput",
+                            "widgetPath": "this.view.CheckoutStateInput",
+                            "widgetType": "TextField",
+                            "dataType": "string",
+                            "itemId": "CheckoutAddress",
+                            "widgetKUID": "j4b6e72728894c59b1dc16e676424f2a",
+                            "itemKUID": "a0f2ba1a2db44238ae888c9c0e565544",
+                            "forkedPlatform": "all"
+                        },
+                        "target": {
+                            "type": "Services",
+                            "propertyName": "province",
+                            "dataType": "string",
+                            "forkedPlatform": "all",
+                            "serviceconfig": {
+                                "servicename": "VendureApis",
+                                "serviceid": "93764da3-5c68-4a7b-a6db-ccf3009ee27a",
+                                "type": "integration",
+                                "operationname": "SetShippingAddress",
+                                "operationid": "551774"
+                            }
+                        }
+                    },
+                    "ME_Mapping_j3822dd7efb9434fb02cae5bb2bc9a57": {
+                        "channel": "mobile",
+                        "id": "ME_Mapping_j3822dd7efb9434fb02cae5bb2bc9a57",
+                        "type": "MAPPING",
+                        "callbackType": null,
+                        "rectified": true,
+                        "source": {
+                            "type": "Forms",
+                            "propertyName": "text",
+                            "widgetId": "CheckoutPhoneInput",
+                            "widgetPath": "this.view.CheckoutPhoneInput",
+                            "widgetType": "TextField",
+                            "dataType": "string",
+                            "itemId": "CheckoutAddress",
+                            "widgetKUID": "a77064908aba4cf5aea8a3d0643bd9d2",
+                            "itemKUID": "a0f2ba1a2db44238ae888c9c0e565544",
+                            "forkedPlatform": "all"
+                        },
+                        "target": {
+                            "type": "Services",
+                            "propertyName": "phoneNumber",
+                            "dataType": "string",
+                            "forkedPlatform": "all",
+                            "serviceconfig": {
+                                "servicename": "VendureApis",
+                                "serviceid": "93764da3-5c68-4a7b-a6db-ccf3009ee27a",
+                                "type": "integration",
+                                "operationname": "SetShippingAddress",
+                                "operationid": "551774"
+                            }
+                        }
+                    },
+                    "ME_Mapping_c69a6d625aa64339abe2759466c6ac14": {
+                        "channel": "mobile",
+                        "id": "ME_Mapping_c69a6d625aa64339abe2759466c6ac14",
+                        "type": "MAPPING",
+                        "callbackType": null,
+                        "rectified": true,
+                        "source": {
+                            "type": "Forms",
+                            "propertyName": "text",
+                            "widgetId": "CheckoutCountryCodeInput",
+                            "widgetPath": "this.view.CheckoutCountryCodeInput",
+                            "widgetType": "TextField",
+                            "dataType": "string",
+                            "itemId": "CheckoutAddress",
+                            "widgetKUID": "f8e9af7942284e6a9494198722362a3b",
+                            "itemKUID": "a0f2ba1a2db44238ae888c9c0e565544",
+                            "forkedPlatform": "all"
+                        },
+                        "target": {
+                            "type": "Services",
+                            "propertyName": "countryCode",
+                            "dataType": "string",
+                            "forkedPlatform": "all",
+                            "serviceconfig": {
+                                "servicename": "VendureApis",
+                                "serviceid": "93764da3-5c68-4a7b-a6db-ccf3009ee27a",
+                                "type": "integration",
+                                "operationname": "SetShippingAddress",
+                                "operationid": "551774"
+                            }
+                        }
+                    },
+                    "ME_Mapping_f8f0e871a7dc42ab99aa1fe6a1b18ea4": {
+                        "channel": "mobile",
+                        "id": "ME_Mapping_f8f0e871a7dc42ab99aa1fe6a1b18ea4",
+                        "type": "MAPPING",
+                        "callbackType": null,
+                        "rectified": true,
+                        "source": {
+                            "type": "Forms",
+                            "propertyName": "text",
+                            "widgetId": "CheckoutZipCodeInput",
+                            "widgetPath": "this.view.CheckoutZipCodeInput",
+                            "widgetType": "TextField",
+                            "dataType": "string",
+                            "itemId": "CheckoutAddress",
+                            "widgetKUID": "b247865e5f564c49b6da04e3952ee985",
+                            "itemKUID": "a0f2ba1a2db44238ae888c9c0e565544",
+                            "forkedPlatform": "all"
+                        },
+                        "target": {
+                            "type": "Services",
+                            "propertyName": "postalCode",
+                            "dataType": "string",
+                            "forkedPlatform": "all",
+                            "serviceconfig": {
+                                "servicename": "VendureApis",
+                                "serviceid": "93764da3-5c68-4a7b-a6db-ccf3009ee27a",
+                                "type": "integration",
+                                "operationname": "SetShippingAddress",
+                                "operationid": "551774"
+                            }
+                        }
+                    }
+                },
+                "mappingsOrder": [
+                    "ME_Mapping_j38d0a525baa42349273558a75949a16",
+                    "ME_Mapping_ib3f995026174118874b41db1110f047",
+                    "ME_Mapping_b0614fcce0934f419e10bcf5389f60e3",
+                    "ME_Mapping_gf33c4d5180c416aa2e16fabeaa551b3",
+                    "ME_Mapping_h6e0029f93c04a7290d4f73babdadbd7",
+                    "ME_Mapping_d66212f8dc4b4ce5a7070ef720de60fa",
+                    "ME_Mapping_j3822dd7efb9434fb02cae5bb2bc9a57",
+                    "ME_Mapping_c69a6d625aa64339abe2759466c6ac14",
+                    "ME_Mapping_f8f0e871a7dc42ab99aa1fe6a1b18ea4"
+                ],
+                "serviceconfig": {
+                    "servicename": "VendureApis",
+                    "serviceid": "93764da3-5c68-4a7b-a6db-ccf3009ee27a",
+                    "type": "integration",
+                    "operationname": "SetShippingAddress",
+                    "operationid": "551774"
+                },
+                "parentId": null,
+                "callbackType": null,
+                "enableMappingEditor": true
+            }
+        ]
+    }
+}
