@@ -1,0 +1,24 @@
+{
+    "AS_FlexContainer_ed364f6324dc497aad7d13904197e6b9": {
+        "id": "AS_FlexContainer_ed364f6324dc497aad7d13904197e6b9",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "CheckoutShippingMethod",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b17f76394c484295b64c306ec564fc4f"
+        },
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "ADD_SNIPPET_ee7904de23e64dedabed663aa2ea3aaf",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.ShippingConfirmationDImScreen.isVisible = false;",
+            "parentId": null
+        }]
+    }
+}

@@ -2,12 +2,10 @@
     "AS_RadioButtonGroup_e17a38cc903c4f9997b4a0526b9de7d7": {
         "id": "AS_RadioButtonGroup_e17a38cc903c4f9997b4a0526b9de7d7",
         "type": "ACTION_SEQUENCE",
-        "params": [
-            {
-                "datatype": "collection",
-                "name": "eventobject"
-            }
-        ],
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
         "contextObj": {
             "name": "CheckoutPaymentMethod",
             "type": "forms",
@@ -16,23 +14,19 @@
         },
         "language": "js",
         "eventType": "onSelection",
-        "actions": [
-            {
-                "id": "INVOKE_FUNCTION__c3ec580d404c476aa9d19fb12b71183a",
-                "type": "INVOKE_FUNCTION",
-                "sequenceKUID": "selectRadio",
-                "display": "selectRadio",
-                "inputparams": [
-                    {
-                        "name": "widget",
-                        "value": " eventobject"
-                    }
-                ],
-                "parentId": null,
-                "callbackType": null,
-                "disabled": null,
-                "source": "controller"
-            }
-        ]
+        "actions": [{
+            "id": "INVOKE_FUNCTION__c3ec580d404c476aa9d19fb12b71183a",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "selectRadio",
+            "display": "selectRadio",
+            "inputparams": [{
+                "name": "widget",
+                "value": " eventobject"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
     }
 }

@@ -65,7 +65,7 @@
     "isvisible": true,
     "kuid": "uc46b6cfc0ee48d6a9f76f09508380c0",
     "name": "kony.ui.Label",
-    "parent": "ProgessBarCircle3",
+    "parent": "ProgressBarCircle3",
     "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

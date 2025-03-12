@@ -45,6 +45,7 @@
     "containerweight": 100,
     "enablescrolling": true,
     "id": "CheckoutPayBtn",
+    "ide_onClick": "AS_FlexContainer_b355d8d8b91e4c1e8a1c9b301988ca66",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,

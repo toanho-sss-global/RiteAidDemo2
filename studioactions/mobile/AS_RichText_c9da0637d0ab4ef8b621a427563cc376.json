@@ -1,0 +1,35 @@
+{
+    "AS_RichText_c9da0637d0ab4ef8b621a427563cc376": {
+        "id": "AS_RichText_c9da0637d0ab4ef8b621a427563cc376",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "linktext"
+        }, {
+            "datatype": "string",
+            "name": "attributes"
+        }],
+        "contextObj": {
+            "KUID": "a3b68c6cbe914e898939d8278fbe1885",
+            "name": "ProductDetails",
+            "platform": "",
+            "type": "forms"
+        },
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ef3bfaec24b04881b7eea2f98c868913",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "toggleFavorite",
+            "display": "toggleFavorite",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

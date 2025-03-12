@@ -1,0 +1,60 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizRichText",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "20dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s50b0bf55fed44e6987e719bdd3aecf4",
+    "_text_": "Average Rating: 4.5/5 stars\n    Total Reviews: 1,247\n    \n    Top Review:\n    \"Great results after 3 months of use. My nails are stronger and my hair feels healthier. Would definitely recommend!\" - Sarah M.\n    \n    Recent Review:\n    \"Easy to swallow and no aftertaste. Been using for a month and starting to see improvement.\" - John D.",
+    "_top_": {
+        "type": "string",
+        "value": "15dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "_wrapping_": 2,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 1,
+    "id": "ReviewsText",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "a132b8f9df7b4204a5b602704c025286",
+    "linkskin": "s68e041d2e2b483f8c137a7da84d41d4",
+    "name": "kony.ui.RichText",
+    "parent": "FlxReviewsText",
+    "pf": "ProductDetails",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "RichText",
+    "widgetalignment": 5,
+    "winphone8": {
+        "psp": {
+            "enableCache": false
+        }
+    }
+}

@@ -1,27 +1,5 @@
 define({  
-  CartProductList: [  
-    { lblDescription : "test", 
-     unitPrice      : 50,
-     DeleteIcon     : 'trashicon.png',
-     MinusIcon      : 'minusicon.png',
-     PlusIcon       : 'plusicon.png',
-     ProductQuantity: '1',
-     img            : 'cartproductimg.png' },
-    { lblDescription : "test",
-     unitPrice	     : 50, 
-     DeleteIcon     : 'trashicon.png',
-     MinusIcon      : 'minusicon.png',
-     PlusIcon       : 'plusicon.png', 
-     ProductQuantity: '1', 
-     img            : 'cartproductimg.png' }, 
-    { lblDescription : "test",
-     unitPrice      : 50,
-     DeleteIcon     : 'trashicon.png',
-     MinusIcon      : 'minusicon.png',
-     PlusIcon       : 'plusicon.png',
-     ProductQuantity: '1',
-     img            : 'cartproductimg.png' }
-  ],
+  CartProductList: [],
 
   CartCarouselProductList: [
     {
@@ -48,14 +26,14 @@ define({
 
   initProductData: function () {  
     var scope = this;
-
     var modifiedData = [];
+    
     for (var i = 0; i < this.CartProductList.length; i++) {
       var item = this.CartProductList[i];
 
       var newItem = {
         lblDescription : item.lblDescription,
-        lblCost        : "$" + item.unitPrice.toFixed(2),
+        lblCost        : "$" + ((item.unitPrice*item.ProductQuantity)/100).toFixed(2),
         unitPrice      : item.unitPrice, 
         DeleteIcon     : item.DeleteIcon,
         ProductQuantity: item.ProductQuantity,
@@ -95,6 +73,24 @@ define({
     voltmx.store.setItem("CartProductList", JSON.stringify(mappedData));
     this.calculateTotal();
   },
+  
+  handleCartProducts: function () {
+    var itemCart = voltmx.store.getItem("add_Item_To_Cart");
+    if (!itemCart) {
+        return;
+    }
+
+    try {
+        var itemCartJSON = JSON.parse(itemCart);
+		var flatArray = itemCartJSON.flat();
+		
+        this.CartProductList = flatArray;
+        console.log("Updated cart product list:", flatArray);
+
+    } catch (error) {
+        console.error("JSON Parsing Error:", error);
+    }
+},
 
   increaseQuantity: function(rowIndex) {
     var segmentData = this.view.CartProductList.ProductList.data;
@@ -102,7 +98,7 @@ define({
 
     segmentData[rowIndex].ProductQuantity = newQuantity.toString();
     segmentData[rowIndex].lblCost = "$"
-      + (segmentData[rowIndex].unitPrice * newQuantity).toFixed(2);
+      + ((segmentData[rowIndex].unitPrice * newQuantity)/100).toFixed(2);
 
     // Instead of setData(), use setDataAt() to update only the changed row
     this.view.CartProductList.ProductList.setDataAt(segmentData[rowIndex], rowIndex);
@@ -123,8 +119,6 @@ define({
   },
 
 
-
-
   decreaseQuantity: function(rowIndex) {
     var segmentData = this.view.CartProductList.ProductList.data;
     var currentQuantity = parseInt(segmentData[rowIndex].ProductQuantity, 10);
@@ -133,7 +127,7 @@ define({
       var newQuantity = currentQuantity - 1;
       segmentData[rowIndex].ProductQuantity = newQuantity.toString();
       segmentData[rowIndex].lblCost = "$"
-        + (segmentData[rowIndex].unitPrice * newQuantity).toFixed(2);
+        + ((segmentData[rowIndex].unitPrice * newQuantity)/100).toFixed(2);
 
       // Use setDataAt() to update only the modified row
       this.view.CartProductList.ProductList
@@ -169,7 +163,7 @@ define({
       totalPrice += quantity * unitPrice;
     }
     this.view.CheckoutAndPromoteContainer.
-    EstContainer.EstAmount.text = "$" + totalPrice.toFixed(2);
+    EstContainer.EstAmount.text = "$" + (totalPrice/100).toFixed(2);
   },
 
   navigateToCheckout: function () {
@@ -187,11 +181,59 @@ define({
     var finalTotalPrice = cartTotalPrice + taxAmount;
 
     // Store the updated total price
-    voltmx.store.setItem("CartTotalPrice", "$" + finalTotalPrice.toFixed(2));
+    voltmx.store.setItem("CartTotalPrice", "$" + (finalTotalPrice/100).toFixed(2));
 
     voltmx.store.setItem("CartItemQuantity",this.CartProductList.length);
     var navObj = new voltmx.mvc.Navigation("CheckoutAddress");
     navObj.navigate();
-  }
+  },
+  fetchGetOrders: function (orderId) {
+    var self = this;
+    console.log("Check fetchGetOrders: ", orderId);
+    var httpclient = new voltmx.net.HttpRequest();
+    httpclient.open(constants.HTTP_METHOD_POST, "https://vendure.demo.universalcommerce.io/shop-api");
+    httpclient.setRequestHeader("Content-Type", "application/json");
+    
+    var jsonStr2 = JSON.stringify({
+      "query": "query GetOrder($orderId: ID!) { order(id: $orderId) { id orderPlacedAt subTotalWithTax shippingWithTax totalWithTax currencyCode state payments { metadata } customFields { deliveryType } lines { id linePriceWithTax quantity productVariant { id name priceWithTax featuredAsset { preview } currencyCode } } shippingAddress { fullName phoneNumber streetLine1 streetLine2 city province postalCode countryCode country } billingAddress { fullName phoneNumber streetLine1 streetLine2 city province postalCode countryCode country } } }",
+      "variables": {
+          "orderId": orderId
+      }
+ });
+    httpclient.send(jsonStr2);
+    httpclient.onReadyStateChange = function () {
+        if (httpclient.readyState === 4 && httpclient.status === 200) {
+
+          var response = JSON.parse(httpclient.response);
+   			console.log("check response: ", response);
+//           self.handleProducts(response.data);
+        }
+      };
+  },
+  
+  handleOrderProducts: function (data) { 
+    if (!data 
+        || !data.order 
+        || !data.order.lines 
+        || !Array.isArray(data.order.lines)) {
+      return;
+    }
+
+    var formattedProducts = data.order.lines.map(item => {
+      return {
+         id: item.productVariant.id,
+         lblDescription : item.productVariant.name,
+         unitPrice      : item.linePriceWithTax, 
+         DeleteIcon     : 'trashicon.png',
+         MinusIcon      : 'minusicon.png',
+         PlusIcon       : 'plusicon.png', 
+         ProductQuantity: item.quantity,
+         img            : item.productVariant.featuredAsset.preview
+      };
+    });
+
+    this.CartProductList = formattedProducts;
+    console.log("Update order list:", this.CartProductList);
+  },
 
 });

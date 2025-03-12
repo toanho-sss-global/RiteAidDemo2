@@ -2,11 +2,11 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "50dp"
+        "value": "60dp"
     },
     "_left_": {
         "type": "string",
-        "value": "294dp"
+        "value": "-3dp"
     },
     "_margin_": [
         0,
@@ -22,38 +22,41 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s5e617d7ba3e4ad6b9d13d4e59537199",
+    "_skin_": "s79606db898944608a3b9eb86a8e707d",
     "_top_": {
         "type": "string",
-        "value": "5dp"
+        "value": "611dp"
     },
     "_width_": {
         "type": "string",
-        "value": "50dp"
+        "value": "100%"
     },
     "allboxes": [],
-    "autogrowmode": 0,
+    "android": {
+        "height": {
+            "type": "string",
+            "value": "45dp"
+        }
+    },
     "canUpdateUI": true,
     "children": [
-        "CircleLabel4"
+        "AddButton"
     ],
-    "clipbounds": false,
+    "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "ProgressBarCicle4",
+    "id": "FlxAddButton",
     "info": null,
-    "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "u148a42789bd4fb0a197aca5dab34190",
+    "kuid": "d2eeb0d982bd4fcbbacf05b415ed595c",
     "layouttype": 2,
+    "masterType": 1,
     "name": "kony.ui.FlexContainer",
-    "parent": "ProgressBar",
-    "pf": "userwidgetmodel",
-    "retaincontentalignment": false,
-    "retainflexpositionproperties": false,
-    "retainflowhorizontalalignment": false,
+    "parent": "FlxProductDetails",
+    "pf": "ProductDetails",
     "snapgridsize": 10,
     "snaptogrid": true,
+    "spa": {},
     "wType": "FlexContainer",
     "widgetalignment": 1,
     "zindex": 1

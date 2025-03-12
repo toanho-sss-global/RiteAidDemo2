@@ -1,0 +1,60 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizRichText",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "20dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s50b0bf55fed44e6987e719bdd3aecf4",
+    "_text_": "Take one softgel daily with water and a meal. \n    For best results, take at the same time each day. \n    Store in a cool, dry place out of direct sunlight. \n    Keep out of reach of children.",
+    "_top_": {
+        "type": "string",
+        "value": "15dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "_wrapping_": 2,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 1,
+    "id": "HowToUseText",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "da1b29fb1bf446c2851ec1ac8d4ba08e",
+    "linkskin": "s68e041d2e2b483f8c137a7da84d41d4",
+    "name": "kony.ui.RichText",
+    "parent": "FlxHowToUseText",
+    "pf": "ProductDetails",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "RichText",
+    "widgetalignment": 5,
+    "winphone8": {
+        "psp": {
+            "enableCache": false
+        }
+    }
+}

@@ -2,12 +2,10 @@
     "AS_Form_b854374401be4dce81eef98afbc6b284": {
         "id": "AS_Form_b854374401be4dce81eef98afbc6b284",
         "type": "ACTION_SEQUENCE",
-        "params": [
-            {
-                "datatype": "collection",
-                "name": "eventobject"
-            }
-        ],
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
         "contextObj": {
             "name": "CheckoutPaymentMethod",
             "type": "forms",
@@ -16,51 +14,46 @@
         },
         "language": "js",
         "eventType": "init",
-        "actions": [
-            {
-                "id": "INVOKE_FUNCTION__ef1dd3ce7660404c90f63ab62adfe5d1",
-                "type": "INVOKE_FUNCTION",
-                "sequenceKUID": "updateProgressBar",
-                "display": "updateProgressBar",
-                "inputparams": [],
-                "parentId": null,
-                "callbackType": null,
-                "disabled": null,
-                "source": "controller"
-            },
-            {
-                "id": "INVOKE_FUNCTION__d4703a5f04d349e19590811318890fd4",
-                "type": "INVOKE_FUNCTION",
-                "sequenceKUID": "getOrderSummaryData",
-                "display": "getOrderSummaryData",
-                "inputparams": [],
-                "parentId": null,
-                "callbackType": null,
-                "disabled": null,
-                "source": "controller"
-            },
-            {
-                "id": "INVOKE_FUNCTION__a9de7419a36f4e758c6fba85d03b2a71",
-                "type": "INVOKE_FUNCTION",
-                "sequenceKUID": "updateRadioButtons",
-                "display": "updateRadioButtons",
-                "inputparams": [],
-                "parentId": null,
-                "callbackType": null,
-                "disabled": null,
-                "source": "controller"
-            },
-            {
-                "id": "INVOKE_FUNCTION__b7ecffa8285c4e1dbf39eb20bda09104",
-                "type": "INVOKE_FUNCTION",
-                "sequenceKUID": "preinputInfo",
-                "display": "preinputInfo",
-                "inputparams": [],
-                "parentId": null,
-                "callbackType": null,
-                "disabled": null,
-                "source": "controller"
-            }
-        ]
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ef1dd3ce7660404c90f63ab62adfe5d1",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "updateProgressBar",
+            "display": "updateProgressBar",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }, {
+            "id": "INVOKE_FUNCTION__d4703a5f04d349e19590811318890fd4",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "getOrderSummaryData",
+            "display": "getOrderSummaryData",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }, {
+            "id": "INVOKE_FUNCTION__a9de7419a36f4e758c6fba85d03b2a71",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "updateRadioButtons",
+            "display": "updateRadioButtons",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }, {
+            "id": "INVOKE_FUNCTION__b7ecffa8285c4e1dbf39eb20bda09104",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "preinputInfo",
+            "display": "preinputInfo",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
     }
 }

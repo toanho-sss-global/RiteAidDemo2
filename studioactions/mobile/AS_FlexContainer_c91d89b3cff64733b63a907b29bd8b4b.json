@@ -1,0 +1,29 @@
+{
+    "AS_FlexContainer_c91d89b3cff64733b63a907b29bd8b4b": {
+        "id": "AS_FlexContainer_c91d89b3cff64733b63a907b29bd8b4b",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "CheckoutPaymentMethod",
+            "type": "forms",
+            "platform": "",
+            "KUID": "eae0974787e143e8acb5bb70f9da40ab"
+        },
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__fb57967d44784b2c83187f01dba72a29",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "BtnCallApi",
+            "display": "BtnCallApi",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

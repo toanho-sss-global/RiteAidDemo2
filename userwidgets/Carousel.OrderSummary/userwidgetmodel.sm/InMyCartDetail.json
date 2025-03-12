@@ -5,10 +5,6 @@
         "type": "ref",
         "value": "preferred"
     },
-    "_left_": {
-        "type": "string",
-        "value": "247dp"
-    },
     "_margin_": [
         1,
         1,
@@ -21,6 +17,10 @@
         0,
         0
     ],
+    "_right_": {
+        "type": "number",
+        "value": "10"
+    },
     "_skin_": "s4e3f542e967429780cb424c73319577",
     "_text_": "Details^",
     "_top_": {

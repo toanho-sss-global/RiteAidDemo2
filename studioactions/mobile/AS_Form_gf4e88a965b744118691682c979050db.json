@@ -1,0 +1,39 @@
+{
+    "AS_Form_gf4e88a965b744118691682c979050db": {
+        "id": "AS_Form_gf4e88a965b744118691682c979050db",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "ShoppingCart",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c6939cf809d44ca982d87fb479d42f13"
+        },
+        "language": "js",
+        "eventType": "preShow",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__eb2e66a638454a9f873742ffc1d4792c",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "handleCartProducts",
+            "display": "handleCartProducts",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }, {
+            "id": "INVOKE_FUNCTION__f429bdf18fb14ded9fbf3721f7bdbe31",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "initProductData",
+            "display": "initProductData",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

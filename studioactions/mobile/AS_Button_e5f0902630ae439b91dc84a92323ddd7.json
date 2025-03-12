@@ -1,0 +1,29 @@
+{
+    "AS_Button_e5f0902630ae439b91dc84a92323ddd7": {
+        "id": "AS_Button_e5f0902630ae439b91dc84a92323ddd7",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "CheckoutShippingMethod",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b17f76394c484295b64c306ec564fc4f"
+        },
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__c8fb140c8ada432eada600eb35b85bef",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "ApiShipingMethod",
+            "display": "ApiShipingMethod",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

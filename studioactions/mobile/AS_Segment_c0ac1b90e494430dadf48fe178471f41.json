@@ -1,0 +1,35 @@
+{
+    "AS_Segment_c0ac1b90e494430dadf48fe178471f41": {
+        "id": "AS_Segment_c0ac1b90e494430dadf48fe178471f41",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "KUID": "a3b68c6cbe914e898939d8278fbe1885",
+            "name": "ProductDetails",
+            "platform": "",
+            "type": "forms"
+        },
+        "language": "js",
+        "eventType": "onRowClick",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__b653da45c37944ccb5b3da83c0a422ee",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "updateProductIdGlobal",
+            "display": "updateProductIdGlobal",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

@@ -2,12 +2,10 @@
     "AS_FlexContainer_d6ddff66a8e043e0944b2005a2967bea": {
         "id": "AS_FlexContainer_d6ddff66a8e043e0944b2005a2967bea",
         "type": "ACTION_SEQUENCE",
-        "params": [
-            {
-                "datatype": "collection",
-                "name": "eventobject"
-            }
-        ],
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
         "contextObj": {
             "name": "CheckoutPaymentMethod",
             "type": "forms",
@@ -16,18 +14,16 @@
         },
         "language": "js",
         "eventType": "onClick",
-        "actions": [
-            {
-                "id": "INVOKE_FUNCTION__i25f62c13d5b42909045fbdf469c7146",
-                "type": "INVOKE_FUNCTION",
-                "sequenceKUID": "showCreditCardInfoInput",
-                "display": "showCreditCardInfoInput",
-                "inputparams": [],
-                "parentId": null,
-                "callbackType": null,
-                "disabled": null,
-                "source": "controller"
-            }
-        ]
+        "actions": [{
+            "id": "INVOKE_FUNCTION__i25f62c13d5b42909045fbdf469c7146",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "showCreditCardInfoInput",
+            "display": "showCreditCardInfoInput",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
     }
 }

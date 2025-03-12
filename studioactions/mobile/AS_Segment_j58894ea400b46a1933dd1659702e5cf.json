@@ -1,0 +1,30 @@
+{
+    "AS_Segment_j58894ea400b46a1933dd1659702e5cf": {
+        "id": "AS_Segment_j58894ea400b46a1933dd1659702e5cf",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "ProductList",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b79e93a47a8a42038218541a0de1b8ba"
+        },
+        "language": "js",
+        "eventType": "onRowClick",
+        "actions": [{
+            "id": "ADD_SNIPPET_bda54bd954684c33bc00b53d5228ce86",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var selectedRowData = self.view.ProductSimple.segTemp.selectedRowItems[0];\nconsole.log(\"Item Product 0 : \", selectedRowData);\nif (selectedRowData) {\n  product_Id = selectedRowData.id;\n  console.log(\"Item Product: \", product_Id);\n  voltmx.store.removeItem('product_Id');\n  voltmx.store.setItem('product_Id', JSON.stringify(product_Id));\n  console.log(\"Item Product 2: \", voltmx.store.getItem('product_Id'));\n  var ntf = new voltmx.mvc.Navigation(\"ProductDetails\");\n  ntf.navigate({\n    \"variable_product_Id\": product_Id,\n  });\n} else {\n  voltmx.print(\"Error: No row data found.\");\n}",
+            "parentId": null
+        }]
+    }
+}

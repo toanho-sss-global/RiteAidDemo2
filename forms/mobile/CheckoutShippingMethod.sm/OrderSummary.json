@@ -46,37 +46,24 @@
         "InMyCartCtn": {
             "__events__": {},
             "__info__": {
-                "kuid": "b0d18abe4cc84ddf9ed810ede4619d6a",
-                "srcKUID": "ua09a9427b4c4026aef5591c9efcd332",
+                "kuid": "e5bb8ee1e21749e99e5711f4815769f1",
+                "srcKUID": "u1c8c801ad1340dab89491856a2317e9",
                 "wType": "FlexContainer"
             }
         },
         "InMyCartDetail": {
             "__events__": {},
             "__info__": {
-                "kuid": "f7bd45bac1d64c6989ed62dac545b6e2",
-                "srcKUID": "u4e9ef4d3b38486790841dcf3b7c6c72",
+                "kuid": "g2bdb02be05547c2b0768524d139ee41",
+                "srcKUID": "uf77471a2b6f46e1b15960f1122b0c41",
                 "wType": "Label"
-            },
-            "left": {
-                "Default": {
-                    "type": "string",
-                    "value": "230dp"
-                }
-            },
-            "text": "Details^",
-            "top": {
-                "Default": {
-                    "type": "string",
-                    "value": "7dp"
-                }
             }
         },
         "InMyCartQuantity": {
             "__events__": {},
             "__info__": {
-                "kuid": "b40e06ecca46480ca70f7b6af474e87f",
-                "srcKUID": "ufc43360e4ba4ac497d22177805a0084",
+                "kuid": "c3209a0217394857ae45d3fa71d8130c",
+                "srcKUID": "u119a7226ab44b39becfecfd95130d98",
                 "wType": "Label"
             }
         },
@@ -104,52 +91,40 @@
         "OrderSummaryItemList": {
             "__events__": {},
             "__info__": {
-                "kuid": "j467347dce50464587f088ab24d54549",
-                "srcKUID": "u7b5272852494c49b3587ef0cb1ac8e7",
+                "kuid": "ee063400341941f1a7e285b777bb02c7",
+                "srcKUID": "u59b19d6e9794113b9cb0c660fd39619",
                 "wType": "Segment"
             }
         },
         "OrderSummaryLabel": {
             "__events__": {},
             "__info__": {
-                "kuid": "dc460526e4904b599497b0097bc174cf",
-                "srcKUID": "uc304e550c4e4084a9d84118e60527ef",
+                "kuid": "bab3512dd6a0464989d284ab29853535",
+                "srcKUID": "ucb7ef441f8f48b68cb02db7ff17c02f",
                 "wType": "Label"
             }
         },
         "OrderSummaryTotal": {
             "__events__": {},
             "__info__": {
-                "kuid": "ca1d1a1eba614246bfaad69f7d6e0476",
-                "srcKUID": "u0411997d3114b27b9fe2732a7f740c1",
+                "kuid": "h5c49823c1b24edb9a6e055cfa666584",
+                "srcKUID": "u0b73eedc5eb48d49fa5a4b24c8366a8",
                 "wType": "Label"
-            },
-            "left": {
-                "Default": {
-                    "type": "string",
-                    "value": "261dp"
-                }
-            },
-            "top": {
-                "Default": {
-                    "type": "string",
-                    "value": "79dp"
-                }
             }
         },
         "OrderSummaryTotalLabel": {
             "__events__": {},
             "__info__": {
-                "kuid": "f3aa77f3eebc4087a10b408c8f7718ff",
-                "srcKUID": "u9e4c2499c5b4dce83d95b18a381f05b",
+                "kuid": "ddd5d9595ec842158753152994de986a",
+                "srcKUID": "u2f5b2614f944e1388ac49e6099c13f5",
                 "wType": "Label"
             }
         },
         "ShipToAddressLabel": {
             "__events__": {},
             "__info__": {
-                "kuid": "a1e1f91f443a422b92c70687abc89a94",
-                "srcKUID": "u4549db78ee641d3818ecdabf7c92858",
+                "kuid": "c59795d6476748e38234cb3e827fa2d0",
+                "srcKUID": "ub3286ebd0b24007a0636f5474f5c291",
                 "wType": "Label"
             }
         }

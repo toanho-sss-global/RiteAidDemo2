@@ -5,10 +5,6 @@
         "type": "ref",
         "value": "preferred"
     },
-    "_left_": {
-        "type": "string",
-        "value": "298dp"
-    },
     "_margin_": [
         1,
         1,
@@ -21,6 +17,10 @@
         0,
         0
     ],
+    "_right_": {
+        "type": "string",
+        "value": "20dp"
+    },
     "_skin_": "s44b723a3d054026bef71a27c4fd9bc8",
     "_text_": "$8.19",
     "_top_": {
@@ -40,7 +40,7 @@
     },
     "canUpdateUI": true,
     "containerweight": 100,
-    "contentalignment": 4,
+    "contentalignment": 6,
     "id": "OrderSummaryTotal",
     "info": null,
     "ipad": {

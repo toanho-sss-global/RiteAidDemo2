@@ -1,0 +1,35 @@
+{
+    "AS_Label_ef8bd26273d8498790494841bd3eac23": {
+        "id": "AS_Label_ef8bd26273d8498790494841bd3eac23",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "CheckoutPaymentMethod",
+            "type": "forms",
+            "platform": "",
+            "KUID": "eae0974787e143e8acb5bb70f9da40ab"
+        },
+        "language": "js",
+        "eventType": "onTouchStart",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__abe664a1cf5e467db9ca97af46bb6217",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "hideCreditCardInfoInput",
+            "display": "hideCreditCardInfoInput",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}
