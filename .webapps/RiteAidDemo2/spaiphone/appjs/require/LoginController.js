@@ -23,8 +23,6 @@ define("userLoginController", {
     LoginApi: function() {
         var email = this.view.txtBoxEmail.text.trim();
         var password = this.view.txtBoxPassword.text.trim();
-        email = "danny@cnetric.com";
-        password = "12345678";
         if (this.validateLogin(email, password)) {
             var httpclient = new voltmx.net.HttpRequest();
             httpclient.open(constants.HTTP_METHOD_POST, "https://vendure.demo.universalcommerce.io/shop-api");
@@ -45,9 +43,7 @@ define("userLoginController", {
                     if (userData !== null && userData.identifier) {
                         voltmx.store.setItem('userData', JSON.stringify(userData));
                         localStorage.setItem("vendure-auth-token", responseHeader);
-                        //         
-                        //             var nav = new voltmx.mvc.Navigation("Home");
-                        var nav = new voltmx.mvc.Navigation("CheckoutShippingMethod");
+                        var nav = new voltmx.mvc.Navigation("Home");
                         nav.navigate();
                     } else if (response.errors) {
                         alert(response.errors[0].message);

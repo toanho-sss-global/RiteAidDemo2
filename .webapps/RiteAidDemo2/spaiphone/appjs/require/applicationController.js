@@ -122,14 +122,6 @@ define({
             "viewName": "CopyflxSeg2",
             "controllerName": "CopyflxSeg2Controller"
         });
-        voltmx.mvc.registry.add("Flex0f2795775352a48", {
-            "viewName": "Flex0f2795775352a48",
-            "controllerName": "Flex0f2795775352a48Controller"
-        });
-        voltmx.mvc.registry.add("FlxSeg", {
-            "viewName": "FlxSeg",
-            "controllerName": "FlxSegController"
-        });
         voltmx.mvc.registry.add("OrderSummaryItemListCtn", {
             "viewName": "OrderSummaryItemListCtn",
             "controllerName": "OrderSummaryItemListCtnController"
@@ -145,6 +137,14 @@ define({
         voltmx.mvc.registry.add("flxSectionHeaderTemplate", {
             "viewName": "flxSectionHeaderTemplate",
             "controllerName": "flxSectionHeaderTemplateController"
+        });
+        voltmx.mvc.registry.add("FlxSeg", {
+            "viewName": "FlxSeg",
+            "controllerName": "FlxSegController"
+        });
+        voltmx.mvc.registry.add("Flex0f2795775352a48", {
+            "viewName": "Flex0f2795775352a48",
+            "controllerName": "Flex0f2795775352a48Controller"
         });
         voltmx.mvc.registry.add("CheckoutAddress", {
             "viewName": "CheckoutAddress",

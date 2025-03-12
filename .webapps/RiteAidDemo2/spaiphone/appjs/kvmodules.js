@@ -122,14 +122,6 @@ define('applicationController',{
             "viewName": "CopyflxSeg2",
             "controllerName": "CopyflxSeg2Controller"
         });
-        voltmx.mvc.registry.add("Flex0f2795775352a48", {
-            "viewName": "Flex0f2795775352a48",
-            "controllerName": "Flex0f2795775352a48Controller"
-        });
-        voltmx.mvc.registry.add("FlxSeg", {
-            "viewName": "FlxSeg",
-            "controllerName": "FlxSegController"
-        });
         voltmx.mvc.registry.add("OrderSummaryItemListCtn", {
             "viewName": "OrderSummaryItemListCtn",
             "controllerName": "OrderSummaryItemListCtnController"
@@ -145,6 +137,14 @@ define('applicationController',{
         voltmx.mvc.registry.add("flxSectionHeaderTemplate", {
             "viewName": "flxSectionHeaderTemplate",
             "controllerName": "flxSectionHeaderTemplateController"
+        });
+        voltmx.mvc.registry.add("FlxSeg", {
+            "viewName": "FlxSeg",
+            "controllerName": "FlxSegController"
+        });
+        voltmx.mvc.registry.add("Flex0f2795775352a48", {
+            "viewName": "Flex0f2795775352a48",
+            "controllerName": "Flex0f2795775352a48Controller"
         });
         voltmx.mvc.registry.add("CheckoutAddress", {
             "viewName": "CheckoutAddress",
@@ -9723,8 +9723,6 @@ define("userLoginController", {
     LoginApi: function() {
         var email = this.view.txtBoxEmail.text.trim();
         var password = this.view.txtBoxPassword.text.trim();
-        email = "danny@cnetric.com";
-        password = "12345678";
         if (this.validateLogin(email, password)) {
             var httpclient = new voltmx.net.HttpRequest();
             httpclient.open(constants.HTTP_METHOD_POST, "https://vendure.demo.universalcommerce.io/shop-api");
@@ -9745,9 +9743,7 @@ define("userLoginController", {
                     if (userData !== null && userData.identifier) {
                         voltmx.store.setItem('userData', JSON.stringify(userData));
                         localStorage.setItem("vendure-auth-token", responseHeader);
-                        //         
-                        //             var nav = new voltmx.mvc.Navigation("Home");
-                        var nav = new voltmx.mvc.Navigation("CheckoutShippingMethod");
+                        var nav = new voltmx.mvc.Navigation("Home");
                         nav.navigate();
                     } else if (response.errors) {
                         alert(response.errors[0].message);
@@ -10189,8 +10185,8 @@ define("Popup/Payment/userPaymentController", [],function() {
     return {};
 });
 define("Popup/Payment/PaymentControllerActions", {
-    /* 
-    This is an auto generated file and any modifications to it may result in corruption of the action sequence.
+    /*
+      This is an auto generated file and any modifications to it may result in corruption of the action sequence.
     */
 });
 define("Popup/Payment/PaymentController", ["Popup/Payment/userPaymentController", "Popup/Payment/PaymentControllerActions"], function() {
