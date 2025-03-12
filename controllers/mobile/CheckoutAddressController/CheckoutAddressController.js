@@ -29,12 +29,7 @@ define({
     var navigation = new voltmx.mvc.Navigation("CheckoutShippingMethod");
     navigation.navigate();
   },
-  fullNameConverter: function (){
-    var firstName = this.view.CheckoutFirstNameInput.text;
-    var lastName = this.view.CheckoutLastNameInput.text;
-    this.view.FullNameConverter.text = firstName + " " +lastName;
-    console.log(this.view.FullNameConverter.text)
-  },
+ 
   getOrderSummaryData: function() {  
     this.view.OrderSummary.OrderSummaryTotal.text = voltmx.store.getItem("CartTotalPrice");
     this.view.OrderSummary.InMyCartCtn.InMyCartQuantity.text = "In My Cart | " + voltmx.store.getItem("CartItemQuantity") + " Items";
@@ -44,6 +39,59 @@ define({
       this.view.OrderSummary.OrderSummaryItemList.setData(parsedCartData);
     }
   },
+  
+  setCustomerAddress:function () {
+     var firstName = this.view.CheckoutFirstNameInput.text;
+    var lastName = this.view.CheckoutLastNameInput.text;
+    var fullName = firstName + " " + lastName;
+    
+    var httpclient = new voltmx.net.HttpRequest();
+    httpclient.open(constants.HTTP_METHOD_POST, 
+                    "https://vendure.demo.universalcommerce.io/shop-api");
+    httpclient.setRequestHeader("Content-Type", "application/json");
+ 	var token = localStorage.getItem("vendure-auth-token");
+    httpclient.setRequestHeader("Authorization", "Bearer " + token);
+
+    var jsonStr2 = JSON.stringify({
+    "query": "mutation CreateCustomerAddress($input: CreateAddressInput!) { createCustomerAddress(input: $input) { id createdAt updatedAt fullName company streetLine1 streetLine2 city province postalCode country { code name } phoneNumber defaultShippingAddress defaultBillingAddress } }",
+    "variables": {
+        "input": {
+            "fullName": fullName,
+            "company": this.view.CheckoutCompanyInput.text,
+            "streetLine1": this.view.CheckoutAddressInput.text,
+            "streetLine2": this.view.CheckoutAddressDetailInput.text,
+            "city": this.view.CheckoutCityInput.text,
+            "province": this.view.CheckoutStateInput.text,
+            "postalCode": this.view.CheckoutZipCodeInput.text,
+            "countryCode": this.view.CheckoutCountryCodeInput.text,
+            "phoneNumber": this.view.CheckoutPhoneInput.text,
+            "defaultShippingAddress": false,
+            "defaultBillingAddress": false
+        }
+    }
+});
+    httpclient.send(jsonStr2);
+
+    httpclient.onReadyStateChange = function () {
+      if (httpclient.readyState === 4 && httpclient.status === 200) {
+
+        var response = JSON.parse(httpclient.response);
+        var userData = response.data.login;
+        var responseHeader = 
+            httpclient.getResponseHeader('vendure-auth-token');
+        localStorage.setItem("vendure-auth-token", responseHeader);
+        if (userData !== null && userData.identifier) {
+          voltmx.store.setItem('userData', JSON.stringify(userData));
+
+          var nav = new voltmx.mvc.Navigation("CheckoutShippingMethod");
+          nav.navigate();
+        } else if (response.errors) {
+          alert(response.errors[0].message);
+        }
+      }
+    };
+},
+  
   preinputInfo: function () {
     this.view.CheckoutFirstNameInput.text = "Jane";
     this.view.CheckoutLastNameInput.text = "Doe";

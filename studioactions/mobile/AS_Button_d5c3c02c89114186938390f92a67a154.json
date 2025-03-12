@@ -54,38 +54,6 @@
             "httpconfigs": null,
             "isasynchronous": true,
             "mappings": {
-                "ME_Mapping_j38d0a525baa42349273558a75949a16": {
-                    "channel": "mobile",
-                    "id": "ME_Mapping_j38d0a525baa42349273558a75949a16",
-                    "type": "MAPPING",
-                    "callbackType": null,
-                    "rectified": true,
-                    "source": {
-                        "type": "Forms",
-                        "propertyName": "text",
-                        "widgetId": "FullNameConverter",
-                        "widgetPath": "this.view.FullNameConverter",
-                        "widgetType": "Label",
-                        "dataType": "string",
-                        "itemId": "CheckoutAddress",
-                        "widgetKUID": "c257556154c04255836aff01b20c8d0f",
-                        "itemKUID": "a0f2ba1a2db44238ae888c9c0e565544",
-                        "forkedPlatform": "all"
-                    },
-                    "target": {
-                        "type": "Services",
-                        "propertyName": "fullName",
-                        "dataType": "string",
-                        "forkedPlatform": "all",
-                        "serviceconfig": {
-                            "servicename": "VendureApis",
-                            "serviceid": "93764da3-5c68-4a7b-a6db-ccf3009ee27a",
-                            "type": "integration",
-                            "operationname": "SetShippingAddress",
-                            "operationid": "551774"
-                        }
-                    }
-                },
                 "ME_Mapping_ib3f995026174118874b41db1110f047": {
                     "channel": "mobile",
                     "id": "ME_Mapping_ib3f995026174118874b41db1110f047",
@@ -343,7 +311,7 @@
                     }
                 }
             },
-            "mappingsOrder": ["ME_Mapping_j38d0a525baa42349273558a75949a16", "ME_Mapping_ib3f995026174118874b41db1110f047", "ME_Mapping_b0614fcce0934f419e10bcf5389f60e3", "ME_Mapping_gf33c4d5180c416aa2e16fabeaa551b3", "ME_Mapping_h6e0029f93c04a7290d4f73babdadbd7", "ME_Mapping_d66212f8dc4b4ce5a7070ef720de60fa", "ME_Mapping_j3822dd7efb9434fb02cae5bb2bc9a57", "ME_Mapping_c69a6d625aa64339abe2759466c6ac14", "ME_Mapping_f8f0e871a7dc42ab99aa1fe6a1b18ea4"],
+            "mappingsOrder": ["ME_Mapping_ib3f995026174118874b41db1110f047", "ME_Mapping_b0614fcce0934f419e10bcf5389f60e3", "ME_Mapping_gf33c4d5180c416aa2e16fabeaa551b3", "ME_Mapping_h6e0029f93c04a7290d4f73babdadbd7", "ME_Mapping_d66212f8dc4b4ce5a7070ef720de60fa", "ME_Mapping_j3822dd7efb9434fb02cae5bb2bc9a57", "ME_Mapping_c69a6d625aa64339abe2759466c6ac14", "ME_Mapping_f8f0e871a7dc42ab99aa1fe6a1b18ea4"],
             "serviceconfig": {
                 "servicename": "VendureApis",
                 "serviceid": "93764da3-5c68-4a7b-a6db-ccf3009ee27a",
