@@ -4,34 +4,6 @@
             "class": "GraphLinksModel",
             "linkDataArray": [
                 {
-                    "actionId": "NAVIGATE_TO_FORM__e8f06412c8f24303b88c296528a8d377",
-                    "actionSequenceId": "AS_Button_g2d635f049804bbabdf0f9c59fabfb0d",
-                    "beautifiedPath": "CheckoutAddress > CheckoutContinueButton > onClick",
-                    "evt": "ide_onClick",
-                    "from": "a0f2ba1a2db44238ae888c9c0e565544",
-                    "isPSP": false,
-                    "points": [
-                        268,
-                        491.24526367187497,
-                        268,
-                        501.24526367187497,
-                        268,
-                        500,
-                        268,
-                        500,
-                        268,
-                        996,
-                        88,
-                        996,
-                        88,
-                        1214.845263671875,
-                        88,
-                        1224.845263671875
-                    ],
-                    "to": "b17f76394c484295b64c306ec564fc4f",
-                    "widgetKUID": "a2987f14bda445faa34fc68923595884"
-                },
-                {
                     "actionId": "NAVIGATE_TO_FORM__ibd5be64909444eaa7f16b3814cf4508",
                     "actionSequenceId": "AS_Button_hbc403d7f60142d6a4d9a4cef79615e6",
                     "beautifiedPath": "CheckoutSuccessful > Payment > btnGoBack > onClick",
@@ -92,6 +64,34 @@
                     "widgetKUID": "a50df748d41b4d34b53f017678981d9c"
                 },
                 {
+                    "actionId": "NAVIGATE_TO_FORM__d6c4e7abdb1f41e0985f45afb45eab3b",
+                    "actionSequenceId": "AS_UWI_g4e69ac0723d4dd7aacd9b0c8239b562",
+                    "beautifiedPath": "Home > HeaderBar > onCartClicked",
+                    "evt": "ide_onCartClicked",
+                    "from": "fb6e88e7d7c94c68aa13478d43b174b5",
+                    "isPSP": false,
+                    "points": [
+                        48,
+                        331.24526367187497,
+                        48,
+                        357.24526367187497,
+                        48,
+                        357.24526367187497,
+                        -12,
+                        357.24526367187497,
+                        -12,
+                        6396,
+                        48,
+                        6396,
+                        48,
+                        6614.845263671875,
+                        48,
+                        6624.845263671875
+                    ],
+                    "to": "c6939cf809d44ca982d87fb479d42f13",
+                    "widgetKUID": "ff1e9b89115b4553a256f0b740b5f78a"
+                },
+                {
                     "actionId": "NAVIGATE_TO_FORM__ie38da06594542dbbc4e3185b61644e2",
                     "actionSequenceId": "AS_UWI_e584481b40eb475695f1464aa957c8b8",
                     "beautifiedPath": "ProductDetails > HeaderBar > onCartClicked",
@@ -118,6 +118,34 @@
                     ],
                     "to": "c6939cf809d44ca982d87fb479d42f13",
                     "widgetKUID": "f0c9f8f5730f420e9a5b6a253f3234e1"
+                },
+                {
+                    "actionId": "NAVIGATE_TO_FORM__i630706b3da6432d918a6d848c884bee",
+                    "actionSequenceId": "AS_UWI_h6b93d1fe8754cd58c49d2d35c3899c1",
+                    "beautifiedPath": "ProductList > HeaderBar > onCartClicked",
+                    "evt": "ide_onCartClicked",
+                    "from": "b79e93a47a8a42038218541a0de1b8ba",
+                    "isPSP": false,
+                    "points": [
+                        88,
+                        6331.245263671874,
+                        88,
+                        6341.245263671874,
+                        88,
+                        6340,
+                        88,
+                        6340,
+                        88,
+                        6396,
+                        128,
+                        6396,
+                        128,
+                        6598.845263671875,
+                        128,
+                        6624.845263671875
+                    ],
+                    "to": "c6939cf809d44ca982d87fb479d42f13",
+                    "widgetKUID": "g7b4ab78756141afa2debf02817c24e8"
                 }
             ],
             "nodeDataArray": [
@@ -180,7 +208,7 @@
                 {
                     "formKUID": "fb6e88e7d7c94c68aa13478d43b174b5",
                     "formName": "Home",
-                    "isStartupForm": true,
+                    "isStartupForm": false,
                     "key": "fb6e88e7d7c94c68aa13478d43b174b5",
                     "loc": "8 24.845263671875003",
                     "thumbnailURL": null
@@ -188,7 +216,7 @@
                 {
                     "formKUID": "fe24c9db0b3843b8b65fb7f139c8b005",
                     "formName": "Login",
-                    "isStartupForm": false,
+                    "isStartupForm": true,
                     "key": "fe24c9db0b3843b8b65fb7f139c8b005",
                     "loc": "8 4224.845263671875",
                     "thumbnailURL": null
