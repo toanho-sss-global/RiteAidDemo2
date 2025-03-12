@@ -280,7 +280,7 @@
     "cordovaVersionInfo": {},
     "createdVizVersion": "8.3.0",
     "createdgaversion": "8.3.0",
-    "currentgaversion": "9.5.50",
+    "currentgaversion": "9.5.30",
     "deeplinkkey": "None",
     "defaulttheme": "defaultTheme",
     "desktopwebaligenmentoption": "left",
@@ -386,7 +386,7 @@
             "version": "1.0"
         }
     },
-    "konyVizVersion": "9.5.50",
+    "konyVizVersion": "9.5.30",
     "lastmodifiedtime": "1534146194069",
     "location": "false",
     "log_level": "ERROR",
