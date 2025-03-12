@@ -147,7 +147,7 @@ define("userCheckoutPaymentMethodController", {
         this.view.CheckoutAddressLine1Input.text = "123 Main St";
         this.view.CheckoutAddressLine2Input.text = "Apt 4B";
         this.view.CheckoutCityInput.text = "New York";
-        this.view.CheckoutRegionInput.text = "IN";
+        this.view.CheckoutRegionInput.text = "NY";
         this.view.CheckoutPostalCodeInput.text = "10001";
         this.view.CheckoutMobileInput.text = "+1 555-123-4567";
         this.view.CheckoutEmailInput.text = "john.doe@example.com";
@@ -156,12 +156,12 @@ define("userCheckoutPaymentMethodController", {
         this.view.CheckoutAddressLine1Shipping.text = "456 Oak Avenue";
         this.view.CheckoutAddressLine2Shipping.text = "Suite 12";
         this.view.CheckoutCityInput2.text = "Los Angeles";
-        this.view.CheckoutRegionInput2.text = "IN";
+        this.view.CheckoutRegionInput2.text = "CA";
         this.view.CheckoutPostalCodeInput2.text = "90015";
         this.view.CheckoutMobileInput2.text = "+1 310-987-6543";
         this.view.CheckoutEmailInput2.text = "emily.johnson@example.com";
     },
-    ApiBillingAddress: function(token) {
+    ApiBillingAddress: function() {
         var CheckoutCardNumberInput = this.view.CheckoutCardNumberInput.text;
         var CheckoutExpiresInput = this.view.CheckoutExpiresInput.text;
         var CheckoutCSCInput = this.view.CheckoutCSCInput.text;
@@ -177,7 +177,6 @@ define("userCheckoutPaymentMethodController", {
         var httpclient = new voltmx.net.HttpRequest();
         httpclient.open(constants.HTTP_METHOD_POST, "https://vendure.demo.universalcommerce.io/shop-api");
         httpclient.setRequestHeader("Content-Type", "application/json");
-        httpclient.setRequestHeader("Authorization", `Bearer ${token}`);
         var jsonStr2 = JSON.stringify({
             "query": "mutation SetOrderBillingAddress($input: CreateAddressInput!) { setOrderBillingAddress(input: $input) { ... on Order { id code state active subTotal total } ... on NoActiveOrderError { errorCode message } } }",
             "variables": {
@@ -196,7 +195,7 @@ define("userCheckoutPaymentMethodController", {
         });
         httpclient.send(jsonStr2);
     },
-    ApiShoppingAddress: function(token) {
+    ApiShoppingAddress: function() {
         var CheckoutFirstNameInput2 = this.view.CheckoutFirstNameInput2.text;
         var CheckoutLastNameInput2 = this.view.CheckoutLastNameInput2.text;
         var CheckoutAddressLine1Input2 = this.view.CheckoutAddressLine1Shipping.text;
@@ -207,6 +206,7 @@ define("userCheckoutPaymentMethodController", {
         var CheckoutMobileInput2 = this.view.CheckoutMobileInput2.text;
         var CheckoutEmailInput2 = this.view.CheckoutEmailInput2.text;
         var httpclient = new voltmx.net.HttpRequest();
+        var token = localStorage.getItem("vendure-auth-token");
         httpclient.open(constants.HTTP_METHOD_POST, "https://vendure.demo.universalcommerce.io/shop-api");
         httpclient.setRequestHeader("Content-Type", "application/json");
         httpclient.setRequestHeader("Authorization", `Bearer ${token}`);
@@ -229,14 +229,13 @@ define("userCheckoutPaymentMethodController", {
         httpclient.send(jsonStr2);
     },
     BtnCallApi: function() {
-        var token = localStorage.getItem("vendure-auth-token");
         if (this.view.CheckoutCardNumberInput.text !== "" || this.view.CheckoutExpiresInput.text !== "" || this.view.CheckoutCSCInput.text !== "" || this.view.CheckoutFirstNameInput.text !== "" || this.view.CheckoutLastNameInput.text !== "" || this.view.CheckoutAddressLine1Input.text !== "" || this.view.CheckoutAddressLine2Input.text !== "" || this.view.CheckoutCityInput.text !== "" || this.view.CheckoutRegionInput.text !== "" || this.view.CheckoutPostalCodeInput.text !== "" || this.view.CheckoutMobileInput.text !== "" || this.view.CheckoutEmailInput.text !== "") {
             console.log("12345673211352411321`23123")
-            this.ApiBillingAddress(token);
+            this.ApiBillingAddress();
             if (this.view.ShipToBillingAddressCheckbox.selectedKeys === null) {
                 if (this.view.CheckoutFirstNameInput2.text !== "" || this.view.CheckoutLastNameInput2.text !== "" || this.view.CheckoutAddressLine1Shipping.text !== "" || this.view.CheckoutAddressLine2Shipping.text !== "" || this.view.CheckoutCityInput2.text !== "" || this.view.CheckoutRegionInput2.text !== "" || this.view.CheckoutPostalCodeInput2.text !== "" || this.view.CheckoutMobileInput2.text !== "" || this.view.CheckoutEmailInput2.text !== "") {
                     console.log("asdasdasdasdadsasdadasdasdas")
-                    this.ApiShoppingAddress(token);
+                    this.ApiShoppingAddress();
                 }
             }
             var nav = new voltmx.mvc.Navigation("CheckoutSuccessful");

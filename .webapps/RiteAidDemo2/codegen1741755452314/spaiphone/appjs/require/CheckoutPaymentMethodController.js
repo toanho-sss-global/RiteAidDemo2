@@ -147,7 +147,7 @@ define("userCheckoutPaymentMethodController", {
         this.view.CheckoutAddressLine1Input.text = "123 Main St";
         this.view.CheckoutAddressLine2Input.text = "Apt 4B";
         this.view.CheckoutCityInput.text = "New York";
-        this.view.CheckoutRegionInput.text = "IN";
+        this.view.CheckoutRegionInput.text = "NY";
         this.view.CheckoutPostalCodeInput.text = "10001";
         this.view.CheckoutMobileInput.text = "+1 555-123-4567";
         this.view.CheckoutEmailInput.text = "john.doe@example.com";
@@ -156,7 +156,7 @@ define("userCheckoutPaymentMethodController", {
         this.view.CheckoutAddressLine1Shipping.text = "456 Oak Avenue";
         this.view.CheckoutAddressLine2Shipping.text = "Suite 12";
         this.view.CheckoutCityInput2.text = "Los Angeles";
-        this.view.CheckoutRegionInput2.text = "IN";
+        this.view.CheckoutRegionInput2.text = "CA";
         this.view.CheckoutPostalCodeInput2.text = "90015";
         this.view.CheckoutMobileInput2.text = "+1 310-987-6543";
         this.view.CheckoutEmailInput2.text = "emily.johnson@example.com";

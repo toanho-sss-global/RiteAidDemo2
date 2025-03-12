@@ -147,7 +147,7 @@ define("userCheckoutPaymentMethodController", {
         this.view.CheckoutAddressLine1Input.text = "123 Main St";
         this.view.CheckoutAddressLine2Input.text = "Apt 4B";
         this.view.CheckoutCityInput.text = "New York";
-        this.view.CheckoutRegionInput.text = "IN";
+        this.view.CheckoutRegionInput.text = "NY";
         this.view.CheckoutPostalCodeInput.text = "10001";
         this.view.CheckoutMobileInput.text = "+1 555-123-4567";
         this.view.CheckoutEmailInput.text = "john.doe@example.com";
