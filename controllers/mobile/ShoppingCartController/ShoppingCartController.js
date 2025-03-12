@@ -27,11 +27,11 @@ define({
   initProductData: function () {  
     var scope = this;
     var modifiedData = [];
-    
     for (var i = 0; i < this.CartProductList.length; i++) {
       var item = this.CartProductList[i];
 
       var newItem = {
+        id: item.id,
         lblDescription : item.lblDescription,
         lblCost        : "$" + ((item.unitPrice*item.ProductQuantity)/100).toFixed(2),
         unitPrice      : item.unitPrice, 
@@ -64,6 +64,7 @@ define({
       .setData(this.CartCarouselProductList);
     var mappedData = modifiedData.map(function(item) {
       return {
+        id: item.id,
         OrderSummaryItemImg     : item.img, 
         OrderSummaryProductName : item.lblDescription,
         OrderSummaryProductQty  : "Qty " + item.ProductQuantity,  
@@ -145,6 +146,7 @@ define({
     // Map the data to the new format
     var mappedData = segmentData.map(function(item) {
       return {
+        id: item.id,
         OrderSummaryItemImg     : item.img, 
         OrderSummaryProductName : item.lblDescription,
         OrderSummaryProductQty  : "Qty " + item.ProductQuantity,  
@@ -153,7 +155,7 @@ define({
     });
 
     // Store the mapped cart data
-    voltmx.store.setItem("UpdatedCartProductList", JSON.stringify(mappedData));
+    voltmx.store.setItem("CartProductList", JSON.stringify(mappedData));
   },
 
   decreaseQuantity: function(rowIndex) {
@@ -174,6 +176,7 @@ define({
       // Map the data to the new format
       var mappedData = segmentData.map(function(item) {
         return {
+          id: item.id,
           OrderSummaryItemImg     : item.img, 
           OrderSummaryProductName : item.lblDescription,
           OrderSummaryProductQty  : "Qty " + item.ProductQuantity,  
@@ -182,7 +185,7 @@ define({
       });
 
       // Store the mapped cart data
-      voltmx.store.setItem("UpdatedCartProductList",
+      voltmx.store.setItem("CartProductList",
                            JSON.stringify(mappedData));
     }
   },
