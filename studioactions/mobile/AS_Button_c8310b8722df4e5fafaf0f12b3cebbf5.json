@@ -17,8 +17,8 @@
         "actions": [{
             "id": "INVOKE_FUNCTION__h5bc3ff8c31a42b19cf2171afbe17d02",
             "type": "INVOKE_FUNCTION",
-            "sequenceKUID": "ApiShipingMethod",
-            "display": "ApiShipingMethod",
+            "sequenceKUID": "checkMehtod",
+            "display": "checkMehtod",
             "inputparams": [],
             "parentId": null,
             "callbackType": null,

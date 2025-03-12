@@ -17,7 +17,6 @@
         "actions": [{
             "id": "INVOKE_FUNCTION__j042b0de14844897b06c54b3f964ed09",
             "type": "INVOKE_FUNCTION",
-            "sequenceKUID": "showMap",
             "display": "showMap",
             "inputparams": [],
             "parentId": null,
@@ -27,7 +26,6 @@
         }, {
             "id": "INVOKE_FUNCTION__db5c218e8dbe487699620e068d1abf72",
             "type": "INVOKE_FUNCTION",
-            "sequenceKUID": "showShippingConfirmation",
             "display": "showShippingConfirmation",
             "inputparams": [],
             "parentId": null,

@@ -17,7 +17,6 @@
         "actions": [{
             "id": "INVOKE_FUNCTION__ab61974f695a4daabf0d0cc953b8ea50",
             "type": "INVOKE_FUNCTION",
-            "sequenceKUID": "hideMap",
             "display": "hideMap",
             "inputparams": [],
             "parentId": null,
