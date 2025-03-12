@@ -74,23 +74,61 @@ define({
     this.calculateTotal();
   },
   
-  handleCartProducts: function () {
-    var itemCart = voltmx.store.getItem("add_Item_To_Cart");
-    if (!itemCart) {
+  GetCart: function () {
+    var self = this;
+    var url = "https://vendure.demo.universalcommerce.io/shop-api";
+    var token = localStorage.getItem("vendure-auth-token");
+    
+    var httpclient = new voltmx.net.HttpRequest();
+    
+    httpclient.open(constants.HTTP_METHOD_POST, url);
+    httpclient.setRequestHeader("Content-Type", "application/json");
+    httpclient.setRequestHeader("Authorization", "Bearer " + token);
+
+    var jsonStr2 = JSON.stringify({
+    "query": "query ActiveOrder { activeOrder { id lines { id linePriceWithTax quantity productVariant { id name priceWithTax featuredAsset { preview } currencyCode } } subTotalWithTax shippingWithTax totalWithTax totalQuantity currencyCode } }",
+    "variables": {}
+ });
+    
+    httpclient.send(jsonStr2);
+ httpclient.onReadyStateChange = function () {
+    if (httpclient.readyState === 4) {
+        if (httpclient.status === 200) {
+          var response = JSON.parse(httpclient.response);
+          console.log("Get cart response:", response);
+          self.handleCartProducts(response.data);
+        }
+    }
+ };
+  },
+  
+  handleCartProducts: function (itemCart) {
+    var self = this;
+    if (!itemCart || !itemCart.activeOrder || !itemCart.activeOrder.lines) {
         return;
     }
 
     try {
-        var itemCartJSON = JSON.parse(itemCart);
-		var flatArray = itemCartJSON.flat();
-		
-        this.CartProductList = flatArray;
-        console.log("Updated cart product list:", flatArray);
-
+  var formattedProducts = itemCart.activeOrder.lines.map(item => {
+        return {
+          id: item.productVariant.id,
+          lblDescription: item.productVariant.name,
+          unitPrice: item.productVariant.priceWithTax,
+          DeleteIcon: 'trashicon.png',
+          MinusIcon: 'minusicon.png',
+          PlusIcon: 'plusicon.png',
+          ProductQuantity: item.quantity,
+          img: item.productVariant.featuredAsset.preview
+        };
+    });
+        this.CartProductList = formattedProducts;
+        console.log("Check in setItem:", this.CartProductList);
+       self.initProductData();
     } catch (error) {
-        console.error("JSON Parsing Error:", error);
+        console.error("Get Cart Error:", error);
     }
 },
+ 
 
   increaseQuantity: function(rowIndex) {
     var segmentData = this.view.CartProductList.ProductList.data;
@@ -117,7 +155,6 @@ define({
     // Store the mapped cart data
     voltmx.store.setItem("UpdatedCartProductList", JSON.stringify(mappedData));
   },
-
 
   decreaseQuantity: function(rowIndex) {
     var segmentData = this.view.CartProductList.ProductList.data;
@@ -149,8 +186,6 @@ define({
                            JSON.stringify(mappedData));
     }
   },
-
-
 
   calculateTotal: function() {
     var segmentData = this.view.CartProductList.ProductList.data;
@@ -187,53 +222,5 @@ define({
     var navObj = new voltmx.mvc.Navigation("CheckoutAddress");
     navObj.navigate();
   },
-  fetchGetOrders: function (orderId) {
-    var self = this;
-    console.log("Check fetchGetOrders: ", orderId);
-    var httpclient = new voltmx.net.HttpRequest();
-    httpclient.open(constants.HTTP_METHOD_POST, "https://vendure.demo.universalcommerce.io/shop-api");
-    httpclient.setRequestHeader("Content-Type", "application/json");
-    
-    var jsonStr2 = JSON.stringify({
-      "query": "query GetOrder($orderId: ID!) { order(id: $orderId) { id orderPlacedAt subTotalWithTax shippingWithTax totalWithTax currencyCode state payments { metadata } customFields { deliveryType } lines { id linePriceWithTax quantity productVariant { id name priceWithTax featuredAsset { preview } currencyCode } } shippingAddress { fullName phoneNumber streetLine1 streetLine2 city province postalCode countryCode country } billingAddress { fullName phoneNumber streetLine1 streetLine2 city province postalCode countryCode country } } }",
-      "variables": {
-          "orderId": orderId
-      }
- });
-    httpclient.send(jsonStr2);
-    httpclient.onReadyStateChange = function () {
-        if (httpclient.readyState === 4 && httpclient.status === 200) {
-
-          var response = JSON.parse(httpclient.response);
-   			console.log("check response: ", response);
-//           self.handleProducts(response.data);
-        }
-      };
-  },
-  
-  handleOrderProducts: function (data) { 
-    if (!data 
-        || !data.order 
-        || !data.order.lines 
-        || !Array.isArray(data.order.lines)) {
-      return;
-    }
-
-    var formattedProducts = data.order.lines.map(item => {
-      return {
-         id: item.productVariant.id,
-         lblDescription : item.productVariant.name,
-         unitPrice      : item.linePriceWithTax, 
-         DeleteIcon     : 'trashicon.png',
-         MinusIcon      : 'minusicon.png',
-         PlusIcon       : 'plusicon.png', 
-         ProductQuantity: item.quantity,
-         img            : item.productVariant.featuredAsset.preview
-      };
-    });
-
-    this.CartProductList = formattedProducts;
-    console.log("Update order list:", this.CartProductList);
-  },
-
 });
+ 

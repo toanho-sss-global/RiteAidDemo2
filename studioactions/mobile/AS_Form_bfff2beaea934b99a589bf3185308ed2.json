@@ -17,8 +17,8 @@
         "actions": [{
             "id": "INVOKE_FUNCTION__g05d2448f21f4babbd94152d70d4547f",
             "type": "INVOKE_FUNCTION",
-            "sequenceKUID": "initProductData",
-            "display": "initProductData",
+            "sequenceKUID": "GetCart",
+            "display": "GetCart",
             "inputparams": [],
             "parentId": null,
             "callbackType": null,

@@ -15,7 +15,7 @@
         "language": "js",
         "eventType": "preShow",
         "actions": [{
-            "id": "INVOKE_FUNCTION__c51c0480e644453a9641ab48fae67e80",
+            "id": "INVOKE_FUNCTION__d78dd4244b384b36b8f525b9680cb7b4",
             "type": "INVOKE_FUNCTION",
             "sequenceKUID": "GetAProduct",
             "display": "GetAProduct",
@@ -32,14 +32,6 @@
             "type": "INVOKE_FUNCTION",
             "sequenceKUID": "onFormInit",
             "display": "onFormInit",
-            "inputparams": [],
-            "disabled": null,
-            "source": "controller"
-        }, {
-            "id": "INVOKE_FUNCTION__f88f468ecae54093bb662640a2c6e55a",
-            "type": "INVOKE_FUNCTION",
-            "sequenceKUID": "updateProductIdGlobal",
-            "display": "updateProductIdGlobal",
             "inputparams": [],
             "disabled": null,
             "source": "controller"

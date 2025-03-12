@@ -1,22 +1,11 @@
 define({
-  //Type your controller code here 
   validateLogin: function (email, password) {
-
 
     var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (email === "" || !emailPattern.test(email)) {
       alert("Please enter a valid email!");
       return false;
     }
-
-    //         if (password ==="" || password.length < 6 || 
-    //           !/[A-Z]/.test(password) ||  
-    //           !/[a-z]/.test(password) ||   
-    //           !/[0-9]/.test(password) || 
-    //           !/[!@#$%^&*(),.?":{}|<>]/.test(password)) {
-    //           alert("Password must be at least 6 characters and include at least one uppercase letter, one lowercase letter, one number, and one special character!");
-    //           return false;
-    //       	}
 
     if (password === "") {
       alert("Password must be at least 8 characters!");
@@ -26,7 +15,6 @@ define({
     return true;
 
   },
-
 
   LoginApi: function () {
     var email = this.view.txtBoxEmail.text.trim();
@@ -47,10 +35,12 @@ define({
         }
       });
       httpclient.send(jsonStr2);
-
       httpclient.onReadyStateChange = function () {
         if (httpclient.readyState === 4 && httpclient.status === 200) {
-
+          
+    	  var authToken = httpclient.getResponseHeader("vendure-auth-token");
+          localStorage.setItem("vendure-auth-token", authToken);
+          
           var response = JSON.parse(httpclient.response);
           var userData = response.data.login;
           var responseHeader = 
@@ -58,7 +48,6 @@ define({
           localStorage.setItem("vendure-auth-token", responseHeader);
           if (userData !== null && userData.identifier) {
             voltmx.store.setItem('userData', JSON.stringify(userData));
-
             var nav = new voltmx.mvc.Navigation("Home");
 
             nav.navigate();
@@ -68,7 +57,7 @@ define({
         }
       };
     }
-
-  }
+  },
 
 });
+ 

@@ -2,14 +2,227 @@
     "models": {
         "mobile": {
             "class": "GraphLinksModel",
-            "linkDataArray": [],
+            "linkDataArray": [
+                {
+                    "actionId": "NAVIGATE_TO_FORM__e8f06412c8f24303b88c296528a8d377",
+                    "actionSequenceId": "AS_Button_g2d635f049804bbabdf0f9c59fabfb0d",
+                    "beautifiedPath": "CheckoutAddress > CheckoutContinueButton > onClick",
+                    "evt": "ide_onClick",
+                    "from": "a0f2ba1a2db44238ae888c9c0e565544",
+                    "isPSP": false,
+                    "points": [
+                        268,
+                        491.24526367187497,
+                        268,
+                        501.24526367187497,
+                        268,
+                        500,
+                        268,
+                        500,
+                        268,
+                        996,
+                        88,
+                        996,
+                        88,
+                        1214.845263671875,
+                        88,
+                        1224.845263671875
+                    ],
+                    "to": "b17f76394c484295b64c306ec564fc4f",
+                    "widgetKUID": "a2987f14bda445faa34fc68923595884"
+                },
+                {
+                    "actionId": "NAVIGATE_TO_FORM__ibd5be64909444eaa7f16b3814cf4508",
+                    "actionSequenceId": "AS_Button_hbc403d7f60142d6a4d9a4cef79615e6",
+                    "beautifiedPath": "CheckoutSuccessful > Payment > btnGoBack > onClick",
+                    "evt": "ide_onClick",
+                    "from": "h13ce12c6abc4ef5b29fd2db7380a4fe",
+                    "isPSP": false,
+                    "points": [
+                        88,
+                        1824.845263671875,
+                        88,
+                        1814.845263671875,
+                        88,
+                        1812,
+                        188,
+                        1812,
+                        188,
+                        588,
+                        114.66666666666667,
+                        588,
+                        114.66666666666667,
+                        349.24526367187497,
+                        114.66666666666667,
+                        331.24526367187497
+                    ],
+                    "to": "fb6e88e7d7c94c68aa13478d43b174b5",
+                    "widgetKUID": "ia59b32594334c89a0bbac41ad88aea2"
+                },
+                {
+                    "actionId": "NAVIGATE_TO_FORM__d57eb13d4b3c40beb4c54aa17c12ff97",
+                    "actionSequenceId": "AS_Segment_i8992e512edf470ab88e6aa3bad20d0d",
+                    "beautifiedPath": "Home > Segment0a85a0f0f28a548 > onRowClick",
+                    "evt": "ide_onRowClick",
+                    "from": "fb6e88e7d7c94c68aa13478d43b174b5",
+                    "isPSP": false,
+                    "points": [
+                        61.33333333333334,
+                        331.24526367187497,
+                        61.33333333333334,
+                        349.24526367187497,
+                        61.33333333333334,
+                        348,
+                        61.33333333333334,
+                        348,
+                        61.33333333333334,
+                        340,
+                        -12,
+                        340,
+                        -12,
+                        5740,
+                        88,
+                        5740,
+                        88,
+                        6014.845263671875,
+                        88,
+                        6024.845263671875
+                    ],
+                    "to": "b79e93a47a8a42038218541a0de1b8ba",
+                    "widgetKUID": "a50df748d41b4d34b53f017678981d9c"
+                },
+                {
+                    "actionId": "NAVIGATE_TO_FORM__ie38da06594542dbbc4e3185b61644e2",
+                    "actionSequenceId": "AS_UWI_e584481b40eb475695f1464aa957c8b8",
+                    "beautifiedPath": "ProductDetails > HeaderBar > onCartClicked",
+                    "evt": "ide_onCartClicked",
+                    "from": "a3b68c6cbe914e898939d8278fbe1885",
+                    "isPSP": false,
+                    "points": [
+                        88,
+                        5731.245263671874,
+                        88,
+                        5741.245263671874,
+                        88,
+                        5741.245263671874,
+                        188,
+                        5741.245263671874,
+                        188,
+                        6396,
+                        88,
+                        6396,
+                        88,
+                        6614.845263671875,
+                        88,
+                        6624.845263671875
+                    ],
+                    "to": "c6939cf809d44ca982d87fb479d42f13",
+                    "widgetKUID": "f0c9f8f5730f420e9a5b6a253f3234e1"
+                }
+            ],
             "nodeDataArray": [
+                {
+                    "formKUID": "a0f2ba1a2db44238ae888c9c0e565544",
+                    "formName": "CheckoutAddress",
+                    "isStartupForm": false,
+                    "key": "a0f2ba1a2db44238ae888c9c0e565544",
+                    "loc": "188 184.845263671875",
+                    "thumbnailURL": null
+                },
+                {
+                    "formKUID": "eae0974787e143e8acb5bb70f9da40ab",
+                    "formName": "CheckoutPaymentMethod",
+                    "isStartupForm": false,
+                    "key": "eae0974787e143e8acb5bb70f9da40ab",
+                    "loc": "8 624.845263671875",
+                    "thumbnailURL": null
+                },
+                {
+                    "formKUID": "b17f76394c484295b64c306ec564fc4f",
+                    "formName": "CheckoutShippingMethod",
+                    "isStartupForm": false,
+                    "key": "b17f76394c484295b64c306ec564fc4f",
+                    "loc": "8 1224.845263671875",
+                    "thumbnailURL": null
+                },
+                {
+                    "formKUID": "h13ce12c6abc4ef5b29fd2db7380a4fe",
+                    "formName": "CheckoutSuccessful",
+                    "isStartupForm": false,
+                    "key": "h13ce12c6abc4ef5b29fd2db7380a4fe",
+                    "loc": "8 1824.845263671875",
+                    "thumbnailURL": null
+                },
+                {
+                    "formKUID": "g2f808f3aabf4a22af7f84d9273533ed",
+                    "formName": "CopyShoppingCart",
+                    "isStartupForm": false,
+                    "key": "g2f808f3aabf4a22af7f84d9273533ed",
+                    "loc": "8 2424.845263671875",
+                    "thumbnailURL": null
+                },
+                {
+                    "formKUID": "c2417149800147c59e6f865367cba828",
+                    "formName": "Dashboard",
+                    "isStartupForm": false,
+                    "key": "c2417149800147c59e6f865367cba828",
+                    "loc": "8 3024.845263671875",
+                    "thumbnailURL": null
+                },
+                {
+                    "formKUID": "de3cc7bf1716453593e603a75b0ab250",
+                    "formName": "Form1",
+                    "isStartupForm": false,
+                    "key": "de3cc7bf1716453593e603a75b0ab250",
+                    "loc": "8 3624.845263671875",
+                    "thumbnailURL": null
+                },
                 {
                     "formKUID": "fb6e88e7d7c94c68aa13478d43b174b5",
                     "formName": "Home",
                     "isStartupForm": true,
                     "key": "fb6e88e7d7c94c68aa13478d43b174b5",
                     "loc": "8 24.845263671875003",
+                    "thumbnailURL": null
+                },
+                {
+                    "formKUID": "fe24c9db0b3843b8b65fb7f139c8b005",
+                    "formName": "Login",
+                    "isStartupForm": false,
+                    "key": "fe24c9db0b3843b8b65fb7f139c8b005",
+                    "loc": "8 4224.845263671875",
+                    "thumbnailURL": null
+                },
+                {
+                    "formKUID": "hc5cc89bbeaa4a1399d909c75b40af06",
+                    "formName": "PopupAddProduct",
+                    "isStartupForm": false,
+                    "key": "hc5cc89bbeaa4a1399d909c75b40af06",
+                    "loc": "8 4824.845263671875",
+                    "thumbnailURL": null
+                },
+                {
+                    "formKUID": "a3b68c6cbe914e898939d8278fbe1885",
+                    "formName": "ProductDetails",
+                    "isStartupForm": false,
+                    "key": "a3b68c6cbe914e898939d8278fbe1885",
+                    "loc": "8 5424.845263671875",
+                    "thumbnailURL": null
+                },
+                {
+                    "formKUID": "b79e93a47a8a42038218541a0de1b8ba",
+                    "formName": "ProductList",
+                    "isStartupForm": false,
+                    "key": "b79e93a47a8a42038218541a0de1b8ba",
+                    "loc": "8 6024.845263671875",
+                    "thumbnailURL": null
+                },
+                {
+                    "formKUID": "c6939cf809d44ca982d87fb479d42f13",
+                    "formName": "ShoppingCart",
+                    "isStartupForm": false,
+                    "key": "c6939cf809d44ca982d87fb479d42f13",
+                    "loc": "8 6624.845263671875",
                     "thumbnailURL": null
                 }
             ]
