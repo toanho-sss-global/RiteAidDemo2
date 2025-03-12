@@ -17,7 +17,6 @@
         "actions": [{
             "id": "INVOKE_FUNCTION__gb0ef9483fab4bf382f24c4d809f92a8",
             "type": "INVOKE_FUNCTION",
-            "sequenceKUID": "stopPropagation",
             "display": "stopPropagation",
             "inputparams": [],
             "parentId": null,
