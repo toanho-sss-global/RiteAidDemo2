@@ -21,13 +21,13 @@ define({
 
     showMap: function () {
       var selectedKey = this.view.ShippingOptions.selectedKey;
-      if(selectedKey === "PickFormPharmacy"){
+      if(selectedKey === "2"){
         this.view.MapPopupDimScreen.isVisible = true;
       }
     },
   showShippingConfirmation:function (){
     var selectedKey = this.view.ShippingOptions.selectedKey;
-      if(selectedKey === "ShipFormPharmacy"){
+      if(selectedKey === "1"){
         this.view.ShippingConfirmationDImScreen.isVisible = true;
       }
   },
