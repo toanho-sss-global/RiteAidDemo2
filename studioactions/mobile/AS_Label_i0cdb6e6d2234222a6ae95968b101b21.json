@@ -2,20 +2,16 @@
     "AS_Label_i0cdb6e6d2234222a6ae95968b101b21": {
         "id": "AS_Label_i0cdb6e6d2234222a6ae95968b101b21",
         "type": "ACTION_SEQUENCE",
-        "params": [
-            {
-                "datatype": "collection",
-                "name": "eventobject"
-            },
-            {
-                "datatype": "string",
-                "name": "x"
-            },
-            {
-                "datatype": "string",
-                "name": "y"
-            }
-        ],
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
         "contextObj": {
             "name": "CheckoutAddress",
             "type": "forms",
@@ -24,13 +20,11 @@
         },
         "language": "js",
         "eventType": "onTouchStart",
-        "actions": [
-            {
-                "id": "ADD_SNIPPET_bccefcebe2d94a57aa016d81da9f57eb",
-                "type": "ADD_SNIPPET",
-                "codeSnippet": "",
-                "parentId": null
-            }
-        ]
+        "actions": [{
+            "id": "ADD_SNIPPET_bccefcebe2d94a57aa016d81da9f57eb",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "",
+            "parentId": null
+        }]
     }
 }

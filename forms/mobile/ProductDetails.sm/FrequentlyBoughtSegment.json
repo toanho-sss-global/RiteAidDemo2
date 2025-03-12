@@ -1,0 +1,189 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_data_": [
+        {
+            "FBProductImage": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "https://vendure.demo.universalcommerce.io/assets/preview/f1/bpdavryry2kptkyfej93__preview.webp",
+                "type": "Image"
+            },
+            "HiddenId": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "57",
+                "type": "Label"
+            },
+            "NetWeight": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "60 Ct",
+                "type": "Label"
+            },
+            "ProductName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Qunol Turmeric & Ginger Gummy",
+                "type": "Label"
+            },
+            "ProductPrice": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "price : $38.39",
+                "type": "Label"
+            },
+            "ProductType": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Nature Made",
+                "type": "Label"
+            }
+        },
+        {
+            "FBProductImage": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "http://vendure.demo.universalcommerce.io/assets/preview/d8/xfovgufizvy4rjr6sfup-fotor-20250225162552__preview.png",
+                "type": "Image"
+            },
+            "HiddenId": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "56",
+                "type": "Label"
+            },
+            "NetWeight": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "50mcg - 90 ct",
+                "type": "Label"
+            },
+            "ProductName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Nature Made Vitamin D3 Softgels",
+                "type": "Label"
+            },
+            "ProductPrice": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "price : $16.97",
+                "type": "Label"
+            },
+            "ProductType": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Nature Made",
+                "type": "Label"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "440dp"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "13dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "30dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "95.24%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "01",
+    "disabledSkins": {
+        "widgetSkin": "s5549502ed6c4c8dbf6e99eded243a2c"
+    },
+    "enablehapticfeedback": true,
+    "enablereordering": false,
+    "focusedindex": null,
+    "focuseditem": null,
+    "generatedtemplate": "e553a6a9a8534812ac0fe4f46daad55d",
+    "groupcells": false,
+    "hasSections": false,
+    "hiddencolumns": {},
+    "id": "FrequentlyBoughtSegment",
+    "ide_onRowClick": "AS_Segment_c0ac1b90e494430dadf48fe178471f41",
+    "info": null,
+    "invokedProperty": "pageOnDotImage",
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "bc0e912b38c948c8a9fd7719568cb26d",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "slider_ios7.png",
+    "pageondotimage": "slider.png",
+    "paginationconfig": {
+        "position": "bottom",
+        "vdistance": 1
+    },
+    "parent": "FlxSclFrequentlyBoughtProducts",
+    "pf": "ProductDetails",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "e553a6a9a8534812ac0fe4f46daad55d",
+    "rowcounter": 1,
+    "rowfocusskin": "s828eab718a24a4bba59a5611628f923",
+    "rowskin": "s21fd42c82fc424dbe29e9596cd938f1",
+    "rowtemplate": "CopyFBox",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s397c116e07941439616ad18297b6ec2",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "selectionbehaviorconfig": null,
+    "separatorcolor": "82828200",
+    "separatorrequired": true,
+    "separatorthickness": 0,
+    "showscrollbars": true,
+    "swipeContext": {
+        "currentPage": 0,
+        "imageWidth": 975,
+        "widthRatio": 0
+    },
+    "viewtype": "pageview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "FBProductImage": "FBProductImage",
+        "FlxFrequentlyBoughtDetail": "FlxFrequentlyBoughtDetail",
+        "HiddenId": "HiddenId",
+        "NetWeight": "NetWeight",
+        "ProductName": "ProductName",
+        "ProductPrice": "ProductPrice",
+        "ProductType": "ProductType"
+    },
+    "winphone8": {
+        "psp": {
+            "enableCache": true
+        }
+    }
+}

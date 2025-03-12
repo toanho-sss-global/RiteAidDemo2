@@ -1,0 +1,48 @@
+{
+    "AS_Form_eaf74fff6623415aa95fba732ebfe076": {
+        "id": "AS_Form_eaf74fff6623415aa95fba732ebfe076",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "KUID": "a3b68c6cbe914e898939d8278fbe1885",
+            "name": "ProductDetails",
+            "platform": "",
+            "type": "forms"
+        },
+        "language": "js",
+        "eventType": "preShow",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__c51c0480e644453a9641ab48fae67e80",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "GetAProduct",
+            "display": "GetAProduct",
+            "inputparams": [{
+                "name": "product_id",
+                "value": "product_Id"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }, {
+            "id": "INVOKE_FUNCTION__a725807760d4450f824410488fa68f88",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onFormInit",
+            "display": "onFormInit",
+            "inputparams": [],
+            "disabled": null,
+            "source": "controller"
+        }, {
+            "id": "INVOKE_FUNCTION__f88f468ecae54093bb662640a2c6e55a",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "updateProductIdGlobal",
+            "display": "updateProductIdGlobal",
+            "inputparams": [],
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

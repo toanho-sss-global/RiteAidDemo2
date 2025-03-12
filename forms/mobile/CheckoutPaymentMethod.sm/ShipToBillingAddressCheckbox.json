@@ -62,16 +62,9 @@
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "selectedkey": null,
-    "selectedkeys": [
-        "1"
-    ],
+    "selectedkeys": [],
     "selectedkeyvalue": null,
-    "selectedkeyvalues": [
-        [
-            "1",
-            "Ship to billing address"
-        ]
-    ],
+    "selectedkeyvalues": null,
     "size": 18,
     "viewtype": 0,
     "wType": "CheckBoxGroup",

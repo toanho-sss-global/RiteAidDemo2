@@ -69,7 +69,9 @@
             }
         },
         "btnGoBack": {
-            "__events__": {},
+            "__events__": {
+                "ide_onClick": "AS_Button_hbc403d7f60142d6a4d9a4cef79615e6"
+            },
             "__info__": {
                 "kuid": "ia59b32594334c89a0bbac41ad88aea2",
                 "srcKUID": "u6a149e07d204b76b1dd9f04915a556c",

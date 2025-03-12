@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizRichText",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "33dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "see70206ca1046c8b19411d4b565e34c",
+    "_text_": "Add to Favorites",
+    "_top_": {
+        "type": "string",
+        "value": "7dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "50.83%"
+    },
+    "_wrapping_": 2,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "id": "FavoriteCheckText",
+    "ide_onClick": "AS_RichText_c9da0637d0ab4ef8b621a427563cc376",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "i456c2c3463441a182bd83408e837976",
+    "linkskin": "s68e041d2e2b483f8c137a7da84d41d4",
+    "name": "kony.ui.RichText",
+    "parent": "FlxFavorites",
+    "pf": "ProductDetails",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "RichText",
+    "widgetalignment": 5,
+    "zindex": 1
+}

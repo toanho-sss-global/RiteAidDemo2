@@ -1,0 +1,50 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_bottom_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "-1dp"
+    },
+    "_skin_": "sc8cf6aea9bd48af8d2cb046b09579b8",
+    "_text_": "Add to Basket",
+    "_top_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s705dbe7b19a4dc9a41af14e31efac3d",
+    "id": "AddButton",
+    "ide_onClick": "AS_Button_h265e4a259bb42f79f2452d09b7c4bb2",
+    "info": null,
+    "isvisible": true,
+    "kuid": "dbc48635bedf4880a979087d11c37067",
+    "masterType": 1,
+    "name": "kony.ui.Button",
+    "parent": "FlxAddButton",
+    "pf": "ProductDetails",
+    "wType": "Button",
+    "zindex": 1
+}

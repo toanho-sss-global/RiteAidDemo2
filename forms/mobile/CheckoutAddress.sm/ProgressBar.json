@@ -75,14 +75,6 @@
                 "wType": "Label"
             }
         },
-        "ProgessBarCircle3": {
-            "__events__": {},
-            "__info__": {
-                "kuid": "f8beef0fc4f1425da798fa0789922c55",
-                "srcKUID": "u321e9ca232143808b24a6c9b22e828d",
-                "wType": "FlexContainer"
-            }
-        },
         "ProgressBar": {
             "__events__": {},
             "__info__": {
@@ -112,14 +104,6 @@
                 "wType": "Label"
             }
         },
-        "ProgressBarCicle4": {
-            "__events__": {},
-            "__info__": {
-                "kuid": "e722b19d8f074be2a8122707762726b3",
-                "srcKUID": "u148a42789bd4fb0a197aca5dab34190",
-                "wType": "FlexContainer"
-            }
-        },
         "ProgressBarCircle1": {
             "__events__": {},
             "__info__": {
@@ -133,6 +117,22 @@
             "__info__": {
                 "kuid": "fde329ea28c14d98aaf2b83c17764324",
                 "srcKUID": "u29ae3d3bc2f46c49933cba7ccfd725b",
+                "wType": "FlexContainer"
+            }
+        },
+        "ProgressBarCircle3": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f8beef0fc4f1425da798fa0789922c55",
+                "srcKUID": "u321e9ca232143808b24a6c9b22e828d",
+                "wType": "FlexContainer"
+            }
+        },
+        "ProgressBarCircle4": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e722b19d8f074be2a8122707762726b3",
+                "srcKUID": "u148a42789bd4fb0a197aca5dab34190",
                 "wType": "FlexContainer"
             }
         },

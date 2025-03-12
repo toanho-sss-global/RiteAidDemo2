@@ -2,12 +2,10 @@
     "AS_RadioButtonGroup_hfb01920c6af4b7a86af95c7fd447b60": {
         "id": "AS_RadioButtonGroup_hfb01920c6af4b7a86af95c7fd447b60",
         "type": "ACTION_SEQUENCE",
-        "params": [
-            {
-                "datatype": "collection",
-                "name": "eventobject"
-            }
-        ],
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
         "contextObj": {
             "name": "CheckoutPaymentMethod",
             "type": "forms",
@@ -16,34 +14,29 @@
         },
         "language": "js",
         "eventType": "onSelection",
-        "actions": [
-            {
-                "id": "INVOKE_FUNCTION__e1e4832ddc684d3aba1387eef75939ea",
-                "type": "INVOKE_FUNCTION",
-                "sequenceKUID": "selectRadio",
-                "display": "selectRadio",
-                "inputparams": [
-                    {
-                        "name": "widget",
-                        "value": " eventobject"
-                    }
-                ],
-                "parentId": null,
-                "callbackType": null,
-                "disabled": null,
-                "source": "controller"
-            },
-            {
-                "id": "INVOKE_FUNCTION__i89086f4c5aa49c6913c3b453a35200f",
-                "type": "INVOKE_FUNCTION",
-                "sequenceKUID": "displayDinamicCheckoutContent",
-                "display": "displayDinamicCheckoutContent",
-                "inputparams": [],
-                "parentId": null,
-                "callbackType": null,
-                "disabled": null,
-                "source": "controller"
-            }
-        ]
+        "actions": [{
+            "id": "INVOKE_FUNCTION__e1e4832ddc684d3aba1387eef75939ea",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "selectRadio",
+            "display": "selectRadio",
+            "inputparams": [{
+                "name": "widget",
+                "value": " eventobject"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }, {
+            "id": "INVOKE_FUNCTION__i89086f4c5aa49c6913c3b453a35200f",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "displayDinamicCheckoutContent",
+            "display": "displayDinamicCheckoutContent",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
     }
 }

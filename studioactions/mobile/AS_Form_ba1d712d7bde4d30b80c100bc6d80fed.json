@@ -1,0 +1,29 @@
+{
+    "AS_Form_ba1d712d7bde4d30b80c100bc6d80fed": {
+        "id": "AS_Form_ba1d712d7bde4d30b80c100bc6d80fed",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "CheckoutPaymentMethod",
+            "type": "forms",
+            "platform": "",
+            "KUID": "eae0974787e143e8acb5bb70f9da40ab"
+        },
+        "language": "js",
+        "eventType": "postShow",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__jfc155625c4149a5ab5ea4747b76d66a",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "displayDinamicCheckoutContent",
+            "display": "displayDinamicCheckoutContent",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

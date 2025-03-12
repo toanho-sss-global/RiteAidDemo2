@@ -1,0 +1,17 @@
+{
+    "AS_Button_c507fae5cd2d446cb9e86875a61eafb7": {
+        "id": "AS_Button_c507fae5cd2d446cb9e86875a61eafb7",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_b28191d77d08476da69a63e6829ae62b",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.ShippingConfirmationDImScreen.isVisible = false;\nthis.view.MapPopupDimScreen.isVisible = true;"
+        }]
+    }
+}

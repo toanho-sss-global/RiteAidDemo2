@@ -60,6 +60,7 @@ define({
       var firstFacet = item.facetValues && item.facetValues.length > 0 ? item.facetValues[0].name : "Unknown";
 
       return {
+        id: item.id,
         lblDescription: firstVariant.name || "No Name",
         lblCost: firstVariant.priceWithTax ? `$${(firstVariant.priceWithTax / 100).toFixed(2)}` : "N/A",
         lblCategory: firstFacet,
@@ -75,3 +76,4 @@ define({
     this.initProductData();
   }
 });
+ 

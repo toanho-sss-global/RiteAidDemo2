@@ -1,0 +1,19 @@
+{
+    "AS_Form_e1b3b4cd8dce42be9ef344a661babe33": {
+        "id": "AS_Form_e1b3b4cd8dce42be9ef344a661babe33",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "CheckoutShippingMethod",
+            "type": "forms",
+            "platform": null,
+            "KUID": "b17f76394c484295b64c306ec564fc4f"
+        },
+        "language": "js",
+        "eventType": "postShow",
+        "actions": []
+    }
+}

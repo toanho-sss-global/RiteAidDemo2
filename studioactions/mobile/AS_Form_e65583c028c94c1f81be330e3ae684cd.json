@@ -15,6 +15,16 @@
         "language": "js",
         "eventType": "init",
         "actions": [{
+            "id": "INVOKE_FUNCTION__ed0c7343914246d498a95ed48283312a",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "preinputInfo",
+            "display": "preinputInfo",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }, {
             "id": "INVOKE_FUNCTION__g6cc066811194ef4bf3c3720533e0c9f",
             "type": "INVOKE_FUNCTION",
             "sequenceKUID": "getOrderSummaryData",

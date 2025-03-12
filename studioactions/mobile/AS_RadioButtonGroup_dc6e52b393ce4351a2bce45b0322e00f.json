@@ -1,0 +1,42 @@
+{
+    "AS_RadioButtonGroup_dc6e52b393ce4351a2bce45b0322e00f": {
+        "id": "AS_RadioButtonGroup_dc6e52b393ce4351a2bce45b0322e00f",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "CheckoutPaymentMethod",
+            "type": "forms",
+            "platform": "",
+            "KUID": "eae0974787e143e8acb5bb70f9da40ab"
+        },
+        "language": "js",
+        "eventType": "onSelection",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__g6844d74b97f4d44990f6d358e930d02",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "selectRadio",
+            "display": "selectRadio",
+            "inputparams": [{
+                "name": "widget",
+                "value": " eventobject"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }, {
+            "id": "INVOKE_FUNCTION__hb00b6450f2f4716b3391a5393e8e7d3",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "displayDinamicCheckoutContent",
+            "display": "displayDinamicCheckoutContent",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

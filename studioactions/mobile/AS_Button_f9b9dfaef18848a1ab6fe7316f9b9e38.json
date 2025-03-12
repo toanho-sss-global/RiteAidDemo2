@@ -1,0 +1,23 @@
+{
+    "AS_Button_f9b9dfaef18848a1ab6fe7316f9b9e38": {
+        "id": "AS_Button_f9b9dfaef18848a1ab6fe7316f9b9e38",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__if089f6176814110ba5ba2ad2893cd67",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "toggleFavorite",
+            "display": "toggleFavorite",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

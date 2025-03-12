@@ -1,0 +1,29 @@
+{
+    "AS_Button_f6a535b1a2e6434fb8d2e049c3a86139": {
+        "id": "AS_Button_f6a535b1a2e6434fb8d2e049c3a86139",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "KUID": "a3b68c6cbe914e898939d8278fbe1885",
+            "name": "ProductDetails",
+            "platform": "",
+            "type": "forms"
+        },
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__f80725de9d484e8cb2a3baf298e91459",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "decreaseQuantity",
+            "display": "decreaseQuantity",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

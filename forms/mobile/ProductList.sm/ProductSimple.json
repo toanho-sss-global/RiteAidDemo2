@@ -88,7 +88,9 @@
             }
         },
         "segTemp": {
-            "__events__": {},
+            "__events__": {
+                "ide_onRowClick": "AS_Segment_j58894ea400b46a1933dd1659702e5cf"
+            },
             "__info__": {
                 "kuid": "b0cb592ac02942efb393309e9e468a75",
                 "srcKUID": "u8e91660a5a348509453b5493177b6dd",

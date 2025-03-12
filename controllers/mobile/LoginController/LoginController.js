@@ -53,8 +53,25 @@ define({
 
           var response = JSON.parse(httpclient.response);
           var userData = response.data.login;
+          var responseHeader = 
+              httpclient.getResponseHeader('vendure-auth-token');
           if (userData !== null && userData.identifier) {
-            voltmx.store.setItem('userData', JSON.stringify(userData))
+            voltmx.store.setItem('userData', JSON.stringify(userData));
+//             var httpclient2 = new voltmx.net.HttpRequest();
+//             httpclient2.open(constants.HTTP_METHOD_POST, 
+//                       "https://vendure.demo.universalcommerce.io/shop-api");
+//             httpclient2.setRequestHeader("Content-Type", "application/json");
+//             httpclient2
+//               .setRequestHeader("Authorization", `Bearer ${responseHeader}`);
+//             var queryGetCart = JSON.stringify({
+//               "query": "query ActiveOrder { activeOrder { id lines { id linePriceWithTax quantity productVariant { id name priceWithTax featuredAsset { preview } currencyCode } } subTotalWithTax shippingWithTax totalWithTax totalQuantity currencyCode } }",
+//               "variables": {},
+//             });
+//             httpclient2.send(queryGetCart);
+//             httpclient2.onReadyStateChange = function () {
+//               var response2 = JSON.parse(httpclient.response);
+//               console.log("Response GET CART: ", response2);
+//             };
             var nav = new voltmx.mvc.Navigation("Home");
             nav.navigate();
           } else if (response.errors) {

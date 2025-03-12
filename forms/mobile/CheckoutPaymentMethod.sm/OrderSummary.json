@@ -27,7 +27,7 @@
     "_skin_": "s3bc266d463f4e40a71ff1130747b7a5",
     "_top_": {
         "type": "string",
-        "value": "770dp"
+        "value": "873dp"
     },
     "_width_": {
         "type": "string",
@@ -38,7 +38,7 @@
     "canUpdateUI": true,
     "centerx": {
         "type": "string",
-        "value": "50.00%"
+        "value": "50%"
     },
     "clipbounds": false,
     "containerweight": 0,
@@ -46,24 +46,24 @@
         "InMyCartCtn": {
             "__events__": {},
             "__info__": {
-                "kuid": "d028981902124c45aee91e9e817a231e",
-                "srcKUID": "ue9827e0c6cc4fb6abc333bf78aca7fe",
+                "kuid": "afb5d0c64fbd42a18fdf32316a89a6bd",
+                "srcKUID": "u1c8c801ad1340dab89491856a2317e9",
                 "wType": "FlexContainer"
             }
         },
         "InMyCartDetail": {
             "__events__": {},
             "__info__": {
-                "kuid": "b4c3120ede7542a8a0229143d375b802",
-                "srcKUID": "u76f92ffded04382a8fa26a17d35161f",
+                "kuid": "e63164fe1075421bba8d9d864975ed8b",
+                "srcKUID": "uf77471a2b6f46e1b15960f1122b0c41",
                 "wType": "Label"
             }
         },
         "InMyCartQuantity": {
             "__events__": {},
             "__info__": {
-                "kuid": "d53ca01b16c64ec48597f1827bb179e8",
-                "srcKUID": "u24cdf321c4b47ad8a365527b4488305",
+                "kuid": "c7f5cdc7e4e74ebaa888f27400c24b17",
+                "srcKUID": "u119a7226ab44b39becfecfd95130d98",
                 "wType": "Label"
             }
         },
@@ -71,61 +71,60 @@
             "__events__": {},
             "__info__": {
                 "isRoot": true,
-                "kuid": "i695dd0d9ab84d5b863cb7b005cd3f68",
+                "kuid": "idea08fba9ff47ea9cae7920e6a62661",
                 "srcKUID": "u9164de7e9714e64a981ae181a6a709b",
                 "wType": "FlexContainer"
             },
             "centerX": {
                 "Default": {
                     "type": "string",
-                    "value": "50.00%"
+                    "value": "50%"
                 }
             },
-            "isVisible": false,
             "top": {
                 "Default": {
                     "type": "string",
-                    "value": "770dp"
+                    "value": "873dp"
                 }
             }
         },
         "OrderSummaryItemList": {
             "__events__": {},
             "__info__": {
-                "kuid": "dce4b26247a64be692713032823fc819",
-                "srcKUID": "uc3841b5e9154419bbb6e067d1b480d2",
+                "kuid": "fe25ebe672644d73b694ee02c5bd9f8e",
+                "srcKUID": "u59b19d6e9794113b9cb0c660fd39619",
                 "wType": "Segment"
             }
         },
         "OrderSummaryLabel": {
             "__events__": {},
             "__info__": {
-                "kuid": "c91d9beb9f584bb9a91121b5aaf7163a",
-                "srcKUID": "ud50db81f41249d3916848e72f75e0d4",
+                "kuid": "g65a4cd2400544f28d0424cfffca4c27",
+                "srcKUID": "ucb7ef441f8f48b68cb02db7ff17c02f",
                 "wType": "Label"
             }
         },
         "OrderSummaryTotal": {
             "__events__": {},
             "__info__": {
-                "kuid": "ca8636ae10424a8d9e64df800c65b8aa",
-                "srcKUID": "uf05b9949a7643989314f673b9b8f12a",
+                "kuid": "ec89d3aaa15840178dd2b63479f0e5bb",
+                "srcKUID": "u0b73eedc5eb48d49fa5a4b24c8366a8",
                 "wType": "Label"
             }
         },
         "OrderSummaryTotalLabel": {
             "__events__": {},
             "__info__": {
-                "kuid": "d7800540d2004dd29521741a92b7df2b",
-                "srcKUID": "u2d5e66c10234d1783b3d1c9c2e21e73",
+                "kuid": "bee65dc26d094910abe47389ff6251be",
+                "srcKUID": "u2f5b2614f944e1388ac49e6099c13f5",
                 "wType": "Label"
             }
         },
         "ShipToAddressLabel": {
             "__events__": {},
             "__info__": {
-                "kuid": "aac5d886bd29490fa1e7cac679900ea2",
-                "srcKUID": "ub13842e20044e5caf7c51a411fc4a7b",
+                "kuid": "c60c41302cf5484ead884a3d3bc4470f",
+                "srcKUID": "ub3286ebd0b24007a0636f5474f5c291",
                 "wType": "Label"
             }
         }
@@ -135,8 +134,8 @@
     "info": null,
     "iscustomlayout": false,
     "isdatareferenced": false,
-    "isvisible": false,
-    "kuid": "i695dd0d9ab84d5b863cb7b005cd3f68",
+    "isvisible": true,
+    "kuid": "idea08fba9ff47ea9cae7920e6a62661",
     "layouttype": 2,
     "masterType": 0,
     "name": "kony.ui.UserWidgetInstance",
