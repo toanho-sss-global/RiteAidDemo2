@@ -17,16 +17,6 @@
         },
         "language": "js",
         "eventType": "onTextChange",
-        "actions": [{
-            "id": "INVOKE_FUNCTION__b1c58655921b4e0a926559fd246b3305",
-            "type": "INVOKE_FUNCTION",
-            "sequenceKUID": "fullNameConverter",
-            "display": "fullNameConverter",
-            "inputparams": [],
-            "parentId": null,
-            "callbackType": null,
-            "disabled": null,
-            "source": "controller"
-        }]
+        "actions": []
     }
 }

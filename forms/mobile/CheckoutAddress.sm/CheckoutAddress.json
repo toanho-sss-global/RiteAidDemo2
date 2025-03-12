@@ -64,8 +64,7 @@
         "CheckoutCountryCodeInput",
         "CheckoutColorBlock",
         "CheckoutContinueButton",
-        "OrderSummary",
-        "FullNameConverter"
+        "OrderSummary"
     ],
     "containerweight": 100,
     "controllerInfo": {
