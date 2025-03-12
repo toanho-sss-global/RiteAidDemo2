@@ -17,6 +17,7 @@ define({
   },
 
   LoginApi: function () {
+    var self = this;
     var email = this.view.txtBoxEmail.text.trim();
     var password = this.view.txtBoxPassword.text.trim();
 
@@ -44,7 +45,10 @@ define({
           var response = JSON.parse(httpclient.response);
           var userData = response.data.login;
           if (userData !== null && userData.identifier) {
-            voltmx.store.setItem('userData', JSON.stringify(userData))
+            voltmx.store.setItem('userData', JSON.stringify(userData));
+            //
+            self.countProductInCart();
+            
             var nav = new voltmx.mvc.Navigation("Home");
             nav.navigate();
           } else if (response.errors) {
@@ -53,6 +57,34 @@ define({
         }
       };
     }
+  },
+  
+  // integrate with api GetActiveOrder
+  countProductInCart: function () {
+    var self = this;
+    var url = "https://vendure.demo.universalcommerce.io/shop-api";
+    var token = localStorage.getItem("vendure-auth-token");
+    
+    var httpclient = new voltmx.net.HttpRequest();
+    
+    httpclient.open(constants.HTTP_METHOD_POST, url);
+    httpclient.setRequestHeader("Content-Type", "application/json");
+    httpclient.setRequestHeader("Authorization", "Bearer " + token);
+
+    var jsonStr2 = JSON.stringify({
+    "query": "query ActiveOrder { activeOrder { id lines { productVariant { id } } } }"
+	});
+    
+    httpclient.send(jsonStr2);
+ 	httpclient.onReadyStateChange = function () {
+    if (httpclient.readyState === 4) {
+        if (httpclient.status === 200) {
+          var response = JSON.parse(httpclient.response);
+          var count = response.data.activeOrder.lines.length;
+          localStorage.setItem("count_product_in_cart", count);
+        }
+    }
+ 	};
   },
 
 });
