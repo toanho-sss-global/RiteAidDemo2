@@ -19,7 +19,7 @@
             "type": "NAVIGATE_TO_FORM",
             "formId": "CopyShoppingCart",
             "formKUID": "g2f808f3aabf4a22af7f84d9273533ed",
-            "projectName": "SampleRiteAid",
+            "projectName": "RiteAidDemo2",
             "mappings": {},
             "mappingsOrder": [],
             "enableMappingEditor": true,

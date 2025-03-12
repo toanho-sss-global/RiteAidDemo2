@@ -1,24 +1,24 @@
 {
-    "AS_UWI_e271aa1453e243ed826b9ed089295a2f": {
-        "id": "AS_UWI_e271aa1453e243ed826b9ed089295a2f",
+    "AS_UWI_h6b93d1fe8754cd58c49d2d35c3899c1": {
+        "id": "AS_UWI_h6b93d1fe8754cd58c49d2d35c3899c1",
         "type": "ACTION_SEQUENCE",
         "params": [{
             "datatype": "collection",
             "name": "eventobject"
         }],
         "contextObj": {
-            "name": "Home",
+            "name": "ProductList",
             "type": "forms",
             "platform": "",
-            "KUID": "fb6e88e7d7c94c68aa13478d43b174b5"
+            "KUID": "b79e93a47a8a42038218541a0de1b8ba"
         },
         "language": "js",
-        "eventType": "onLogoClicked",
+        "eventType": "onCartClicked",
         "actions": [{
-            "id": "NAVIGATE_TO_FORM__a04f98a8aafa40d99fa4770dba88246e",
+            "id": "NAVIGATE_TO_FORM__i630706b3da6432d918a6d848c884bee",
             "type": "NAVIGATE_TO_FORM",
-            "formId": "Home",
-            "formKUID": "fb6e88e7d7c94c68aa13478d43b174b5",
+            "formId": "ShoppingCart",
+            "formKUID": "c6939cf809d44ca982d87fb479d42f13",
             "projectName": "RiteAidDemo2",
             "mappings": {},
             "mappingsOrder": [],

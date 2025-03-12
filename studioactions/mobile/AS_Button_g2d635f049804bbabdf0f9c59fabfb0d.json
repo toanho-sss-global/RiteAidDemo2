@@ -19,7 +19,7 @@
             "type": "NAVIGATE_TO_FORM",
             "formId": "CheckoutShippingMethod",
             "formKUID": "b17f76394c484295b64c306ec564fc4f",
-            "projectName": "SampleRiteAid",
+            "projectName": "RiteAidDemo2",
             "mappings": {},
             "mappingsOrder": [],
             "parentId": "INVOKE_SERVICE_b4e7b0a3d7b5482cb90ae42ca828867a",

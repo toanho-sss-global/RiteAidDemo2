@@ -1,6 +1,6 @@
 {
-    "AS_UWI_e271aa1453e243ed826b9ed089295a2f": {
-        "id": "AS_UWI_e271aa1453e243ed826b9ed089295a2f",
+    "AS_UWI_g4e69ac0723d4dd7aacd9b0c8239b562": {
+        "id": "AS_UWI_g4e69ac0723d4dd7aacd9b0c8239b562",
         "type": "ACTION_SEQUENCE",
         "params": [{
             "datatype": "collection",
@@ -13,12 +13,12 @@
             "KUID": "fb6e88e7d7c94c68aa13478d43b174b5"
         },
         "language": "js",
-        "eventType": "onLogoClicked",
+        "eventType": "onCartClicked",
         "actions": [{
-            "id": "NAVIGATE_TO_FORM__a04f98a8aafa40d99fa4770dba88246e",
+            "id": "NAVIGATE_TO_FORM__d6c4e7abdb1f41e0985f45afb45eab3b",
             "type": "NAVIGATE_TO_FORM",
-            "formId": "Home",
-            "formKUID": "fb6e88e7d7c94c68aa13478d43b174b5",
+            "formId": "ShoppingCart",
+            "formKUID": "c6939cf809d44ca982d87fb479d42f13",
             "projectName": "RiteAidDemo2",
             "mappings": {},
             "mappingsOrder": [],

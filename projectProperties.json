@@ -280,7 +280,7 @@
     "cordovaVersionInfo": {},
     "createdVizVersion": "8.3.0",
     "createdgaversion": "8.3.0",
-    "currentgaversion": "9.5.50",
+    "currentgaversion": "9.5.30",
     "deeplinkkey": "None",
     "defaulttheme": "defaultTheme",
     "desktopwebaligenmentoption": "left",
@@ -386,7 +386,7 @@
             "version": "1.0"
         }
     },
-    "konyVizVersion": "9.5.50",
+    "konyVizVersion": "9.5.30",
     "lastmodifiedtime": "1534146194069",
     "location": "false",
     "log_level": "ERROR",
@@ -700,7 +700,7 @@
     "spawindows480basefontsize": "12",
     "spawindowstabbasefontsize": "17",
     "splashlogokey": "",
-    "startupformkey": "fb6e88e7d7c94c68aa13478d43b174b5",
+    "startupformkey": "fe24c9db0b3843b8b65fb7f139c8b005",
     "statusBarHidden": "false",
     "statusBarStyle": "STATUS_BAR_STYLE_DEFAULT",
     "studiovizproject": "true",
