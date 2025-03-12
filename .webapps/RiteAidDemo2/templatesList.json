@@ -1,0 +1,47 @@
+{
+    "spaip": {
+        "formslist": {
+            "mvcFormObjects": [
+                "CheckoutAddress",
+                "CheckoutPaymentMethod",
+                "CheckoutShippingMethod",
+                "CheckoutSuccessful",
+                "CopyShoppingCart",
+                "Dashboard",
+                "Form1",
+                "Home",
+                "Login",
+                "PopupAddProduct",
+                "ProductDetails",
+                "ProductList",
+                "ShoppingCart"
+            ],
+            "nonmvcFormObjects": []
+        },
+        "templatesList": {
+            "mvcTemplateObjects": [
+                "Carousel.OrderSummary",
+                "Carousel.ProductListCarousel",
+                "CheckoutTemplate.ProgressBar",
+                "com.konymp.map1",
+                "ListView.CartProductList",
+                "ListView.ProductSimple",
+                "Popup.AddProduct",
+                "Popup.AddProductCopy",
+                "Popup.Payment",
+                "RiteAidCommon.HeaderBar",
+                "RiteAidCommon.HeaderBarCopy",
+                "RiteAidFooter.FooterDemo",
+                "RiteAidFooter.FooterDemoCopy",
+                "CartProductItem",
+                "OrderSummaryItemList",
+                "ProductCarouselItem",
+                "SampleRowTemplate",
+                "SampleSectionHeaderTemplate",
+                "SegTemp",
+                "Temp0f769e62fdc364c"
+            ],
+            "nonmvcTemplateObjects": []
+        }
+    }
+}

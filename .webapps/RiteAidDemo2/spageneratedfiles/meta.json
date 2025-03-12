@@ -1,0 +1,22 @@
+{
+    "spaiphone": {
+        "platform": "spaip",
+        "indexjl": "js",
+        "appName": "Sample",
+        "buildWar": "false",
+        "devicemessage": "This device is currently not supported",
+        "deviceexception": "Unknown Error Occurred <br/> Contact System Admin",
+        "importjsfiles": [],
+        "version": "1.0.0",
+        "category": "spaiphone/",
+        "bgcolor": "#ffffff",
+        "enablexfs": "false",
+        "isDebug": "false",
+        "csslist": [],
+        "jslist": [],
+        "enableViewportZooming": false,
+        "webcsslist": [],
+        "webjslist": [],
+        "webheadertags": []
+    }
+}

@@ -1,0 +1,495 @@
+{
+    "controllerTemplateInfoMapping": {
+        "spaip": {
+            "CopyFBox0eea1207dbf814dController_mobile": [
+                "CopyFBox0eea1207dbf814dController"
+            ],
+            "CopyFBoxController_mobile": [
+                "CopyFBoxController"
+            ],
+            "CopyflxSeg2Controller_mobile": [
+                "CopyflxSeg2Controller"
+            ],
+            "Flex0f2795775352a48Controller_mobile": [
+                "Flex0f2795775352a48Controller"
+            ],
+            "FlxSegController_mobile": [
+                "FlxSegController"
+            ],
+            "OrderSummaryItemListCtnController_mobile": [
+                "OrderSummaryItemListCtnController"
+            ],
+            "ProductCarouselContainerController_mobile": [
+                "ProductCarouselContainerController"
+            ],
+            "flxSampleRowTemplateController_mobile": [
+                "flxSampleRowTemplateController"
+            ],
+            "flxSectionHeaderTemplateController_mobile": [
+                "flxSectionHeaderTemplateController"
+            ]
+        }
+    },
+    "controllerformInfoMapping": {
+        "spaip": {
+            "CheckoutAddressController_mobile": [
+                "CheckoutAddressController"
+            ],
+            "CheckoutPaymentMethodController_mobile": [
+                "CheckoutPaymentMethodController"
+            ],
+            "CheckoutShippingMethodController_mobile": [
+                "CheckoutShippingMethodController"
+            ],
+            "CheckoutSuccessfulController_mobile": [
+                "CheckoutSuccessfulController"
+            ],
+            "CopyShoppingCartController_mobile": [
+                "CopyShoppingCartController"
+            ],
+            "DashboardController_mobile": [
+                "DashboardController"
+            ],
+            "Form1Controller_mobile": [
+                "Form1Controller"
+            ],
+            "HomeController_mobile": [
+                "HomeController"
+            ],
+            "LoginController_mobile": [
+                "LoginController"
+            ],
+            "PopupAddProductController_mobile": [
+                "PopupAddProductController"
+            ],
+            "ProductDetailsController_mobile": [
+                "ProductDetailsController"
+            ],
+            "ProductListController_mobile": [
+                "ProductListController"
+            ],
+            "ShoppingCartController_mobile": [
+                "ShoppingCartController"
+            ]
+        }
+    },
+    "formControllerInfoMapping": {
+        "spaip": {
+            "CheckoutAddress": {
+                "controllerActionDir": "CheckoutAddressController",
+                "controllerChannel": "mobile",
+                "controllerName": "CheckoutAddressController"
+            },
+            "CheckoutPaymentMethod": {
+                "controllerActionDir": "CheckoutPaymentMethodController",
+                "controllerChannel": "mobile",
+                "controllerName": "CheckoutPaymentMethodController"
+            },
+            "CheckoutShippingMethod": {
+                "controllerActionDir": "CheckoutShippingMethodController",
+                "controllerChannel": "mobile",
+                "controllerName": "CheckoutShippingMethodController"
+            },
+            "CheckoutSuccessful": {
+                "controllerActionDir": "CheckoutSuccessfulController",
+                "controllerChannel": "mobile",
+                "controllerName": "CheckoutSuccessfulController"
+            },
+            "CopyShoppingCart": {
+                "controllerActionDir": "CopyShoppingCartController",
+                "controllerChannel": "mobile",
+                "controllerName": "CopyShoppingCartController"
+            },
+            "Dashboard": {
+                "controllerActionDir": "DashboardController",
+                "controllerChannel": "mobile",
+                "controllerName": "DashboardController"
+            },
+            "Form1": {
+                "controllerActionDir": "Form1Controller",
+                "controllerChannel": "mobile",
+                "controllerName": "Form1Controller"
+            },
+            "Home": {
+                "controllerActionDir": "HomeController",
+                "controllerChannel": "mobile",
+                "controllerName": "HomeController"
+            },
+            "Login": {
+                "controllerActionDir": "LoginController",
+                "controllerChannel": "mobile",
+                "controllerName": "LoginController"
+            },
+            "PopupAddProduct": {
+                "controllerActionDir": "PopupAddProductController",
+                "controllerChannel": "mobile",
+                "controllerName": "PopupAddProductController"
+            },
+            "ProductDetails": {
+                "controllerActionDir": "ProductDetailsController",
+                "controllerChannel": "mobile",
+                "controllerName": "ProductDetailsController"
+            },
+            "ProductList": {
+                "controllerActionDir": "ProductListController",
+                "controllerChannel": "mobile",
+                "controllerName": "ProductListController"
+            },
+            "ShoppingCart": {
+                "controllerActionDir": "ShoppingCartController",
+                "controllerChannel": "mobile",
+                "controllerName": "ShoppingCartController"
+            }
+        }
+    },
+    "formsifcMapping": {
+        "spaip": {
+            "CheckoutAddress": {
+                "ControllerExtensions": [],
+                "appName": "RiteAidDemo2",
+                "controllerInfo": {
+                    "controllerActionName": "CheckoutAddressController",
+                    "controllerChannel": "mobile",
+                    "controllerName": "CheckoutAddressController"
+                },
+                "enableModelDriven": false,
+                "friendlyName": "CheckoutAddress",
+                "isMDAForm": false
+            },
+            "CheckoutPaymentMethod": {
+                "ControllerExtensions": [],
+                "appName": "RiteAidDemo2",
+                "controllerInfo": {
+                    "controllerActionName": "CheckoutPaymentMethodController",
+                    "controllerChannel": "mobile",
+                    "controllerName": "CheckoutPaymentMethodController"
+                },
+                "enableModelDriven": false,
+                "friendlyName": "CheckoutPaymentMethod",
+                "isMDAForm": false
+            },
+            "CheckoutShippingMethod": {
+                "ControllerExtensions": [],
+                "appName": "RiteAidDemo2",
+                "controllerInfo": {
+                    "controllerActionName": "CheckoutShippingMethodController",
+                    "controllerChannel": "mobile",
+                    "controllerName": "CheckoutShippingMethodController"
+                },
+                "enableModelDriven": false,
+                "friendlyName": "CheckoutShippingMethod",
+                "isMDAForm": false
+            },
+            "CheckoutSuccessful": {
+                "ControllerExtensions": [],
+                "appName": "RiteAidDemo2",
+                "controllerInfo": {
+                    "controllerActionName": "CheckoutSuccessfulController",
+                    "controllerChannel": "mobile",
+                    "controllerName": "CheckoutSuccessfulController"
+                },
+                "enableModelDriven": false,
+                "friendlyName": "CheckoutSuccessful",
+                "isMDAForm": false
+            },
+            "CopyShoppingCart": {
+                "ControllerExtensions": [],
+                "appName": "RiteAidDemo2",
+                "controllerInfo": {
+                    "controllerActionName": "CopyShoppingCartController",
+                    "controllerChannel": "mobile",
+                    "controllerName": "CopyShoppingCartController"
+                },
+                "enableModelDriven": false,
+                "friendlyName": "CopyShoppingCart",
+                "isMDAForm": false
+            },
+            "Dashboard": {
+                "ControllerExtensions": [],
+                "appName": "RiteAidDemo2",
+                "controllerInfo": {
+                    "controllerActionName": "DashboardController",
+                    "controllerChannel": "mobile",
+                    "controllerName": "DashboardController"
+                },
+                "enableModelDriven": false,
+                "friendlyName": "Dashboard",
+                "isMDAForm": false
+            },
+            "Form1": {
+                "ControllerExtensions": [],
+                "appName": "RiteAidDemo2",
+                "controllerInfo": {
+                    "controllerActionName": "Form1Controller",
+                    "controllerChannel": "mobile",
+                    "controllerName": "Form1Controller"
+                },
+                "enableModelDriven": false,
+                "friendlyName": "Form1",
+                "isMDAForm": false
+            },
+            "Home": {
+                "ControllerExtensions": [],
+                "appName": "RiteAidDemo2",
+                "controllerInfo": {
+                    "controllerActionName": "HomeController",
+                    "controllerChannel": "mobile",
+                    "controllerName": "HomeController"
+                },
+                "enableModelDriven": false,
+                "friendlyName": "Home",
+                "isMDAForm": false
+            },
+            "Login": {
+                "ControllerExtensions": [],
+                "appName": "RiteAidDemo2",
+                "controllerInfo": {
+                    "controllerActionName": "LoginController",
+                    "controllerChannel": "mobile",
+                    "controllerName": "LoginController"
+                },
+                "enableModelDriven": false,
+                "friendlyName": "Login",
+                "isMDAForm": false
+            },
+            "PopupAddProduct": {
+                "ControllerExtensions": [],
+                "appName": "RiteAidDemo2",
+                "controllerInfo": {
+                    "controllerActionName": "PopupAddProductController",
+                    "controllerChannel": "mobile",
+                    "controllerName": "PopupAddProductController"
+                },
+                "enableModelDriven": false,
+                "friendlyName": "PopupAddProduct",
+                "isMDAForm": false
+            },
+            "ProductDetails": {
+                "ControllerExtensions": [],
+                "appName": "RiteAidDemo2",
+                "controllerInfo": {
+                    "controllerActionName": "ProductDetailsController",
+                    "controllerChannel": "mobile",
+                    "controllerName": "ProductDetailsController"
+                },
+                "enableModelDriven": false,
+                "friendlyName": "ProductDetails",
+                "isMDAForm": false
+            },
+            "ProductList": {
+                "ControllerExtensions": [],
+                "appName": "RiteAidDemo2",
+                "controllerInfo": {
+                    "controllerActionName": "ProductListController",
+                    "controllerChannel": "mobile",
+                    "controllerName": "ProductListController"
+                },
+                "enableModelDriven": false,
+                "friendlyName": "ProductList",
+                "isMDAForm": false
+            },
+            "ShoppingCart": {
+                "ControllerExtensions": [],
+                "appName": "RiteAidDemo2",
+                "controllerInfo": {
+                    "controllerActionName": "ShoppingCartController",
+                    "controllerChannel": "mobile",
+                    "controllerName": "ShoppingCartController"
+                },
+                "enableModelDriven": false,
+                "friendlyName": "ShoppingCart",
+                "isMDAForm": false
+            }
+        }
+    },
+    "templateControllerInfoMapping": {
+        "spaip": {
+            "CartProductItem": {
+                "controllerActionDir": "CopyflxSeg2Controller",
+                "controllerChannel": "mobile",
+                "controllerName": "CopyflxSeg2Controller"
+            },
+            "CopyFBox": {
+                "controllerActionDir": "CopyFBoxController",
+                "controllerChannel": "mobile",
+                "controllerName": "CopyFBoxController"
+            },
+            "CopyFBox0eea1207dbf814d": {
+                "controllerActionDir": "CopyFBox0eea1207dbf814dController",
+                "controllerChannel": "mobile",
+                "controllerName": "CopyFBox0eea1207dbf814dController"
+            },
+            "OrderSummaryItemList": {
+                "controllerActionDir": "OrderSummaryItemListCtnController",
+                "controllerChannel": "mobile",
+                "controllerName": "OrderSummaryItemListCtnController"
+            },
+            "ProductCarouselItem": {
+                "controllerActionDir": "ProductCarouselContainerController",
+                "controllerChannel": "mobile",
+                "controllerName": "ProductCarouselContainerController"
+            },
+            "SampleRowTemplate": {
+                "controllerActionDir": "flxSampleRowTemplateController",
+                "controllerChannel": "mobile",
+                "controllerName": "flxSampleRowTemplateController"
+            },
+            "SampleSectionHeaderTemplate": {
+                "controllerActionDir": "flxSectionHeaderTemplateController",
+                "controllerChannel": "mobile",
+                "controllerName": "flxSectionHeaderTemplateController"
+            },
+            "SegTemp": {
+                "controllerActionDir": "FlxSegController",
+                "controllerChannel": "mobile",
+                "controllerName": "FlxSegController"
+            },
+            "Temp0f769e62fdc364c": {
+                "controllerActionDir": "Flex0f2795775352a48Controller",
+                "controllerChannel": "mobile",
+                "controllerName": "Flex0f2795775352a48Controller"
+            }
+        }
+    },
+    "templatesifcMapping": {
+        "spaip": {
+            "CopyflxSeg2": {
+                "appName": "RiteAidDemo2",
+                "controllerInfo": {
+                    "controllerActionName": "CopyflxSeg2Controller",
+                    "controllerChannel": "mobile",
+                    "controllerName": "CopyflxSeg2Controller"
+                },
+                "friendlyName": "CopyflxSeg2",
+                "templateId": "CopyflxSeg2"
+            },
+            "Flex0f2795775352a48": {
+                "appName": "RiteAidDemo2",
+                "controllerInfo": {
+                    "controllerActionName": "Flex0f2795775352a48Controller",
+                    "controllerChannel": "mobile",
+                    "controllerName": "Flex0f2795775352a48Controller"
+                },
+                "friendlyName": "Flex0f2795775352a48",
+                "templateId": "Flex0f2795775352a48"
+            },
+            "FlxSeg": {
+                "appName": "RiteAidDemo2",
+                "controllerInfo": {
+                    "controllerActionName": "FlxSegController",
+                    "controllerChannel": "mobile",
+                    "controllerName": "FlxSegController"
+                },
+                "friendlyName": "FlxSeg",
+                "templateId": "FlxSeg"
+            },
+            "OrderSummaryItemListCtn": {
+                "appName": "RiteAidDemo2",
+                "controllerInfo": {
+                    "controllerActionName": "OrderSummaryItemListCtnController",
+                    "controllerChannel": "mobile",
+                    "controllerName": "OrderSummaryItemListCtnController"
+                },
+                "friendlyName": "OrderSummaryItemListCtn",
+                "templateId": "OrderSummaryItemListCtn"
+            },
+            "ProductCarouselContainer": {
+                "appName": "RiteAidDemo2",
+                "controllerInfo": {
+                    "controllerActionName": "ProductCarouselContainerController",
+                    "controllerChannel": "mobile",
+                    "controllerName": "ProductCarouselContainerController"
+                },
+                "friendlyName": "ProductCarouselContainer",
+                "templateId": "ProductCarouselContainer"
+            },
+            "flxSampleRowTemplate": {
+                "appName": "RiteAidDemo2",
+                "controllerInfo": {
+                    "controllerActionName": "flxSampleRowTemplateController",
+                    "controllerChannel": "mobile",
+                    "controllerName": "flxSampleRowTemplateController"
+                },
+                "friendlyName": "flxSampleRowTemplate",
+                "templateId": "flxSampleRowTemplate"
+            },
+            "flxSectionHeaderTemplate": {
+                "appName": "RiteAidDemo2",
+                "controllerInfo": {
+                    "controllerActionName": "flxSectionHeaderTemplateController",
+                    "controllerChannel": "mobile",
+                    "controllerName": "flxSectionHeaderTemplateController"
+                },
+                "friendlyName": "flxSectionHeaderTemplate",
+                "templateId": "flxSectionHeaderTemplate"
+            }
+        }
+    },
+    "userwidgetsifcMapping": {
+        "Carousel.OrderSummary": {
+            "appName": "RiteAidDemo2",
+            "classname": "OrderSummary",
+            "namespace": "Carousel"
+        },
+        "Carousel.ProductListCarousel": {
+            "appName": "RiteAidDemo2",
+            "classname": "ProductListCarousel",
+            "namespace": "Carousel"
+        },
+        "CheckoutTemplate.ProgressBar": {
+            "appName": "RiteAidDemo2",
+            "classname": "ProgressBar",
+            "namespace": "CheckoutTemplate"
+        },
+        "ListView.CartProductList": {
+            "appName": "RiteAidDemo2",
+            "classname": "CartProductList",
+            "namespace": "ListView"
+        },
+        "ListView.ProductSimple": {
+            "appName": "RiteAidDemo2",
+            "classname": "ProductSimple",
+            "namespace": "ListView"
+        },
+        "Popup.AddProduct": {
+            "appName": "RiteAidDemo2",
+            "classname": "AddProduct",
+            "namespace": "Popup"
+        },
+        "Popup.AddProductCopy": {
+            "appName": "RiteAidDemo2",
+            "classname": "AddProductCopy",
+            "namespace": "Popup"
+        },
+        "Popup.Payment": {
+            "appName": "RiteAidDemo2",
+            "classname": "Payment",
+            "namespace": "Popup"
+        },
+        "RiteAidCommon.HeaderBar": {
+            "appName": "RiteAidDemo2",
+            "classname": "HeaderBar",
+            "namespace": "RiteAidCommon"
+        },
+        "RiteAidCommon.HeaderBarCopy": {
+            "appName": "RiteAidDemo2",
+            "classname": "HeaderBarCopy",
+            "namespace": "RiteAidCommon"
+        },
+        "RiteAidFooter.FooterDemo": {
+            "appName": "RiteAidDemo2",
+            "classname": "FooterDemo",
+            "namespace": "RiteAidFooter"
+        },
+        "RiteAidFooter.FooterDemoCopy": {
+            "appName": "RiteAidDemo2",
+            "classname": "FooterDemoCopy",
+            "namespace": "RiteAidFooter"
+        },
+        "com.konymp.map1": {
+            "appName": "RiteAidDemo2",
+            "classname": "map1",
+            "namespace": "com.konymp"
+        }
+    }
+}
