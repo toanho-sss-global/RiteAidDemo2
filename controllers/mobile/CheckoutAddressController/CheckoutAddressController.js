@@ -33,7 +33,7 @@ define({
   getOrderSummaryData: function() {  
     this.view.OrderSummary.OrderSummaryTotal.text = voltmx.store.getItem("CartTotalPrice");
     this.view.OrderSummary.InMyCartCtn.InMyCartQuantity.text = "In My Cart | " + voltmx.store.getItem("CartItemQuantity") + " Items";
-    var cartData = voltmx.store.getItem("UpdatedCartProductList");
+    var cartData = voltmx.store.getItem("CartProductList");
     if (cartData) {
       var parsedCartData = JSON.parse(cartData);
       this.view.OrderSummary.OrderSummaryItemList.setData(parsedCartData);

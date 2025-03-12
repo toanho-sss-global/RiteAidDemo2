@@ -34,6 +34,16 @@
             "callbackType": null,
             "disabled": null,
             "source": "controller"
+        }, {
+            "id": "INVOKE_FUNCTION__b9bb60570fd742a294e1d4b6b1cb1a14",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "getPickUpStore",
+            "display": "getPickUpStore",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
         }]
     }
 }

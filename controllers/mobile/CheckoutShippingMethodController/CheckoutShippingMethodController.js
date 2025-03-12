@@ -21,13 +21,13 @@ define({
 
     showMap: function () {
       var selectedKey = this.view.ShippingOptions.selectedKey;
-      if(selectedKey === "PickFormPharmacy"){
+      if(selectedKey === "2"){
         this.view.MapPopupDimScreen.isVisible = true;
       }
     },
   showShippingConfirmation:function (){
     var selectedKey = this.view.ShippingOptions.selectedKey;
-      if(selectedKey === "ShipFormPharmacy"){
+      if(selectedKey === "1"){
         this.view.ShippingConfirmationDImScreen.isVisible = true;
       }
   },
@@ -62,6 +62,29 @@ define({
           }
         }
   	}
+  },
+  
+  getPickUpStore: function (){
+     var cartDataJson = voltmx.store.getItem("CartProductList");
+    cartData = JSON.parse(cartDataJson);
+   
+    
+    
+    var httpclient = new voltmx.net.HttpRequest();
+    httpclient.open(constants.HTTP_METHOD_POST,"https://vendure.demo.universalcommerce.io/shop-api");
+    httpclient.setRequestHeader("Content-Type", "application/json");
+    console.log("cart data", cartData);
+    var selectedKey = this.view.ShippingOptions.selectedKey;
+      if(selectedKey === "2"){
+         var idsList = JSON.stringify(cartData.map(item => item.id.toString()));
+    var getPickupStoresJson = JSON.stringify({
+  "query": "query GetProductVariants($ids: [String!]!) { productVariants(options: { filter: { id: { in: $ids } } }) { items { id name sku price featuredAsset { preview } channels { id token code seller { id name customFields { googleMapLink latitude longitude } } } } } }",
+  "variables": {
+    "ids": "[\"92\", \"90\", \"89\"]"
+  }
+});
+    httpclient.send(getPickupStoresJson);
+      }
   }
 
 

@@ -293,9 +293,6 @@ define({
           this.ApiShoppingAddress(); 
 
         }
-
-
-
       }
       var nav = new voltmx.mvc.Navigation("CheckoutSuccessful");
       nav.navigate();
