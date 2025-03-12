@@ -43,6 +43,8 @@
     "containerweight": 100,
     "enablescrolling": true,
     "id": "HeaderBar",
+    "ide_postShow": "AS_FlexContainer_dc0076f291e64ae89ee13285b9882807",
+    "ide_preShow": "AS_FlexContainer_d079b58ae7bb44159dde63dfb372eeff",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,

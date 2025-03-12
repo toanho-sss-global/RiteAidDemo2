@@ -18,5 +18,5 @@ define({
       }
       var nav = new voltmx.mvc.Navigation(page);
       nav.navigate();
-    }
+    },
  });

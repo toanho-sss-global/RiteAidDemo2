@@ -244,55 +244,42 @@ define({
     httpclient.onReadyStateChange = function() {
       if (httpclient.readyState === 4) {
         if (httpclient.status === 200) {
-          var response = JSON.parse(httpclient.response);    
-          if (response.data && response.data.addItemToOrder) {
-//             self.handleCartProducts(response.data);
-          }
+        	self.countProductInCart();
         } 
       }
     };
     httpclient.send(jsonStr2);
   },
+  
+  countProductInCart: function () {
+    var self = this;
+    var url = "https://vendure.demo.universalcommerce.io/shop-api";
+    var token = localStorage.getItem("vendure-auth-token");
+    
+    var httpclient = new voltmx.net.HttpRequest();
+    
+    httpclient.open(constants.HTTP_METHOD_POST, url);
+    httpclient.setRequestHeader("Content-Type", "application/json");
+    httpclient.setRequestHeader("Authorization", "Bearer " + token);
 
-//   handleCartProducts: function (itemCart) {
-//     if (!itemCart) {
-//       return;
-//     }
-
-//     try {
-//       var storedCart = voltmx.store.getItem("add_Item_To_Cart");
-//       var flatArray = storedCart ? JSON.parse(storedCart).flat() : [];
-
-//       var newItems = itemCart.addItemToOrder.lines.map(item => ({
-//         id: item.productVariant.id,
-//         lblDescription: item.productVariant.name,
-//         unitPrice: item.productVariant.priceWithTax,
-//         DeleteIcon: 'trashicon.png',
-//         MinusIcon: 'minusicon.png',
-//         PlusIcon: 'plusicon.png',
-//         ProductQuantity: item.quantity,
-//         img: item.productVariant.assets[0].preview
-//       }));
-
-//       newItems.forEach(newItem => {
-//         let existingItem = flatArray.find(cartItem => cartItem.id === newItem.id);
-//         if (existingItem) {
-//           existingItem.ProductQuantity += newItem.ProductQuantity;
-//         } else {
-//           flatArray.push(newItem);
-//         }
-//       });
-
-//       voltmx.store.setItem('add_Item_To_Cart', JSON.stringify([flatArray]));
-
-//       console.log("Updated cart product list:", flatArray);
-//       var updatedCart = voltmx.store.getItem("add_Item_To_Cart");
-//       console.log("Check in setItem:", updatedCart);
-
-//     } catch (error) {
-//       console.error("JSON Parsing Error:", error);
-//     }
-//   },
+    var jsonStr2 = JSON.stringify({
+    "query": "query ActiveOrder { activeOrder { id lines { productVariant { id } } } }"
+	});
+    
+    httpclient.send(jsonStr2);
+ 	httpclient.onReadyStateChange = function () {
+    if (httpclient.readyState === 4) {
+        if (httpclient.status === 200) {
+          var response = JSON.parse(httpclient.response);
+          var count = response.data.activeOrder.lines.length;
+          localStorage.setItem("count_product_in_cart", count);
+          var countItem = localStorage.getItem("count_product_in_cart");
+          console.log("chech count: ", countItem);
+          self.view.HeaderBar.postShow();
+        }
+    }
+ 	};
+  },
 
   onInit: function() {
     this.view.IncreaseQuantity.onClick = this.increaseQuantity;

@@ -24,6 +24,16 @@
             "callbackType": null,
             "disabled": null,
             "source": "controller"
+        }, {
+            "id": "INVOKE_FUNCTION__e8f17ea4c24c4750a2c840ac52b627eb",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "countProductInCart",
+            "display": "countProductInCart",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
         }]
     }
 }

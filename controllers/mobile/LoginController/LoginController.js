@@ -86,6 +86,8 @@ define({
           var response = JSON.parse(httpclient.response);
           var count = response.data.activeOrder.lines.length;
           localStorage.setItem("count_product_in_cart", count);
+          var countItem = localStorage.getItem("count_product_in_cart");
+          console.log("chech count: ", countItem);
         }
     }
  	};
