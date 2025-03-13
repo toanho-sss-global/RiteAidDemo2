@@ -6,541 +6,441 @@
         {
             "lblDate": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Date",
-                "type": "Label"
+                "text": "Date"
             },
             "lblItem": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Items",
-                "type": "Label"
+                "text": "Items"
             },
             "lblOrderID": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "OrderID",
-                "type": "Label"
+                "text": "OrderID"
             },
             "lblStatus": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "PaymentSettled",
-                "type": "Label"
+                "text": "PaymentSettled"
             },
             "lblTotal": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Total",
-                "type": "Label"
+                "text": "Total"
             }
         },
         {
             "lblDate": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Date",
-                "type": "Label"
+                "text": "Date"
             },
             "lblItem": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Items",
-                "type": "Label"
+                "text": "Items"
             },
             "lblOrderID": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "OrderID",
-                "type": "Label"
+                "text": "OrderID"
             },
             "lblStatus": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "PaymentSettled",
-                "type": "Label"
+                "text": "PaymentSettled"
             },
             "lblTotal": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Total",
-                "type": "Label"
+                "text": "Total"
             }
         },
         {
             "lblDate": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Date",
-                "type": "Label"
+                "text": "Date"
             },
             "lblItem": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Items",
-                "type": "Label"
+                "text": "Items"
             },
             "lblOrderID": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "OrderID",
-                "type": "Label"
+                "text": "OrderID"
             },
             "lblStatus": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "PaymentSettled",
-                "type": "Label"
+                "text": "PaymentSettled"
             },
             "lblTotal": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Total",
-                "type": "Label"
+                "text": "Total"
             }
         },
         {
             "lblDate": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Date",
-                "type": "Label"
+                "text": "Date"
             },
             "lblItem": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Items",
-                "type": "Label"
+                "text": "Items"
             },
             "lblOrderID": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "OrderID",
-                "type": "Label"
+                "text": "OrderID"
             },
             "lblStatus": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "PaymentSettled",
-                "type": "Label"
+                "text": "PaymentSettled"
             },
             "lblTotal": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Total",
-                "type": "Label"
+                "text": "Total"
             }
         },
         {
             "lblDate": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Date",
-                "type": "Label"
+                "text": "Date"
             },
             "lblItem": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Items",
-                "type": "Label"
+                "text": "Items"
             },
             "lblOrderID": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "OrderID",
-                "type": "Label"
+                "text": "OrderID"
             },
             "lblStatus": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "PaymentSettled",
-                "type": "Label"
+                "text": "PaymentSettled"
             },
             "lblTotal": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Total",
-                "type": "Label"
+                "text": "Total"
             }
         },
         {
             "lblDate": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Date",
-                "type": "Label"
+                "text": "Date"
             },
             "lblItem": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Items",
-                "type": "Label"
+                "text": "Items"
             },
             "lblOrderID": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "OrderID",
-                "type": "Label"
+                "text": "OrderID"
             },
             "lblStatus": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "PaymentSettled",
-                "type": "Label"
+                "text": "PaymentSettled"
             },
             "lblTotal": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Total",
-                "type": "Label"
+                "text": "Total"
             }
         },
         {
             "lblDate": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Date",
-                "type": "Label"
+                "text": "Date"
             },
             "lblItem": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Items",
-                "type": "Label"
+                "text": "Items"
             },
             "lblOrderID": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "OrderID",
-                "type": "Label"
+                "text": "OrderID"
             },
             "lblStatus": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "PaymentSettled",
-                "type": "Label"
+                "text": "PaymentSettled"
             },
             "lblTotal": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Total",
-                "type": "Label"
+                "text": "Total"
             }
         },
         {
             "lblDate": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Date",
-                "type": "Label"
+                "text": "Date"
             },
             "lblItem": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Items",
-                "type": "Label"
+                "text": "Items"
             },
             "lblOrderID": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "OrderID",
-                "type": "Label"
+                "text": "OrderID"
             },
             "lblStatus": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "PaymentSettled",
-                "type": "Label"
+                "text": "PaymentSettled"
             },
             "lblTotal": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Total",
-                "type": "Label"
+                "text": "Total"
             }
         },
         {
             "lblDate": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Date",
-                "type": "Label"
+                "text": "Date"
             },
             "lblItem": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Items",
-                "type": "Label"
+                "text": "Items"
             },
             "lblOrderID": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "OrderID",
-                "type": "Label"
+                "text": "OrderID"
             },
             "lblStatus": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "PaymentSettled",
-                "type": "Label"
+                "text": "PaymentSettled"
             },
             "lblTotal": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Total",
-                "type": "Label"
+                "text": "Total"
             }
         },
         {
             "lblDate": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Date",
-                "type": "Label"
+                "text": "Date"
             },
             "lblItem": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Items",
-                "type": "Label"
+                "text": "Items"
             },
             "lblOrderID": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "OrderID",
-                "type": "Label"
+                "text": "OrderID"
             },
             "lblStatus": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "PaymentSettled",
-                "type": "Label"
+                "text": "PaymentSettled"
             },
             "lblTotal": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Total",
-                "type": "Label"
+                "text": "Total"
             }
         },
         {
             "lblDate": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Date",
-                "type": "Label"
+                "text": "Date"
             },
             "lblItem": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Items",
-                "type": "Label"
+                "text": "Items"
             },
             "lblOrderID": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "OrderID",
-                "type": "Label"
+                "text": "OrderID"
             },
             "lblStatus": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "PaymentSettled",
-                "type": "Label"
+                "text": "PaymentSettled"
             },
             "lblTotal": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Total",
-                "type": "Label"
+                "text": "Total"
             }
         },
         {
             "lblDate": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Date",
-                "type": "Label"
+                "text": "Date"
             },
             "lblItem": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Items",
-                "type": "Label"
+                "text": "Items"
             },
             "lblOrderID": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "OrderID",
-                "type": "Label"
+                "text": "OrderID"
             },
             "lblStatus": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "PaymentSettled",
-                "type": "Label"
+                "text": "PaymentSettled"
             },
             "lblTotal": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Total",
-                "type": "Label"
+                "text": "Total"
             }
         },
         {
             "lblDate": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Date",
-                "type": "Label"
+                "text": "Date"
             },
             "lblItem": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Items",
-                "type": "Label"
+                "text": "Items"
             },
             "lblOrderID": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "OrderID",
-                "type": "Label"
+                "text": "OrderID"
             },
             "lblStatus": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "PaymentSettled",
-                "type": "Label"
+                "text": "PaymentSettled"
             },
             "lblTotal": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Total",
-                "type": "Label"
+                "text": "Total"
             }
         },
         {
             "lblDate": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Date",
-                "type": "Label"
+                "text": "Date"
             },
             "lblItem": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Items",
-                "type": "Label"
+                "text": "Items"
             },
             "lblOrderID": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "OrderID",
-                "type": "Label"
+                "text": "OrderID"
             },
             "lblStatus": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "PaymentSettled",
-                "type": "Label"
+                "text": "PaymentSettled"
             },
             "lblTotal": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Total",
-                "type": "Label"
+                "text": "Total"
             }
         },
         {
             "lblDate": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Date",
-                "type": "Label"
+                "text": "Date"
             },
             "lblItem": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Items",
-                "type": "Label"
+                "text": "Items"
             },
             "lblOrderID": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "OrderID",
-                "type": "Label"
+                "text": "OrderID"
             },
             "lblStatus": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "PaymentSettled",
-                "type": "Label"
+                "text": "PaymentSettled"
             },
             "lblTotal": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Total",
-                "type": "Label"
+                "text": "Total"
             }
         },
         {
             "lblDate": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Date",
-                "type": "Label"
+                "text": "Date"
             },
             "lblItem": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Items",
-                "type": "Label"
+                "text": "Items"
             },
             "lblOrderID": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "OrderID",
-                "type": "Label"
+                "text": "OrderID"
             },
             "lblStatus": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "PaymentSettled",
-                "type": "Label"
+                "text": "PaymentSettled"
             },
             "lblTotal": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Total",
-                "type": "Label"
+                "text": "Total"
             }
         },
         {
             "lblDate": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Date",
-                "type": "Label"
+                "text": "Date"
             },
             "lblItem": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Items",
-                "type": "Label"
+                "text": "Items"
             },
             "lblOrderID": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "OrderID",
-                "type": "Label"
+                "text": "OrderID"
             },
             "lblStatus": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "PaymentSettled",
-                "type": "Label"
+                "text": "PaymentSettled"
             },
             "lblTotal": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Total",
-                "type": "Label"
+                "text": "Total"
             }
         },
         {
             "lblDate": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Date",
-                "type": "Label"
+                "text": "Date"
             },
             "lblItem": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Items",
-                "type": "Label"
+                "text": "Items"
             },
             "lblOrderID": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "OrderID",
-                "type": "Label"
+                "text": "OrderID"
             },
             "lblStatus": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "PaymentSettled",
-                "type": "Label"
+                "text": "PaymentSettled"
             },
             "lblTotal": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Total",
-                "type": "Label"
+                "text": "Total"
             }
         },
         {
             "lblDate": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Date",
-                "type": "Label"
+                "text": "Date"
             },
             "lblItem": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Items",
-                "type": "Label"
+                "text": "Items"
             },
             "lblOrderID": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "OrderID",
-                "type": "Label"
+                "text": "OrderID"
             },
             "lblStatus": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "PaymentSettled",
-                "type": "Label"
+                "text": "PaymentSettled"
             },
             "lblTotal": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Total",
-                "type": "Label"
+                "text": "Total"
             }
         },
         {
             "lblDate": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Date",
-                "type": "Label"
+                "text": "Date"
             },
             "lblItem": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Items",
-                "type": "Label"
+                "text": "Items"
             },
             "lblOrderID": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "OrderID",
-                "type": "Label"
+                "text": "OrderID"
             },
             "lblStatus": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "PaymentSettled",
-                "type": "Label"
+                "text": "PaymentSettled"
             },
             "lblTotal": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Total",
-                "type": "Label"
+                "text": "Total"
             }
         }
     ],
