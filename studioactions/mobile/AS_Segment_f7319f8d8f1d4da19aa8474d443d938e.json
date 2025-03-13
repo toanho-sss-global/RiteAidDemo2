@@ -23,8 +23,20 @@
         "actions": [{
             "id": "ADD_SNIPPET_d5b0e122bb9f47139ae439af049789d2",
             "type": "ADD_SNIPPET",
-            "codeSnippet": "var selectedCurrentOrderID = this.view.flxSegOrder.segOrderHistory.selectedRowItems[0];\nlocalStorage.setItem(\"Current_OrderID\", selectedCurrentOrderID.lblOrderID.text);",
+            "codeSnippet": "var selectedCurrentOrderID = this.view.flxSegOrder.segOrderHistory.selectedRowItems[0];\nlocalStorage.setItem(\"Current_OrderID\", selectedCurrentOrderID.lblOrderID.text);\n",
             "parentId": null
+        }, {
+            "id": "NAVIGATE_TO_FORM__c6456e80ee244ae8b1af561c6bbf25c5",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "Form3",
+            "formKUID": "da035ec3b35244319b7ac43d77dd4608",
+            "projectName": "SampleDemoRiteAid",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": null,
+            "enableMappingEditor": true,
+            "package": "",
+            "isCustomInput": false
         }]
     }
 }

@@ -1,0 +1,29 @@
+{
+    "AS_Form_a6c7af929e5345d4b34b3897b3ccc492": {
+        "id": "AS_Form_a6c7af929e5345d4b34b3897b3ccc492",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "Form3",
+            "type": "forms",
+            "platform": null,
+            "KUID": "da035ec3b35244319b7ac43d77dd4608"
+        },
+        "language": "js",
+        "eventType": "postShow",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ae6eed5ad604421ea0c116f7696d6c17",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "getOrderDetails",
+            "display": "getOrderDetails",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

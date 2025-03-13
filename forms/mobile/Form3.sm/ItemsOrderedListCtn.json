@@ -1,0 +1,408 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "120dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "sc409f5c89364447a5ddc050b41c3aca",
+    "_top_": {
+        "type": "string",
+        "value": "73dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "areflexpropsreferenced": false,
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "clipbounds": false,
+    "containerweight": 0,
+    "dataDiffs": {
+        "ItemOrderedList": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "je9fc4d3cd154d5d92ee8675c16757ee",
+                "srcKUID": "u71b0d4bfc22466ebb70a6b5a5b842dd",
+                "wType": "Segment"
+            },
+            "autogrowMode": {
+                "Default": 0
+            },
+            "centerX": {
+                "Default": {
+                    "type": "string",
+                    "value": "50%"
+                }
+            },
+            "centerY": {
+                "Default": {
+                    "type": "string",
+                    "value": "50%"
+                }
+            },
+            "data": {
+                "mobile": [
+                    {
+                        "ItemOrderedImg": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": "cartproductimg.png",
+                            "type": "Image"
+                        },
+                        "ItemOrderedName": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Nature Made Vitamin D3 Softgels, 50mcg - 90 ct",
+                            "type": "Label"
+                        },
+                        "ItemOrderedQuantity": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Quantity: 1",
+                            "type": "Label"
+                        },
+                        "ItemOrderedTotalPrice": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "$ 16.79",
+                            "type": "Label"
+                        },
+                        "ItemOrderedUnitPrice": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Unit Price: $ 16.79",
+                            "type": "Label"
+                        }
+                    },
+                    {
+                        "ItemOrderedImg": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": "imagedrag.png",
+                            "type": "Image"
+                        },
+                        "ItemOrderedName": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Quantity: 1",
+                            "type": "Label"
+                        },
+                        "ItemOrderedQuantity": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Label",
+                            "type": "Label"
+                        },
+                        "ItemOrderedTotalPrice": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Label",
+                            "type": "Label"
+                        },
+                        "ItemOrderedUnitPrice": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Label",
+                            "type": "Label"
+                        }
+                    },
+                    {
+                        "ItemOrderedImg": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": "imagedrag.png",
+                            "type": "Image"
+                        },
+                        "ItemOrderedName": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Label",
+                            "type": "Label"
+                        },
+                        "ItemOrderedQuantity": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Label",
+                            "type": "Label"
+                        },
+                        "ItemOrderedTotalPrice": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Label",
+                            "type": "Label"
+                        },
+                        "ItemOrderedUnitPrice": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Label",
+                            "type": "Label"
+                        }
+                    },
+                    {
+                        "ItemOrderedImg": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": "imagedrag.png",
+                            "type": "Image"
+                        },
+                        "ItemOrderedName": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Label",
+                            "type": "Label"
+                        },
+                        "ItemOrderedQuantity": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Label",
+                            "type": "Label"
+                        },
+                        "ItemOrderedTotalPrice": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Label",
+                            "type": "Label"
+                        },
+                        "ItemOrderedUnitPrice": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Label",
+                            "type": "Label"
+                        }
+                    },
+                    {
+                        "ItemOrderedImg": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": "imagedrag.png",
+                            "type": "Image"
+                        },
+                        "ItemOrderedName": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Label",
+                            "type": "Label"
+                        },
+                        "ItemOrderedQuantity": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Label",
+                            "type": "Label"
+                        },
+                        "ItemOrderedTotalPrice": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Label",
+                            "type": "Label"
+                        },
+                        "ItemOrderedUnitPrice": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Label",
+                            "type": "Label"
+                        }
+                    },
+                    {
+                        "ItemOrderedImg": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": "imagedrag.png",
+                            "type": "Image"
+                        },
+                        "ItemOrderedName": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Label",
+                            "type": "Label"
+                        },
+                        "ItemOrderedQuantity": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Label",
+                            "type": "Label"
+                        },
+                        "ItemOrderedTotalPrice": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Label",
+                            "type": "Label"
+                        },
+                        "ItemOrderedUnitPrice": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Label",
+                            "type": "Label"
+                        }
+                    },
+                    {
+                        "ItemOrderedImg": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": "imagedrag.png",
+                            "type": "Image"
+                        },
+                        "ItemOrderedName": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Label",
+                            "type": "Label"
+                        },
+                        "ItemOrderedQuantity": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Label",
+                            "type": "Label"
+                        },
+                        "ItemOrderedTotalPrice": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Label",
+                            "type": "Label"
+                        },
+                        "ItemOrderedUnitPrice": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Label",
+                            "type": "Label"
+                        }
+                    },
+                    {
+                        "ItemOrderedImg": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": "imagedrag.png",
+                            "type": "Image"
+                        },
+                        "ItemOrderedName": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Label",
+                            "type": "Label"
+                        },
+                        "ItemOrderedQuantity": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Label",
+                            "type": "Label"
+                        },
+                        "ItemOrderedTotalPrice": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Label",
+                            "type": "Label"
+                        },
+                        "ItemOrderedUnitPrice": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Label",
+                            "type": "Label"
+                        }
+                    },
+                    {
+                        "ItemOrderedImg": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": "imagedrag.png",
+                            "type": "Image"
+                        },
+                        "ItemOrderedName": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Label",
+                            "type": "Label"
+                        },
+                        "ItemOrderedQuantity": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Label",
+                            "type": "Label"
+                        },
+                        "ItemOrderedTotalPrice": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Label",
+                            "type": "Label"
+                        },
+                        "ItemOrderedUnitPrice": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Label",
+                            "type": "Label"
+                        }
+                    },
+                    {
+                        "ItemOrderedImg": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": "imagedrag.png",
+                            "type": "Image"
+                        },
+                        "ItemOrderedName": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Label",
+                            "type": "Label"
+                        },
+                        "ItemOrderedQuantity": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Label",
+                            "type": "Label"
+                        },
+                        "ItemOrderedTotalPrice": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Label",
+                            "type": "Label"
+                        },
+                        "ItemOrderedUnitPrice": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Label",
+                            "type": "Label"
+                        }
+                    }
+                ]
+            },
+            "height": {
+                "Default": {
+                    "type": "string",
+                    "value": "100%"
+                }
+            },
+            "left": {
+                "Default": {
+                    "type": "string",
+                    "value": "0dp"
+                }
+            },
+            "top": {
+                "Default": {
+                    "type": "string",
+                    "value": "0dp"
+                }
+            }
+        },
+        "ItemsOrderedList": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "da181a5e4ea2426bb82506e56dd9493f",
+                "srcKUID": "u6f07738409040f98d8ec837ab0029a3",
+                "wType": "FlexContainer"
+            },
+            "autogrowMode": {
+                "Default": 0
+            },
+            "height": {
+                "Default": {
+                    "type": "string",
+                    "value": "120dp"
+                }
+            },
+            "left": {
+                "Default": {
+                    "type": "string",
+                    "value": "0dp"
+                }
+            },
+            "top": {
+                "Default": {
+                    "type": "string",
+                    "value": "73dp"
+                }
+            }
+        }
+    },
+    "enablescrolling": true,
+    "id": "ItemsOrderedListCtn",
+    "info": null,
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kuid": "da181a5e4ea2426bb82506e56dd9493f",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "ItemOrderedContainer",
+    "pf": "Form3",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "u6f07738409040f98d8ec837ab0029a3",
+    "wType": "UserWidgetInstance",
+    "zindex": 1
+}

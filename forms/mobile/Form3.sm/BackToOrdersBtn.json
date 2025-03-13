@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        4,
+        0,
+        4,
+        0
+    ],
+    "_right_": {
+        "type": "number",
+        "value": "17"
+    },
+    "_skin_": "s7ff4f52545548c3b6e2c4dadfcd36b4",
+    "_text_": "← Back to Orders",
+    "_top_": {
+        "type": "string",
+        "value": "23dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "150dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s0cb3935f71f4e6b89e0a314561f183d",
+    "id": "BackToOrdersBtn",
+    "ide_onClick": "AS_Button_jb56cdf5cb7c4a1a9548499e5bef6be6",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "b4bdec67dd8248a09d19a1c58712655a",
+    "name": "kony.ui.Button",
+    "paddinginpixel": true,
+    "parent": "OrderDetailContainer",
+    "pf": "Form3",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

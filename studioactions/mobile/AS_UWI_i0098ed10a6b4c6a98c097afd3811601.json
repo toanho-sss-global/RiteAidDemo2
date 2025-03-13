@@ -17,9 +17,7 @@
         "actions": [{
             "id": "NAVIGATE_TO_FORM__b8ca456ca8a247569b0f17a65013af0f",
             "type": "NAVIGATE_TO_FORM",
-            "formId": "CopyShoppingCart",
             "formKUID": "g2f808f3aabf4a22af7f84d9273533ed",
-            "projectName": "RiteAidDemo2",
             "mappings": {},
             "mappingsOrder": [],
             "enableMappingEditor": true,
