@@ -1,939 +1,548 @@
 {
     "@class": "com.kony.gen.viz.model.container.KVizSegment2",
     "DNDConfig": null,
+    "_bounces_": false,
     "_data_": [
-        [
-            {
-                "lblHeaderDate": {
-                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                    "text": "Date"
-                },
-                "lblHeaderItems": {
-                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                    "text": "Items"
-                },
-                "lblHeaderOrderID": {
-                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                    "text": "Order ID"
-                },
-                "lblHeaderStatus": {
-                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                    "text": "Status"
-                },
-                "lblHeaderTotal": {
-                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                    "text": "Total"
-                }
+        {
+            "lblDate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Date",
+                "type": "Label"
             },
-            [
-                {
-                    "lblDate": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Date"
-                    },
-                    "lblItem": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Items"
-                    },
-                    "lblOrderID": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "OrderID"
-                    },
-                    "lblStatus": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "PaymentSettled"
-                    },
-                    "lblTotal": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Total"
-                    }
-                },
-                {
-                    "lblDate": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Date"
-                    },
-                    "lblItem": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Items"
-                    },
-                    "lblOrderID": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "OrderID"
-                    },
-                    "lblStatus": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "PaymentSettled"
-                    },
-                    "lblTotal": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Total"
-                    }
-                },
-                {
-                    "lblDate": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Date"
-                    },
-                    "lblItem": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Items"
-                    },
-                    "lblOrderID": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "OrderID"
-                    },
-                    "lblStatus": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "PaymentSettled"
-                    },
-                    "lblTotal": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Total"
-                    }
-                },
-                {
-                    "lblDate": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Date"
-                    },
-                    "lblItem": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Items"
-                    },
-                    "lblOrderID": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "OrderID"
-                    },
-                    "lblStatus": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "PaymentSettled"
-                    },
-                    "lblTotal": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Total"
-                    }
-                },
-                {
-                    "lblDate": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Date"
-                    },
-                    "lblItem": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Items"
-                    },
-                    "lblOrderID": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "OrderID"
-                    },
-                    "lblStatus": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "PaymentSettled"
-                    },
-                    "lblTotal": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Total"
-                    }
-                },
-                {
-                    "lblDate": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Date"
-                    },
-                    "lblItem": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Items"
-                    },
-                    "lblOrderID": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "OrderID"
-                    },
-                    "lblStatus": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "PaymentSettled"
-                    },
-                    "lblTotal": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Total"
-                    }
-                },
-                {
-                    "lblDate": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Date"
-                    },
-                    "lblItem": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Items"
-                    },
-                    "lblOrderID": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "OrderID"
-                    },
-                    "lblStatus": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "PaymentSettled"
-                    },
-                    "lblTotal": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Total"
-                    }
-                },
-                {
-                    "lblDate": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Date"
-                    },
-                    "lblItem": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Items"
-                    },
-                    "lblOrderID": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "OrderID"
-                    },
-                    "lblStatus": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "PaymentSettled"
-                    },
-                    "lblTotal": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Total"
-                    }
-                },
-                {
-                    "lblDate": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Date"
-                    },
-                    "lblItem": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Items"
-                    },
-                    "lblOrderID": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "OrderID"
-                    },
-                    "lblStatus": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "PaymentSettled"
-                    },
-                    "lblTotal": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Total"
-                    }
-                },
-                {
-                    "lblDate": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Date"
-                    },
-                    "lblItem": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Items"
-                    },
-                    "lblOrderID": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "OrderID"
-                    },
-                    "lblStatus": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "PaymentSettled"
-                    },
-                    "lblTotal": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Total"
-                    }
-                },
-                {
-                    "lblDate": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Date"
-                    },
-                    "lblItem": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Items"
-                    },
-                    "lblOrderID": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "OrderID"
-                    },
-                    "lblStatus": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "PaymentSettled"
-                    },
-                    "lblTotal": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Total"
-                    }
-                },
-                {
-                    "lblDate": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Date"
-                    },
-                    "lblItem": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Items"
-                    },
-                    "lblOrderID": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "OrderID"
-                    },
-                    "lblStatus": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "PaymentSettled"
-                    },
-                    "lblTotal": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Total"
-                    }
-                },
-                {
-                    "lblDate": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Date"
-                    },
-                    "lblItem": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Items"
-                    },
-                    "lblOrderID": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "OrderID"
-                    },
-                    "lblStatus": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "PaymentSettled"
-                    },
-                    "lblTotal": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Total"
-                    }
-                },
-                {
-                    "lblDate": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Date"
-                    },
-                    "lblItem": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Items"
-                    },
-                    "lblOrderID": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "OrderID"
-                    },
-                    "lblStatus": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "PaymentSettled"
-                    },
-                    "lblTotal": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Total"
-                    }
-                },
-                {
-                    "lblDate": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Date"
-                    },
-                    "lblItem": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Items"
-                    },
-                    "lblOrderID": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "OrderID"
-                    },
-                    "lblStatus": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "PaymentSettled"
-                    },
-                    "lblTotal": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Total"
-                    }
-                },
-                {
-                    "lblDate": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Date"
-                    },
-                    "lblItem": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Items"
-                    },
-                    "lblOrderID": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "OrderID"
-                    },
-                    "lblStatus": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "PaymentSettled"
-                    },
-                    "lblTotal": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Total"
-                    }
-                },
-                {
-                    "lblDate": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Date"
-                    },
-                    "lblItem": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Items"
-                    },
-                    "lblOrderID": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "OrderID"
-                    },
-                    "lblStatus": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "PaymentSettled"
-                    },
-                    "lblTotal": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Total"
-                    }
-                },
-                {
-                    "lblDate": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Date"
-                    },
-                    "lblItem": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Items"
-                    },
-                    "lblOrderID": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "OrderID"
-                    },
-                    "lblStatus": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "PaymentSettled"
-                    },
-                    "lblTotal": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Total"
-                    }
-                },
-                {
-                    "lblDate": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Date"
-                    },
-                    "lblItem": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Items"
-                    },
-                    "lblOrderID": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "OrderID"
-                    },
-                    "lblStatus": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "PaymentSettled"
-                    },
-                    "lblTotal": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Total"
-                    }
-                },
-                {
-                    "lblDate": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Date"
-                    },
-                    "lblItem": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Items"
-                    },
-                    "lblOrderID": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "OrderID"
-                    },
-                    "lblStatus": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "PaymentSettled"
-                    },
-                    "lblTotal": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Total"
-                    }
-                }
-            ]
-        ],
-        [
-            {
-                "lblHeaderDate": {
-                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                    "text": "Date"
-                },
-                "lblHeaderItems": {
-                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                    "text": "Items"
-                },
-                "lblHeaderOrderID": {
-                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                    "text": "Order ID"
-                },
-                "lblHeaderStatus": {
-                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                    "text": "Status"
-                },
-                "lblHeaderTotal": {
-                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                    "text": "Total"
-                }
+            "lblItem": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Items",
+                "type": "Label"
             },
-            [
-                {
-                    "lblDate": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Date"
-                    },
-                    "lblItem": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Items"
-                    },
-                    "lblOrderID": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "OrderID"
-                    },
-                    "lblStatus": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "PaymentSettled"
-                    },
-                    "lblTotal": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Total"
-                    }
-                },
-                {
-                    "lblDate": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Date"
-                    },
-                    "lblItem": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Items"
-                    },
-                    "lblOrderID": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "OrderID"
-                    },
-                    "lblStatus": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "PaymentSettled"
-                    },
-                    "lblTotal": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Total"
-                    }
-                },
-                {
-                    "lblDate": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Date"
-                    },
-                    "lblItem": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Items"
-                    },
-                    "lblOrderID": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "OrderID"
-                    },
-                    "lblStatus": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "PaymentSettled"
-                    },
-                    "lblTotal": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Total"
-                    }
-                },
-                {
-                    "lblDate": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Date"
-                    },
-                    "lblItem": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Items"
-                    },
-                    "lblOrderID": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "OrderID"
-                    },
-                    "lblStatus": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "PaymentSettled"
-                    },
-                    "lblTotal": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Total"
-                    }
-                },
-                {
-                    "lblDate": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Date"
-                    },
-                    "lblItem": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Items"
-                    },
-                    "lblOrderID": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "OrderID"
-                    },
-                    "lblStatus": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "PaymentSettled"
-                    },
-                    "lblTotal": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Total"
-                    }
-                },
-                {
-                    "lblDate": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Date"
-                    },
-                    "lblItem": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Items"
-                    },
-                    "lblOrderID": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "OrderID"
-                    },
-                    "lblStatus": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "PaymentSettled"
-                    },
-                    "lblTotal": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Total"
-                    }
-                },
-                {
-                    "lblDate": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Date"
-                    },
-                    "lblItem": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Items"
-                    },
-                    "lblOrderID": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "OrderID"
-                    },
-                    "lblStatus": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "PaymentSettled"
-                    },
-                    "lblTotal": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Total"
-                    }
-                },
-                {
-                    "lblDate": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Date"
-                    },
-                    "lblItem": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Items"
-                    },
-                    "lblOrderID": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "OrderID"
-                    },
-                    "lblStatus": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "PaymentSettled"
-                    },
-                    "lblTotal": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Total"
-                    }
-                },
-                {
-                    "lblDate": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Date"
-                    },
-                    "lblItem": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Items"
-                    },
-                    "lblOrderID": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "OrderID"
-                    },
-                    "lblStatus": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "PaymentSettled"
-                    },
-                    "lblTotal": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Total"
-                    }
-                },
-                {
-                    "lblDate": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Date"
-                    },
-                    "lblItem": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Items"
-                    },
-                    "lblOrderID": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "OrderID"
-                    },
-                    "lblStatus": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "PaymentSettled"
-                    },
-                    "lblTotal": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Total"
-                    }
-                },
-                {
-                    "lblDate": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Date"
-                    },
-                    "lblItem": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Items"
-                    },
-                    "lblOrderID": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "OrderID"
-                    },
-                    "lblStatus": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "PaymentSettled"
-                    },
-                    "lblTotal": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Total"
-                    }
-                },
-                {
-                    "lblDate": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Date"
-                    },
-                    "lblItem": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Items"
-                    },
-                    "lblOrderID": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "OrderID"
-                    },
-                    "lblStatus": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "PaymentSettled"
-                    },
-                    "lblTotal": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Total"
-                    }
-                },
-                {
-                    "lblDate": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Date"
-                    },
-                    "lblItem": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Items"
-                    },
-                    "lblOrderID": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "OrderID"
-                    },
-                    "lblStatus": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "PaymentSettled"
-                    },
-                    "lblTotal": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Total"
-                    }
-                },
-                {
-                    "lblDate": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Date"
-                    },
-                    "lblItem": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Items"
-                    },
-                    "lblOrderID": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "OrderID"
-                    },
-                    "lblStatus": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "PaymentSettled"
-                    },
-                    "lblTotal": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Total"
-                    }
-                },
-                {
-                    "lblDate": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Date"
-                    },
-                    "lblItem": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Items"
-                    },
-                    "lblOrderID": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "OrderID"
-                    },
-                    "lblStatus": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "PaymentSettled"
-                    },
-                    "lblTotal": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Total"
-                    }
-                },
-                {
-                    "lblDate": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Date"
-                    },
-                    "lblItem": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Items"
-                    },
-                    "lblOrderID": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "OrderID"
-                    },
-                    "lblStatus": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "PaymentSettled"
-                    },
-                    "lblTotal": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Total"
-                    }
-                },
-                {
-                    "lblDate": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Date"
-                    },
-                    "lblItem": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Items"
-                    },
-                    "lblOrderID": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "OrderID"
-                    },
-                    "lblStatus": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "PaymentSettled"
-                    },
-                    "lblTotal": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Total"
-                    }
-                },
-                {
-                    "lblDate": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Date"
-                    },
-                    "lblItem": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Items"
-                    },
-                    "lblOrderID": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "OrderID"
-                    },
-                    "lblStatus": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "PaymentSettled"
-                    },
-                    "lblTotal": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Total"
-                    }
-                },
-                {
-                    "lblDate": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Date"
-                    },
-                    "lblItem": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Items"
-                    },
-                    "lblOrderID": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "OrderID"
-                    },
-                    "lblStatus": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "PaymentSettled"
-                    },
-                    "lblTotal": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Total"
-                    }
-                },
-                {
-                    "lblDate": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Date"
-                    },
-                    "lblItem": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Items"
-                    },
-                    "lblOrderID": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "OrderID"
-                    },
-                    "lblStatus": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "PaymentSettled"
-                    },
-                    "lblTotal": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Total"
-                    }
-                }
-            ]
-        ]
+            "lblOrderID": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "OrderID",
+                "type": "Label"
+            },
+            "lblStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "PaymentSettled",
+                "type": "Label"
+            },
+            "lblTotal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Total",
+                "type": "Label"
+            }
+        },
+        {
+            "lblDate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Date",
+                "type": "Label"
+            },
+            "lblItem": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Items",
+                "type": "Label"
+            },
+            "lblOrderID": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "OrderID",
+                "type": "Label"
+            },
+            "lblStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "PaymentSettled",
+                "type": "Label"
+            },
+            "lblTotal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Total",
+                "type": "Label"
+            }
+        },
+        {
+            "lblDate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Date",
+                "type": "Label"
+            },
+            "lblItem": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Items",
+                "type": "Label"
+            },
+            "lblOrderID": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "OrderID",
+                "type": "Label"
+            },
+            "lblStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "PaymentSettled",
+                "type": "Label"
+            },
+            "lblTotal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Total",
+                "type": "Label"
+            }
+        },
+        {
+            "lblDate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Date",
+                "type": "Label"
+            },
+            "lblItem": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Items",
+                "type": "Label"
+            },
+            "lblOrderID": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "OrderID",
+                "type": "Label"
+            },
+            "lblStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "PaymentSettled",
+                "type": "Label"
+            },
+            "lblTotal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Total",
+                "type": "Label"
+            }
+        },
+        {
+            "lblDate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Date",
+                "type": "Label"
+            },
+            "lblItem": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Items",
+                "type": "Label"
+            },
+            "lblOrderID": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "OrderID",
+                "type": "Label"
+            },
+            "lblStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "PaymentSettled",
+                "type": "Label"
+            },
+            "lblTotal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Total",
+                "type": "Label"
+            }
+        },
+        {
+            "lblDate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Date",
+                "type": "Label"
+            },
+            "lblItem": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Items",
+                "type": "Label"
+            },
+            "lblOrderID": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "OrderID",
+                "type": "Label"
+            },
+            "lblStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "PaymentSettled",
+                "type": "Label"
+            },
+            "lblTotal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Total",
+                "type": "Label"
+            }
+        },
+        {
+            "lblDate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Date",
+                "type": "Label"
+            },
+            "lblItem": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Items",
+                "type": "Label"
+            },
+            "lblOrderID": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "OrderID",
+                "type": "Label"
+            },
+            "lblStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "PaymentSettled",
+                "type": "Label"
+            },
+            "lblTotal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Total",
+                "type": "Label"
+            }
+        },
+        {
+            "lblDate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Date",
+                "type": "Label"
+            },
+            "lblItem": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Items",
+                "type": "Label"
+            },
+            "lblOrderID": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "OrderID",
+                "type": "Label"
+            },
+            "lblStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "PaymentSettled",
+                "type": "Label"
+            },
+            "lblTotal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Total",
+                "type": "Label"
+            }
+        },
+        {
+            "lblDate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Date",
+                "type": "Label"
+            },
+            "lblItem": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Items",
+                "type": "Label"
+            },
+            "lblOrderID": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "OrderID",
+                "type": "Label"
+            },
+            "lblStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "PaymentSettled",
+                "type": "Label"
+            },
+            "lblTotal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Total",
+                "type": "Label"
+            }
+        },
+        {
+            "lblDate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Date",
+                "type": "Label"
+            },
+            "lblItem": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Items",
+                "type": "Label"
+            },
+            "lblOrderID": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "OrderID",
+                "type": "Label"
+            },
+            "lblStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "PaymentSettled",
+                "type": "Label"
+            },
+            "lblTotal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Total",
+                "type": "Label"
+            }
+        },
+        {
+            "lblDate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Date",
+                "type": "Label"
+            },
+            "lblItem": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Items",
+                "type": "Label"
+            },
+            "lblOrderID": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "OrderID",
+                "type": "Label"
+            },
+            "lblStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "PaymentSettled",
+                "type": "Label"
+            },
+            "lblTotal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Total",
+                "type": "Label"
+            }
+        },
+        {
+            "lblDate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Date",
+                "type": "Label"
+            },
+            "lblItem": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Items",
+                "type": "Label"
+            },
+            "lblOrderID": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "OrderID",
+                "type": "Label"
+            },
+            "lblStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "PaymentSettled",
+                "type": "Label"
+            },
+            "lblTotal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Total",
+                "type": "Label"
+            }
+        },
+        {
+            "lblDate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Date",
+                "type": "Label"
+            },
+            "lblItem": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Items",
+                "type": "Label"
+            },
+            "lblOrderID": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "OrderID",
+                "type": "Label"
+            },
+            "lblStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "PaymentSettled",
+                "type": "Label"
+            },
+            "lblTotal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Total",
+                "type": "Label"
+            }
+        },
+        {
+            "lblDate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Date",
+                "type": "Label"
+            },
+            "lblItem": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Items",
+                "type": "Label"
+            },
+            "lblOrderID": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "OrderID",
+                "type": "Label"
+            },
+            "lblStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "PaymentSettled",
+                "type": "Label"
+            },
+            "lblTotal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Total",
+                "type": "Label"
+            }
+        },
+        {
+            "lblDate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Date",
+                "type": "Label"
+            },
+            "lblItem": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Items",
+                "type": "Label"
+            },
+            "lblOrderID": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "OrderID",
+                "type": "Label"
+            },
+            "lblStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "PaymentSettled",
+                "type": "Label"
+            },
+            "lblTotal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Total",
+                "type": "Label"
+            }
+        },
+        {
+            "lblDate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Date",
+                "type": "Label"
+            },
+            "lblItem": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Items",
+                "type": "Label"
+            },
+            "lblOrderID": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "OrderID",
+                "type": "Label"
+            },
+            "lblStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "PaymentSettled",
+                "type": "Label"
+            },
+            "lblTotal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Total",
+                "type": "Label"
+            }
+        },
+        {
+            "lblDate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Date",
+                "type": "Label"
+            },
+            "lblItem": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Items",
+                "type": "Label"
+            },
+            "lblOrderID": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "OrderID",
+                "type": "Label"
+            },
+            "lblStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "PaymentSettled",
+                "type": "Label"
+            },
+            "lblTotal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Total",
+                "type": "Label"
+            }
+        },
+        {
+            "lblDate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Date",
+                "type": "Label"
+            },
+            "lblItem": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Items",
+                "type": "Label"
+            },
+            "lblOrderID": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "OrderID",
+                "type": "Label"
+            },
+            "lblStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "PaymentSettled",
+                "type": "Label"
+            },
+            "lblTotal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Total",
+                "type": "Label"
+            }
+        },
+        {
+            "lblDate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Date",
+                "type": "Label"
+            },
+            "lblItem": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Items",
+                "type": "Label"
+            },
+            "lblOrderID": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "OrderID",
+                "type": "Label"
+            },
+            "lblStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "PaymentSettled",
+                "type": "Label"
+            },
+            "lblTotal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Total",
+                "type": "Label"
+            }
+        },
+        {
+            "lblDate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Date",
+                "type": "Label"
+            },
+            "lblItem": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Items",
+                "type": "Label"
+            },
+            "lblOrderID": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "OrderID",
+                "type": "Label"
+            },
+            "lblStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "PaymentSettled",
+                "type": "Label"
+            },
+            "lblTotal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Total",
+                "type": "Label"
+            }
+        }
     ],
     "_height_": {
         "type": "string",
@@ -959,7 +568,7 @@
     ],
     "_top_": {
         "type": "string",
-        "value": "0dp"
+        "value": "40dp"
     },
     "_width_": {
         "type": "string",
@@ -972,11 +581,13 @@
         "value": "50%"
     },
     "containerweight": 100,
-    "counter": "119",
+    "counter": "019",
+    "enabledictionary": true,
+    "enablereordering": false,
     "focusedindex": null,
     "focuseditem": null,
     "groupcells": true,
-    "hasSections": true,
+    "hasSections": false,
     "id": "segOrderHistory",
     "info": null,
     "ipad": {
@@ -986,7 +597,10 @@
     },
     "iphone": {
         "psp": {
-            "indicator": "none"
+            "bounces": false,
+            "enableDictionary": true,
+            "indicator": "none",
+            "showProgressIndicator": false
         }
     },
     "iscustomlayout": false,
@@ -1011,34 +625,28 @@
     "rowskin": "s2cf61e58a6f4c978dfbd8aa917813db",
     "rowtemplate": "Flex0fd752e86367e45",
     "screenlevelwidget": false,
-    "seccounter": 1,
-    "sectionHeaderTemplateId": "c2d16b827f1d44e7bb21e70f223c70b2",
+    "seccounter": 0,
+    "sectionHeaderTemplateId": null,
     "sectionheaderskin": "s18b4b7cebc04180b309be5c8749494f",
-    "sectionheadertemplate": "Flex0c47a56c1cc9f4f",
     "selectedRows": null,
     "selectedState": false,
     "selectedindex": null,
     "selectedindices": null,
     "selecteditems": null,
-    "selectedsectionindex": 0,
+    "selectedsectionindex": null,
     "selectionbehavior": "default",
     "separatorcolor": "aaaaaa00",
     "separatorrequired": true,
     "separatorthickness": 1,
+    "showprogressindicator": false,
     "showscrollbars": false,
     "viewtype": "tableview",
     "vizProps": {},
     "wType": "Segment",
     "widgetalignment": 5,
     "widgetdatamap": {
-        "Flex0c47a56c1cc9f4f": "Flex0c47a56c1cc9f4f",
         "Flex0fd752e86367e45": "Flex0fd752e86367e45",
         "lblDate": "lblDate",
-        "lblHeaderDate": "lblHeaderDate",
-        "lblHeaderItems": "lblHeaderItems",
-        "lblHeaderOrderID": "lblHeaderOrderID",
-        "lblHeaderStatus": "lblHeaderStatus",
-        "lblHeaderTotal": "lblHeaderTotal",
         "lblItem": "lblItem",
         "lblOrderID": "lblOrderID",
         "lblStatus": "lblStatus",

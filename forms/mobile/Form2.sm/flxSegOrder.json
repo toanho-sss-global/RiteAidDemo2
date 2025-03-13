@@ -39,6 +39,7 @@
         "value": "50%"
     },
     "children": [
+        "segHeaderOrderHistory",
         "segOrderHistory"
     ],
     "clipbounds": false,
