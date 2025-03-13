@@ -10,7 +10,7 @@ define({
 
       if (item.lblCostDiscount !== '') {
         item.lblCost = {
-          text: item.lblCost,
+          text     : item.lblCost,
           textStyle: {
             strikeThrough: true
           }
@@ -36,7 +36,7 @@ define({
           var response = httpRequest.response;
           console.log("API Response:", response);
 
-          if (response && response.opstatus === 0) {
+          if (response && response.data && response.data.products) {
             self.handleProducts(response.data);
           }
         } else {
@@ -51,7 +51,7 @@ define({
   },
 
   handleProducts: function (data) {
-    if (!data || !data.products || !data.products.items || !Array.isArray(data.products.items)) {
+    if (!data.products.items || !Array.isArray(data.products.items)) {
       return;
     }
 
@@ -76,4 +76,3 @@ define({
     this.initProductData();
   }
 });
- 
