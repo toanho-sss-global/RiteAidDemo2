@@ -17,8 +17,8 @@
         "actions": [{
             "id": "INVOKE_FUNCTION__da6aec5d8d6c4b0495fe60403bc59a4e",
             "type": "INVOKE_FUNCTION",
-            "sequenceKUID": "preShow",
-            "display": "preShow",
+            "sequenceKUID": "getAllOrders",
+            "display": "getAllOrders",
             "inputparams": [],
             "parentId": null,
             "callbackType": null,

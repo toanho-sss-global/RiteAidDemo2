@@ -1,61 +1,7 @@
 define({ 
   ListOrderHistory: [],
   
-  preShow: function () {
-    var data = [
-        { 
-            lblOrderID: { text: "100" }, 
-            lblDate: { text: "2025-03-10" }, 
-            lblItem: { text: "1" }, 
-            lblTotal: { text: "$599.99" }, 
-            lblStatus: { text: "Cancelled", skin: "" }
-        },
-        { 
-            lblOrderID: { text: "102" }, 
-            lblDate: { text: "2025-03-09" }, 
-            lblItem: { text: "1" }, 
-            lblTotal: { text: "$1,29" }, 
-            lblStatus: { text: "Cancelled", skin: "" } 
-        },
-        { 
-            lblOrderID: { text: "103" }, 
-            lblDate: { text: "2025-03-08" }, 
-            lblItem: { text: "1" }, 
-            lblTotal: { text: "$199.99" }, 
-            lblStatus: { text: "Delivered", skin: "" } 
-        },
-        { 
-            lblOrderID: { text: "104" }, 
-            lblDate: { text: "2025-03-07" }, 
-            lblItem: { text: "1" }, 
-            lblTotal: { text: "$249.99" }, 
-            lblStatus: { text: "PaymentSettled", skin: "" } 
-        }
-    ];
-    
-    this.ListOrderHistory = data;
-    this.view.segOrderHistory.setData(this.ListOrderHistory);
-},
-
-
-  HandleSkinStatus: function() {
-    var updatedData = this.view.segOrderHistory.data.map(function(item) {
-        if (item.lblStatus.text === "Cancelled") {
-            item.lblStatus.skin = "sknCancelled";
-        } else if (item.lblStatus.text === "Delivered") {
-            item.lblStatus.skin = "sknDelivered";
-        } else {
-            item.lblStatus.skin = "sknPaymentSettled";
-        }
-        return item;
-    });
-
-    this.view.segOrderHistory.setData(updatedData);
-},
-
-
-  
- GetAllOrders: function () {
+ getAllOrders: function () {
     var self = this;
     var url = "https://vendure.demo.universalcommerce.io/shop-api";
     var token = localStorage.getItem("vendure-auth-token");
@@ -88,9 +34,50 @@ define({
           if (httpclient.status === 200) {
             var response = JSON.parse(httpclient.response);
             console.log("Get all order response:", response);
+            self.handleOrderHistory(response.data);
           }
       }
  	};
   },
+  
+  
+ handleOrderHistory: function (data) {
+    if (!data || !data.activeCustomer || !data.activeCustomer.orders) {
+        return;
+    }
+
+    var formattedOrders = data.activeCustomer.orders.items.map(item => {
+        var skin = "";
+        if (item.state === "Cancelled") {
+            skin = "sknCancelled";
+        } else if (item.state === "Delivered") {
+            skin = "sknDelivered";
+        } else {
+            skin = "sknPaymentSettled";
+        }
+
+        return {
+            lblOrderID: { text: item.id }, 
+            lblDate: { text: this.formatDate(item.orderPlacedAt) }, 
+            lblItem: { text: item.lines.length }, 
+            lblTotal: { text: (item.totalWithTax / 100).toFixed(2) }, 
+            lblStatus: { text: item.state, skin: skin }
+        };
+    });
+
+    this.ListOrderHistory = formattedOrders;
+    this.view.segOrderHistory.setData(this.ListOrderHistory);
+    
+    console.log("Updated product list:", this.ListOrderHistory);
+},
+  
+  formatDate: function(isoString) {
+    let date = new Date(isoString);
+    let year = date.getFullYear();
+    let month = String(date.getMonth() + 1).padStart(2, '0');
+    let day = String(date.getDate()).padStart(2, '0');
+    return `${year}-${month}-${day}`;
+},
+
 
  });
