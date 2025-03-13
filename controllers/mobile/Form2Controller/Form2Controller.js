@@ -1,151 +1,58 @@
 define({ 
-	
+  ListOrderHistory: [],
+  
   preShow: function () {
     var data = [
         { 
-            lblOrderID: "100", 
-            lblDate: "2025-03-10", 
-            lblItem: "1", 
-            lblTotal: "$599.99", 
-            lblStatus: "PaymentSettled" 
+            lblOrderID: { text: "100" }, 
+            lblDate: { text: "2025-03-10" }, 
+            lblItem: { text: "1" }, 
+            lblTotal: { text: "$599.99" }, 
+            lblStatus: { text: "Cancelled", skin: "" }
         },
         { 
-            lblOrderID: "102", 
-            lblDate: "2025-03-09", 
-            lblItem: "1", 
-            lblTotal: "$1,299.99", 
-            lblStatus: "Cancelled" 
+            lblOrderID: { text: "102" }, 
+            lblDate: { text: "2025-03-09" }, 
+            lblItem: { text: "1" }, 
+            lblTotal: { text: "$1,29" }, 
+            lblStatus: { text: "Cancelled", skin: "" } 
         },
         { 
-            lblOrderID: "103", 
-            lblDate: "2025-03-08", 
-            lblItem: "1", 
-            lblTotal: "$199.99", 
-            lblStatus: "Delivered" 
+            lblOrderID: { text: "103" }, 
+            lblDate: { text: "2025-03-08" }, 
+            lblItem: { text: "1" }, 
+            lblTotal: { text: "$199.99" }, 
+            lblStatus: { text: "Delivered", skin: "" } 
         },
         { 
-            lblOrderID: "104", 
-            lblDate: "2025-03-07", 
-            lblItem: "1", 
-            lblTotal: "$249.99", 
-            lblStatus: "PaymentSettled" 
-        },
-        { 
-            lblOrderID: "105", 
-            lblDate: "2025-03-06", 
-            lblItem: "1", 
-            lblTotal: "$499.99", 
-            lblStatus: "Delivered" 
-        },
-      	{ 
-            lblOrderID: "100", 
-            lblDate: "2025-03-10", 
-            lblItem: "1", 
-            lblTotal: "$599.99", 
-            lblStatus: "PaymentSettled" 
-        },
-        { 
-            lblOrderID: "102", 
-            lblDate: "2025-03-09", 
-            lblItem: "1", 
-            lblTotal: "$1,299.99", 
-            lblStatus: "Cancelled" 
-        },
-        { 
-            lblOrderID: "103", 
-            lblDate: "2025-03-08", 
-            lblItem: "1", 
-            lblTotal: "$199.99", 
-            lblStatus: "Delivered" 
-        },
-        { 
-            lblOrderID: "104", 
-            lblDate: "2025-03-07", 
-            lblItem: "1", 
-            lblTotal: "$249.99", 
-            lblStatus: "PaymentSettled" 
-        },
-        { 
-            lblOrderID: "105", 
-            lblDate: "2025-03-06", 
-            lblItem: "1", 
-            lblTotal: "$499.99", 
-            lblStatus: "Delivered" 
-        },
-      { 
-            lblOrderID: "100", 
-            lblDate: "2025-03-10", 
-            lblItem: "1", 
-            lblTotal: "$599.99", 
-            lblStatus: "PaymentSettled" 
-        },
-        { 
-            lblOrderID: "102", 
-            lblDate: "2025-03-09", 
-            lblItem: "1", 
-            lblTotal: "$1,299.99", 
-            lblStatus: "Cancelled" 
-        },
-        { 
-            lblOrderID: "103", 
-            lblDate: "2025-03-08", 
-            lblItem: "1", 
-            lblTotal: "$199.99", 
-            lblStatus: "Delivered" 
-        },
-        { 
-            lblOrderID: "104", 
-            lblDate: "2025-03-07", 
-            lblItem: "1", 
-            lblTotal: "$249.99", 
-            lblStatus: "PaymentSettled" 
-        },
-        { 
-            lblOrderID: "105", 
-            lblDate: "2025-03-06", 
-            lblItem: "1", 
-            lblTotal: "$499.99", 
-            lblStatus: "Delivered" 
-        },
-      	{ 
-            lblOrderID: "100", 
-            lblDate: "2025-03-10", 
-            lblItem: "1", 
-            lblTotal: "$599.99", 
-            lblStatus: "PaymentSettled" 
-        },
-        { 
-            lblOrderID: "102", 
-            lblDate: "2025-03-09", 
-            lblItem: "1", 
-            lblTotal: "$1,299.99", 
-            lblStatus: "Cancelled" 
-        },
-        { 
-            lblOrderID: "103", 
-            lblDate: "2025-03-08", 
-            lblItem: "1", 
-            lblTotal: "$199.99", 
-            lblStatus: "Delivered" 
-        },
-        { 
-            lblOrderID: "104", 
-            lblDate: "2025-03-07", 
-            lblItem: "1", 
-            lblTotal: "$249.99", 
-            lblStatus: "PaymentSettled" 
-        },
-        { 
-            lblOrderID: "105", 
-            lblDate: "2025-03-06", 
-            lblItem: "1", 
-            lblTotal: "$499.99", 
-            lblStatus: "Delivered" 
+            lblOrderID: { text: "104" }, 
+            lblDate: { text: "2025-03-07" }, 
+            lblItem: { text: "1" }, 
+            lblTotal: { text: "$249.99" }, 
+            lblStatus: { text: "PaymentSettled", skin: "" } 
         }
     ];
-
-    this.view.segOrderHistory.setData(data);
+    
+    this.ListOrderHistory = data;
+    this.view.segOrderHistory.setData(this.ListOrderHistory);
 },
+
+
+  HandleSkinStatus: function() {
+    var updatedData = this.view.segOrderHistory.data.map(function(item) {
+        if (item.lblStatus.text === "Cancelled") {
+            item.lblStatus.skin = "sknCancelled";
+        } else if (item.lblStatus.text === "Delivered") {
+            item.lblStatus.skin = "sknDelivered";
+        } else {
+            item.lblStatus.skin = "sknPaymentSettled";
+        }
+        return item;
+    });
+
+    this.view.segOrderHistory.setData(updatedData);
+},
+
 
   
  GetAllOrders: function () {
