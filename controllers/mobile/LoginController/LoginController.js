@@ -48,9 +48,7 @@ define({
           localStorage.setItem("vendure-auth-token", responseHeader);
           if (userData !== null && userData.identifier) {
             voltmx.store.setItem('userData', JSON.stringify(userData));
-//             var nav = new voltmx.mvc.Navigation("Home");
-            var nav = new voltmx.mvc.Navigation("CheckoutShippingMethod");
-
+            var nav = new voltmx.mvc.Navigation("Home");
             nav.navigate();
           } else if (response.errors) {
             alert(response.errors[0].message);
