@@ -5,7 +5,7 @@ define({
     var self = this;
     var url = "https://vendure.demo.universalcommerce.io/shop-api";
     var token = localStorage.getItem("vendure-auth-token");
-    token = "7be3ff5af14bffcc0efac6a47746cbc8e1b9108cbe1f894c408768ca0ccd1fae";
+    //token = "";
     var httpclient = new voltmx.net.HttpRequest();
     
     httpclient.open(constants.HTTP_METHOD_POST, url);
