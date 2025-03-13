@@ -1,0 +1,328 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_data_": [
+        {
+            "lblDate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Date"
+            },
+            "lblItem": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Items"
+            },
+            "lblOderID": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "OrderID"
+            },
+            "lblStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "PaymentSettled"
+            },
+            "lblTotal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Total"
+            }
+        },
+        {
+            "lblDate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Date"
+            },
+            "lblItem": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Items"
+            },
+            "lblOderID": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "OrderID"
+            },
+            "lblStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "PaymentSettled"
+            },
+            "lblTotal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Total"
+            }
+        },
+        {
+            "lblDate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Date"
+            },
+            "lblItem": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Items"
+            },
+            "lblOderID": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "OrderID"
+            },
+            "lblStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "PaymentSettled"
+            },
+            "lblTotal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Total"
+            }
+        },
+        {
+            "lblDate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Date"
+            },
+            "lblItem": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Items"
+            },
+            "lblOderID": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "OrderID"
+            },
+            "lblStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "PaymentSettled"
+            },
+            "lblTotal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Total"
+            }
+        },
+        {
+            "lblDate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Date"
+            },
+            "lblItem": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Items"
+            },
+            "lblOderID": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "OrderID"
+            },
+            "lblStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "PaymentSettled"
+            },
+            "lblTotal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Total"
+            }
+        },
+        {
+            "lblDate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Date"
+            },
+            "lblItem": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Items"
+            },
+            "lblOderID": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "OrderID"
+            },
+            "lblStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "PaymentSettled"
+            },
+            "lblTotal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Total"
+            }
+        },
+        {
+            "lblDate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Date"
+            },
+            "lblItem": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Items"
+            },
+            "lblOderID": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "OrderID"
+            },
+            "lblStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "PaymentSettled"
+            },
+            "lblTotal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Total"
+            }
+        },
+        {
+            "lblDate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Date"
+            },
+            "lblItem": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Items"
+            },
+            "lblOderID": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "OrderID"
+            },
+            "lblStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "PaymentSettled"
+            },
+            "lblTotal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Total"
+            }
+        },
+        {
+            "lblDate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Date"
+            },
+            "lblItem": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Items"
+            },
+            "lblOderID": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "OrderID"
+            },
+            "lblStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "PaymentSettled"
+            },
+            "lblTotal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Total"
+            }
+        },
+        {
+            "lblDate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Date"
+            },
+            "lblItem": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Items"
+            },
+            "lblOderID": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "OrderID"
+            },
+            "lblStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "PaymentSettled"
+            },
+            "lblTotal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Total"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "45dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "counter": "09",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "Segment0b36ae13e3fa14c",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "none"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "d756cf57b2f24967a23c5a16f1051619",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxSegOrder",
+    "pf": "Form2",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "cda7af024efe404fb9cf5954a95ee0fe",
+    "rowcounter": 9,
+    "rowfocusskin": "sb65288bf0c74cf09c9a4b2beb257b4c",
+    "rowskin": "scb3373156f44d6fbaeda147e8570593",
+    "rowtemplate": "Flex0fd752e86367e45",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s18b4b7cebc04180b309be5c8749494f",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": null,
+    "selectionbehavior": "default",
+    "separatorcolor": "aaaaaa00",
+    "separatorrequired": true,
+    "separatorthickness": 1,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "Flex0fd752e86367e45": "Flex0fd752e86367e45",
+        "lblDate": "lblDate",
+        "lblItem": "lblItem",
+        "lblOderID": "lblOderID",
+        "lblStatus": "lblStatus",
+        "lblTotal": "lblTotal"
+    },
+    "zindex": 1
+}

@@ -7,7 +7,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "215dp"
+        "value": "0dp"
     },
     "_margin_": [
         1,
@@ -16,13 +16,17 @@
         1
     ],
     "_padding_": [
-        0,
+        5,
         0,
         0,
         0
     ],
-    "_skin_": "sa068fb30d4c41cb9f328bc150933eff",
-    "_text_": "Total",
+    "_skin_": "s6c1abb75d2b4268a6680f29e363653d",
+    "_text_": "Order History",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
     "_width_": {
         "type": "ref",
         "value": "preferred"
@@ -35,14 +39,9 @@
         }
     },
     "canUpdateUI": true,
-    "centery": {
-        "type": "string",
-        "value": "50%"
-    },
-    "containerId": true,
     "containerweight": 100,
     "contentalignment": 4,
-    "id": "lblTotal",
+    "id": "lblTextOrderHistory",
     "info": null,
     "ipad": {
         "psp": {
@@ -56,10 +55,11 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "c5e9fc52305a4a1c9661dec4cac78f3f",
+    "kuid": "icf22dd3fdf44aeea376deecc8757b85",
     "name": "kony.ui.Label",
-    "parent": "Flex0fd752e86367e45",
-    "pf": "Temp0iefc8c08aea84b",
+    "paddinginpixel": false,
+    "parent": "flxListOrderHistory",
+    "pf": "Form2",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "textstyle": {},

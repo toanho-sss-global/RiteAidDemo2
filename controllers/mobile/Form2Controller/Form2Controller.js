@@ -1,5 +1,49 @@
 define({ 
+	
+  preShow: function () {
+    var data = [
+        { 
+            lblOrderID: "1001", 
+            lblDate: "2025-03-10", 
+            lblItem: "Smartphone", 
+            lblTotal: "$599.99", 
+            lblStatus: "PaymentSettled" 
+        },
+        { 
+            lblOrderID: "1002", 
+            lblDate: "2025-03-09", 
+            lblItem: "Laptop", 
+            lblTotal: "$1,299.99", 
+            lblStatus: "Cancelled" 
+        },
+        { 
+            lblOrderID: "1003", 
+            lblDate: "2025-03-08", 
+            lblItem: "Headphones", 
+            lblTotal: "$199.99", 
+            lblStatus: "Delivered" 
+        },
+        { 
+            lblOrderID: "1004", 
+            lblDate: "2025-03-07", 
+            lblItem: "Smartwatch", 
+            lblTotal: "$249.99", 
+            lblStatus: "PaymentSettled" 
+        },
+        { 
+            lblOrderID: "1005", 
+            lblDate: "2025-03-06", 
+            lblItem: "Tablet", 
+            lblTotal: "$499.99", 
+            lblStatus: "Delivered" 
+        }
+    ];
 
+    // Set data to the segment table
+    this.view.segmentTable.setData(data);
+},
+
+  
  GetAllOrders: function () {
     var self = this;
     var url = "https://vendure.demo.universalcommerce.io/shop-api";

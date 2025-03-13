@@ -7,7 +7,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "10dp"
+        "value": "280dp"
     },
     "_margin_": [
         1,
@@ -16,13 +16,17 @@
         1
     ],
     "_padding_": [
-        0,
-        0,
-        0,
-        0
+        2,
+        1,
+        2,
+        1
     ],
-    "_skin_": "sa068fb30d4c41cb9f328bc150933eff",
-    "_text_": "OrderID",
+    "_skin_": "s1dbbb21f7bf4a908f1ad955040a7f3b",
+    "_text_": "PaymentSettled",
+    "_top_": {
+        "type": "string",
+        "value": "7dp"
+    },
     "_width_": {
         "type": "ref",
         "value": "preferred"
@@ -35,13 +39,10 @@
         }
     },
     "canUpdateUI": true,
-    "centery": {
-        "type": "string",
-        "value": "50%"
-    },
+    "containerId": true,
     "containerweight": 100,
     "contentalignment": 4,
-    "id": "lblOrerID",
+    "id": "lblStatus",
     "info": null,
     "ipad": {
         "psp": {
@@ -55,8 +56,9 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "eae7481fb41340209a24ba52dd56e76a",
+    "kuid": "d740538fd6ba4ee99af22f5e4afa09a8",
     "name": "kony.ui.Label",
+    "paddinginpixel": false,
     "parent": "Flex0fd752e86367e45",
     "pf": "Temp0iefc8c08aea84b",
     "retaincontentalignment": false,
