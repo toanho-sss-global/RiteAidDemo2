@@ -2,7 +2,7 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "100%"
+        "value": "40dp"
     },
     "_left_": {
         "type": "string",
@@ -35,29 +35,37 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "Segment0b4f122a4dfc04b"
+        "lblHeaderOrderID",
+        "lblHeaderDate",
+        "lblHeaderItems",
+        "lblHeaderTotal",
+        "lblHeaderStatus"
     ],
     "clipbounds": false,
+    "containerId": true,
     "containerweight": 100,
+    "controllerInfo": {
+        "default": {
+            "channel": "mobile",
+            "name": "Flex0c47a56c1cc9f4fController"
+        }
+    },
     "enablescrolling": true,
-    "id": "OrderHistory",
+    "id": "Flex0c47a56c1cc9f4f",
     "info": null,
+    "isTemplate": true,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "ff3253fc82914d4f8aa15b281c453c89",
+    "kuid": "ad4f498a5ac04aa694ce8503c9cfa7eb",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "userwidgetmodel",
-    "pf": "userwidgetmodel",
+    "parent": "Temp0ae645cc0948f4a",
+    "pf": "Temp0ae645cc0948f4a",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "vizProps": {
-        "hidewidgethierarchy": false
-    },
     "wType": "FlexContainer",
-    "widgetalignment": 1,
-    "zindex": 1
+    "widgetalignment": 1
 }

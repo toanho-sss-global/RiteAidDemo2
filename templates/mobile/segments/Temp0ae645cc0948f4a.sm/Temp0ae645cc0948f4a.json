@@ -1,5 +1,5 @@
 {
-    "@class": "com.kony.gen.viz.model.container.KVizForm",
+    "@class": "com.kony.gen.viz.model.container.KVizScrollFlexForm",
     "DNDConfig": null,
     "_margin_": [
         0,
@@ -19,27 +19,17 @@
     "_title_": null,
     "addWidgetsdone": false,
     "allboxes": [],
-    "breakpointInfo": {
-        "b1": {
-            "width": 1366
-        },
-        "b2": {
-            "width": 1024
-        },
-        "b3": {
-            "width": 640
-        }
-    },
     "canUpdateUI": true,
     "children": [
-        "OrderHistory"
+        "Flex0c47a56c1cc9f4f"
     ],
+    "containerId": true,
     "containerweight": 100,
     "currentLocale": "default",
     "device": "iPhone14",
     "displayorientation": 3,
     "enabledforidletimeout": false,
-    "id": "userwidgetmodel",
+    "id": "Temp0ae645cc0948f4a",
     "info": null,
     "initdone": false,
     "inputaccessoryviewtype": 4,
@@ -48,9 +38,7 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "uf0413b680d341f3b36dd6bc40eb3612",
-    "layouttype": 2,
-    "masterType": 0,
+    "kuid": "c2d16b827f1d44e7bb21e70f223c70b2",
     "name": "kony.ui.Form2",
     "needappmenu": true,
     "outtransitionconfig": {

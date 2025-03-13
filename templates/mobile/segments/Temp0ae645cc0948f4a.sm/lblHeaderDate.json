@@ -7,7 +7,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "72%"
+        "value": "20%"
     },
     "_margin_": [
         1,
@@ -16,13 +16,13 @@
         1
     ],
     "_padding_": [
-        2,
-        1,
-        2,
-        1
+        0,
+        0,
+        0,
+        0
     ],
-    "_skin_": "s1dbbb21f7bf4a908f1ad955040a7f3b",
-    "_text_": "PaymentSettled",
+    "_skin_": "sa3487d5977c4ce4bd2630c43ebda1a7",
+    "_text_": "Date",
     "_width_": {
         "type": "ref",
         "value": "preferred"
@@ -42,7 +42,7 @@
     "containerId": true,
     "containerweight": 100,
     "contentalignment": 4,
-    "id": "lblStatus",
+    "id": "lblHeaderDate",
     "info": null,
     "ipad": {
         "psp": {
@@ -56,11 +56,10 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "d740538fd6ba4ee99af22f5e4afa09a8",
+    "kuid": "bf469640f86c4c1ba4a3ec8a7a77280e",
     "name": "kony.ui.Label",
-    "paddinginpixel": false,
-    "parent": "Flex0fd752e86367e45",
-    "pf": "Temp0iefc8c08aea84b",
+    "parent": "Flex0c47a56c1cc9f4f",
+    "pf": "Temp0ae645cc0948f4a",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "textstyle": {},
