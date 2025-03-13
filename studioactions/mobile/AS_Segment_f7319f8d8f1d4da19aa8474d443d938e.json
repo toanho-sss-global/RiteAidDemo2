@@ -1,0 +1,30 @@
+{
+    "AS_Segment_f7319f8d8f1d4da19aa8474d443d938e": {
+        "id": "AS_Segment_f7319f8d8f1d4da19aa8474d443d938e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "Form2",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ac7188e45f71433e9c4da08d8bfaa8f7"
+        },
+        "language": "js",
+        "eventType": "onRowClick",
+        "actions": [{
+            "id": "ADD_SNIPPET_d5b0e122bb9f47139ae439af049789d2",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var selectedCurrentOrderID = this.view.flxSegOrder.segOrderHistory.selectedRowItems[0];\nlocalStorage.setItem(\"Current_OrderID\", selectedCurrentOrderID.lblOrderID.text);",
+            "parentId": null
+        }]
+    }
+}

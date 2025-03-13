@@ -489,6 +489,7 @@
     "groupcells": true,
     "hasSections": false,
     "id": "segOrderHistory",
+    "ide_onRowClick": "AS_Segment_f7319f8d8f1d4da19aa8474d443d938e",
     "info": null,
     "ipad": {
         "psp": {
@@ -533,7 +534,7 @@
     "selectedindex": null,
     "selectedindices": null,
     "selecteditems": null,
-    "selectedsectionindex": null,
+    "selectedsectionindex": 0,
     "selectionbehavior": "default",
     "separatorcolor": "aaaaaa00",
     "separatorrequired": true,

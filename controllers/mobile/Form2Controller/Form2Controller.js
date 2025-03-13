@@ -33,13 +33,11 @@ define({
       if (httpclient.readyState === 4) {
           if (httpclient.status === 200) {
             var response = JSON.parse(httpclient.response);
-            console.log("Get all order response:", response);
             self.handleOrderHistory(response.data);
           }
       }
  	};
   },
-  
   
  handleOrderHistory: function (data) {
     if (!data || !data.activeCustomer || !data.activeCustomer.orders) {
@@ -67,17 +65,14 @@ define({
 
     this.ListOrderHistory = formattedOrders;
     this.view.segOrderHistory.setData(this.ListOrderHistory);
-    
-    console.log("Updated product list:", this.ListOrderHistory);
 },
   
   formatDate: function(isoString) {
-    let date = new Date(isoString);
+    let date = isoString ? new Date(isoString) : new Date();
     let year = date.getFullYear();
     let month = String(date.getMonth() + 1).padStart(2, '0');
     let day = String(date.getDate()).padStart(2, '0');
     return `${year}-${month}-${day}`;
 },
-
 
  });
