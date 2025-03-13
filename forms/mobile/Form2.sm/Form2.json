@@ -39,7 +39,8 @@
     "canUpdateUI": true,
     "children": [
         "HeaderBar",
-        "flxListOrderHistory"
+        "flxListOrderHistory",
+        "FooterDemo"
     ],
     "containerweight": 100,
     "controllerInfo": {
