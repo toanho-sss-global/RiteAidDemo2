@@ -1,0 +1,27 @@
+{
+    "AS_FlexContainer_hc5f6b418a274bf2a1597ecc635970b9": {
+        "id": "AS_FlexContainer_hc5f6b418a274bf2a1597ecc635970b9",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "Temp0iefc8c08aea84b",
+            "type": "templates",
+            "platform": "",
+            "KUID": "cda7af024efe404fb9cf5954a95ee0fe"
+        },
+        "language": "js",
+        "eventType": "postShow",
+        "actions": [{
+            "id": "ADD_SNIPPET_e5527107b7be4aeabb0a8c88f616b466",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "if(this.view.lblStatus.text == \"Cancelled\"){\n  this.view.lblStatus.skin = \"sknCancelled\";\n}\nif(this.view.lblStatus.text == \"Delivered\"){\n  this.view.lblStatus.skin = \"sknDelivered\";\n}\n",
+            "parentId": null
+        }]
+    }
+}

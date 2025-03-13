@@ -155,7 +155,7 @@
                     "isStartupForm": false,
                     "key": "a0f2ba1a2db44238ae888c9c0e565544",
                     "loc": "188 184.845263671875",
-                    "thumbnailURL": null
+                    "thumbnailURL": "/assets/RiteAidDemo2/forms/mobile/CheckoutAddress.sm/.thumbs/default.jpeg"
                 },
                 {
                     "formKUID": "eae0974787e143e8acb5bb70f9da40ab",
@@ -163,7 +163,7 @@
                     "isStartupForm": false,
                     "key": "eae0974787e143e8acb5bb70f9da40ab",
                     "loc": "8 624.845263671875",
-                    "thumbnailURL": null
+                    "thumbnailURL": "/assets/RiteAidDemo2/forms/mobile/CheckoutPaymentMethod.sm/.thumbs/default.jpeg"
                 },
                 {
                     "formKUID": "b17f76394c484295b64c306ec564fc4f",
@@ -206,6 +206,14 @@
                     "thumbnailURL": null
                 },
                 {
+                    "formKUID": "ac7188e45f71433e9c4da08d8bfaa8f7",
+                    "formName": "Form2",
+                    "isStartupForm": true,
+                    "key": "ac7188e45f71433e9c4da08d8bfaa8f7",
+                    "loc": "368 354.845263671875",
+                    "thumbnailURL": null
+                },
+                {
                     "formKUID": "fb6e88e7d7c94c68aa13478d43b174b5",
                     "formName": "Home",
                     "isStartupForm": false,
@@ -216,7 +224,7 @@
                 {
                     "formKUID": "fe24c9db0b3843b8b65fb7f139c8b005",
                     "formName": "Login",
-                    "isStartupForm": true,
+                    "isStartupForm": false,
                     "key": "fe24c9db0b3843b8b65fb7f139c8b005",
                     "loc": "8 4224.845263671875",
                     "thumbnailURL": null
