@@ -3,44 +3,43 @@ define({
   preShow: function () {
     var data = [
         { 
-            lblOrderID: "1001", 
+            lblOrderID: "100", 
             lblDate: "2025-03-10", 
-            lblItem: "Smartphone", 
+            lblItem: "1", 
             lblTotal: "$599.99", 
             lblStatus: "PaymentSettled" 
         },
         { 
-            lblOrderID: "1002", 
+            lblOrderID: "102", 
             lblDate: "2025-03-09", 
-            lblItem: "Laptop", 
+            lblItem: "1", 
             lblTotal: "$1,299.99", 
             lblStatus: "Cancelled" 
         },
         { 
-            lblOrderID: "1003", 
+            lblOrderID: "103", 
             lblDate: "2025-03-08", 
-            lblItem: "Headphones", 
+            lblItem: "1", 
             lblTotal: "$199.99", 
             lblStatus: "Delivered" 
         },
         { 
-            lblOrderID: "1004", 
+            lblOrderID: "104", 
             lblDate: "2025-03-07", 
-            lblItem: "Smartwatch", 
+            lblItem: "1", 
             lblTotal: "$249.99", 
             lblStatus: "PaymentSettled" 
         },
         { 
-            lblOrderID: "1005", 
+            lblOrderID: "105", 
             lblDate: "2025-03-06", 
-            lblItem: "Tablet", 
+            lblItem: "1", 
             lblTotal: "$499.99", 
             lblStatus: "Delivered" 
         }
     ];
 
-    // Set data to the segment table
-    this.view.segmentTable.setData(data);
+    this.view.segOrderHistory.setData(data);
 },
 
   

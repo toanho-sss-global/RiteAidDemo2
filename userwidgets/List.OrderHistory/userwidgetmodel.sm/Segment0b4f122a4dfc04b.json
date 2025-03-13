@@ -80,7 +80,7 @@
                     "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                     "text": "Items"
                 },
-                "lblOderID": {
+                "lblOrderID": {
                     "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                     "text": "OrderID"
                 },
@@ -102,7 +102,7 @@
                     "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                     "text": "Items"
                 },
-                "lblOderID": {
+                "lblOrderID": {
                     "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                     "text": "OrderID"
                 },
@@ -124,7 +124,7 @@
                     "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                     "text": "Items"
                 },
-                "lblOderID": {
+                "lblOrderID": {
                     "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                     "text": "OrderID"
                 },
@@ -146,7 +146,7 @@
                     "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                     "text": "Items"
                 },
-                "lblOderID": {
+                "lblOrderID": {
                     "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                     "text": "OrderID"
                 },
@@ -168,7 +168,7 @@
                     "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                     "text": "Items"
                 },
-                "lblOderID": {
+                "lblOrderID": {
                     "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                     "text": "OrderID"
                 },
@@ -190,7 +190,7 @@
                     "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                     "text": "Items"
                 },
-                "lblOderID": {
+                "lblOrderID": {
                     "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                     "text": "OrderID"
                 },
@@ -212,7 +212,7 @@
                     "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                     "text": "Items"
                 },
-                "lblOderID": {
+                "lblOrderID": {
                     "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                     "text": "OrderID"
                 },
@@ -234,7 +234,7 @@
                     "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                     "text": "Items"
                 },
-                "lblOderID": {
+                "lblOrderID": {
                     "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                     "text": "OrderID"
                 },
@@ -256,7 +256,7 @@
                     "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                     "text": "Items"
                 },
-                "lblOderID": {
+                "lblOrderID": {
                     "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                     "text": "OrderID"
                 },
@@ -278,7 +278,7 @@
                     "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                     "text": "Items"
                 },
-                "lblOderID": {
+                "lblOrderID": {
                     "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                     "text": "OrderID"
                 },
@@ -298,7 +298,7 @@
             "Flex0fd752e86367e45": "Flex0fd752e86367e45",
             "lblDate": "lblDate",
             "lblItem": "lblItem",
-            "lblOderID": "lblOderID",
+            "lblOrderID": "lblOrderID",
             "lblStatus": "lblStatus",
             "lblTotal": "lblTotal"
         }
@@ -327,7 +327,7 @@
     "selectedindex": null,
     "selectedindices": null,
     "selecteditems": null,
-    "selectedsectionindex": null,
+    "selectedsectionindex": 0,
     "selectionbehavior": "default",
     "separatorcolor": "aaaaaa00",
     "separatorrequired": true,
