@@ -40,7 +40,6 @@
     },
     "children": [
         "OrderDetailOrderSummaryLabel",
-        "OrderStatusCOntainer",
         "OrderInnerContainerLine",
         "OrderInnerContainerLine2",
         "OrderInnerContainerLine3",
@@ -56,7 +55,8 @@
         "OrderTotalPrice",
         "DeliveryTypeLabel",
         "DeliveryTypeTextCtn",
-        "QRCodeContainer"
+        "QRCodeContainer",
+        "OrderStatusLabel"
     ],
     "clipbounds": false,
     "containerweight": 100,

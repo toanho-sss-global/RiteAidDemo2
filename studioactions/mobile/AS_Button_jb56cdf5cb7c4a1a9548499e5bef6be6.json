@@ -9,9 +9,17 @@
         "language": "js",
         "eventType": "onClick",
         "actions": [{
-            "id": "ADD_SNIPPET_ide_onClick_c9f65c8abe7d43f6bbd5902c24992ecd",
-            "type": "ADD_SNIPPET",
-            "codeSnippet": "var nav = new voltmx.mvc.Navigation(\"Dashboard\");\nnav.navigate();"
+            "id": "NAVIGATE_TO_FORM__dc5acd7439504d9f9219a134b50ae772",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "Form2",
+            "formKUID": "ac7188e45f71433e9c4da08d8bfaa8f7",
+            "projectName": "RiteAidDemo2",
+            "mappings": {},
+            "mappingsOrder": [],
+            "enableMappingEditor": true,
+            "package": "",
+            "enableNavigationObj": false,
+            "isCustomInput": false
         }]
     }
 }

@@ -15,7 +15,7 @@
     ],
     "_height_": {
         "type": "string",
-        "value": "240dp"
+        "value": "260dp"
     },
     "_indicator_": "none",
     "_left_": {
@@ -47,8 +47,8 @@
     "canUpdateUI": true,
     "containerweight": 100,
     "counter": "09",
-    "focusedindex": 0,
-    "focuseditem": {},
+    "focusedindex": null,
+    "focuseditem": null,
     "groupcells": false,
     "hasSections": false,
     "id": "ProductCarousel",
@@ -325,12 +325,9 @@
     "sectionheaderskin": "s18b4b7cebc04180b309be5c8749494f",
     "selectedRows": null,
     "selectedState": false,
-    "selectedindex": [
-        0,
-        0
-    ],
+    "selectedindex": null,
     "selectedindices": null,
-    "selecteditems": {},
+    "selecteditems": null,
     "selectedsectionindex": 0,
     "selectionbehavior": "default",
     "selectionbehaviorconfig": null,
@@ -340,7 +337,7 @@
     "showscrollbars": false,
     "swipeContext": {
         "currentPage": 0,
-        "imageWidth": 1170,
+        "imageWidth": 1164,
         "widthRatio": 0
     },
     "viewtype": "pageview",

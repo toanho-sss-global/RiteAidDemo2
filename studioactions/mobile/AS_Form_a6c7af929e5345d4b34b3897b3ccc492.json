@@ -15,6 +15,16 @@
         "language": "js",
         "eventType": "postShow",
         "actions": [{
+            "id": "INVOKE_FUNCTION__f85ba5395127448e97a9d63a440673dc",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "getCurrentProductID",
+            "display": "getCurrentProductID",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }, {
             "id": "INVOKE_FUNCTION__ae6eed5ad604421ea0c116f7696d6c17",
             "type": "INVOKE_FUNCTION",
             "sequenceKUID": "getOrderDetails",
