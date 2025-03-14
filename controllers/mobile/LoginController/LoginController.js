@@ -49,8 +49,8 @@ define({
           if (userData !== null && userData.identifier) {
             voltmx.store.setItem('userData', JSON.stringify(userData));
 
-//          var nav = new voltmx.mvc.Navigation("Home");
-            var nav = new voltmx.mvc.Navigation("Form2");
+         	var nav = new voltmx.mvc.Navigation("Home");
+//             var nav = new voltmx.mvc.Navigation("Form2");
 
             nav.navigate();
           } else if (response.errors) {
