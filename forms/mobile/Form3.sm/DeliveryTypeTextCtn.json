@@ -29,7 +29,7 @@
     },
     "_width_": {
         "type": "string",
-        "value": "35.52%"
+        "value": "190dp"
     },
     "allboxes": [],
     "allowhorizontalbounce": false,

@@ -49,6 +49,145 @@
             "autogrowMode": {
                 "Default": 0
             },
+            "data": {
+                "mobile": [
+                    {
+                        "CarouselPoductUnitQuantity": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "90 Ct",
+                            "type": "Label"
+                        },
+                        "CarouselProductImg": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": "cartproductimg.png",
+                            "type": "Image"
+                        },
+                        "CarouselProductMade": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Nature Made",
+                            "type": "Label"
+                        },
+                        "CarouselProductName": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Skin With Biotin Softgels",
+                            "type": "Label"
+                        },
+                        "CarouselProductPrice": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Price: $19.99",
+                            "type": "Label"
+                        }
+                    },
+                    {
+                        "CarouselPoductUnitQuantity": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "90 Ct",
+                            "type": "Label"
+                        },
+                        "CarouselProductImg": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": "cartproductimg.png",
+                            "type": "Image"
+                        },
+                        "CarouselProductMade": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Nature Made",
+                            "type": "Label"
+                        },
+                        "CarouselProductName": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Skin With Biotin Softgels",
+                            "type": "Label"
+                        },
+                        "CarouselProductPrice": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Price: $19.99",
+                            "type": "Label"
+                        }
+                    },
+                    {
+                        "CarouselPoductUnitQuantity": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "90 Ct",
+                            "type": "Label"
+                        },
+                        "CarouselProductImg": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": "cartproductimg.png",
+                            "type": "Image"
+                        },
+                        "CarouselProductMade": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Nature Made",
+                            "type": "Label"
+                        },
+                        "CarouselProductName": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Skin With Biotin Softgels",
+                            "type": "Label"
+                        },
+                        "CarouselProductPrice": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Price: $19.99",
+                            "type": "Label"
+                        }
+                    },
+                    {
+                        "CarouselPoductUnitQuantity": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "90 Ct",
+                            "type": "Label"
+                        },
+                        "CarouselProductImg": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": "cartproductimg.png",
+                            "type": "Image"
+                        },
+                        "CarouselProductMade": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Nature Made",
+                            "type": "Label"
+                        },
+                        "CarouselProductName": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Skin With Biotin Softgels",
+                            "type": "Label"
+                        },
+                        "CarouselProductPrice": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Price: $19.99",
+                            "type": "Label"
+                        }
+                    },
+                    {
+                        "CarouselPoductUnitQuantity": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "90 Ct",
+                            "type": "Label"
+                        },
+                        "CarouselProductImg": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": "cartproductimg.png",
+                            "type": "Image"
+                        },
+                        "CarouselProductMade": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Nature Made",
+                            "type": "Label"
+                        },
+                        "CarouselProductName": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Skin With Biotin Softgels",
+                            "type": "Label"
+                        },
+                        "CarouselProductPrice": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Price: $19.99",
+                            "type": "Label"
+                        }
+                    }
+                ]
+            },
             "height": {
                 "Default": {
                     "type": "string",
