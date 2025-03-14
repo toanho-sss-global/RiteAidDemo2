@@ -72,24 +72,8 @@ define({
 });
     httpclient.send(jsonStr2);
 
-    httpclient.onReadyStateChange = function () {
-      if (httpclient.readyState === 4 && httpclient.status === 200) {
-
-        var response = JSON.parse(httpclient.response);
-        var userData = response.data.login;
-        var responseHeader = 
-            httpclient.getResponseHeader('vendure-auth-token');
-        localStorage.setItem("vendure-auth-token", responseHeader);
-        if (userData !== null && userData.identifier) {
-          voltmx.store.setItem('userData', JSON.stringify(userData));
-
-          var nav = new voltmx.mvc.Navigation("CheckoutShippingMethod");
-          nav.navigate();
-        } else if (response.errors) {
-          alert(response.errors[0].message);
-        }
-      }
-    };
+     var nav = new voltmx.mvc.Navigation("CheckoutShippingMethod");
+     nav.navigate();
 },
   
   preinputInfo: function () {
