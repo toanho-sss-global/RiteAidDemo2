@@ -15,7 +15,7 @@
         "language": "js",
         "eventType": "init",
         "actions": [{
-            "id": "INVOKE_FUNCTION__i6ab45f680af49eb9e9afbf44b8335bb",
+            "id": "INVOKE_FUNCTION__fe767bd677a2494ab285bc8582f4bdaa",
             "type": "INVOKE_FUNCTION",
             "sequenceKUID": "ListBanner",
             "display": "ListBanner",

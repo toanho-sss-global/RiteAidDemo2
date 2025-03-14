@@ -22,7 +22,7 @@
         0,
         0
     ],
-    "_skin_": "sbc455591aeb4fa69873c01d5e429e6f",
+    "_skin_": "sab4c3b1f1194bc39b421ec60d1c76a4",
     "_src_": "",
     "_top_": {
         "type": "string",
@@ -30,20 +30,20 @@
     },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "101%"
     },
     "canUpdateUI": true,
     "containerId": true,
     "containerweight": 100,
-    "id": "backgroundImg",
+    "id": "imgBanner",
     "imagescalemode": 0,
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "e752d2cfa24a4f5fb4733c9019f182a5",
+    "kuid": "fb9e90cc036944febe3f569589bc7332",
     "name": "kony.ui.Image2",
-    "parent": "FlxBanner",
-    "pf": "Temp0f769e62fdc364c",
+    "parent": "Flexright",
+    "pf": "BannerTemplates",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "srcType": 1,
