@@ -40,7 +40,7 @@
         "value": "50%"
     },
     "containerweight": 100,
-    "contentalignment": 4,
+    "contentalignment": 5,
     "id": "DeliveryTypeText",
     "info": null,
     "ipad": {
@@ -56,6 +56,10 @@
     "iscustomlayout": false,
     "isvisible": true,
     "kuid": "h39ce83715d44067b1d10a4a10c3b527",
+    "minwidth": {
+        "type": "string",
+        "value": "50%"
+    },
     "name": "kony.ui.Label",
     "parent": "DeliveryTypeTextCtn",
     "pf": "Form3",

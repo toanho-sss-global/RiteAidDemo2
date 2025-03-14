@@ -12,10 +12,10 @@
         1
     ],
     "_padding_": [
-        0,
-        0,
-        0,
-        0
+        4,
+        2,
+        4,
+        2
     ],
     "_skin_": "sfab7faf14434ee9858de145e3e4933f",
     "_text_": "PaymentSettled",
@@ -33,14 +33,14 @@
     "canUpdateUI": true,
     "centerx": {
         "type": "string",
-        "value": "50%"
+        "value": "70.48%"
     },
     "centery": {
         "type": "string",
-        "value": "50%"
+        "value": "4.06%"
     },
     "containerweight": 100,
-    "contentalignment": 4,
+    "contentalignment": 5,
     "id": "OrderStatusLabel",
     "info": null,
     "ipad": {
@@ -57,7 +57,8 @@
     "isvisible": true,
     "kuid": "b07d6056711145b9aaecaa458d667f12",
     "name": "kony.ui.Label",
-    "parent": "OrderStatusCOntainer",
+    "paddinginpixel": true,
+    "parent": "OrderDetailInnerCtn",
     "pf": "Form3",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

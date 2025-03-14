@@ -27,7 +27,7 @@
     "_skin_": "sc409f5c89364447a5ddc050b41c3aca",
     "_top_": {
         "type": "string",
-        "value": "0dp"
+        "value": "13dp"
     },
     "_width_": {
         "type": "string",
@@ -36,11 +36,11 @@
     "canUpdateUI": true,
     "centerx": {
         "type": "string",
-        "value": "50%"
+        "value": "50.00%"
     },
     "containerweight": 0,
     "data": {
-        "correctLevel": "Level M",
+        "correctLevel": "Level L",
         "dataToEncode": "abc"
     },
     "id": "qrcodegenerator",

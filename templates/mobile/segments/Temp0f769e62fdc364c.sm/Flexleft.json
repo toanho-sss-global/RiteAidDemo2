@@ -2,11 +2,11 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "24dp"
+        "value": "100%"
     },
     "_left_": {
         "type": "string",
-        "value": "178dp"
+        "value": "0dp"
     },
     "_margin_": [
         0,
@@ -22,33 +22,35 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "sc81a16aeff5462c81a94a100dcb26a2",
+    "_skin_": "s0266234a25b4e0db45a49a36a1ff62b",
     "_top_": {
         "type": "string",
-        "value": "20dp"
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
-        "value": "38.60%"
+        "value": "50%"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "OrderStatusLabel"
+        "lblDes",
+        "btnBanner"
     ],
     "clipbounds": false,
+    "containerId": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "OrderStatusCOntainer",
+    "id": "Flexleft",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "g903441b70d8444eb00fad4f94a3338e",
+    "kuid": "j6f9f9885e884a66821e92268bdf73b4",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "OrderDetailInnerCtn",
-    "pf": "Form3",
+    "parent": "FlxBanner",
+    "pf": "Temp0f769e62fdc364c",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
