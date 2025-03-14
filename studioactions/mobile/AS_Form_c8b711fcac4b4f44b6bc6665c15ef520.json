@@ -24,6 +24,34 @@
             "callbackType": null,
             "disabled": null,
             "source": "controller"
+        }, {
+            "id": "INVOKE_FUNCTION__d18e224f2ded43d9b9ce60dc2fb3af29",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "transitionOrderState",
+            "display": "transitionOrderState",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }, {
+            "id": "TIMEOUT_ACTION_aaf1c8429261458ba07955934edda4b5",
+            "timeout": 2000,
+            "type": "TIMEOUT_ACTION",
+            "parentId": null,
+            "callbackType": null,
+            "timerId": "TIMEOUT_ACTION_aaf1c8429261458ba07955934edda4b5",
+            "repeats": false
+        }, {
+            "id": "INVOKE_FUNCTION__aba04827246f453b8e377056cd15f86c",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "settleOrderPayment",
+            "display": "settleOrderPayment",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
         }]
     }
 }

@@ -47,7 +47,7 @@ define({
     httpclient.open(constants.HTTP_METHOD_POST,"https://vendure.demo.universalcommerce.io/shop-api");
     httpclient.setRequestHeader("Content-Type", "application/json");
     httpclient.setRequestHeader("Authorization",`Bearer ${token}`);
-    
+    console.log("checkout shipping method token: ", token)
     var jsonStr2 = JSON.stringify({
     "query": "mutation SetOrderShippingMethod($shippingMethodIds: [ID!]!) { setOrderShippingMethod(shippingMethodId: $shippingMethodIds) { ... on Order { id createdAt updatedAt type orderPlacedAt code state active totalQuantity subTotal subTotalWithTax currencyCode shipping shippingWithTax total totalWithTax } ... on OrderModificationError { errorCode message } ... on IneligibleShippingMethodError { errorCode message } ... on NoActiveOrderError { errorCode message } } }",
     "variables": {

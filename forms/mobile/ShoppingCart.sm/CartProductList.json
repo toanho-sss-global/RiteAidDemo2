@@ -85,6 +85,52 @@
                 "kuid": "h583c2bb2c0e42d7a39300071ae7496c",
                 "srcKUID": "u4bf1e55098b4211be1f84dc378ab325",
                 "wType": "Segment"
+            },
+            "data": {
+                "mobile": [
+                    {
+                        "DeleteIcon": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": "",
+                            "type": "Image"
+                        },
+                        "MinusIcon": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": "",
+                            "type": "Image"
+                        },
+                        "PlusIcon": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": "",
+                            "type": "Image"
+                        },
+                        "ProductQuantity": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "",
+                            "type": "Label"
+                        },
+                        "img": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": "",
+                            "type": "Image"
+                        },
+                        "lblCost": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "",
+                            "type": "Label"
+                        },
+                        "lblDescription": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "",
+                            "type": "Label"
+                        },
+                        "lblID": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "",
+                            "type": "Label"
+                        }
+                    }
+                ]
             }
         }
     },

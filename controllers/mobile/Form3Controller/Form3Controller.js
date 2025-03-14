@@ -77,16 +77,20 @@ define({
           this.view.OrderPhoneLabel.text = orderDetail.shippingAddress.phoneNumber;
           this.view.OrderAddress1Label.text = this.truncateText(orderDetail.shippingAddress.streetLine1, 10), 
           this.view.OrderAddress2Label.text = this.truncateText(orderDetail.shippingAddress.streetLine2, 10), 
-          this.view.OrderCityStateZipCodeLabel.text =
-            orderDetail.shippingAddress.city + ", " + orderDetail.shippingAddress.province + " " + orderDetail.shippingAddress.postalCode;
+          this.view.OrderCityStateZipCodeLabel.text = 
+    [orderDetail.shippingAddress.city, orderDetail.shippingAddress.province, orderDetail.shippingAddress.postalCode]
+    .filter(Boolean)
+    .join(" ");
           this.view.OrderCountryLabel.text = orderDetail.shippingAddress.country;
 
           this.view.OrderFullNameLabel2.text = orderDetail.billingAddress.fullName;
           this.view.OrderPhoneLabel2.text = orderDetail.billingAddress.phoneNumber;
           this.view.OrderAddress1Label2.text = orderDetail.billingAddress.streetLine1;
           this.view.OrderAddress2Label2.text = orderDetail.billingAddress.streetLine2;
-          this.view.OrderCityStateZipCode2.text =
-            orderDetail.billingAddress.city + ", " + orderDetail.billingAddress.province + " " + orderDetail.billingAddress.postalCode;
+        this.view.OrderCityStateZipCode2.text = 
+    [orderDetail.billingAddress.city, orderDetail.billingAddress.province, orderDetail.billingAddress.postalCode]
+    .filter(Boolean)
+    .join(" ");
           this.view.OrderCountryLabel2.text = orderDetail.billingAddress.country;
 
           var data = JSON.stringify(this.qrData);
