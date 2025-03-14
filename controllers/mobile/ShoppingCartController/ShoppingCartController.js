@@ -70,13 +70,13 @@ define({
     this.view.CartProductList.ProductList.setData(modifiedData);
     this.view.ProductListCarousel.ProductCarousel
       .setData(this.CartCarouselProductList);
-    var mappedData = modifiedData.map(function(item) {
+    var mappedData = modifiedData.map(function(subItem) {
       return {
-        id: item.id,
-        OrderSummaryItemImg     : item.img, 
-        OrderSummaryProductName : item.lblDescription,
-        OrderSummaryProductQty  : "Qty " + item.ProductQuantity,  
-        OrderSummaryProductPrice: item.lblCost
+        id                      : subItem.id,
+        OrderSummaryItemImg     : subItem.img, 
+        OrderSummaryProductName : subItem.lblDescription,
+        OrderSummaryProductQty  : "Qty " + subItem.ProductQuantity,  
+        OrderSummaryProductPrice: subItem.lblCost
       };
     });
     voltmx.store.setItem("CartProductList", JSON.stringify(mappedData));
@@ -255,11 +255,12 @@ define({
     var cartTotalPrice = parseFloat(cartTotalText.replace("$", "").trim());
 
     // Convert tax percentage to decimal and calculate the final total
-    var taxAmount = (cartTotalPrice * taxPercentage) / 100;
-    var finalTotalPrice = cartTotalPrice + taxAmount;
+   var taxAmount = (cartTotalPrice * taxPercentage) / 100;
+var finalTotalPrice = cartTotalPrice + taxAmount;
 
-    // Store the updated total price
-    voltmx.store.setItem("CartTotalPrice", "$" + (finalTotalPrice/100).toFixed(2));
+
+// Store the updated total price correctly
+voltmx.store.setItem("CartTotalPrice", "$" + finalTotalPrice.toFixed(2));
 
     voltmx.store.setItem("CartItemQuantity",this.CartProductList.length);
     var navObj = new voltmx.mvc.Navigation("CheckoutAddress");
