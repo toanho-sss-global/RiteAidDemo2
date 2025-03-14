@@ -7,7 +7,6 @@
             "name": "eventobject"
         }],
         "contextObj": {
-            "name": "CopyShoppingCart",
             "type": "forms",
             "platform": "",
             "KUID": "g2f808f3aabf4a22af7f84d9273533ed"

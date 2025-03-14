@@ -19,7 +19,7 @@
             "type": "NAVIGATE_TO_FORM",
             "formId": "ProductList",
             "formKUID": "b79e93a47a8a42038218541a0de1b8ba",
-            "projectName": "RiteAidDemo2",
+            "projectName": "SampleDemoRiteAid",
             "mappings": {},
             "mappingsOrder": [],
             "enableMappingEditor": true,

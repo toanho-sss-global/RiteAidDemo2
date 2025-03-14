@@ -1,0 +1,33 @@
+{
+    "AS_Image_fb428c16b32a410baec25873cfbbaf7e": {
+        "id": "AS_Image_fb428c16b32a410baec25873cfbbaf7e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "type": "userwidgets",
+            "KUID": "u487d35b72294243b6075e89e0a45706"
+        },
+        "language": "js",
+        "eventType": "onTouchStart",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__c667501b8e4342afb555e7a2d0f5dacd",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "handleMoveOnUserClicked",
+            "display": "handleMoveOnUserClicked",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

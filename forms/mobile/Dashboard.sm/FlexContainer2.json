@@ -2,7 +2,7 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "550dp"
+        "value": "680dp"
     },
     "_left_": {
         "type": "string",
@@ -39,7 +39,8 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "FlexContainer0ec0403d4e6fd41"
+        "FlexContainer0ec0403d4e6fd41",
+        "FlxPharmacyManagement"
     ],
     "clipbounds": false,
     "containerweight": 100,

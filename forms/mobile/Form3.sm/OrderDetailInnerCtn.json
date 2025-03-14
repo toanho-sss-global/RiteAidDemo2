@@ -1,0 +1,81 @@
+{
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "767dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s0b5a1eef86d4daea359d9e89242b79a",
+    "_top_": {
+        "type": "string",
+        "value": "110dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50.09%"
+    },
+    "children": [
+        "OrderDetailOrderSummaryLabel",
+        "OrderStatusCOntainer",
+        "OrderInnerContainerLine",
+        "OrderInnerContainerLine2",
+        "OrderInnerContainerLine3",
+        "OrderIDLabel",
+        "OrderIDText",
+        "OrderDateLabel",
+        "OrderDateText",
+        "OrderSubtotalLabel",
+        "OrderSubtotalText",
+        "OrderShippingLabel",
+        "OrderShippingText",
+        "OrderTotalLabel",
+        "OrderTotalPrice",
+        "DeliveryTypeLabel",
+        "DeliveryTypeTextCtn",
+        "QRCodeContainer"
+    ],
+    "clipbounds": false,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "OrderDetailInnerCtn",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "j8f5a0cbb1ba448ba94dd5e8f3d1c202",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "OrderDetailContainer",
+    "pf": "Form3",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 1
+}

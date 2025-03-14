@@ -1,0 +1,118 @@
+{
+    "classname": "qrcodegenerator",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "he6d46bd5f9d448bb31f2177bcaebe21",
+                    "paramList": [],
+                    "propertyKey": "generate",
+                    "pw": {
+                        "displayName": "generate",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "u6a2aa50df4b40908ff75f50686802b0",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "voltmx",
+                    "group": "General",
+                    "kuid": "dfb11e4e67aa4daca598174dd4f099c9",
+                    "originalPropertyKey": "dataToEncode",
+                    "propertyIndex": 1,
+                    "propertyKey": "dataToEncode",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Data To Encode",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "u6a2aa50df4b40908ff75f50686802b0",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "#000000",
+                    "group": "General",
+                    "kuid": "d4c7d92f07be453681e42765555541be",
+                    "originalPropertyKey": "colorLight",
+                    "propertyIndex": 2,
+                    "propertyKey": "colorLight",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Color Light",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "u6a2aa50df4b40908ff75f50686802b0",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "#ffffff",
+                    "group": "General",
+                    "kuid": "eb16a6843a6e44b08c879a0cb20fe8ff",
+                    "originalPropertyKey": "colorDark",
+                    "propertyIndex": 3,
+                    "propertyKey": "colorDark",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Color Dark",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "u6a2aa50df4b40908ff75f50686802b0",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "Level L",
+                    "group": "General",
+                    "kuid": "i91d1ccc3a624e249e12bed70eef7196",
+                    "originalPropertyKey": "correctLevel",
+                    "propertyIndex": 6,
+                    "propertyKey": "correctLevel",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Error Correction Level",
+                        "uiRepresentation": "Label-Combobox"
+                    },
+                    "srcWgtKUID": "u6a2aa50df4b40908ff75f50686802b0",
+                    "type": "list selector",
+                    "value": [
+                        "Level L",
+                        "Level M",
+                        "Level Q",
+                        "Level H"
+                    ]
+                }
+            ],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.voltmxmp",
+    "version": "1.1.2"
+}

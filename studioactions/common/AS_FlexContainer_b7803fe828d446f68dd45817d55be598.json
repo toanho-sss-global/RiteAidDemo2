@@ -1,0 +1,22 @@
+{
+    "AS_FlexContainer_b7803fe828d446f68dd45817d55be598": {
+        "id": "AS_FlexContainer_b7803fe828d446f68dd45817d55be598",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_e69b5a99b36c46a6b78a49678a92d2d9",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "NavDashboard",
+            "display": "NavDashboard",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}
