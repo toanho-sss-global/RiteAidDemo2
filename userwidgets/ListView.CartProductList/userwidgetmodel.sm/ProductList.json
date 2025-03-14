@@ -96,6 +96,10 @@
                     "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                     "text": "Nature Made Vitamin D3 Softgels, 50mcg - 90 ct",
                     "type": "Label"
+                },
+                "lblID": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Label"
                 }
             },
             {
@@ -133,6 +137,10 @@
                     "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                     "text": "Skin with Biotin Softgels",
                     "type": "Label"
+                },
+                "lblID": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Label"
                 }
             },
             {
@@ -170,6 +178,10 @@
                     "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                     "text": "Hair Skin and Nails",
                     "type": "Label"
+                },
+                "lblID": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Label"
                 }
             }
         ],
@@ -184,7 +196,8 @@
             "flxImg": "flxImg",
             "img": "img",
             "lblCost": "lblCost",
-            "lblDescription": "lblDescription"
+            "lblDescription": "lblDescription",
+            "lblID": "lblID"
         }
     },
     "name": "kony.ui.SegmentedUI2",

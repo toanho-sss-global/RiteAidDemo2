@@ -29,7 +29,8 @@
         "MinusIcon",
         "PlusIcon",
         "ProductQuantity",
-        "DeleteIcon"
+        "DeleteIcon",
+        "lblID"
     ],
     "clipbounds": true,
     "containerId": true,
