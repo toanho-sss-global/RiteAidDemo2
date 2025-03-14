@@ -45,6 +45,27 @@
                 "kuid": "h800f316dedb43c0bed8fd327f567663",
                 "srcKUID": "u7782daa1c06493b9153826b739a02a3",
                 "wType": "Segment"
+            },
+            "autogrowMode": {
+                "Default": 0
+            },
+            "height": {
+                "Default": {
+                    "type": "string",
+                    "value": "280dp"
+                }
+            },
+            "left": {
+                "Default": {
+                    "type": "string",
+                    "value": "0dp"
+                }
+            },
+            "top": {
+                "Default": {
+                    "type": "string",
+                    "value": "20dp"
+                }
             }
         },
         "ProductListCarousel": {
