@@ -32,6 +32,54 @@
                     "widgetKUID": "ia59b32594334c89a0bbac41ad88aea2"
                 },
                 {
+                    "actionId": "NAVIGATE_TO_FORM__acbeb947482d4a5a87505a61e0bdf73a",
+                    "actionSequenceId": "AS_Label_ge6bee79320e42cb8f53788ef4e1fc43",
+                    "beautifiedPath": "Dashboard > lblHistory > onTouchStart",
+                    "evt": "ide_onTouchStart",
+                    "from": "c2417149800147c59e6f865367cba828",
+                    "isPSP": false,
+                    "points": [
+                        88,
+                        3024.845263671875,
+                        88,
+                        3014.845263671875,
+                        88,
+                        3012,
+                        448,
+                        3012,
+                        448,
+                        671.2452636718749,
+                        448,
+                        661.2452636718749
+                    ],
+                    "to": "ac7188e45f71433e9c4da08d8bfaa8f7",
+                    "widgetKUID": "f47a84270d4c4075b226d77b3536ccb2"
+                },
+                {
+                    "actionId": "NAVIGATE_TO_FORM__c6456e80ee244ae8b1af561c6bbf25c5",
+                    "actionSequenceId": "AS_Segment_f7319f8d8f1d4da19aa8474d443d938e",
+                    "beautifiedPath": "Form2 > segOrderHistory > onRowClick",
+                    "evt": "ide_onRowClick",
+                    "from": "ac7188e45f71433e9c4da08d8bfaa8f7",
+                    "isPSP": false,
+                    "points": [
+                        528,
+                        508.045263671875,
+                        538,
+                        508.045263671875,
+                        538,
+                        593.0452636718751,
+                        528,
+                        593.0452636718751,
+                        528,
+                        678.0452636718751,
+                        538,
+                        678.0452636718751
+                    ],
+                    "to": "da035ec3b35244319b7ac43d77dd4608",
+                    "widgetKUID": "d465a8c8d62f47c7a416e0e612c5e0af"
+                },
+                {
                     "actionId": "NAVIGATE_TO_FORM__d57eb13d4b3c40beb4c54aa17c12ff97",
                     "actionSequenceId": "AS_Segment_i8992e512edf470ab88e6aa3bad20d0d",
                     "beautifiedPath": "Home > Segment0a85a0f0f28a548 > onRowClick",
@@ -182,14 +230,6 @@
                     "thumbnailURL": null
                 },
                 {
-                    "formKUID": "g2f808f3aabf4a22af7f84d9273533ed",
-                    "formName": "CopyShoppingCart",
-                    "isStartupForm": false,
-                    "key": "g2f808f3aabf4a22af7f84d9273533ed",
-                    "loc": "8 2424.845263671875",
-                    "thumbnailURL": null
-                },
-                {
                     "formKUID": "c2417149800147c59e6f865367cba828",
                     "formName": "Dashboard",
                     "isStartupForm": false,
@@ -208,15 +248,23 @@
                 {
                     "formKUID": "ac7188e45f71433e9c4da08d8bfaa8f7",
                     "formName": "Form2",
-                    "isStartupForm": true,
+                    "isStartupForm": false,
                     "key": "ac7188e45f71433e9c4da08d8bfaa8f7",
                     "loc": "368 354.845263671875",
                     "thumbnailURL": null
                 },
                 {
+                    "formKUID": "da035ec3b35244319b7ac43d77dd4608",
+                    "formName": "Form3",
+                    "isStartupForm": false,
+                    "key": "da035ec3b35244319b7ac43d77dd4608",
+                    "loc": "538 524.845263671875",
+                    "thumbnailURL": null
+                },
+                {
                     "formKUID": "fb6e88e7d7c94c68aa13478d43b174b5",
                     "formName": "Home",
-                    "isStartupForm": false,
+                    "isStartupForm": true,
                     "key": "fb6e88e7d7c94c68aa13478d43b174b5",
                     "loc": "8 24.845263671875003",
                     "thumbnailURL": null
