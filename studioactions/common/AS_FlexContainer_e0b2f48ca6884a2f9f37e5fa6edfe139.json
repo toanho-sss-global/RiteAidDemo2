@@ -1,0 +1,22 @@
+{
+    "AS_FlexContainer_e0b2f48ca6884a2f9f37e5fa6edfe139": {
+        "id": "AS_FlexContainer_e0b2f48ca6884a2f9f37e5fa6edfe139",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_i4dd636fd0b94d38b8d9d58b15c14f4a",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "Logout",
+            "display": "Logout",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

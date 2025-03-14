@@ -1,0 +1,28 @@
+{
+    "AS_FlexContainer_j406e3a9db6e47e1a3438cb2f495ec98": {
+        "id": "AS_FlexContainer_j406e3a9db6e47e1a3438cb2f495ec98",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "userwidgetmodel",
+            "type": "userwidgets",
+            "KUID": "u15c3823c3e446b4bf645966e8e23c71"
+        },
+        "language": "js",
+        "eventType": "preShow",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__a132cbf2722949039e75ff86f5889e44",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "getCartItemCount",
+            "display": "getCartItemCount",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}
