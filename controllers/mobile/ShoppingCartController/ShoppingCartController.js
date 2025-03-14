@@ -31,11 +31,19 @@ define({
       var item = this.CartProductList[i];
 
       var newItem = {
+        lblID   : item.id_product,
         id: item.id,
         lblDescription : item.lblDescription,
         lblCost        : "$" + ((item.unitPrice*item.ProductQuantity)/100).toFixed(2),
         unitPrice      : item.unitPrice, 
-        DeleteIcon     : item.DeleteIcon,
+        DeleteIcon     : {
+          src   :item.DeleteIcon,
+          onClick  : (function(index) {
+            return function() {
+              scope.DeleteProduct(index);
+            };
+          })(i)
+        },
         ProductQuantity: item.ProductQuantity,
         img            : item.img,
         PlusIcon       : {
@@ -112,6 +120,7 @@ define({
     try {
   var formattedProducts = itemCart.activeOrder.lines.map(item => {
         return {
+          id_product: item.id,
           id: item.productVariant.id,
           lblDescription: item.productVariant.name,
           unitPrice: item.productVariant.priceWithTax,
@@ -129,6 +138,37 @@ define({
         console.error("Get Cart Error:", error);
     }
 },
+ 
+   DeleteProduct: function(index) {
+    var self = this;
+    var segmentData = this.view.CartProductList.ProductList.data;
+    var idDelete =  segmentData[index].lblID;
+    var httpclient = new voltmx.net.HttpRequest();
+    var token =  localStorage.getItem("vendure-auth-token");
+    
+    httpclient.open(constants.HTTP_METHOD_POST,"https://vendure.demo.universalcommerce.io/shop-api");
+    httpclient.setRequestHeader("Content-Type", "application/json");
+    httpclient.setRequestHeader("Authorization",`Bearer ${token}`);
+ 
+    
+    var jsonStr2 = JSON.stringify({
+        "query": "mutation Mutation($orderLineId: ID!) { removeOrderLine(orderLineId: $orderLineId) { ... on Order { id lines { id linePriceWithTax quantity productVariant { id name priceWithTax assets { preview } product { assets { preview } } currencyCode } } totalWithTax totalQuantity currencyCode } ... on OrderModificationError { errorCode message } } }",
+        "variables": {
+            "orderLineId": idDelete
+        }
+    });
+    httpclient.send(jsonStr2);
+  
+    httpclient.onReadyStateChange = function () {
+        if (httpclient.readyState === 4 && httpclient.status === 200) {
+          var response = JSON.parse(httpclient.response);
+          if(response) {
+            console.log("Delete Success");
+            self.GetCart();
+          }
+        }
+   }
+  },
  
 
   increaseQuantity: function(rowIndex) {
