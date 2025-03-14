@@ -54,6 +54,7 @@ define(function() {
         var nav = new voltmx.mvc.Navigation("Login");
         nav.navigate();  
       }
-    }
+    },
+    
   };
 });

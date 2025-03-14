@@ -1,0 +1,29 @@
+{
+    "AS_Form_b658a9f06fd046f780e32b840ed53396": {
+        "id": "AS_Form_b658a9f06fd046f780e32b840ed53396",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "Home",
+            "type": "forms",
+            "platform": "",
+            "KUID": "fb6e88e7d7c94c68aa13478d43b174b5"
+        },
+        "language": "js",
+        "eventType": "init",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__b222d96f9bee42cd80b4a66f59f2edca",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "handleCountItemInCart",
+            "display": "handleCountItemInCart",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

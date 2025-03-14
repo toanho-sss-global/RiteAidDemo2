@@ -10,6 +10,7 @@ define({
         return false;
       }
     },
+  
 	handleMoveOnUserClicked: function () {
       console.log("User Clicked");
       var page = "Login";
@@ -18,5 +19,11 @@ define({
       }
       var nav = new voltmx.mvc.Navigation(page);
       nav.navigate();
-    }
+    },
+  
+  	handleCountItemInCart: function () {
+    	var count = localStorage.getItem("count-item-in-cart");
+		console.log("Check count1: ", count); 
+    },
+  
  });

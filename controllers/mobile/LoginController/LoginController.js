@@ -15,8 +15,35 @@ define({
     return true;
 
   },
+  
+  getCartBadgeCount: function () {
+    var url = "https://vendure.demo.universalcommerce.io/shop-api";
+    var token = localStorage.getItem("vendure-auth-token");
+    
+    var httpclient = new voltmx.net.HttpRequest();
+    httpclient.open(constants.HTTP_METHOD_POST, url);
+    httpclient.setRequestHeader("Content-Type", "application/json");
+	httpclient.setRequestHeader("Authorization", "Bearer " + token);
+    
+      var jsonStr2 = JSON.stringify({
+    	"query": "query ActiveOrder { activeOrder { id lines { productVariant { id } } } }"
+		});
+      
+    httpclient.send(jsonStr2);
+    httpclient.onReadyStateChange = function () {
+        if (httpclient.readyState === 4 && httpclient.status === 200) {
+          var response = JSON.parse(httpclient.response);
+		  var countItem = 0;
+          if (response.data && response.data.activeOrder && response.data.activeOrder.lines) {
+        	countItem = response.data.activeOrder.lines.length;
+          }
+          localStorage.setItem("count-item-in-cart", countItem);
+        }
+    }
+  },
 
   LoginApi: function () {
+    var self = this;
     var email = this.view.txtBoxEmail.text.trim();
     var password = this.view.txtBoxPassword.text.trim();
 
@@ -36,21 +63,19 @@ define({
       httpclient.send(jsonStr2);
       httpclient.onReadyStateChange = function () {
         if (httpclient.readyState === 4 && httpclient.status === 200) {
-          
     	  var authToken = httpclient.getResponseHeader("vendure-auth-token");
           localStorage.setItem("vendure-auth-token", authToken);
           
           var response = JSON.parse(httpclient.response);
           var userData = response.data.login;
-          var responseHeader = 
-              httpclient.getResponseHeader('vendure-auth-token');
+          var responseHeader = httpclient.getResponseHeader('vendure-auth-token');
           localStorage.setItem("vendure-auth-token", responseHeader);
           if (userData !== null && userData.identifier) {
             voltmx.store.setItem('userData', JSON.stringify(userData));
+            self.getCartBadgeCount();
             
-         var nav = new voltmx.mvc.Navigation("Home");
-
-            
+//          	var nav = new voltmx.mvc.Navigation("Home");
+         	var nav = new voltmx.mvc.Navigation("Form2");
 
             nav.navigate();
           } else if (response.errors) {
