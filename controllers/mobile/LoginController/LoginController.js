@@ -17,10 +17,10 @@ define({
   },
 
   LoginApi: function () {
-//     var email = this.view.txtBoxEmail.text.trim();
-//     var password = this.view.txtBoxPassword.text.trim();
-     var email = "danny@cnetric.com";
-    var password = "12345678";
+    var email = this.view.txtBoxEmail.text.trim();
+    var password = this.view.txtBoxPassword.text.trim();
+//      var email = "danny@cnetric.com";
+//     var password = "12345678";
 
     if (this.validateLogin(email, password)) {
       var httpclient = new voltmx.net.HttpRequest();
@@ -50,7 +50,7 @@ define({
           if (userData !== null && userData.identifier) {
             voltmx.store.setItem('userData', JSON.stringify(userData));
 
-         var nav = new voltmx.mvc.Navigation("Form2");
+         var nav = new voltmx.mvc.Navigation("Home");
 
             nav.navigate();
           } else if (response.errors) {
