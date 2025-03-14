@@ -1,21 +1,15 @@
 {
-    "AS_UWI_h9b25338c51b4f428025b484afcd6a29": {
-        "id": "AS_UWI_h9b25338c51b4f428025b484afcd6a29",
+    "AS_UWI_j719bfb7e05741ddb5206701f38535c1": {
+        "id": "AS_UWI_j719bfb7e05741ddb5206701f38535c1",
         "type": "ACTION_SEQUENCE",
         "params": [{
             "datatype": "collection",
             "name": "eventobject"
         }],
-        "contextObj": {
-            "name": "ProductDetails",
-            "type": "forms",
-            "platform": "",
-            "KUID": "a3b68c6cbe914e898939d8278fbe1885"
-        },
         "language": "js",
         "eventType": "onCartClicked",
         "actions": [{
-            "id": "NAVIGATE_TO_FORM__ff9c0d0d6d4a4b3aa2bacd938d3bab30",
+            "id": "NAVIGATE_TO_FORM__ide_onCartClicked_f565d822893d46c1b872666b2600d984",
             "type": "NAVIGATE_TO_FORM",
             "formId": "ShoppingCart",
             "formKUID": "c6939cf809d44ca982d87fb479d42f13",

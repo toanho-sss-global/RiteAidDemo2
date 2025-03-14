@@ -41,11 +41,15 @@
             "disabled": null,
             "source": "controller"
         }, {
-            "id": "ADD_SNIPPET_afd7bf5513ac41ff953e0c330e712f78",
-            "type": "ADD_SNIPPET",
-            "codeSnippet": "this.view.forceLayout();",
+            "id": "INVOKE_FUNCTION__aa715ca9e0774f3b942739d290679051",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "refeshHeader",
+            "display": "refeshHeader",
+            "inputparams": [],
             "parentId": null,
-            "callbackType": null
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
         }]
     }
 }
