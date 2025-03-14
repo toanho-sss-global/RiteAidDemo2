@@ -75,9 +75,6 @@ define({
           
           var response = JSON.parse(httpclient.response);
           var userData = response.data.login;
-          var responseHeader = 
-              httpclient.getResponseHeader('vendure-auth-token');
-          localStorage.setItem("vendure-auth-token", responseHeader);
           if (userData !== null && userData.identifier) {
             voltmx.store.setItem('userData', JSON.stringify(userData));
           self.getCartBadgeCount();

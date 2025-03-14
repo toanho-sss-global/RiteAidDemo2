@@ -30,6 +30,22 @@
             "codeSnippet": "self.view.AddProduct.left = \"100%\";\n    self.view.AddProduct.isVisible = true;\n\n    self.view.AddProduct.animate(\n        kony.ui.createAnimation({\n            \"100\": {\n                \"left\": \"55%\",\n                \"stepConfig\": { \"timingFunction\": kony.anim.EASE_IN_OUT }\n            }\n        }),\n        {\n            \"delay\": 0,\n            \"duration\": 0.3,\n            \"iterationCount\": 1,\n            \"fillMode\": kony.anim.FILL_MODE_FORWARDS\n        },\n        {\n            \"animationEnd\": function() {\n                setTimeout(function() {\n                    self.view.AddProduct.animate(\n                        kony.ui.createAnimation({\n                            \"100\": {\n                                \"left\": \"100%\",\n                                \"stepConfig\": { \"timingFunction\": kony.anim.EASE_IN_OUT }\n                            }\n                        }),\n                        {\n                            \"delay\": 0,\n                            \"duration\": 0.3,\n                            \"iterationCount\": 1,\n                            \"fillMode\": kony.anim.FILL_MODE_FORWARDS\n                        },\n                        {\n                            \"animationEnd\": function() {\n                                self.view.AddProduct.isVisible = false;\n                            }\n                        }\n                    );\n                }, 2500);\n            }\n        }\n    );",
             "parentId": null,
             "callbackType": null
+        }, {
+            "id": "INVOKE_FUNCTION__ie8a6e48f42c4a25a1357a79233a7c2c",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "getCartBadgeCount",
+            "display": "getCartBadgeCount",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }, {
+            "id": "ADD_SNIPPET_afd7bf5513ac41ff953e0c330e712f78",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.forceLayout();",
+            "parentId": null,
+            "callbackType": null
         }]
     }
 }

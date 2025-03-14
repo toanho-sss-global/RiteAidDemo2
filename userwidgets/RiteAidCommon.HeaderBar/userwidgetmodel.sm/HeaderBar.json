@@ -44,6 +44,7 @@
     "enablescrolling": true,
     "id": "HeaderBar",
     "ide_onMapping": "AS_FlexContainer_d80a0fbb517d45b3bc16d952ceb5d796",
+    "ide_postShow": "AS_FlexContainer_ga045ac1ad264d43863d91adfbaad056",
     "ide_preShow": "AS_FlexContainer_ic829693d48141eea382ecf7faa27a30",
     "info": null,
     "iscustomlayout": false,
