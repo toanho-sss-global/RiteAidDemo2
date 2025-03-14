@@ -15,6 +15,7 @@ define({
     httpclient.setRequestHeader("Content-Type", "application/json");
     var token = localStorage.getItem("vendure-auth-token");
     httpclient.setRequestHeader("Authorization", "Bearer " + token);
+    console.log('PRODUCT ID: ', this.currentProductID)
     var jsonStr = JSON.stringify({
       "query": "query GetOrder($orderId: ID!) { order(id: $orderId) { id orderPlacedAt subTotalWithTax shippingWithTax totalWithTax currencyCode state payments { metadata } customFields { deliveryType } lines { id linePriceWithTax quantity productVariant { id name priceWithTax featuredAsset { preview } currencyCode } } shippingAddress { fullName phoneNumber streetLine1 streetLine2 city province postalCode countryCode country } billingAddress { fullName phoneNumber streetLine1 streetLine2 city province postalCode countryCode country } } }",
       "variables": {
@@ -48,7 +49,7 @@ define({
         }
     this.view.OrderStatusLabel.skin = skin;
           
-          this.view.OrderIDText.text = orderDetail.id;
+          this.view.OrderIDText.text = `#${orderDetail.id}`;
           this.qrData.orderId = orderDetail.id;
           this.view.OrderDateText.text = formattedDate;
           this.view.OrderSubtotalText.text = "$" + orderDetail.subTotalWithTax;

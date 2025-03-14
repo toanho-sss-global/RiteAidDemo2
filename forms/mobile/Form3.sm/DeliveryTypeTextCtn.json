@@ -6,7 +6,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "16dp"
+        "value": "0dp"
     },
     "_margin_": [
         0,
@@ -24,12 +24,12 @@
     "_percent_": true,
     "_skin_": "sf613a3620b14e768fdae4da4add5863",
     "_top_": {
-        "type": "string",
-        "value": "471dp"
+        "type": "number",
+        "value": "471"
     },
     "_width_": {
         "type": "string",
-        "value": "190dp"
+        "value": "80%"
     },
     "allboxes": [],
     "allowhorizontalbounce": false,
