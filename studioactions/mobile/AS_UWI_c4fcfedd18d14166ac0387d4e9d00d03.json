@@ -1,0 +1,30 @@
+{
+    "AS_UWI_c4fcfedd18d14166ac0387d4e9d00d03": {
+        "id": "AS_UWI_c4fcfedd18d14166ac0387d4e9d00d03",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "KUID": "d0d1625ca7754b33a079db1f90ecc128",
+            "name": "CopyProductList",
+            "platform": "",
+            "type": "forms"
+        },
+        "language": "js",
+        "eventType": "onCartClicked",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__i630706b3da6432d918a6d848c884bee",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "ShoppingCart",
+            "formKUID": "c6939cf809d44ca982d87fb479d42f13",
+            "projectName": "RiteAidDemo2",
+            "mappings": {},
+            "mappingsOrder": [],
+            "enableMappingEditor": true,
+            "package": "",
+            "isCustomInput": false
+        }]
+    }
+}

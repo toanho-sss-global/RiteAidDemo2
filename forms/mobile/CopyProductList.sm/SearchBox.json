@@ -1,0 +1,72 @@
+{
+    "DNDConfig": null,
+    "_blur_": {
+        "enabled": false,
+        "value": 1
+    },
+    "_height_": {
+        "type": "string",
+        "value": "6%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s805048fc6cd43f7995b8c3a83c5ad3b",
+    "_top_": {
+        "type": "string",
+        "value": "24%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "86.82%"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "children": [
+        "IconSearch",
+        "TxtSearch",
+        "FlexGroupIconClose"
+    ],
+    "clipbounds": false,
+    "containerweight": 100,
+    "defaultunit": 2,
+    "enablescrolling": true,
+    "id": "SearchBox",
+    "info": null,
+    "iscustomlayout": false,
+    "ismodalcontainer": false,
+    "isvisible": true,
+    "kuid": "f9ad44b3536644219018f31a7f20db93",
+    "layouttype": 3,
+    "name": "kony.ui.FlexContainer",
+    "parent": "Content",
+    "pf": "CopyProductList",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": "10",
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 1
+}

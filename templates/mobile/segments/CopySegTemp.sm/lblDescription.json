@@ -1,0 +1,66 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "22%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "42%"
+    },
+    "_margin_": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "scc8830e1eac4900921ef1929ab5e3ec",
+    "_text_": "Qunol Turmeric & Ginger Gummy - 60 ct",
+    "_top_": {
+        "type": "string",
+        "value": "38%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "42.74%"
+    },
+    "_wrapping_": 2,
+    "android": {
+        "textStyle": {
+            "letterSpacing": 0,
+            "strikeThrough": false
+        }
+    },
+    "canUpdateUI": true,
+    "containerId": true,
+    "containerweight": 100,
+    "contentalignment": 1,
+    "id": "lblDescription",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iphone": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "isvisible": true,
+    "kuid": "d93c5b250cf0472ea0641067eb2f2dc2",
+    "name": "kony.ui.Label",
+    "parent": "itemContent",
+    "pf": "CopySegTemp",
+    "textstyle": {},
+    "tooltip": "",
+    "wType": "Label",
+    "zindex": 1
+}

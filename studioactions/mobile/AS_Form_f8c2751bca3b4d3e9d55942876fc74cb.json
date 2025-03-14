@@ -15,7 +15,7 @@
         "language": "js",
         "eventType": "init",
         "actions": [{
-            "id": "INVOKE_FUNCTION__ea8fd7bf28e7405eab48cfeb811f833c",
+            "id": "INVOKE_FUNCTION__i16d4b1ccf3f4810957244a09b344e69",
             "type": "INVOKE_FUNCTION",
             "sequenceKUID": "fetchProducts",
             "display": "fetchProducts",

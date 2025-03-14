@@ -1,0 +1,60 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s829fd9cff794baea78d11c2886fbf21",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 0,
+    "data": {
+        "ide_onCartClicked": "AS_UWI_c4fcfedd18d14166ac0387d4e9d00d03"
+    },
+    "id": "HeaderBar",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "c0d57464fb7a4d6b8995d30c56b8f690",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "CopyProductList",
+    "pf": "CopyProductList",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "sourceUserWidget": "u4e3ecb9442b4aefa007a6db280785e7",
+    "wType": "UserWidgetInstance",
+    "zindex": 1
+}

@@ -1,0 +1,29 @@
+{
+    "AS_Form_cd3f2a99b5744690aedd42ab89c03354": {
+        "id": "AS_Form_cd3f2a99b5744690aedd42ab89c03354",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "KUID": "d0d1625ca7754b33a079db1f90ecc128",
+            "name": "CopyProductList",
+            "platform": "",
+            "type": "forms"
+        },
+        "language": "js",
+        "eventType": "init",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ea8fd7bf28e7405eab48cfeb811f833c",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "fetchProducts",
+            "display": "fetchProducts",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

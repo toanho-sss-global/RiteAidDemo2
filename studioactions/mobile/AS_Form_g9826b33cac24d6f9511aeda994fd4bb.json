@@ -1,0 +1,19 @@
+{
+    "AS_Form_g9826b33cac24d6f9511aeda994fd4bb": {
+        "id": "AS_Form_g9826b33cac24d6f9511aeda994fd4bb",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "ProductList",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b79e93a47a8a42038218541a0de1b8ba"
+        },
+        "language": "js",
+        "eventType": "postShow",
+        "actions": []
+    }
+}

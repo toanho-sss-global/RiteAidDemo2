@@ -48,7 +48,8 @@
         "lblDescription",
         "lblCategory",
         "lblDiscount",
-        "lblCostDiscount"
+        "lblCostDiscount",
+        "lblSpanCost"
     ],
     "clipbounds": false,
     "containerId": true,

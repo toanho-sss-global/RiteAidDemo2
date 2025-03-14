@@ -1,0 +1,155 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "5%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_right_": {
+        "type": "string",
+        "value": "5%"
+    },
+    "_skin_": "s713859a513f4f5c9e0040de18aaaf23",
+    "_top_": {
+        "type": "string",
+        "value": "40.64%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "areflexpropsreferenced": false,
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "ProductSimple": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "if633d00db044c749ba4b61a8311aea6",
+                "srcKUID": "u7960ce2fe414284a57a47415af8badd",
+                "wType": "FlexContainer"
+            },
+            "centerX": {
+                "Default": {
+                    "type": "string",
+                    "value": "50%"
+                }
+            },
+            "isVisible": true,
+            "left": {
+                "Default": {
+                    "type": "string",
+                    "value": "5%"
+                }
+            },
+            "right": {
+                "Default": {
+                    "type": "string",
+                    "value": "5%"
+                }
+            },
+            "top": {
+                "Default": {
+                    "type": "string",
+                    "value": "40.64%"
+                }
+            },
+            "width": {
+                "Default": {
+                    "type": "string",
+                    "value": "90%"
+                }
+            }
+        },
+        "segTemp": {
+            "__events__": {
+                "ide_onRowClick": "AS_Segment_f172371b638c47d99ac8532a7295d194"
+            },
+            "__info__": {
+                "kuid": "b0cb592ac02942efb393309e9e468a75",
+                "srcKUID": "uebf7899a3cb4b918c171e236ffc158f",
+                "wType": "Segment"
+            },
+            "data": {
+                "mobile": [
+                    {
+                        "img": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": "",
+                            "type": "Image"
+                        },
+                        "lblCategory": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "",
+                            "type": "Label"
+                        },
+                        "lblCost": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "$119.95"
+                        },
+                        "lblCostDiscount": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "",
+                            "type": "Label"
+                        },
+                        "lblDescription": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "",
+                            "type": "Label"
+                        },
+                        "lblDiscount": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "",
+                            "type": "Label"
+                        },
+                        "lblSpanCost": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "----------------"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "enablescrolling": true,
+    "id": "ProductSimple",
+    "info": null,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kuid": "if633d00db044c749ba4b61a8311aea6",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "Content",
+    "pf": "CopyProductList",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "u7960ce2fe414284a57a47415af8badd",
+    "wType": "UserWidgetInstance"
+}

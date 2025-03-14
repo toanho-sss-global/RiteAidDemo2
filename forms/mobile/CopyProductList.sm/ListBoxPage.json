@@ -1,0 +1,80 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizListBox",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "5%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        3,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "Please Select",
+    "_right_": {
+        "type": "string",
+        "value": "5%"
+    },
+    "_skin_": "saff1dab5bce43198bd3421f66fac3a0",
+    "_top_": {
+        "type": "string",
+        "value": "33%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "27.13%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "dropdownimage": "listboxarw.png",
+    "focusskin": "s2907ab8d76b47f2ab773b70b3a8015d",
+    "groupcells": false,
+    "id": "ListBoxPage",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "ed05c71bf5f143ddb6102f09f652b8c9",
+    "masterdata": [
+        [
+            "lbPage1",
+            "16 per page"
+        ],
+        [
+            "lbPage2",
+            "32 per page"
+        ],
+        [
+            "lbPage3",
+            "64 per page"
+        ]
+    ],
+    "name": "kony.ui.ListBox",
+    "parent": "Content",
+    "pf": "CopyProductList",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "selectedkey": "lbPage1",
+    "selectedkeys": null,
+    "selectedkeyvalue": [
+        "lbPage1",
+        "16 per page"
+    ],
+    "selectedkeyvalues": null,
+    "size": 18,
+    "viewconfig": {
+        "toggleViewConfig": {
+            "viewStyle": 0
+        }
+    },
+    "viewtype": 0,
+    "wType": "ListBox",
+    "zindex": 1
+}
