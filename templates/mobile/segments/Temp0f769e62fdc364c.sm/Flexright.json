@@ -1,16 +1,8 @@
 {
     "DNDConfig": null,
-    "_blur_": {
-        "enabled": false,
-        "value": 0
-    },
     "_height_": {
         "type": "string",
-        "value": "1000px"
-    },
-    "_left_": {
-        "type": "string",
-        "value": "0dp"
+        "value": "100%"
     },
     "_margin_": [
         0,
@@ -26,6 +18,10 @@
         0
     ],
     "_percent_": true,
+    "_right_": {
+        "type": "string",
+        "value": "0"
+    },
     "_skin_": "s54d410269b7418a9e413cd1dc08b65b",
     "_top_": {
         "type": "string",
@@ -33,55 +29,33 @@
     },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "50%"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "backgroundImg",
-        "Flextop",
-        "FlexContainer0e55384438ac945"
+        "imgBanner"
     ],
-    "clipbounds": true,
+    "clipbounds": false,
     "containerId": true,
     "containerweight": 100,
-    "controllerInfo": {
-        "default": {
-            "channel": "mobile",
-            "name": "Flex0f2795775352a48Controller"
-        }
-    },
     "enablescrolling": true,
-    "id": "Flex0f2795775352a48",
-    "ide_preShow": "AS_FlexContainer_b024a7dbbe2146e4a11104f090ae347c",
+    "id": "Flexright",
     "info": null,
-    "isTemplate": true,
     "iscustomlayout": false,
-    "ismodalcontainer": false,
     "isvisible": true,
-    "kuid": "gd0d36caa0ea40daac92ecf1394813eb",
+    "kuid": "a4214a129e4541e6ab6869088de7ae08",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "Temp0f769e62fdc364c",
+    "parent": "FlxBanner",
     "pf": "Temp0f769e62fdc364c",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
     "snapgridsize": 10,
-    "snaptogrid": false,
-    "swipeConfig": {
-        "enableSwipe": true,
-        "enableSwipeLeft": false,
-        "enableSwipeRight": false,
-        "leftType": 0,
-        "rightType": 0
-    },
+    "snaptogrid": true,
     "wType": "FlexContainer",
     "widgetalignment": 1,
-    "winphone8": {
-        "psp": {
-            "enableCache": false
-        }
-    }
+    "zindex": 1
 }

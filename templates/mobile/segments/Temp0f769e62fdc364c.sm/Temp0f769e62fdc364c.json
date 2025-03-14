@@ -21,7 +21,7 @@
     "allboxes": [],
     "canUpdateUI": true,
     "children": [
-        "Flex0f2795775352a48"
+        "FlxBanner"
     ],
     "containerId": true,
     "containerweight": 100,

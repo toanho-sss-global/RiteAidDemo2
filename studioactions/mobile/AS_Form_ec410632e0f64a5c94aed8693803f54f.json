@@ -1,0 +1,29 @@
+{
+    "AS_Form_ec410632e0f64a5c94aed8693803f54f": {
+        "id": "AS_Form_ec410632e0f64a5c94aed8693803f54f",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "Home",
+            "type": "forms",
+            "platform": "",
+            "KUID": "fb6e88e7d7c94c68aa13478d43b174b5"
+        },
+        "language": "js",
+        "eventType": "init",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__i6ab45f680af49eb9e9afbf44b8335bb",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "ListBanner",
+            "display": "ListBanner",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}
