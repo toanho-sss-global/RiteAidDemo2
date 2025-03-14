@@ -1,8 +1,12 @@
 {
     "DNDConfig": null,
+    "_blur_": {
+        "enabled": false,
+        "value": 0
+    },
     "_height_": {
         "type": "string",
-        "value": "100%"
+        "value": "1000px"
     },
     "_left_": {
         "type": "string",
@@ -22,41 +26,62 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s0266234a25b4e0db45a49a36a1ff62b",
+    "_skin_": "s54d410269b7418a9e413cd1dc08b65b",
     "_top_": {
         "type": "string",
         "value": "0dp"
     },
     "_width_": {
         "type": "string",
-        "value": "50%"
+        "value": "100%"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "Label0ie096a2cf5e442",
-        "Button0b820f12e10ad40"
+        "backgroundImg",
+        "Flexleft",
+        "Flexright"
     ],
-    "clipbounds": false,
+    "clipbounds": true,
     "containerId": true,
     "containerweight": 100,
+    "controllerInfo": {
+        "default": {
+            "channel": "mobile",
+            "name": "FlxBannerController"
+        }
+    },
     "enablescrolling": true,
-    "id": "Flextop",
+    "id": "FlxBanner",
+    "ide_preShow": "AS_FlexContainer_b024a7dbbe2146e4a11104f090ae347c",
     "info": null,
+    "isTemplate": true,
     "iscustomlayout": false,
+    "ismodalcontainer": false,
     "isvisible": true,
-    "kuid": "j6f9f9885e884a66821e92268bdf73b4",
+    "kuid": "gd0d36caa0ea40daac92ecf1394813eb",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "Flex0f2795775352a48",
+    "parent": "Temp0f769e62fdc364c",
     "pf": "Temp0f769e62fdc364c",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
     "snapgridsize": 10,
-    "snaptogrid": true,
+    "snaptogrid": false,
+    "swipeConfig": {
+        "enableSwipe": true,
+        "enableSwipeLeft": false,
+        "enableSwipeRight": false,
+        "leftType": 0,
+        "rightType": 0
+    },
     "wType": "FlexContainer",
     "widgetalignment": 1,
-    "zindex": 1
+    "winphone8": {
+        "psp": {
+            "enableCache": false
+        }
+    }
 }

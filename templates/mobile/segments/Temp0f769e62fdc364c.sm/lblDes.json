@@ -46,7 +46,7 @@
     "containerId": true,
     "containerweight": 100,
     "contentalignment": 5,
-    "id": "Label0ie096a2cf5e442",
+    "id": "lblDes",
     "info": null,
     "ipad": {
         "psp": {
@@ -62,7 +62,7 @@
     "isvisible": true,
     "kuid": "gdd8f56a25394dcbb97eb032b8b3be7c",
     "name": "kony.ui.Label",
-    "parent": "Flextop",
+    "parent": "Flexleft",
     "pf": "Temp0f769e62fdc364c",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

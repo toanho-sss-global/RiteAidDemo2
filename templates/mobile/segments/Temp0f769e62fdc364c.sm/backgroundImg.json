@@ -42,7 +42,7 @@
     "isvisible": true,
     "kuid": "e752d2cfa24a4f5fb4733c9019f182a5",
     "name": "kony.ui.Image2",
-    "parent": "Flex0f2795775352a48",
+    "parent": "FlxBanner",
     "pf": "Temp0f769e62fdc364c",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
