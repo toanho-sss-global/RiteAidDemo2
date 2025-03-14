@@ -3,69 +3,60 @@
     "DNDConfig": null,
     "_data_": [
         {
-            "Button0b820f12e10ad40": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Shop now",
-                "type": "Button"
-            },
-            "Image0e9df41a9488949": {
-                "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "header1.png",
-                "type": "Image"
-            },
-            "Label0ie096a2cf5e442": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Nature Made vitamins & supplements 50% off",
-                "type": "Label"
-            },
             "backgroundImg": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
                 "src": "image.jpg",
                 "type": "Image"
+            },
+            "btnBanner": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Button"
+            },
+            "imgBanner": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": ""
+            },
+            "lblDes": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
             }
         },
         {
-            "Button0b820f12e10ad40": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Shop now",
-                "type": "Button"
-            },
-            "Image0e9df41a9488949": {
-                "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "header2.png",
-                "type": "Image"
-            },
-            "Label0ie096a2cf5e442": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Valentine’s Day UP TO 90% OFF",
-                "type": "Label"
-            },
             "backgroundImg": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
                 "src": "untitled4.png",
                 "type": "Image"
+            },
+            "btnBanner": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Button"
+            },
+            "imgBanner": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": ""
+            },
+            "lblDes": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
             }
         },
         {
-            "Button0b820f12e10ad40": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Schedule",
-                "type": "Button"
-            },
-            "Image0e9df41a9488949": {
-                "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "header3.png",
-                "type": "Image"
-            },
-            "Label0ie096a2cf5e442": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Get your flu shot TEST!!",
-                "type": "Label"
-            },
             "backgroundImg": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
                 "src": "untitled2.png",
                 "type": "Image"
+            },
+            "btnBanner": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Button"
+            },
+            "imgBanner": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": ""
+            },
+            "lblDes": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
             }
         }
     ],
@@ -160,7 +151,7 @@
     "showscrollbars": true,
     "swipeContext": {
         "currentPage": 0,
-        "imageWidth": 1278,
+        "imageWidth": 1279,
         "widthRatio": 0
     },
     "viewtype": "pageview",
@@ -168,13 +159,13 @@
     "wType": "Segment",
     "widgetalignment": 5,
     "widgetdatamap": {
-        "Button0b820f12e10ad40": "Button0b820f12e10ad40",
-        "Flex0f2795775352a48": "Flex0f2795775352a48",
-        "FlexContainer0e55384438ac945": "FlexContainer0e55384438ac945",
-        "Flextop": "Flextop",
-        "Image0e9df41a9488949": "Image0e9df41a9488949",
-        "Label0ie096a2cf5e442": "Label0ie096a2cf5e442",
-        "backgroundImg": "backgroundImg"
+        "Flexleft": "Flexleft",
+        "Flexright": "Flexright",
+        "FlxBanner": "FlxBanner",
+        "backgroundImg": "backgroundImg",
+        "btnBanner": "btnBanner",
+        "imgBanner": "imgBanner",
+        "lblDes": "lblDes"
     },
     "zindex": 1
 }
