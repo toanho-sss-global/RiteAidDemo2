@@ -24,14 +24,8 @@ define({
         	countItem = response.data.activeOrder.lines.length;
           }
           localStorage.setItem("count-item-in-cart", countItem);
-          console.log("Check ProductDetail: ", countItem);
         }
     }
-  },
-  
-  refeshHeader: function () {
-    var count = localStorage.getItem("count-item-in-cart");
-    HeaderBar.cartBadgeCount.text = count;
   },
   
   onFormInit: function() {
