@@ -24,6 +24,33 @@ define({
       CarouselProductPrice: 'Price: $16.79',
     }
   ],
+  
+    getCartBadgeCount: function () {
+    var self = this;
+    var url = "https://vendure.demo.universalcommerce.io/shop-api";
+    var token = localStorage.getItem("vendure-auth-token");
+    
+    var httpclient = new voltmx.net.HttpRequest();
+    httpclient.open(constants.HTTP_METHOD_POST, url);
+    httpclient.setRequestHeader("Content-Type", "application/json");
+	httpclient.setRequestHeader("Authorization", "Bearer " + token);
+    
+      var jsonStr2 = JSON.stringify({
+    	"query": "query ActiveOrder { activeOrder { id lines { productVariant { id } } } }"
+		});
+      
+    httpclient.send(jsonStr2);
+    httpclient.onReadyStateChange = function () {
+        if (httpclient.readyState === 4 && httpclient.status === 200) {
+          var response = JSON.parse(httpclient.response);
+		  var countItem = 0;
+          if (response.data && response.data.activeOrder && response.data.activeOrder.lines) {
+        	countItem = response.data.activeOrder.lines.length;
+          }
+          localStorage.setItem("count-item-in-cart", countItem);
+        }
+    }
+  },
 
   initProductData: function () {
     var scope = this;
@@ -42,6 +69,7 @@ define({
           onClick: (function (index) {
             return function () {
               scope.DeleteProduct(index);
+              scope.getCartBadgeCount();
             };
           })(i)
         },
@@ -105,8 +133,9 @@ define({
       if (httpclient.readyState === 4) {
         if (httpclient.status === 200) {
           var response = JSON.parse(httpclient.response);
-          console.log("Get cart response:", response);
+          console.log("Get cart response1:", response);
           self.handleCartProducts(response.data);
+          self.calculateTotal(response.data.activeOrder);
         }
       }
     };
@@ -115,6 +144,8 @@ define({
   handleCartProducts: function (itemCart) {
     var self = this;
     if (!itemCart || !itemCart.activeOrder || !itemCart.activeOrder.lines) {
+      this.CartProductList = [];
+      self.initProductData();
       return;
     }
 
@@ -231,39 +262,16 @@ define({
     }
   },
 
-  calculateTotal: function () {
-    var segmentData = this.view.CartProductList.ProductList.data;
-    var totalPrice = 0;
-
-    for (var i = 0; i < segmentData.length; i++) {
-      var item = segmentData[i];
-      var quantity = parseInt(item.ProductQuantity, 10);
-      var unitPrice = item.unitPrice;
-      totalPrice += quantity * unitPrice;
-    }
-    this.view.CheckoutAndPromoteContainer.
-      EstContainer.EstAmount.text = "$" + (totalPrice / 100).toFixed(2);
+  calculateTotal: function (itemCart) {
+	this.view.PriceLabel.text ="$" + (itemCart.subTotalWithTax / 100).toFixed(2);
+    this.view.EstAmount.text = "$" + (itemCart.totalWithTax /100).toFixed(2);
+    this.view.SubtotalLabel.text = `SubTotal (${itemCart.totalQuantity} items)`;
+     voltmx.store.setItem("CartItemQuantity", itemCart.totalQuantity);
   },
 
   navigateToCheckout: function () {
-    var taxText = this.view.CheckoutAndPromoteContainer
-      .TaxContainer.TaxAmountLabel.text;
-    var cartTotalText = this.view.CheckoutAndPromoteContainer
-      .EstContainer.EstAmount.text;
-
-    // Remove "$" and "%" symbols, then convert to numbers
-    var taxPercentage = parseFloat(taxText.replace("%", "").trim());
-    var cartTotalPrice = parseFloat(cartTotalText.replace("$", "").trim());
-
-    // Convert tax percentage to decimal and calculate the final total
-    var taxAmount = (cartTotalPrice * taxPercentage) / 100;
-    var finalTotalPrice = cartTotalPrice + taxAmount;
-
-    console.log("Final Total Price: ", finalTotalPrice.toFixed(2));
-    // Store the updated total price correctly
-    voltmx.store.setItem("CartTotalPrice", "$" + finalTotalPrice.toFixed(2));
-
-    voltmx.store.setItem("CartItemQuantity", this.CartProductList.length);
+   
+    voltmx.store.setItem("CartTotalPrice", this.view.EstAmount.text);
     var navObj = new voltmx.mvc.Navigation("CheckoutAddress");
     navObj.navigate();
   },

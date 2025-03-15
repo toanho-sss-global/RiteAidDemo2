@@ -55,12 +55,12 @@
     "desktopweb": {
         "needAppMenu": false
     },
-    "device": "iPhone14",
+    "device": "iPhone14ProMax",
     "displayorientation": 1,
     "enabledforidletimeout": false,
     "id": "ShoppingCart",
     "ide_init": "AS_Form_bfff2beaea934b99a589bf3185308ed2",
-    "ide_preShow": "AS_Form_h5482255e0214ce98ca8088ba317e43b",
+    "ide_preShow": "AS_Form_je200480bf2b41c5ad37618eddfb97d5",
     "info": null,
     "initdone": false,
     "inputaccessoryviewtype": 4,

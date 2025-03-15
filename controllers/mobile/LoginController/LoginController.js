@@ -41,12 +41,10 @@ define({
           
     	  var authToken = httpclient.getResponseHeader("vendure-auth-token");
           localStorage.setItem("vendure-auth-token", authToken);
+          console.log("login authtoken set: ", authToken);
           
           var response = JSON.parse(httpclient.response);
           var userData = response.data.login;
-//           var responseHeader = 
-//               httpclient.getResponseHeader('vendure-auth-token');
-//           localStorage.setItem("vendure-auth-token", responseHeader);
           if (userData !== null && userData.identifier) {
             voltmx.store.setItem('userData', JSON.stringify(userData));
             
