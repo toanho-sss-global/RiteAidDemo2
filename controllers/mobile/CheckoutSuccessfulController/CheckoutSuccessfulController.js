@@ -1,4 +1,31 @@
 define({ 
+  getCartBadgeCount: function () {
+    var self = this;
+    var url = "https://vendure.demo.universalcommerce.io/shop-api";
+    var token = localStorage.getItem("vendure-auth-token");
+
+    var httpclient = new voltmx.net.HttpRequest();
+    httpclient.open(constants.HTTP_METHOD_POST, url);
+    httpclient.setRequestHeader("Content-Type", "application/json");
+    httpclient.setRequestHeader("Authorization", "Bearer " + token);
+
+    var jsonStr2 = JSON.stringify({
+        "query": "query ActiveOrder { activeOrder { id lines { productVariant { id } } } }"
+    });
+
+    httpclient.send(jsonStr2);
+    httpclient.onReadyStateChange = function () {
+        if (httpclient.readyState === 4 && httpclient.status === 200) {
+            var response = JSON.parse(httpclient.response);
+            var countItem = 0;
+            if (response.data && response.data.activeOrder && response.data.activeOrder.lines) {
+                countItem = response.data.activeOrder.lines.length;
+            }
+            localStorage.setItem("count-item-in-cart", countItem);
+        }
+    };
+},
+  
     updateProgressBar: function () {
       this.view.ProgressBar.ProgressBarLeft2.skin = "CopyslFbox0ab370b90781448";
       this.view.ProgressBar.ProgressBarCircle2.skin = "CopyslFbox0b75af0da92e140"; 

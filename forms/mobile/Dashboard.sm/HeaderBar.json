@@ -35,7 +35,9 @@
     },
     "canUpdateUI": true,
     "containerweight": 0,
-    "data": {},
+    "data": {
+        "ide_onCartClicked": "AS_UWI_b929dbb3d0594a189a06123c058878de"
+    },
     "id": "HeaderBar",
     "info": null,
     "iscustomlayout": false,
