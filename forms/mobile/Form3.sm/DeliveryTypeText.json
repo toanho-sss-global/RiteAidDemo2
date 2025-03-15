@@ -20,8 +20,8 @@
     "_skin_": "s22628cdf2b6468c87193448c6d63fc9",
     "_text_": "Not Specified",
     "_width_": {
-        "type": "string",
-        "value": "100%"
+        "type": "ref",
+        "value": "preferred"
     },
     "_wrapping_": 2,
     "android": {
@@ -56,6 +56,10 @@
     "iscustomlayout": false,
     "isvisible": true,
     "kuid": "h39ce83715d44067b1d10a4a10c3b527",
+    "minwidth": {
+        "type": "string",
+        "value": "50%"
+    },
     "name": "kony.ui.Label",
     "parent": "DeliveryTypeTextCtn",
     "pf": "Form3",

@@ -23,7 +23,7 @@
         "actions": [{
             "id": "ADD_SNIPPET_d5b0e122bb9f47139ae439af049789d2",
             "type": "ADD_SNIPPET",
-            "codeSnippet": "var selectedCurrentOrderID = this.view.flxSegOrder.segOrderHistory.selectedRowItems[0];\nlocalStorage.setItem(\"Current_OrderID\", selectedCurrentOrderID.lblOrderID.text);\n\n  var ntf = new voltmx.mvc.Navigation(\"Form3\");\n\n  ntf.navigate({\n\n    \"variable_product_Id\": selectedCurrentOrderID.lblOrderID.text,\n\n  });\n\n",
+            "codeSnippet": "var selectedCurrentOrderID = this.view.flxSegOrder.segOrderHistory.selectedRowItems[0];\nconsole.log(\"ONROW CICKED: \", selectedCurrentOrderID.lblOrderID.text)\n\n  var ntf = new voltmx.mvc.Navigation(\"Form3\");\n\n  ntf.navigate({\n\n    \"variable_product_Id\": selectedCurrentOrderID.lblOrderID.text,\n\n  });\n\n",
             "parentId": null
         }]
     }

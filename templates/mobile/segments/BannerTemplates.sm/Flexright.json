@@ -2,11 +2,7 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "27dp"
-    },
-    "_left_": {
-        "type": "string",
-        "value": "0dp"
+        "value": "100%"
     },
     "_margin_": [
         0,
@@ -22,48 +18,44 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "sf613a3620b14e768fdae4da4add5863",
+    "_right_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_skin_": "s54d410269b7418a9e413cd1dc08b65b",
     "_top_": {
-        "type": "number",
-        "value": "471"
+        "type": "string",
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
-        "value": "80%"
+        "value": "50%"
     },
     "allboxes": [],
-    "allowhorizontalbounce": false,
-    "allowverticalbounce": true,
-    "bounces": true,
+    "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "DeliveryTypeText"
+        "imgBanner"
     ],
     "clipbounds": false,
+    "containerId": true,
     "containerweight": 100,
-    "decelerat": false,
-    "dragg": false,
     "enablescrolling": true,
-    "horizontalscrollindicator": true,
-    "id": "DeliveryTypeTextCtn",
+    "id": "Flexright",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "ja9638dd7172404f9754d81f86700b27",
+    "kuid": "a4214a129e4541e6ab6869088de7ae08",
     "layouttype": 2,
-    "name": "kony.ui.FlexScrollContainer",
-    "pagingenabled": false,
-    "parent": "OrderDetailInnerCtn",
-    "pf": "Form3",
+    "name": "kony.ui.FlexContainer",
+    "parent": "FlxBanner",
+    "pf": "BannerTemplates",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
-    "scrolldirection": 2,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "track": false,
-    "verticalscrollindicator": true,
-    "wType": "FlexScrollContainer",
+    "wType": "FlexContainer",
     "widgetalignment": 1,
     "zindex": 1
 }

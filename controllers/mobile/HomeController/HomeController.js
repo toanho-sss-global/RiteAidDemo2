@@ -29,6 +29,7 @@ define({
 },
   
     ListBanner: function() {
+      console.log('START GET LIST BANNER');      
       var httpclient = new voltmx.net.HttpRequest();
       httpclient.open(constants.HTTP_METHOD_POST,"https://dx.sbx0328.play.hclsofy.com/dx/api/core/v1/graphql");
       httpclient.setRequestHeader("Content-Type", "application/json");
@@ -42,6 +43,7 @@ define({
 });
 
       httpclient.onReadyStateChange = function () {
+        console.log('Response:', httpclient.response);
           if (httpclient.readyState === 4 && httpclient.status === 200) {
             var response = JSON.parse(httpclient.response);
             if(response) {

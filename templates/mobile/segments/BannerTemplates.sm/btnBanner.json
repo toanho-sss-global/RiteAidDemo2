@@ -49,7 +49,7 @@
     "kuid": "af3370a7eb6649b7aa5ef645484a9a2e",
     "name": "kony.ui.Button",
     "parent": "Flexleft",
-    "pf": "Temp0f769e62fdc364c",
+    "pf": "BannerTemplates",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "wType": "Button",

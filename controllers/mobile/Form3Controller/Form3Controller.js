@@ -15,6 +15,7 @@ define({
     httpclient.setRequestHeader("Content-Type", "application/json");
     var token = localStorage.getItem("vendure-auth-token");
     httpclient.setRequestHeader("Authorization", "Bearer " + token);
+    console.log('PRODUCT ID: ', this.currentProductID)
     var jsonStr = JSON.stringify({
       "query": "query GetOrder($orderId: ID!) { order(id: $orderId) { id orderPlacedAt subTotalWithTax shippingWithTax totalWithTax currencyCode state payments { metadata } customFields { deliveryType } lines { id linePriceWithTax quantity productVariant { id name priceWithTax featuredAsset { preview } currencyCode } } shippingAddress { fullName phoneNumber streetLine1 streetLine2 city province postalCode countryCode country } billingAddress { fullName phoneNumber streetLine1 streetLine2 city province postalCode countryCode country } } }",
       "variables": {
@@ -48,7 +49,7 @@ define({
         }
     this.view.OrderStatusLabel.skin = skin;
           
-          this.view.OrderIDText.text = orderDetail.id;
+          this.view.OrderIDText.text = `#${orderDetail.id}`;
           this.qrData.orderId = orderDetail.id;
           this.view.OrderDateText.text = formattedDate;
           this.view.OrderSubtotalText.text = "$" + orderDetail.subTotalWithTax;
@@ -76,16 +77,20 @@ define({
           this.view.OrderPhoneLabel.text = orderDetail.shippingAddress.phoneNumber;
           this.view.OrderAddress1Label.text = this.truncateText(orderDetail.shippingAddress.streetLine1, 10), 
           this.view.OrderAddress2Label.text = this.truncateText(orderDetail.shippingAddress.streetLine2, 10), 
-          this.view.OrderCityStateZipCodeLabel.text =
-            orderDetail.shippingAddress.city + ", " + orderDetail.shippingAddress.province + " " + orderDetail.shippingAddress.postalCode;
+          this.view.OrderCityStateZipCodeLabel.text = 
+    [orderDetail.shippingAddress.city, orderDetail.shippingAddress.province, orderDetail.shippingAddress.postalCode]
+    .filter(Boolean)
+    .join(" ");
           this.view.OrderCountryLabel.text = orderDetail.shippingAddress.country;
 
           this.view.OrderFullNameLabel2.text = orderDetail.billingAddress.fullName;
           this.view.OrderPhoneLabel2.text = orderDetail.billingAddress.phoneNumber;
           this.view.OrderAddress1Label2.text = orderDetail.billingAddress.streetLine1;
           this.view.OrderAddress2Label2.text = orderDetail.billingAddress.streetLine2;
-          this.view.OrderCityStateZipCode2.text =
-            orderDetail.billingAddress.city + ", " + orderDetail.billingAddress.province + " " + orderDetail.billingAddress.postalCode;
+        this.view.OrderCityStateZipCode2.text = 
+    [orderDetail.billingAddress.city, orderDetail.billingAddress.province, orderDetail.billingAddress.postalCode]
+    .filter(Boolean)
+    .join(" ");
           this.view.OrderCountryLabel2.text = orderDetail.billingAddress.country;
 
           var data = JSON.stringify(this.qrData);
