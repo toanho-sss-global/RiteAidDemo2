@@ -135,6 +135,7 @@ define({
           var response = JSON.parse(httpclient.response);
           console.log("Get cart response1:", response);
           self.handleCartProducts(response.data);
+          self.calculateTotal(response.data.activeOrder);
         }
       }
     };
@@ -261,39 +262,17 @@ define({
     }
   },
 
-  calculateTotal: function () {
-    var segmentData = this.view.CartProductList.ProductList.data;
-    var totalPrice = 0;
-
-    for (var i = 0; i < segmentData.length; i++) {
-      var item = segmentData[i];
-      var quantity = parseInt(item.ProductQuantity, 10);
-      var unitPrice = item.unitPrice;
-      totalPrice += quantity * unitPrice;
-    }
-    this.view.CheckoutAndPromoteContainer.
-      EstContainer.EstAmount.text = "$" + (totalPrice / 100).toFixed(2);
+  calculateTotal: function (itemCart) {
+	this.view.PriceLabel.text ="$" + (itemCart.subTotalWithTax / 100).toFixed(2);
+    this.view.EstAmount.text = "$" + (itemCart.totalWithTax /100).toFixed(2);
+    this.view.SubtotalLabel.text = `SubTotal (${itemCart.totalQuantity} items)`;
+     voltmx.store.setItem("CartItemQuantity", itemCart.totalQuantity);
   },
 
   navigateToCheckout: function () {
-    var taxText = this.view.CheckoutAndPromoteContainer
-      .TaxContainer.TaxAmountLabel.text;
-    var cartTotalText = this.view.CheckoutAndPromoteContainer
-      .EstContainer.EstAmount.text;
-
-    // Remove "$" and "%" symbols, then convert to numbers
-    var taxPercentage = parseFloat(taxText.replace("%", "").trim());
-    var cartTotalPrice = parseFloat(cartTotalText.replace("$", "").trim());
-
-    // Convert tax percentage to decimal and calculate the final total
-    var taxAmount = (cartTotalPrice * taxPercentage) / 100;
-    var finalTotalPrice = cartTotalPrice + taxAmount;
-
-    console.log("Final Total Price: ", finalTotalPrice.toFixed(2));
-    // Store the updated total price correctly
-    voltmx.store.setItem("CartTotalPrice", "$" + finalTotalPrice.toFixed(2));
-
-    voltmx.store.setItem("CartItemQuantity", this.CartProductList.length);
+   
+    voltmx.store.setItem("CartTotalPrice", this.view.EstAmount.text);
+    console.log("XXXXXXXXXXXXXXXXXXXX setTotal price in shopping cart: ", this.view.EstAmount.text)
     var navObj = new voltmx.mvc.Navigation("CheckoutAddress");
     navObj.navigate();
   },

@@ -59,6 +59,7 @@
     "id": "CheckoutPaymentMethod",
     "ide_init": "AS_Form_b854374401be4dce81eef98afbc6b284",
     "ide_postShow": "AS_Form_ge19a82ccf184a5393e637808b9a75cb",
+    "ide_preShow": "AS_Form_ae54920fb4b34a80b777837d6d5a7613",
     "info": null,
     "initdone": false,
     "inputaccessoryviewtype": 4,

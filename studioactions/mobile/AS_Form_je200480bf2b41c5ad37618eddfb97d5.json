@@ -1,24 +1,24 @@
 {
-    "AS_Form_e65583c028c94c1f81be330e3ae684cd": {
-        "id": "AS_Form_e65583c028c94c1f81be330e3ae684cd",
+    "AS_Form_je200480bf2b41c5ad37618eddfb97d5": {
+        "id": "AS_Form_je200480bf2b41c5ad37618eddfb97d5",
         "type": "ACTION_SEQUENCE",
         "params": [{
             "datatype": "collection",
             "name": "eventobject"
         }],
         "contextObj": {
-            "name": "CheckoutAddress",
+            "name": "ShoppingCart",
             "type": "forms",
             "platform": "",
-            "KUID": "a0f2ba1a2db44238ae888c9c0e565544"
+            "KUID": "c6939cf809d44ca982d87fb479d42f13"
         },
         "language": "js",
-        "eventType": "init",
+        "eventType": "preShow",
         "actions": [{
-            "id": "INVOKE_FUNCTION__ed0c7343914246d498a95ed48283312a",
+            "id": "INVOKE_FUNCTION__c534a6f7da3e43d1bcc6891b365ab7ea",
             "type": "INVOKE_FUNCTION",
-            "sequenceKUID": "preinputInfo",
-            "display": "preinputInfo",
+            "sequenceKUID": "GetCart",
+            "display": "GetCart",
             "inputparams": [],
             "parentId": null,
             "callbackType": null,

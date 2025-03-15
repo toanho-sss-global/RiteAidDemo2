@@ -69,6 +69,7 @@ define({
           
     	  var authToken = httpclient.getResponseHeader("vendure-auth-token");
           localStorage.setItem("vendure-auth-token", authToken);
+          console.log("login authtoken set: ", authToken);
           
           var response = JSON.parse(httpclient.response);
           var userData = response.data.login;

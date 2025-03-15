@@ -61,6 +61,7 @@ define({
         var response = JSON.parse(httpclient.response);
         var itemData = response.data;
         if(itemData) {
+            voltmx.store.setItem("CartTotalPrice", (itemData.setOrderShippingMethod.totalWithTax /100).toFixed(2)); 
           var nav = new voltmx.mvc.Navigation("CheckoutPaymentMethod");
           nav.navigate();
         }

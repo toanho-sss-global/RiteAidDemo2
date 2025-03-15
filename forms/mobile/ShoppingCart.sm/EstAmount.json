@@ -22,14 +22,14 @@
         "value": "0dp"
     },
     "_skin_": "scf0f915cba4474b8e30039e49ecb84f",
-    "_text_": "$888888.19",
+    "_text_": "0.00",
     "_top_": {
         "type": "string",
         "value": "0dp"
     },
     "_width_": {
-        "type": "ref",
-        "value": "preferred"
+        "type": "string",
+        "value": "210dp"
     },
     "_wrapping_": 2,
     "android": {
@@ -40,7 +40,7 @@
     },
     "canUpdateUI": true,
     "containerweight": 100,
-    "contentalignment": 4,
+    "contentalignment": 6,
     "id": "EstAmount",
     "info": null,
     "ipad": {

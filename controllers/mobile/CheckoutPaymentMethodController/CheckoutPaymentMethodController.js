@@ -12,7 +12,7 @@ define({
     var cartTotal = voltmx.store.getItem("CartTotalPrice");
     console.log("CartTotal: ", cartTotal);
     this.view.OrderSummary.OrderSummaryTotal.text = cartTotal || "0";
-    this.view.CheckoutPayLabel.text = `Pay ${cartTotal}`;
+    this.view.CheckoutPayLabel.text = `Pay $${cartTotal}`;
     this.view.OrderSummary.InMyCartQuantity.text = "In My Cart | " + voltmx.store.getItem("CartItemQuantity") + " Items";
     var cartData = voltmx.store.getItem("CartProductList");
     if (cartData) {
