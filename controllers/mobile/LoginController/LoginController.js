@@ -46,13 +46,11 @@ define({
   },
   
   LoginApi: function () {
-//     var email = this.view.txtBoxEmail.text.trim();
-//     var password = this.view.txtBoxPassword.text.trim();
+    var email = this.view.txtBoxEmail.text.trim();
+    var password = this.view.txtBoxPassword.text.trim();
     var self = this;
 
-     var email = "danny@cnetric.com";
-    var password = "12345678";
-    if (this.validateLogin(email, password)) {
+      if (this.validateLogin(email, password)) {
       var httpclient = new voltmx.net.HttpRequest();
       httpclient.open(constants.HTTP_METHOD_POST, 
                       "https://vendure.demo.universalcommerce.io/shop-api");
