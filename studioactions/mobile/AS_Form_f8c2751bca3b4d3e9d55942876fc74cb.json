@@ -14,16 +14,6 @@
         },
         "language": "js",
         "eventType": "init",
-        "actions": [{
-            "id": "INVOKE_FUNCTION__ea8fd7bf28e7405eab48cfeb811f833c",
-            "type": "INVOKE_FUNCTION",
-            "sequenceKUID": "fetchProducts",
-            "display": "fetchProducts",
-            "inputparams": [],
-            "parentId": null,
-            "callbackType": null,
-            "disabled": null,
-            "source": "controller"
-        }]
+        "actions": []
     }
 }

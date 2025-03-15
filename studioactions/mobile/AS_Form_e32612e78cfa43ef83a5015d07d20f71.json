@@ -30,7 +30,7 @@
         }, {
             "id": "ADD_SNIPPET_h7a766ff62734fac96f99255f5a5ac69",
             "type": "ADD_SNIPPET",
-            "codeSnippet": "self.view.AddProduct.isVisible = false;",
+            "codeSnippet": "self.view.AddProduct.isVisible = false;\n ",
             "parentId": null,
             "callbackType": null
         }]

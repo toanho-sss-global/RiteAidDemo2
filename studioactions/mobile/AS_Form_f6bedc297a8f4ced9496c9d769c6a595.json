@@ -24,16 +24,6 @@
             "callbackType": null,
             "disabled": null,
             "source": "controller"
-        }, {
-            "id": "INVOKE_FUNCTION__g03da62f481f4aa29e2445a3a507a031",
-            "type": "INVOKE_FUNCTION",
-            "sequenceKUID": "getCartBadgeCount",
-            "display": "getCartBadgeCount",
-            "inputparams": [],
-            "parentId": null,
-            "callbackType": null,
-            "disabled": null,
-            "source": "controller"
         }]
     }
 }

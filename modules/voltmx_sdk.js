@@ -1,5 +1,5 @@
  /*
-  * voltmx-sdk-ide Version 9.5.30
+  * voltmx-sdk-ide Version 9.5.45
   */
         
 //#ifdef iphone
@@ -540,7 +540,7 @@ voltmx.sdk.currentInstance = null;
 voltmx.sdk.isLicenseUrlAvailable = true;
 voltmx.sdk.isOAuthLogoutInProgress = false;
 voltmx.sdk.constants = voltmx.sdk.constants || {};
-voltmx.sdk.version = "9.5.30";
+voltmx.sdk.version = "9.5.45";
 voltmx.sdk.logsdk = new voltmxSdkLogger();
 voltmx.sdk.syncService = null;
 voltmx.sdk.dataStore = voltmx.sdk.dataStore || new voltmxDataStore();
@@ -871,6 +871,20 @@ voltmx.sdk.prototype.init = function(appKey, appSecret, serviceUrl, successCallb
         voltmx.sdk.setVanityUrl(initOptions["vanityUrl"]);
     }
     populateHeaderWithVanityUrl(headers);
+  
+    if (
+        !voltmx.sdk.isNullOrUndefined(appConfig)
+        && !voltmx.sdk.isNullOrUndefined(appConfig.offlineDB)
+        && !voltmx.sdk.isNullOrUndefined(voltmx)
+        && !voltmx.sdk.isNullOrUndefined(voltmx.model)
+        && !voltmx.sdk.isNullOrUndefined(voltmx.model.constants)
+        && !voltmx.sdk.isNullOrUndefined(voltmx.model.constants.DesktopNativeOfflineDB)
+        && appConfig.offlineDB === voltmx.model.constants.DesktopNativeOfflineDB.SQLITE
+    ) {
+        voltmx.sdk.util.useSQLite = true;
+    } else {
+        voltmx.sdk.util.useSQLite = false;
+    }
 
     voltmx.sdk.logsdk.perf("Executing network call for fetching servicedoc");
     networkProvider.post(
@@ -17685,6 +17699,21 @@ voltmx.setupsdks = function (initConfig, successCallBack, errorCallBack) {
             voltmx.license.setIsLicenseUrlAvailable(false);
             voltmx.sdk.isLicenseUrlAvailable = false;
         }
+    }
+
+    if (
+        !voltmx.sdk.isNullOrUndefined(initConfig)
+        && !voltmx.sdk.isNullOrUndefined(initConfig.appConfig)
+        && !voltmx.sdk.isNullOrUndefined(initConfig.appConfig.offlineDB)
+        && !voltmx.sdk.isNullOrUndefined(voltmx)
+        && !voltmx.sdk.isNullOrUndefined(voltmx.model)
+        && !voltmx.sdk.isNullOrUndefined(voltmx.model.constants)
+        && !voltmx.sdk.isNullOrUndefined(voltmx.model.constants.DesktopNativeOfflineDB)
+        && initConfig.appConfig.offlineDB === voltmx.model.constants.DesktopNativeOfflineDB.SQLITE
+    ) {
+        voltmx.sdk.util.useSQLite = true;
+    } else {
+        voltmx.sdk.util.useSQLite = false;
     }
 
     try {

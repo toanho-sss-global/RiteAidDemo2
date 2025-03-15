@@ -1,24 +1,24 @@
 {
-    "AS_Form_ec410632e0f64a5c94aed8693803f54f": {
-        "id": "AS_Form_ec410632e0f64a5c94aed8693803f54f",
+    "AS_ListBox_f0cdf5e4b1f04994a322788d82ef7d57": {
+        "id": "AS_ListBox_f0cdf5e4b1f04994a322788d82ef7d57",
         "type": "ACTION_SEQUENCE",
         "params": [{
             "datatype": "collection",
             "name": "eventobject"
         }],
         "contextObj": {
-            "name": "Home",
+            "name": "ProductList",
             "type": "forms",
             "platform": "",
-            "KUID": "fb6e88e7d7c94c68aa13478d43b174b5"
+            "KUID": "b79e93a47a8a42038218541a0de1b8ba"
         },
         "language": "js",
-        "eventType": "init",
+        "eventType": "onSelection",
         "actions": [{
-            "id": "INVOKE_FUNCTION__fe767bd677a2494ab285bc8582f4bdaa",
+            "id": "INVOKE_FUNCTION__d564f22491d747e0ab01e3c821c412af",
             "type": "INVOKE_FUNCTION",
-            "sequenceKUID": "ListBanner",
-            "display": "ListBanner",
+            "sequenceKUID": "SelectionBox",
+            "display": "SelectionBox",
             "inputparams": [],
             "parentId": null,
             "callbackType": null,
