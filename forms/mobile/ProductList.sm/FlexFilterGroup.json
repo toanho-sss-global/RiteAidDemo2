@@ -1,16 +1,12 @@
 {
     "DNDConfig": null,
-    "_bottom_": {
-        "type": "string",
-        "value": "0%"
-    },
     "_height_": {
         "type": "string",
         "value": "100%"
     },
     "_left_": {
         "type": "string",
-        "value": "0%"
+        "value": "0dp"
     },
     "_margin_": [
         0,
@@ -26,45 +22,34 @@
         0
     ],
     "_percent_": true,
-    "_right_": {
-        "type": "string",
-        "value": "0%"
-    },
     "_skin_": "sc409f5c89364447a5ddc050b41c3aca",
     "_top_": {
         "type": "string",
-        "value": "0%"
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
         "value": "100%"
     },
     "allboxes": [],
-    "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "flxImg",
-        "lblCost",
-        "lblDescription",
-        "lblCategory",
-        "lblDiscount",
-        "lblCostDiscount",
-        "lblSpanCost"
+        "ListBoxFeature",
+        "ListBoxPage",
+        "listFilter"
     ],
     "clipbounds": false,
-    "containerId": true,
     "containerweight": 100,
-    "defaultunit": 2,
     "enablescrolling": true,
-    "id": "itemContent",
+    "id": "FlexFilterGroup",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "e5ac539d2f1a4003926faa86e031af29",
+    "kuid": "j5f96bb365d14a8983e584a2cc396b04",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "FlxSeg",
-    "pf": "SegTemp",
+    "parent": "Content",
+    "pf": "ProductList",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,

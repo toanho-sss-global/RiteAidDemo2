@@ -91,6 +91,10 @@
                     "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                     "text": "90% Off",
                     "type": "Label"
+                },
+                "lblSpanCost": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "-------"
                 }
             },
             {
@@ -123,6 +127,10 @@
                     "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                     "text": "90% Off",
                     "type": "Label"
+                },
+                "lblSpanCost": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "-------"
                 }
             },
             {
@@ -155,6 +163,10 @@
                     "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                     "text": "90% Off",
                     "type": "Label"
+                },
+                "lblSpanCost": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "-------"
                 }
             },
             {
@@ -187,6 +199,10 @@
                     "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                     "text": "90% Off",
                     "type": "Label"
+                },
+                "lblSpanCost": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "-------"
                 }
             },
             {
@@ -219,6 +235,10 @@
                     "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                     "text": "90% Off",
                     "type": "Label"
+                },
+                "lblSpanCost": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "-------"
                 }
             },
             {
@@ -251,6 +271,10 @@
                     "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                     "text": "90% Off",
                     "type": "Label"
+                },
+                "lblSpanCost": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "-------"
                 }
             }
         ],
@@ -267,7 +291,8 @@
             "lblCost": "lblCost",
             "lblCostDiscount": "lblCostDiscount",
             "lblDescription": "lblDescription",
-            "lblDiscount": "lblDiscount"
+            "lblDiscount": "lblDiscount",
+            "lblSpanCost": "lblSpanCost"
         }
     },
     "name": "kony.ui.SegmentedUI2",

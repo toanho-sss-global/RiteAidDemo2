@@ -57,7 +57,7 @@
         ]
     ],
     "name": "kony.ui.ListBox",
-    "parent": "Content",
+    "parent": "FlexFilterGroup",
     "pf": "ProductList",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
