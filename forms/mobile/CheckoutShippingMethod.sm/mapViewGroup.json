@@ -1,14 +1,12 @@
 {
-    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
     "DNDConfig": null,
-    "_children_": [],
     "_height_": {
         "type": "string",
-        "value": "50dp"
+        "value": "300dp"
     },
     "_left_": {
         "type": "string",
-        "value": "0dp"
+        "value": "20dp"
     },
     "_margin_": [
         0,
@@ -16,7 +14,7 @@
         0,
         0
     ],
-    "_orientation_": 1,
+    "_orientation_": 6,
     "_padding_": [
         0,
         0,
@@ -27,30 +25,38 @@
     "_skin_": "sc409f5c89364447a5ddc050b41c3aca",
     "_top_": {
         "type": "string",
-        "value": "0dp"
+        "value": "20dp"
     },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "90%"
     },
+    "allboxes": [],
+    "autogrowmode": 0,
     "canUpdateUI": true,
-    "containerweight": 0,
-    "data": {
-        "ide_onCartClicked": "AS_UWI_b929dbb3d0594a189a06123c058878de"
+    "centerx": {
+        "type": "string",
+        "value": "50%"
     },
-    "id": "HeaderBar",
+    "children": [],
+    "clipbounds": false,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "mapViewGroup",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "ce3a350607664e4385792443fa6a4f8a",
-    "masterType": 1,
-    "name": "kony.ui.UserWidgetInstance",
-    "parent": "Dashboard",
-    "pf": "Dashboard",
+    "kuid": "e7f19e4fbc5d4afc9a985a64e68b892a",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "MapContainer",
+    "pf": "CheckoutShippingMethod",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
-    "sourceUserWidget": "g0aea1a1f57a4edfb455a04030fc1456",
-    "wType": "UserWidgetInstance",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
     "zindex": 1
 }

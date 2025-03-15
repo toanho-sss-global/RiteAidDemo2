@@ -78,7 +78,13 @@
             "passthrough": []
         },
         "widgets": {
-            "expose": [],
+            "expose": [
+                {
+                    "kuid": "a8e2bc19a1e243b3949d300b72895c19",
+                    "propertyKey": "cartBadgeCount",
+                    "srcWgtKUID": "abcbe1c69caf4bcf8d048d0a9a876056"
+                }
+            ],
             "passthrough": []
         }
     },
