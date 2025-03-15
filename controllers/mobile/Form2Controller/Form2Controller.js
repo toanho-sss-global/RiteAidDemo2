@@ -50,6 +50,8 @@ define({
             skin = "sknCancelled";
         } else if (item.state === "Delivered") {
             skin = "sknDelivered";
+        } else if (item.state === "Shipped") {
+          	skin = "sknShipped";
         } else {
             skin = "sknPaymentSettled";
         }
