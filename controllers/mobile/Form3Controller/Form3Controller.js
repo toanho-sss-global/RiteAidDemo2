@@ -52,9 +52,9 @@ define({
           this.view.OrderIDText.text = `#${orderDetail.id}`;
           this.qrData.orderId = orderDetail.id;
           this.view.OrderDateText.text = formattedDate;
-          this.view.OrderSubtotalText.text = "$" + orderDetail.subTotalWithTax;
-          this.view.OrderShippingText.text = "$" + orderDetail.shippingWithTax;
-          this.view.OrderTotalPrice.text = "$" + orderDetail.totalWithTax;
+          this.view.OrderSubtotalText.text = "$" + (orderDetail.subTotalWithTax / 100).toFixed(2);
+          this.view.OrderShippingText.text = "$" + (orderDetail.shippingWithTax / 100).toFixed(2);
+          this.view.OrderTotalPrice.text = "$" + (orderDetail.totalWithTax / 100).toFixed(2);
           this.qrData.total ="USD" + orderDetail.totalWithTax;
           this.view.DeliveryTypeText.text = orderDetail.customFields.deliveryType ? orderDetail.customFields.deliveryType : "Not Specified";
 
