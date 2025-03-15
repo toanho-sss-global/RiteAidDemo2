@@ -25,16 +25,6 @@
             "disabled": null,
             "source": "controller"
         }, {
-            "id": "INVOKE_FUNCTION__d4703a5f04d349e19590811318890fd4",
-            "type": "INVOKE_FUNCTION",
-            "sequenceKUID": "getOrderSummaryData",
-            "display": "getOrderSummaryData",
-            "inputparams": [],
-            "parentId": null,
-            "callbackType": null,
-            "disabled": null,
-            "source": "controller"
-        }, {
             "id": "INVOKE_FUNCTION__a9de7419a36f4e758c6fba85d03b2a71",
             "type": "INVOKE_FUNCTION",
             "sequenceKUID": "updateRadioButtons",

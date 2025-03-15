@@ -1,6 +1,6 @@
 {
-    "AS_Form_e65583c028c94c1f81be330e3ae684cd": {
-        "id": "AS_Form_e65583c028c94c1f81be330e3ae684cd",
+    "AS_Form_ef7b5e92622a473dbe7f7187a821d902": {
+        "id": "AS_Form_ef7b5e92622a473dbe7f7187a821d902",
         "type": "ACTION_SEQUENCE",
         "params": [{
             "datatype": "collection",
@@ -13,12 +13,12 @@
             "KUID": "a0f2ba1a2db44238ae888c9c0e565544"
         },
         "language": "js",
-        "eventType": "init",
+        "eventType": "preShow",
         "actions": [{
-            "id": "INVOKE_FUNCTION__ed0c7343914246d498a95ed48283312a",
+            "id": "INVOKE_FUNCTION__f2f3922600374d8e93fd03ded1ef75be",
             "type": "INVOKE_FUNCTION",
-            "sequenceKUID": "preinputInfo",
-            "display": "preinputInfo",
+            "sequenceKUID": "getOrderSummaryData",
+            "display": "getOrderSummaryData",
             "inputparams": [],
             "parentId": null,
             "callbackType": null,

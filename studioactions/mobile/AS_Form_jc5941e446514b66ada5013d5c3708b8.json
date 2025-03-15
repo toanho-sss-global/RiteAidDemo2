@@ -1,24 +1,24 @@
 {
-    "AS_Form_e65583c028c94c1f81be330e3ae684cd": {
-        "id": "AS_Form_e65583c028c94c1f81be330e3ae684cd",
+    "AS_Form_jc5941e446514b66ada5013d5c3708b8": {
+        "id": "AS_Form_jc5941e446514b66ada5013d5c3708b8",
         "type": "ACTION_SEQUENCE",
         "params": [{
             "datatype": "collection",
             "name": "eventobject"
         }],
         "contextObj": {
-            "name": "CheckoutAddress",
+            "name": "CheckoutShippingMethod",
             "type": "forms",
             "platform": "",
-            "KUID": "a0f2ba1a2db44238ae888c9c0e565544"
+            "KUID": "b17f76394c484295b64c306ec564fc4f"
         },
         "language": "js",
-        "eventType": "init",
+        "eventType": "preShow",
         "actions": [{
-            "id": "INVOKE_FUNCTION__ed0c7343914246d498a95ed48283312a",
+            "id": "INVOKE_FUNCTION__a4c0c8103f0e4bff84b925eb41fd8d20",
             "type": "INVOKE_FUNCTION",
-            "sequenceKUID": "preinputInfo",
-            "display": "preinputInfo",
+            "sequenceKUID": "getOrderSummaryData",
+            "display": "getOrderSummaryData",
             "inputparams": [],
             "parentId": null,
             "callbackType": null,

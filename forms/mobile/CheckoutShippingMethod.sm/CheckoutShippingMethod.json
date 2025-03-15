@@ -60,6 +60,7 @@
     "id": "CheckoutShippingMethod",
     "ide_init": "AS_Form_h7c18ea9ac3340238acf7b3efc7fdb9e",
     "ide_postShow": "AS_Form_gd8632a162fa4fa28ccf42f542426a3a",
+    "ide_preShow": "AS_Form_jc5941e446514b66ada5013d5c3708b8",
     "info": null,
     "initdone": false,
     "inputaccessoryviewtype": 4,

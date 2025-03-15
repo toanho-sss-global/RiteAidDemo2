@@ -272,6 +272,7 @@ define({
   navigateToCheckout: function () {
    
     voltmx.store.setItem("CartTotalPrice", this.view.EstAmount.text);
+    console.log("XXXXXXXXXXXXXXXXXXXX setTotal price in shopping cart: ", this.view.EstAmount.text)
     var navObj = new voltmx.mvc.Navigation("CheckoutAddress");
     navObj.navigate();
   },
