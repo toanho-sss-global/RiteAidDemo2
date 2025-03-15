@@ -41,9 +41,8 @@
         "ImgBanner",
         "ContentProductEmpty",
         "SearchBox",
-        "ListBoxFeature",
-        "ListBoxPage",
-        "ProductSimple"
+        "ProductSimple",
+        "FlexFilterGroup"
     ],
     "clipbounds": false,
     "containerweight": 100,

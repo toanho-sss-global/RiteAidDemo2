@@ -5,6 +5,10 @@
         "type": "string",
         "value": "100%"
     },
+    "_left_": {
+        "type": "string",
+        "value": "199dp"
+    },
     "_margin_": [
         0,
         0,
@@ -18,42 +22,39 @@
         0
     ],
     "_placeholder_": "Please Select",
-    "_right_": {
-        "type": "string",
-        "value": "5%"
-    },
-    "_skin_": "sa4dbe8686cf4c7d8e3bd076d09722b8",
+    "_skin_": "s8662fb977a14057b07a6d3a6f4a3bb2",
     "_top_": {
         "type": "string",
         "value": "0%"
     },
     "_width_": {
         "type": "string",
-        "value": "27.13%"
+        "value": "17%"
     },
     "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
     "containerweight": 100,
     "contentalignment": 4,
     "dropdownimage": "listboxarw.png",
-    "focusskin": "sf860ccc1a9941dd89871e3010482244",
+    "focusskin": "s40c790d6246414e80c1eceb35faab8c",
     "groupcells": false,
-    "id": "ListBoxPage",
+    "id": "ListFilter",
+    "ide_onSelection": "AS_ListBox_adbeb97df6ea485e99f5ffdd83f80cbd",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "f568d42d142841ae964535149c4a9b14",
+    "kuid": "b599c16ead214ea7be125042cb2e768f",
     "masterdata": [
         [
-            "lbPage1",
-            "16 per page"
+            "1",
+            "All"
         ],
         [
-            "lbPage2",
-            "32 per page"
-        ],
-        [
-            "lbPage3",
-            "64 per page"
+            "2",
+            "50%"
         ]
     ],
     "name": "kony.ui.ListBox",
@@ -61,12 +62,8 @@
     "pf": "ProductList",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
-    "selectedkey": "lbPage1",
     "selectedkeys": null,
-    "selectedkeyvalue": [
-        "lbPage1",
-        "16 per page"
-    ],
+    "selectedkeyvalue": null,
     "selectedkeyvalues": null,
     "size": 18,
     "viewconfig": {
