@@ -133,7 +133,7 @@ define({
       if (httpclient.readyState === 4) {
         if (httpclient.status === 200) {
           var response = JSON.parse(httpclient.response);
-          console.log("Get cart response:", response);
+          console.log("Get cart response1:", response);
           self.handleCartProducts(response.data);
         }
       }
@@ -143,6 +143,8 @@ define({
   handleCartProducts: function (itemCart) {
     var self = this;
     if (!itemCart || !itemCart.activeOrder || !itemCart.activeOrder.lines) {
+      this.CartProductList = [];
+      self.initProductData();
       return;
     }
 
