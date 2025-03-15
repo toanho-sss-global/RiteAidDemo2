@@ -1,6 +1,5 @@
 define({
   validateLogin: function (email, password) {
-
     var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (email === "" || !emailPattern.test(email)) {
       alert("Please enter a valid email!");
@@ -50,9 +49,6 @@ define({
     var email = this.view.txtBoxEmail.text.trim();
     var password = this.view.txtBoxPassword.text.trim();
     var self = this;
-
-//      var email = "danny@cnetric.com";
-//     var password = "12345678";
 
     if (this.validateLogin(email, password)) {
       var httpclient = new voltmx.net.HttpRequest();
