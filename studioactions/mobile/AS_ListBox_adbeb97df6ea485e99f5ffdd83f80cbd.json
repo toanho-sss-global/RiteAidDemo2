@@ -1,0 +1,29 @@
+{
+    "AS_ListBox_adbeb97df6ea485e99f5ffdd83f80cbd": {
+        "id": "AS_ListBox_adbeb97df6ea485e99f5ffdd83f80cbd",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "ProductList",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b79e93a47a8a42038218541a0de1b8ba"
+        },
+        "language": "js",
+        "eventType": "onSelection",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__hb16d4ed420a4cbf9f75922b3147ede3",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "SelectionBox",
+            "display": "SelectionBox",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

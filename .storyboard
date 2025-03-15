@@ -56,6 +56,34 @@
                     "widgetKUID": "f47a84270d4c4075b226d77b3536ccb2"
                 },
                 {
+                    "actionId": "NAVIGATE_TO_FORM__f9b1ae3c24f141d7b7e72dcc909f3fac",
+                    "actionSequenceId": "AS_UWI_b929dbb3d0594a189a06123c058878de",
+                    "beautifiedPath": "Dashboard > HeaderBar > onCartClicked",
+                    "evt": "ide_onCartClicked",
+                    "from": "c2417149800147c59e6f865367cba828",
+                    "isPSP": false,
+                    "points": [
+                        88,
+                        3331.245263671875,
+                        88,
+                        3341.245263671875,
+                        88,
+                        3341.245263671875,
+                        -12,
+                        3341.245263671875,
+                        -12,
+                        6396,
+                        40,
+                        6396,
+                        40,
+                        6590.845263671875,
+                        40,
+                        6624.845263671875
+                    ],
+                    "to": "c6939cf809d44ca982d87fb479d42f13",
+                    "widgetKUID": "ce3a350607664e4385792443fa6a4f8a"
+                },
+                {
                     "actionId": "NAVIGATE_TO_FORM__dc5acd7439504d9f9219a134b50ae772",
                     "actionSequenceId": "AS_Button_jb56cdf5cb7c4a1a9548499e5bef6be6",
                     "beautifiedPath": "Form3 > BackToOrdersBtn > onClick",
@@ -140,8 +168,8 @@
                     "widgetKUID": "ff1e9b89115b4553a256f0b740b5f78a"
                 },
                 {
-                    "actionId": "NAVIGATE_TO_FORM__ie38da06594542dbbc4e3185b61644e2",
-                    "actionSequenceId": "AS_UWI_e584481b40eb475695f1464aa957c8b8",
+                    "actionId": "NAVIGATE_TO_FORM__ide_onCartClicked_f565d822893d46c1b872666b2600d984",
+                    "actionSequenceId": "AS_UWI_j719bfb7e05741ddb5206701f38535c1",
                     "beautifiedPath": "ProductDetails > HeaderBar > onCartClicked",
                     "evt": "ide_onCartClicked",
                     "from": "a3b68c6cbe914e898939d8278fbe1885",
@@ -157,15 +185,15 @@
                         5741.245263671874,
                         188,
                         6396,
-                        88,
+                        104,
                         6396,
-                        88,
-                        6614.845263671875,
-                        88,
+                        104,
+                        6598.845263671875,
+                        104,
                         6624.845263671875
                     ],
                     "to": "c6939cf809d44ca982d87fb479d42f13",
-                    "widgetKUID": "f0c9f8f5730f420e9a5b6a253f3234e1"
+                    "widgetKUID": "ab93b63b285e4db5a09dcb48e82382fa"
                 },
                 {
                     "actionId": "NAVIGATE_TO_FORM__i630706b3da6432d918a6d848c884bee",
@@ -243,7 +271,7 @@
                     "isStartupForm": false,
                     "key": "de3cc7bf1716453593e603a75b0ab250",
                     "loc": "8 3624.845263671875",
-                    "thumbnailURL": "/assets/RiteAidDemo2/forms/mobile/Form1.sm/.thumbs/default.jpeg"
+                    "thumbnailURL": null
                 },
                 {
                     "formKUID": "ac7188e45f71433e9c4da08d8bfaa8f7",
