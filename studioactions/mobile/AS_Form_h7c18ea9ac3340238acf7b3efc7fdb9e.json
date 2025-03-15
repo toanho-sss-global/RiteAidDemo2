@@ -34,6 +34,24 @@
             "callbackType": null,
             "disabled": null,
             "source": "controller"
+        }, {
+            "id": "TIMEOUT_ACTION_cc56f83801004b1c9ac6a472848507f4",
+            "timeout": 500,
+            "type": "TIMEOUT_ACTION",
+            "parentId": null,
+            "callbackType": null,
+            "timerId": "TIMEOUT_ACTION_cc56f83801004b1c9ac6a472848507f4",
+            "repeats": false
+        }, {
+            "id": "INVOKE_FUNCTION__cd0789365cce4a7e8216c6a91fe08a2b",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "GetDataStoreLocation",
+            "display": "GetDataStoreLocation",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
         }]
     }
 }

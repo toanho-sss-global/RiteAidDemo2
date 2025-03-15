@@ -27,8 +27,8 @@
         }, {
             "id": "INVOKE_FUNCTION__b9bb60570fd742a294e1d4b6b1cb1a14",
             "type": "INVOKE_FUNCTION",
-            "sequenceKUID": "checkMehtod",
-            "display": "checkMehtod",
+            "sequenceKUID": "onSelectMethod",
+            "display": "onSelectMethod",
             "inputparams": [],
             "parentId": null,
             "callbackType": null,

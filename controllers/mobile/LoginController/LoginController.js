@@ -1,6 +1,5 @@
 define({
   validateLogin: function (email, password) {
-
     var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (email === "" || !emailPattern.test(email)) {
       alert("Please enter a valid email!");

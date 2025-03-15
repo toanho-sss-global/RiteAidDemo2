@@ -2,11 +2,11 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "457dp"
+        "value": "300dp"
     },
     "_left_": {
         "type": "string",
-        "value": "0dp"
+        "value": "20dp"
     },
     "_margin_": [
         0,
@@ -22,37 +22,34 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s6ac01b773d44b03ab29435ce0c86682",
+    "_skin_": "sc409f5c89364447a5ddc050b41c3aca",
     "_top_": {
         "type": "string",
-        "value": "110dp"
+        "value": "20dp"
     },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "90%"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
-    "children": [
-        "mapViewGroup",
-        "ChooseNearbyShopLabel",
-        "ContinueBtn",
-        "CancelBtn",
-        "NoNearByTextContainer"
-    ],
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "children": [],
     "clipbounds": false,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "MapContainer",
-    "ide_onClick": "AS_FlexContainer_d47ec1aff67a494ebec3c4f4bdbb14fd",
+    "id": "mapViewGroup",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "a0c4fb2e548649568508fd52b9078721",
+    "kuid": "e7f19e4fbc5d4afc9a985a64e68b892a",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "MapPopupDimScreen",
+    "parent": "MapContainer",
     "pf": "CheckoutShippingMethod",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
