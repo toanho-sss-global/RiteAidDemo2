@@ -1,0 +1,23 @@
+{
+    "AS_FlexContainer_ga045ac1ad264d43863d91adfbaad056": {
+        "id": "AS_FlexContainer_ga045ac1ad264d43863d91adfbaad056",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "userwidgetmodel",
+            "type": "userwidgets",
+            "KUID": "u15c3823c3e446b4bf645966e8e23c71"
+        },
+        "language": "js",
+        "eventType": "postShow",
+        "actions": [{
+            "id": "ADD_SNIPPET_ddfd46eeb9a648baa4750e519e158841",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var count = localStorage.getItem(\"count-item-in-cart\")\nthis.view.cartBadgeCount.text = count;",
+            "parentId": null
+        }]
+    }
+}

@@ -1,5 +1,6 @@
 define({
   ProductList: [],
+
   initProductData: function () {
     var updatedProductList = [];
     var self = this;

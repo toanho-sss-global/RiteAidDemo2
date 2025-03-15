@@ -203,7 +203,7 @@
                     "isStartupForm": false,
                     "key": "a0f2ba1a2db44238ae888c9c0e565544",
                     "loc": "188 184.845263671875",
-                    "thumbnailURL": "/assets/RiteAidDemo2/forms/mobile/CheckoutAddress.sm/.thumbs/default.jpeg"
+                    "thumbnailURL": null
                 },
                 {
                     "formKUID": "eae0974787e143e8acb5bb70f9da40ab",
@@ -243,7 +243,7 @@
                     "isStartupForm": false,
                     "key": "de3cc7bf1716453593e603a75b0ab250",
                     "loc": "8 3624.845263671875",
-                    "thumbnailURL": null
+                    "thumbnailURL": "/assets/RiteAidDemo2/forms/mobile/Form1.sm/.thumbs/default.jpeg"
                 },
                 {
                     "formKUID": "ac7188e45f71433e9c4da08d8bfaa8f7",
@@ -252,6 +252,14 @@
                     "key": "ac7188e45f71433e9c4da08d8bfaa8f7",
                     "loc": "368 354.845263671875",
                     "thumbnailURL": "/assets/RiteAidDemo2/forms/mobile/Form2.sm/.thumbs/default.jpeg"
+                },
+                {
+                    "formKUID": "da035ec3b35244319b7ac43d77dd4608",
+                    "formName": "Form3",
+                    "isStartupForm": false,
+                    "key": "da035ec3b35244319b7ac43d77dd4608",
+                    "loc": "538 524.845263671875",
+                    "thumbnailURL": null
                 },
                 {
                     "formKUID": "da035ec3b35244319b7ac43d77dd4608",
@@ -272,10 +280,10 @@
                 {
                     "formKUID": "fe24c9db0b3843b8b65fb7f139c8b005",
                     "formName": "Login",
-                    "isStartupForm": false,
+                    "isStartupForm": true,
                     "key": "fe24c9db0b3843b8b65fb7f139c8b005",
                     "loc": "8 4224.845263671875",
-                    "thumbnailURL": null
+                    "thumbnailURL": "/assets/RiteAidDemo2/forms/mobile/Login.sm/.thumbs/default.jpeg"
                 },
                 {
                     "formKUID": "hc5cc89bbeaa4a1399d909c75b40af06",
