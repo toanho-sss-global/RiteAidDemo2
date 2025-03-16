@@ -175,9 +175,7 @@ define({
     var self = this;
     var segmentData = this.view.CartProductList.ProductList.data;
     var orderLineId = segmentData[index].lblID;
-    console.log('Check UpdateQuantityProduct orderLineId: ', orderLineId);
-    console.log('Check UpdateQuantityProduct quantity: ', quantity);
-    
+
     var httpclient = new voltmx.net.HttpRequest();
     var token = localStorage.getItem("vendure-auth-token");
 
