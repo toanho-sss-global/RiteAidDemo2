@@ -16,7 +16,7 @@
         "actions": [{
             "id": "ADD_SNIPPET_ddfd46eeb9a648baa4750e519e158841",
             "type": "ADD_SNIPPET",
-            "codeSnippet": "var count = localStorage.getItem(\"count-item-in-cart\")\nthis.view.cartBadgeCount.text = count;",
+            "codeSnippet": "var count = localStorage.getItem(\"count-item-in-cart\")\nthis.view.cartBadgeCount.text = count ? count : \"0\";",
             "parentId": null
         }]
     }

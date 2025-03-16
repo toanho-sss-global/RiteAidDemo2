@@ -170,6 +170,41 @@ define({
       console.error("Get Cart Error:", error);
     }
   },
+  
+  UpdateQuantityProduct: function (index, quantity) {
+    var self = this;
+    var segmentData = this.view.CartProductList.ProductList.data;
+    var orderLineId = segmentData[index].lblID;
+
+    var httpclient = new voltmx.net.HttpRequest();
+    var token = localStorage.getItem("vendure-auth-token");
+
+    httpclient.open(constants.HTTP_METHOD_POST, "https://vendure.demo.universalcommerce.io/shop-api");
+    httpclient.setRequestHeader("Content-Type", "application/json");
+    httpclient.setRequestHeader("Authorization", `Bearer ${token}`);
+
+    var jsonStr2 = JSON.stringify({
+      "query": "mutation AdjustOrderLine($orderLineId: ID!, $quantity: Int!) { adjustOrderLine(orderLineId: $orderLineId, quantity: $quantity) { ... on Order { id lines { id linePriceWithTax quantity productVariant { id name priceWithTax assets { preview } product { assets { preview } } currencyCode } } totalWithTax totalQuantity currencyCode } ... on OrderModificationError { errorCode message } ... on OrderLimitError { errorCode message maxItems } ... on NegativeQuantityError { errorCode message } ... on InsufficientStockError { errorCode message quantityAvailable } } }",
+      "variables": {
+        "orderLineId": orderLineId,
+        "quantity": quantity
+      }
+	});
+    
+    httpclient.send(jsonStr2);
+
+    httpclient.onReadyStateChange = function () {
+      if (httpclient.readyState === 4 && httpclient.status === 200) {
+        var response = JSON.parse(httpclient.response);
+        console.log("Update Quantity Success: ", response);
+		
+        if (quantity === 0){
+          	self.GetCart();
+          	self.getCartBadgeCount();
+          }
+      }
+    }
+  },
 
   DeleteProduct: function (index) {
     var self = this;
@@ -207,6 +242,8 @@ define({
     var segmentData = this.view.CartProductList.ProductList.data;
     var newQuantity = parseInt(segmentData[rowIndex].ProductQuantity, 10) + 1;
 
+    this.UpdateQuantityProduct(rowIndex, newQuantity);
+    
     segmentData[rowIndex].ProductQuantity = newQuantity.toString();
     segmentData[rowIndex].lblCost = "$"
       + ((segmentData[rowIndex].unitPrice * newQuantity) / 100).toFixed(2);
@@ -234,7 +271,9 @@ define({
     var segmentData = this.view.CartProductList.ProductList.data;
     var currentQuantity = parseInt(segmentData[rowIndex].ProductQuantity, 10);
 
+    this.UpdateQuantityProduct(rowIndex, currentQuantity - 1);
     if (currentQuantity > 1) {
+      
       var newQuantity = currentQuantity - 1;
       segmentData[rowIndex].ProductQuantity = newQuantity.toString();
       segmentData[rowIndex].lblCost = "$"
@@ -255,7 +294,7 @@ define({
           OrderSummaryProductPrice: item.lblCost
         };
       });
-
+	
       // Store the mapped cart data
       voltmx.store.setItem("CartProductList",
         JSON.stringify(mappedData));
