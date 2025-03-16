@@ -42,6 +42,16 @@
             "callbackType": null,
             "disabled": null,
             "source": "controller"
+        }, {
+            "id": "INVOKE_FUNCTION__befcec27f81447218b1accb35736320a",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "getCartBadgeCount",
+            "display": "getCartBadgeCount",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
         }]
     }
 }

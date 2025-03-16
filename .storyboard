@@ -292,7 +292,7 @@
                 {
                     "formKUID": "fb6e88e7d7c94c68aa13478d43b174b5",
                     "formName": "Home",
-                    "isStartupForm": false,
+                    "isStartupForm": true,
                     "key": "fb6e88e7d7c94c68aa13478d43b174b5",
                     "loc": "8 24.845263671875003",
                     "thumbnailURL": null
@@ -300,10 +300,10 @@
                 {
                     "formKUID": "fe24c9db0b3843b8b65fb7f139c8b005",
                     "formName": "Login",
-                    "isStartupForm": true,
+                    "isStartupForm": false,
                     "key": "fe24c9db0b3843b8b65fb7f139c8b005",
                     "loc": "8 4224.845263671875",
-                    "thumbnailURL": "/assets/RiteAidDemo2/forms/mobile/Login.sm/.thumbs/default.jpeg"
+                    "thumbnailURL": null
                 },
                 {
                     "formKUID": "hc5cc89bbeaa4a1399d909c75b40af06",
