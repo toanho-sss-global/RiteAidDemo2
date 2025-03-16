@@ -24,6 +24,22 @@
             "callbackType": null,
             "disabled": null,
             "source": "controller"
+        }, {
+            "id": "INVOKE_FUNCTION__a00eb5b64b1f4ec9967c88fb434c7bc1",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "GetDataStoreLocation",
+            "display": "GetDataStoreLocation",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }, {
+            "id": "ADD_SNIPPET_da7a2e292d904b3285cb62575b8fc982",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.MapPopupDimScreen.isVisible = false;\nthis.view.ShippingConfirmationDImScreen.isVisible = false;",
+            "parentId": null,
+            "callbackType": null
         }]
     }
 }

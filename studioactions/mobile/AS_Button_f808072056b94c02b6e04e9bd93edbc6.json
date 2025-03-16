@@ -11,7 +11,7 @@
         "actions": [{
             "id": "ADD_SNIPPET_ide_onClick_aef8da81afc14e3d84cc0289ad62e77a",
             "type": "ADD_SNIPPET",
-            "codeSnippet": "this.view.ShippingConfirmationDImScreen.isVisible = false;\nthis.view.MapPopupDimScreen.isVisible = true;"
+            "codeSnippet": "this.hideConfirmationSameLocation();"
         }]
     }
 }

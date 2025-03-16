@@ -40,8 +40,8 @@
     },
     "children": [
         "StoreName",
-        "Disctance",
-        "ViewMapGroupBtn"
+        "Distance",
+        "GroupBtn"
     ],
     "clipbounds": false,
     "containerId": true,
@@ -54,7 +54,7 @@
     "kuid": "d1241c826d6440f48358685bd365b597",
     "layouttype": 4,
     "name": "kony.ui.FlexContainer",
-    "parent": "MapItem",
+    "parent": "ContainGroup",
     "pf": "MapItemTemplate",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

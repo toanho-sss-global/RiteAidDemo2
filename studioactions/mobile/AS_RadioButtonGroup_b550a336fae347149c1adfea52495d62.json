@@ -15,16 +15,6 @@
         "language": "js",
         "eventType": "onSelection",
         "actions": [{
-            "id": "INVOKE_FUNCTION__j042b0de14844897b06c54b3f964ed09",
-            "type": "INVOKE_FUNCTION",
-            "sequenceKUID": "showMap",
-            "display": "showMap",
-            "inputparams": [],
-            "parentId": null,
-            "callbackType": null,
-            "disabled": null,
-            "source": "controller"
-        }, {
             "id": "INVOKE_FUNCTION__b9bb60570fd742a294e1d4b6b1cb1a14",
             "type": "INVOKE_FUNCTION",
             "sequenceKUID": "onSelectMethod",

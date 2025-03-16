@@ -9,9 +9,21 @@
         "language": "js",
         "eventType": "onClick",
         "actions": [{
-            "id": "ADD_SNIPPET_ide_onClick_b28191d77d08476da69a63e6829ae62b",
+            "id": "ADD_SNIPPET_d5126308b7de41089467d55b3b9a590d",
             "type": "ADD_SNIPPET",
-            "codeSnippet": "this.view.ShippingConfirmationDImScreen.isVisible = false;\nthis.view.MapPopupDimScreen.isVisible = true;"
+            "codeSnippet": "this.view.MapPopupDimScreen.isVisible = true;\nthis.view.ShippingConfirmationDImScreen.isVisible = false;",
+            "parentId": null,
+            "callbackType": null
+        }, {
+            "id": "INVOKE_FUNCTION__ac1b232208a14304b8d9201ca69468af",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "generateGoogleMapUI",
+            "display": "generateGoogleMapUI",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
         }]
     }
 }

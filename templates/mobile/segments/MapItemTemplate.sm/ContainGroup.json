@@ -1,14 +1,12 @@
 {
-    "@class": "com.kony.gen.viz.model.component.KVizImage2",
     "DNDConfig": null,
-    "_base64_": null,
     "_height_": {
         "type": "string",
-        "value": "140dp"
+        "value": "150dp"
     },
     "_left_": {
         "type": "string",
-        "value": "2%"
+        "value": "0dp"
     },
     "_margin_": [
         0,
@@ -16,42 +14,48 @@
         0,
         0
     ],
+    "_orientation_": 6,
     "_padding_": [
         0,
         0,
         0,
         0
     ],
-    "_skin_": "se7c23e3ff1a47c4a81fcf01c33ce421",
-    "_src_": "imagedrag.png",
+    "_percent_": true,
+    "_skin_": "sc409f5c89364447a5ddc050b41c3aca",
     "_top_": {
         "type": "string",
         "value": "0dp"
     },
     "_width_": {
         "type": "string",
-        "value": "48%"
+        "value": "100%"
     },
+    "allboxes": [],
+    "autogrowmode": 0,
     "canUpdateUI": true,
-    "centery": {
-        "type": "string",
-        "value": "50%"
-    },
+    "children": [
+        "MapUrl",
+        "InfoGroup"
+    ],
+    "clipbounds": false,
     "containerId": true,
     "containerweight": 100,
-    "id": "MapUrl",
-    "imagescalemode": 0,
+    "enablescrolling": true,
+    "id": "ContainGroup",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "a63c11aef5df4b2fb5b1268d0cba324e",
-    "name": "kony.ui.Image2",
-    "parent": "ContainGroup",
+    "kuid": "bdc9890517904e7f87e558830fe423d7",
+    "layouttype": 3,
+    "name": "kony.ui.FlexContainer",
+    "parent": "MapItem",
     "pf": "MapItemTemplate",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
-    "srcType": 1,
-    "wType": "Image",
-    "widgetalignment": 5,
-    "zindex": 1
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1
 }

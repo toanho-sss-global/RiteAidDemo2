@@ -21,7 +21,7 @@
         0,
         0
     ],
-    "_skin_": "sa1a792189fc41cf91cd3f716fd1349b",
+    "_skin_": "s51cbb9432f54f549e62e9cbdbfa693b",
     "_text_": "Continue",
     "_top_": {
         "type": "string",
@@ -38,8 +38,10 @@
     },
     "containerweight": 100,
     "contentalignment": 5,
+    "disabledSkins": {
+        "focusSkin": "s0cb3935f71f4e6b89e0a314561f183d"
+    },
     "displaytext": true,
-    "focusskin": "s0cb3935f71f4e6b89e0a314561f183d",
     "id": "ContinueBtn",
     "info": null,
     "iscustomlayout": false,

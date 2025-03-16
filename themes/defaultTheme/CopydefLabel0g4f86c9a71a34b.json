@@ -21,7 +21,7 @@
     "isForked": false
   },
   "fontSizeInPx": false,
-  "font_color": "203cf5ff",
+  "font_color": "2bba34ff",
   "font_name": "iphoneSystem",
   "font_size": 120,
   "font_style": "normal",
@@ -32,7 +32,7 @@
     "isForked": false
   },
   "iphone": {
-    "font_name": "Arial Bold",
+    "font_name": "System",
     "font_size": 120,
     "isForked": false
   },
@@ -42,7 +42,7 @@
     "font_size": 120,
     "isForked": false
   },
-  "kuid": "sec02920e0574b9990db67ea4996b5b2",
+  "kuid": "se7b99a770624703814e6b9a3bb13455",
   "nativemac": {
     "font_name": "Helvetica",
     "font_size": 120,

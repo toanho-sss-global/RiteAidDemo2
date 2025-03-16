@@ -1,13 +1,13 @@
 {
     "@class": "com.kony.gen.viz.model.component.KVizLabel",
     "DNDConfig": null,
-    "_height_": {
+    "_bottom_": {
         "type": "string",
-        "value": "30%"
+        "value": "5dp"
     },
-    "_left_": {
-        "type": "string",
-        "value": "0dp"
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
     },
     "_margin_": [
         1,
@@ -21,15 +21,15 @@
         0,
         0
     ],
-    "_skin_": "sec02920e0574b9990db67ea4996b5b2",
-    "_text_": "Store Name",
-    "_top_": {
+    "_right_": {
         "type": "string",
-        "value": "0dp"
+        "value": "10dp"
     },
+    "_skin_": "se7b99a770624703814e6b9a3bb13455",
+    "_text_": "Selected",
     "_width_": {
-        "type": "string",
-        "value": "100%"
+        "type": "ref",
+        "value": "preferred"
     },
     "_wrapping_": 2,
     "android": {
@@ -41,8 +41,8 @@
     "canUpdateUI": true,
     "containerId": true,
     "containerweight": 100,
-    "contentalignment": 5,
-    "id": "StoreName",
+    "contentalignment": 6,
+    "id": "isSelected",
     "info": null,
     "ipad": {
         "psp": {
@@ -56,10 +56,10 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "h7a27fc6bb2243a9b1821bf632c62797",
-    "maxnumberoflines": 2,
+    "kuid": "f81f3a965ce047bfb84b369fc8f35bed",
+    "maxnumberoflines": 1,
     "name": "kony.ui.Label",
-    "parent": "InfoGroup",
+    "parent": "onSelectLayer",
     "pf": "MapItemTemplate",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

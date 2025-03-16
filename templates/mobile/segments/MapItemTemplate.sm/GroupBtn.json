@@ -2,7 +2,7 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "40%"
+        "value": "50dp"
     },
     "_left_": {
         "type": "string",
@@ -22,44 +22,44 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s20f1da6287142ebbcf511f796671eae",
+    "_skin_": "s919ef6918824a7e928d64fc0aca0e8e",
     "_top_": {
-        "type": "string",
-        "value": "5dp"
+        "type": "number",
+        "value": "10"
     },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "80%"
     },
     "allboxes": [],
-    "android": {
-        "height": {
-            "type": "string",
-            "value": "45dp"
-        }
-    },
+    "autogrowmode": 0,
     "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
     "children": [
-        "ButtonRound",
-        "MapMarker"
+        "markerImg",
+        "ViewBtnLabel"
     ],
-    "clipbounds": true,
+    "clipbounds": false,
     "containerId": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "ViewMapGroupBtn",
+    "id": "GroupBtn",
     "info": null,
+    "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "e883424b7f9e4159a1f18a10a01efa38",
-    "layouttype": 2,
-    "masterType": 1,
+    "kuid": "bc8b922e41fe4abe8c8e40bbc1631fb6",
+    "layouttype": 3,
     "name": "kony.ui.FlexContainer",
     "parent": "InfoGroup",
     "pf": "MapItemTemplate",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "spa": {},
     "wType": "FlexContainer",
-    "widgetalignment": 1,
-    "zindex": 1
+    "widgetalignment": 1
 }

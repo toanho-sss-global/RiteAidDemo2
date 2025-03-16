@@ -2,18 +2,18 @@
     "@class": "com.kony.gen.viz.model.component.KVizLabel",
     "DNDConfig": null,
     "_height_": {
-        "type": "ref",
-        "value": "preferred"
+        "type": "string",
+        "value": "20%"
     },
     "_left_": {
         "type": "string",
-        "value": "11%"
+        "value": "0dp"
     },
     "_margin_": [
-        0,
-        0,
-        0,
-        0
+        1,
+        1,
+        1,
+        1
     ],
     "_padding_": [
         0,
@@ -21,11 +21,15 @@
         0,
         0
     ],
-    "_skin_": "s7633b527cf84935836d61de3bb376e5",
-    "_text_": "",
+    "_skin_": "s013982ca81b4471b0f0e393f9e32b33",
+    "_text_": "Distance:",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
     "_width_": {
-        "type": "ref",
-        "value": "preferred"
+        "type": "string",
+        "value": "100%"
     },
     "_wrapping_": 2,
     "android": {
@@ -35,14 +39,10 @@
         }
     },
     "canUpdateUI": true,
-    "centery": {
-        "type": "string",
-        "value": "50%"
-    },
     "containerId": true,
     "containerweight": 100,
-    "contentalignment": 4,
-    "id": "MapMarker",
+    "contentalignment": 5,
+    "id": "Distance",
     "info": null,
     "ipad": {
         "psp": {
@@ -54,12 +54,15 @@
             "wrapping": 2
         }
     },
+    "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "d764be1fc96b4116877699434a151bba",
-    "masterType": 1,
+    "kuid": "h13acdf83a2443f39ad58fa994007932",
     "name": "kony.ui.Label",
-    "parent": "ViewMapGroupBtn",
+    "paddinginpixel": false,
+    "parent": "InfoGroup",
     "pf": "MapItemTemplate",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
     "textstyle": {},
     "tooltip": "",
     "wType": "Label",

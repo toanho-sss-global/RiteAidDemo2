@@ -1,5 +1,7 @@
 define({ 
   storeLocation    : [],
+  selectedLocation : null,
+  selectedIndex    : -1,
   updateProgressBar: function () {
     this.view.ProgressBar.ProgressBarLeft2.skin = "CopyslFbox0ab370b90781448";
     this.view.ProgressBar.ProgressBarCircle2.skin = "CopyslFbox0b75af0da92e140"; 
@@ -51,7 +53,7 @@ define({
     var jsonStr2 = JSON.stringify({
       "query": "mutation SetOrderShippingMethod($shippingMethodIds: [ID!]!) { setOrderShippingMethod(shippingMethodId: $shippingMethodIds) { ... on Order { id createdAt updatedAt type orderPlacedAt code state active totalQuantity subTotal subTotalWithTax currencyCode shipping shippingWithTax total totalWithTax } ... on OrderModificationError { errorCode message } ... on IneligibleShippingMethodError { errorCode message } ... on NoActiveOrderError { errorCode message } } }",
       "variables": {
-        "shippingMethodIds": ShippingOptions
+        "shippingMethodIds": 4,
       }
     });
     httpclient.send(jsonStr2);
@@ -61,12 +63,14 @@ define({
         var response = JSON.parse(httpclient.response);
         var itemData = response.data;
         if(itemData) {
-            voltmx.store.setItem("CartTotalPrice", (itemData.setOrderShippingMethod.totalWithTax /100).toFixed(2)); 
+          this.hideMap();
+          this.hideConfirmationSameLocation();
+          voltmx.store.setItem("CartTotalPrice", (itemData.setOrderShippingMethod.totalWithTax /100).toFixed(2)); 
           var nav = new voltmx.mvc.Navigation("CheckoutPaymentMethod");
           nav.navigate();
         }
       }
-    }
+    }.bind(this);
   },
   GetDataStoreLocation: function() {
     this.ApiLoginAdmin();
@@ -125,6 +129,8 @@ define({
                     featuredAsset: item.featuredAsset.preview,
                     locations     : channels.map(channel => {
                       return {
+                        sellerId     : channel.seller.id,
+                        sellerName   : channel.seller.name,
                         googleMapLink: channel.seller.customFields.googleMapLink,
                         latitude     : channel.seller.customFields.latitude,
                         longitude    : channel.seller.customFields.longitude,
@@ -139,21 +145,30 @@ define({
       }
     }.bind(this);
   },
+  hideConfirmationSameLocation: function() {
+    this.view.ShippingConfirmationDImScreen.isVisible = false;
+  },
+  showConfirmationSameLocation: function() {
+    this.view.ShippingConfirmationDImScreen.isVisible = true;
+  },
 
   onSelectMethod: function() {
     var ShippingOptions =
         this.view.ShippingModeContainer.ShippingOptions.selectedKey;
-    if (ShippingOptions === 4) {
-      this.ApiShipingMethod();
-    } else {
+    console.log('ShippingOtions: ', ShippingOptions);
+    if (ShippingOptions === "2") {
+      this.view.MapPopupDimScreen.isVisible = true;
       this.generateGoogleMapUI();
+    } else if (ShippingOptions === "1") {
+      this.showConfirmationSameLocation();
+      
     }
   },
-
   generateGoogleMapUI: function() {
+    var self = this;
     //The below function is the callback function for onPinClick event.
     function onPinClickCallBck(map) {
-      alert("onPinClick event triggered");
+      console.log("onPinClick event triggered");
     }
 
     //Defining the map properties
@@ -183,17 +198,36 @@ define({
     var map = new voltmx.ui.Map(mapBasicConf, mapLayoutConf, mapPSPConf);
     // Adding Location map to the view
     var location = [];
+    const myLocation = {
+      lat     : 10.800883,
+      lon  	  : 106.650431,
+      name    : 'My Location',
+      desc    : '',
+      distance: null,
+      image   : 'map_pin_red.png'
+    };
     for (let index = 0; index < this.storeLocation.length; index++) {
       const item = this.storeLocation[index];
       for (let j = 0; j < item.locations.length; j++) {
         const locationItem = item.locations[j];
-        location.push({
-          lat  : locationItem.latitude,
-          lon  : locationItem.longitude,
-          name : item.name,
-          desc : item.id,
-          image: 'map_pin_blue.png'
-        });
+        var distance = this.getDistance({
+          lat: locationItem.latitude,
+          lon: locationItem.longitude,
+        }, myLocation);
+        // Add Item to Locaiton Array
+        let isExisted =
+            location.filter(e => e.desc === locationItem.sellerId).length > 0;
+        if (!isExisted) {
+          location.push({
+            lat  : locationItem.latitude,
+            lon  : locationItem.longitude,
+            distance,
+            url  : locationItem.googleMapLink,
+            name : locationItem.sellerName,
+            desc : locationItem.sellerId,
+            image: 'map_pin_blue.png'
+          });
+        }
       }
     }
     voltmx.location.getCurrentPosition(function (position) {
@@ -205,21 +239,44 @@ define({
       enableHighAccuracy: true, 
       timeout: 5000,
     });
-    location.push({
-        lat  : 10.800883,
-        lon  : 106.650431,
-        name : 'My Location',
-        desc : '',
-        image: 'map_pin_red.png'
-      });
-    map.locationData = location;
-    this.view.mapViewGroup.add(map);
     if(location.length > 0) {
-      var storeData = location.map(element => ({
-        MapUrl   : element.image,
-        StoreName: element.name
+      // Set Data to Segment
+      var storeData = location.map(e => ({
+        MapUrl      : `https://static-maps.yandex.ru/1.x/?lang=en-US&ll=${e.lon},${e.lat}&z=8&l=map&size=400,200&pt=${e.lon},${e.lat},pm2rdl`,
+        StoreName   : e.name,
+        Distance    : 'Distance: ' + e.distance,
+        ViewBtnLabel: 'View on Google Maps',
+        markerImg   : 'map_pin_white.png',
+        url         : e.url,
+        GroupBtn    : {
+          onClick: function () {
+            voltmx.application.openURL(e.url);
+          },
+        },
+        onSelectLayer: {
+          isVisible: false,
+          onClick  : function () {
+            var segmentData = self.view.MapStoreLocation.data;
+            var rowIndex = self.view.MapStoreLocation.selectedRowIndex[1];
+            segmentData[rowIndex].onSelectLayer.isVisible 
+              = !segmentData[rowIndex].onSelectLayer.isVisible;
+            segmentData[rowIndex].onSelectLayer.isSelected = "";
+            self.view.MapStoreLocation.setData(segmentData);
+            self.selectedLocation = null;
+            self.selectedIndex = -1;
+            self.onTriggerContinueAction();
+          },
+        },
+        isSelected: 'Selected',
       }));
       this.view.MapStoreLocation.setData(storeData);
+      this.view.MapStoreLocation.onRowDisplay = this.onRowDisplayHandler;
+      console.log("Store Data: ", storeData);
+      // Set Data to Map
+      location.push(myLocation);
+      map.locationData = location;
+      this.view.mapViewGroup.add(map);
+      // Trigger Show UI
       this.view.StoreMapListGroup.isVisible = true;
       this.view.NoNearByTextContainer = false;
     } else {
@@ -227,7 +284,63 @@ define({
       this.view.StoreMapListGroup.isVisible = false;
     }
   },
+  onRowClicked: function() {
+    var segmentData = this.view.MapStoreLocation.data;
+    var rowIndex = this.view.MapStoreLocation.selectedRowIndex[1];
+    if(this.selectedLocation) {
+      // Clear Current Selection
+      segmentData[this.selectedIndex].onSelectLayer.isVisible = false;
+      segmentData[this.selectedIndex].onSelectLayer.isSelected = "";
+    }
+    segmentData[rowIndex].onSelectLayer.isVisible 
+      = !segmentData[rowIndex].onSelectLayer.isVisible;
+    segmentData[rowIndex].onSelectLayer.isSelected = "Selected";
 
+    this.view.MapStoreLocation.setData(segmentData);
+    this.selectedLocation = segmentData[rowIndex];
+    this.selectedIndex = rowIndex;
+    
+    this.onTriggerContinueAction();
+  },
+  getDistance: function (srcLocation, targetLocation) {
+    const lat1 = srcLocation.lat;
+    const lon1 = srcLocation.lon;
+    const lat2 = targetLocation.lat;
+    const lon2 = targetLocation.lon;
+    function toRad(value) {
+        return value * Math.PI / 180;
+    }
 
-
+    var R = 6371; // Radius of Earth in km
+    var dLat = toRad(lat2 - lat1);
+    var dLon = toRad(lon2 - lon1);
+    var a = 
+        Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+        Math.cos(toRad(lat1)) * Math.cos(toRad(lat2)) * 
+        Math.sin(dLon / 2) * Math.sin(dLon / 2);
+    var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+    var distance = R * c;
+	if(distance < 0.1) {
+      return (distance * 1000).toFixed(0) + 'm';
+    }
+    return distance.toFixed(1) + 'km'; // in km
+  },
+  onTriggerContinueAction: function() {
+    var self = this;
+    if(this.selectedLocation) {
+      console.log("ACTIVE BUTTON");
+      self.view.ContinueBtn.skin = "actionContBtnActive";
+      self.view.ContinueBtn.onClick = function() {
+        this.ApiShipingMethod();
+      }.bind(this);
+      self.view.forceLayout();
+    } else {
+      console.log("DEACTIVE BUTTON");
+      self.view.ContinueBtn.skin = "actionContBtnDeactive"; 
+      self.view.ContinueBtn.onClick = function() {
+        console.log("Disabled Action");
+      }
+      self.view.forceLayout();
+    }
+  },
 });

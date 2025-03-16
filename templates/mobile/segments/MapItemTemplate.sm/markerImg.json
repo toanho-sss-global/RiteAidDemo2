@@ -4,11 +4,11 @@
     "_base64_": null,
     "_height_": {
         "type": "string",
-        "value": "140dp"
+        "value": "20dp"
     },
     "_left_": {
         "type": "string",
-        "value": "2%"
+        "value": "5%"
     },
     "_margin_": [
         0,
@@ -23,14 +23,14 @@
         0
     ],
     "_skin_": "se7c23e3ff1a47c4a81fcf01c33ce421",
-    "_src_": "imagedrag.png",
+    "_src_": "map_pin_white.png",
     "_top_": {
         "type": "string",
-        "value": "0dp"
+        "value": "6dp"
     },
     "_width_": {
         "type": "string",
-        "value": "48%"
+        "value": "20dp"
     },
     "canUpdateUI": true,
     "centery": {
@@ -39,14 +39,15 @@
     },
     "containerId": true,
     "containerweight": 100,
-    "id": "MapUrl",
-    "imagescalemode": 0,
+    "id": "markerImg",
+    "imagescalemode": 1,
     "info": null,
+    "invokedProperty": "src",
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "a63c11aef5df4b2fb5b1268d0cba324e",
+    "kuid": "f36d32be24be4ae3ab6ca86d795a1839",
     "name": "kony.ui.Image2",
-    "parent": "ContainGroup",
+    "parent": "GroupBtn",
     "pf": "MapItemTemplate",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

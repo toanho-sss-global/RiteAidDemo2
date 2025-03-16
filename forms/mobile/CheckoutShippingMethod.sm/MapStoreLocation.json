@@ -3,17 +3,9 @@
     "DNDConfig": null,
     "_data_": [
         {
-            "ButtonRound": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "View on Google Maps"
-            },
-            "Disctance": {
+            "Distance": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "Distance:"
-            },
-            "MapMarker": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": ""
             },
             "MapUrl": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
@@ -22,20 +14,20 @@
             "StoreName": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "Store Name"
+            },
+            "ViewBtnLabel": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "markerImg": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
             }
         },
         {
-            "ButtonRound": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "View on Google Maps"
-            },
-            "Disctance": {
+            "Distance": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "Distance:"
-            },
-            "MapMarker": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": ""
             },
             "MapUrl": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
@@ -44,20 +36,20 @@
             "StoreName": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "Store Name"
+            },
+            "ViewBtnLabel": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "markerImg": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
             }
         },
         {
-            "ButtonRound": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "View on Google Maps"
-            },
-            "Disctance": {
+            "Distance": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "Distance:"
-            },
-            "MapMarker": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": ""
             },
             "MapUrl": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
@@ -66,20 +58,20 @@
             "StoreName": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "Store Name"
+            },
+            "ViewBtnLabel": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "markerImg": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
             }
         },
         {
-            "ButtonRound": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "View on Google Maps"
-            },
-            "Disctance": {
+            "Distance": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "Distance:"
-            },
-            "MapMarker": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": ""
             },
             "MapUrl": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
@@ -88,20 +80,20 @@
             "StoreName": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "Store Name"
+            },
+            "ViewBtnLabel": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "markerImg": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
             }
         },
         {
-            "ButtonRound": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "View on Google Maps"
-            },
-            "Disctance": {
+            "Distance": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "Distance:"
-            },
-            "MapMarker": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": ""
             },
             "MapUrl": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
@@ -110,20 +102,20 @@
             "StoreName": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "Store Name"
+            },
+            "ViewBtnLabel": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "markerImg": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
             }
         },
         {
-            "ButtonRound": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "View on Google Maps"
-            },
-            "Disctance": {
+            "Distance": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "Distance:"
-            },
-            "MapMarker": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": ""
             },
             "MapUrl": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
@@ -132,20 +124,20 @@
             "StoreName": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "Store Name"
+            },
+            "ViewBtnLabel": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "markerImg": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
             }
         },
         {
-            "ButtonRound": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "View on Google Maps"
-            },
-            "Disctance": {
+            "Distance": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "Distance:"
-            },
-            "MapMarker": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": ""
             },
             "MapUrl": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
@@ -154,20 +146,20 @@
             "StoreName": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "Store Name"
+            },
+            "ViewBtnLabel": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "markerImg": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
             }
         },
         {
-            "ButtonRound": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "View on Google Maps"
-            },
-            "Disctance": {
+            "Distance": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "Distance:"
-            },
-            "MapMarker": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": ""
             },
             "MapUrl": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
@@ -176,20 +168,20 @@
             "StoreName": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "Store Name"
+            },
+            "ViewBtnLabel": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "markerImg": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
             }
         },
         {
-            "ButtonRound": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "View on Google Maps"
-            },
-            "Disctance": {
+            "Distance": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "Distance:"
-            },
-            "MapMarker": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": ""
             },
             "MapUrl": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
@@ -198,20 +190,20 @@
             "StoreName": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "Store Name"
+            },
+            "ViewBtnLabel": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "markerImg": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
             }
         },
         {
-            "ButtonRound": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "View on Google Maps"
-            },
-            "Disctance": {
+            "Distance": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "Distance:"
-            },
-            "MapMarker": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": ""
             },
             "MapUrl": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
@@ -220,6 +212,14 @@
             "StoreName": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "Store Name"
+            },
+            "ViewBtnLabel": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "markerImg": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
             }
         }
     ],
@@ -265,7 +265,9 @@
     "focuseditem": null,
     "groupcells": false,
     "hasSections": false,
+    "hiddencolumns": {},
     "id": "MapStoreLocation",
+    "ide_onRowClick": "AS_Segment_efa6b076b3984df09c4e2c6e0716abb6",
     "info": null,
     "ipad": {
         "psp": {
@@ -317,14 +319,17 @@
     "wType": "Segment",
     "widgetalignment": 5,
     "widgetdatamap": {
-        "ButtonRound": "ButtonRound",
-        "Disctance": "Disctance",
+        "ContainGroup": "ContainGroup",
+        "Distance": "Distance",
+        "GroupBtn": "GroupBtn",
         "InfoGroup": "InfoGroup",
         "MapItem": "MapItem",
-        "MapMarker": "MapMarker",
         "MapUrl": "MapUrl",
         "StoreName": "StoreName",
-        "ViewMapGroupBtn": "ViewMapGroupBtn"
+        "ViewBtnLabel": "ViewBtnLabel",
+        "isSelected": "isSelected",
+        "markerImg": "markerImg",
+        "onSelectLayer": "onSelectLayer"
     },
     "zindex": 1
 }
