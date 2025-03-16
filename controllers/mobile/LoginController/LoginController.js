@@ -38,9 +38,9 @@ define({
           }
 
           localStorage.setItem("count-item-in-cart", countItem);
+          voltmx.store.setItem("cartCount", countItem);
           var nav = new voltmx.mvc.Navigation("Home");
           nav.navigate();
-          console.log("Check count item in store: ", localStorage.getItem("count-item-in-cart"));
         }
     }
   },

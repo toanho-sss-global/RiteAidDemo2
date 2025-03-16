@@ -48,6 +48,8 @@ define({
         	countItem = response.data.activeOrder.lines.length;
           }
           localStorage.setItem("count-item-in-cart", countItem);
+          voltmx.store.setItem("cartCount", countItem);
+          console.log("Kiểm tra cartCount ShoppingCart: ", voltmx.store.getItem("cartCount"));
         }
     }
   },
@@ -96,6 +98,7 @@ define({
       modifiedData.push(newItem);
     }
 
+    
     this.view.CartProductList.ProductList.setData(modifiedData);
     this.view.ProductListCarousel.ProductCarousel
       .setData(this.CartCarouselProductList);

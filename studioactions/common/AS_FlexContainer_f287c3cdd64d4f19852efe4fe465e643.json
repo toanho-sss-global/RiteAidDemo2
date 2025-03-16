@@ -1,0 +1,51 @@
+{
+    "AS_FlexContainer_f287c3cdd64d4f19852efe4fe465e643": {
+        "id": "AS_FlexContainer_f287c3cdd64d4f19852efe4fe465e643",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "userwidgetmodel",
+            "type": "userwidgets",
+            "KUID": "u15c3823c3e446b4bf645966e8e23c71"
+        },
+        "language": "js",
+        "eventType": "preShow",
+        "actions": [{
+            "id": "ADD_MAPPING_aba3875c6d7041cfa36d890a4d3ff3f8",
+            "type": "ADD_MAPPING",
+            "mappings": {
+                "ME_Mapping_i305e69840e04b5285967f3d0b725c52": {
+                    "channel": "common",
+                    "id": "ME_Mapping_i305e69840e04b5285967f3d0b725c52",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Variables",
+                        "propertyName": "cartCount",
+                        "dataType": "string",
+                        "forkedPlatform": "all"
+                    },
+                    "target": {
+                        "type": "Components",
+                        "propertyName": "text",
+                        "widgetId": "cartBadgeCount",
+                        "widgetPath": "this.view.cartBadgeCount",
+                        "widgetType": "Label",
+                        "dataType": "string",
+                        "itemId": "userwidgetmodel",
+                        "widgetKUID": "abcbe1c69caf4bcf8d048d0a9a876056",
+                        "itemKUID": "u15c3823c3e446b4bf645966e8e23c71",
+                        "forkedPlatform": "all"
+                    }
+                }
+            },
+            "mappingsOrder": ["ME_Mapping_i305e69840e04b5285967f3d0b725c52"],
+            "parentId": null,
+            "enableMappingEditor": true
+        }]
+    }
+}

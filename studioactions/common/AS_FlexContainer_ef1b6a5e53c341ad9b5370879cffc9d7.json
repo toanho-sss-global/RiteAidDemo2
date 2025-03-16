@@ -1,6 +1,6 @@
 {
-    "AS_FlexContainer_ga045ac1ad264d43863d91adfbaad056": {
-        "id": "AS_FlexContainer_ga045ac1ad264d43863d91adfbaad056",
+    "AS_FlexContainer_ef1b6a5e53c341ad9b5370879cffc9d7": {
+        "id": "AS_FlexContainer_ef1b6a5e53c341ad9b5370879cffc9d7",
         "type": "ACTION_SEQUENCE",
         "params": [{
             "datatype": "collection",
@@ -12,11 +12,11 @@
             "KUID": "u15c3823c3e446b4bf645966e8e23c71"
         },
         "language": "js",
-        "eventType": "postShow",
+        "eventType": "preShow",
         "actions": [{
-            "id": "ADD_SNIPPET_ddfd46eeb9a648baa4750e519e158841",
+            "id": "ADD_SNIPPET_a54704626b234ede843a3b2f06500798",
             "type": "ADD_SNIPPET",
-            "codeSnippet": "",
+            "codeSnippet": "var count = localStorage.getItem(\"count-item-in-cart\")\nvoltmx.store.setItem(\"cartCount\", count);\nthis.view.cartBadgeCount.text = count ? count : \"0\";",
             "parentId": null
         }]
     }

@@ -80,9 +80,19 @@
         "widgets": {
             "expose": [
                 {
-                    "kuid": "a8e2bc19a1e243b3949d300b72895c19",
+                    "kuid": "c3b0662ca06f484a8a327abe7fe593cd",
                     "propertyKey": "cartBadgeCount",
                     "srcWgtKUID": "abcbe1c69caf4bcf8d048d0a9a876056"
+                },
+                {
+                    "kuid": "b03ed89046b64141908aa03c9dde70e9",
+                    "propertyKey": "cartHeaderGroup",
+                    "srcWgtKUID": "b0b43c8f71f0486b9f6dd9d269ebc041"
+                },
+                {
+                    "kuid": "c96b680546214364bfa82f9ebdd29b30",
+                    "propertyKey": "rightHeaderGroup",
+                    "srcWgtKUID": "c2a43c3f807f42f0821028052e1bb1d9"
                 }
             ],
             "passthrough": []
