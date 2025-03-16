@@ -89,7 +89,7 @@ define({
       var price = firstVariant.priceWithTax ? (firstVariant.priceWithTax / 100).toFixed(2) : "0";
       var Cost = parseFloat(price);
       var number = parseInt(DiscountItem[0]) || 100;
-      var CostDiscount = Cost * (number / 100);
+      var CostDiscount = Cost - (Cost * (number / 100));
 
 
       return {
@@ -100,7 +100,7 @@ define({
         lblDiscount: DiscountItem[0],
         lblCostDiscount: (number > 0 && number < 100) ? `$${CostDiscount.toFixed(2)}` : "",
         img: item.featuredAsset.preview ? item.featuredAsset.preview : "default.png",
-        lblSpanCost: (number > 0 && number < 100) ? "------------------" : "",
+        lblSpanCost: (number > 0 && number < 100) ? "------------" : "",
 
       };
     });
