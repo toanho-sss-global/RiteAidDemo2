@@ -40,16 +40,6 @@
             "callbackType": null,
             "disabled": null,
             "source": "controller"
-        }, {
-            "id": "INVOKE_FUNCTION__aa715ca9e0774f3b942739d290679051",
-            "type": "INVOKE_FUNCTION",
-            "sequenceKUID": "refeshHeader",
-            "display": "refeshHeader",
-            "inputparams": [],
-            "parentId": null,
-            "callbackType": null,
-            "disabled": null,
-            "source": "controller"
         }]
     }
 }
