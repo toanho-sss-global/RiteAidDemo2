@@ -35,9 +35,7 @@
     },
     "canUpdateUI": true,
     "containerweight": 0,
-    "data": {
-        "ide_onCartClicked": "AS_UWI_j719bfb7e05741ddb5206701f38535c1"
-    },
+    "data": {},
     "id": "HeaderBar",
     "info": null,
     "iscustomlayout": false,
@@ -52,5 +50,5 @@
     "retainflowhorizontalalignment": false,
     "sourceUserWidget": "g0aea1a1f57a4edfb455a04030fc1456",
     "wType": "UserWidgetInstance",
-    "zindex": 1
+    "zindex": 99
 }

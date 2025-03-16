@@ -19,7 +19,7 @@
             "type": "NAVIGATE_TO_FORM",
             "formId": "Home",
             "formKUID": "fb6e88e7d7c94c68aa13478d43b174b5",
-            "projectName": "RiteAidDemo2",
+            "projectName": "SampleDemoRiteAid",
             "mappings": {
                 "ME_Mapping_h014ae1c90754af58f4adc9bf09a5564": {
                     "channel": "mobile",

@@ -42,7 +42,8 @@
         "CheckoutAndPromoteContainer",
         "RecommendedLabel",
         "ProductListCarousel",
-        "CartProductList"
+        "CartProductList",
+        "HeaderBar"
     ],
     "containerweight": 100,
     "controllerInfo": {

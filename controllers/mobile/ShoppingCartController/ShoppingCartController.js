@@ -302,6 +302,10 @@ define({
   },
 
   calculateTotal: function (itemCart) {
+    if (!itemCart) {
+      console.error('ItemCart null', itemCart);
+      return;
+    }
 	this.view.PriceLabel.text ="$" + (itemCart.subTotalWithTax / 100).toFixed(2);
     this.view.EstAmount.text = "$" + (itemCart.totalWithTax /100).toFixed(2);
     this.view.SubtotalLabel.text = `SubTotal (${itemCart.totalQuantity} items)`;

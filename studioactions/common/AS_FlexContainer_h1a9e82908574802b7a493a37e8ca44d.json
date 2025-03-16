@@ -1,0 +1,28 @@
+{
+    "AS_FlexContainer_h1a9e82908574802b7a493a37e8ca44d": {
+        "id": "AS_FlexContainer_h1a9e82908574802b7a493a37e8ca44d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "userwidgetmodel",
+            "type": "userwidgets",
+            "KUID": "u15c3823c3e446b4bf645966e8e23c71"
+        },
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ba0ead4bc608463cb97fc89c223e4b61",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "openCart",
+            "display": "openCart",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

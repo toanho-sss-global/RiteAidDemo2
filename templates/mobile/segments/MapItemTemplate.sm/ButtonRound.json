@@ -1,0 +1,51 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_bottom_": {
+        "type": "string",
+        "value": "5dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        6,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_skin_": "s05b2091f2c3480c9194f632e56e9a49",
+    "_text_": "View on Google Maps",
+    "_top_": {
+        "type": "string",
+        "value": "5dp"
+    },
+    "canUpdateUI": true,
+    "containerId": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s3bfe0fe908a4a3d9543c3b91d59a8d3",
+    "id": "ButtonRound",
+    "info": null,
+    "isvisible": true,
+    "kuid": "j2c1459bee6040ea9197d9bbd1d69a0c",
+    "masterType": 1,
+    "name": "kony.ui.Button",
+    "paddinginpixel": false,
+    "parent": "ViewMapGroupBtn",
+    "pf": "MapItemTemplate",
+    "wType": "Button",
+    "zindex": 1
+}

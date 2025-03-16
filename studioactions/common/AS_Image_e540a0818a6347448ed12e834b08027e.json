@@ -1,0 +1,34 @@
+{
+    "AS_Image_e540a0818a6347448ed12e834b08027e": {
+        "id": "AS_Image_e540a0818a6347448ed12e834b08027e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "userwidgetmodel",
+            "type": "userwidgets",
+            "KUID": "u15c3823c3e446b4bf645966e8e23c71"
+        },
+        "language": "js",
+        "eventType": "onTouchStart",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ea07cbb6afc74751bd432a8cd2875d9a",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "openHome",
+            "display": "openHome",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

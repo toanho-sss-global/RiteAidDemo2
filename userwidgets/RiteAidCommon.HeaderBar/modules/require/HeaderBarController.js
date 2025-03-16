@@ -11,10 +11,16 @@ define(function() {
     initGettersSetters: function() {
 
     },
-    openMenu: function() {
-
+    openPage: function(pageName) {
+      this.view.ListInformation.height = "0dp";
+      var navigateController = new voltmx.mvc.Navigation(pageName);
+      navigateController.navigate();
     },
     openHome: function() {
+      this.openPage("Home");
+    },
+        openCart: function() {
+      this.openPage("ShoppingCart");
     },
     
     getCartBadgeCount: function () {
@@ -68,6 +74,7 @@ define(function() {
         this.view.forceLayout(); 
 
       } else {
+        information.height = "0dp";
         var nav = new voltmx.mvc.Navigation(page);
         nav.navigate();  
       }

@@ -1,0 +1,330 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_data_": [
+        {
+            "ButtonRound": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "View on Google Maps"
+            },
+            "Disctance": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Distance:"
+            },
+            "MapMarker": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "MapUrl": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "StoreName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Store Name"
+            }
+        },
+        {
+            "ButtonRound": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "View on Google Maps"
+            },
+            "Disctance": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Distance:"
+            },
+            "MapMarker": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "MapUrl": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "StoreName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Store Name"
+            }
+        },
+        {
+            "ButtonRound": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "View on Google Maps"
+            },
+            "Disctance": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Distance:"
+            },
+            "MapMarker": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "MapUrl": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "StoreName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Store Name"
+            }
+        },
+        {
+            "ButtonRound": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "View on Google Maps"
+            },
+            "Disctance": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Distance:"
+            },
+            "MapMarker": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "MapUrl": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "StoreName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Store Name"
+            }
+        },
+        {
+            "ButtonRound": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "View on Google Maps"
+            },
+            "Disctance": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Distance:"
+            },
+            "MapMarker": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "MapUrl": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "StoreName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Store Name"
+            }
+        },
+        {
+            "ButtonRound": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "View on Google Maps"
+            },
+            "Disctance": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Distance:"
+            },
+            "MapMarker": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "MapUrl": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "StoreName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Store Name"
+            }
+        },
+        {
+            "ButtonRound": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "View on Google Maps"
+            },
+            "Disctance": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Distance:"
+            },
+            "MapMarker": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "MapUrl": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "StoreName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Store Name"
+            }
+        },
+        {
+            "ButtonRound": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "View on Google Maps"
+            },
+            "Disctance": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Distance:"
+            },
+            "MapMarker": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "MapUrl": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "StoreName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Store Name"
+            }
+        },
+        {
+            "ButtonRound": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "View on Google Maps"
+            },
+            "Disctance": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Distance:"
+            },
+            "MapMarker": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "MapUrl": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "StoreName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Store Name"
+            }
+        },
+        {
+            "ButtonRound": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "View on Google Maps"
+            },
+            "Disctance": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Distance:"
+            },
+            "MapMarker": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "MapUrl": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "StoreName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Store Name"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "43dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "counter": "09",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "MapStoreLocation",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "j986be8384424b2f9d7ed84115662aa5",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "StoreMapListGroup",
+    "pf": "CheckoutShippingMethod",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "f3abff9b1782478bb389328d1aac2332",
+    "rowcounter": 9,
+    "rowfocusskin": "sb65288bf0c74cf09c9a4b2beb257b4c",
+    "rowskin": "scb3373156f44d6fbaeda147e8570593",
+    "rowtemplate": "MapItem",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s18b4b7cebc04180b309be5c8749494f",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": null,
+    "selectionbehavior": "default",
+    "separatorcolor": "aaaaaa00",
+    "separatorrequired": true,
+    "separatorthickness": 1,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "ButtonRound": "ButtonRound",
+        "Disctance": "Disctance",
+        "InfoGroup": "InfoGroup",
+        "MapItem": "MapItem",
+        "MapMarker": "MapMarker",
+        "MapUrl": "MapUrl",
+        "StoreName": "StoreName",
+        "ViewMapGroupBtn": "ViewMapGroupBtn"
+    },
+    "zindex": 1
+}

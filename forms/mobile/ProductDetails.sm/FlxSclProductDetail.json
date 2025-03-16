@@ -39,8 +39,7 @@
     "children": [
         "FlxProductImage",
         "FlxProductDetails",
-        "FlxFrequentlyBoughtProduct",
-        "FooterDemo"
+        "FlxFrequentlyBoughtProduct"
     ],
     "clipbounds": false,
     "containerweight": 100,

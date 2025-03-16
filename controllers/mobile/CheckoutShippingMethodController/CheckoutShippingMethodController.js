@@ -203,9 +203,8 @@ define({
     },
     {
       enableHighAccuracy: true, 
-      timeout: 5000
-    }
-    );
+      timeout: 5000,
+    });
     location.push({
         lat  : 10.800883,
         lon  : 106.650431,
@@ -215,6 +214,18 @@ define({
       });
     map.locationData = location;
     this.view.mapViewGroup.add(map);
+    if(location.length > 0) {
+      var storeData = location.map(element => ({
+        MapUrl   : element.image,
+        StoreName: element.name
+      }));
+      this.view.MapStoreLocation.setData(storeData);
+      this.view.StoreMapListGroup.isVisible = true;
+      this.view.NoNearByTextContainer = false;
+    } else {
+      this.view.NoNearByTextContainer = true;
+      this.view.StoreMapListGroup.isVisible = false;
+    }
   },
 
 

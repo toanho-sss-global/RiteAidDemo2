@@ -46,6 +46,7 @@
     "containerweight": 100,
     "enablescrolling": true,
     "id": "cartHeaderGroup",
+    "ide_onClick": "AS_FlexContainer_h1a9e82908574802b7a493a37e8ca44d",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,

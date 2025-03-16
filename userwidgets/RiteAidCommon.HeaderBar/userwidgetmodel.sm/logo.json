@@ -39,6 +39,7 @@
     },
     "containerweight": 100,
     "id": "logo",
+    "ide_onTouchStart": "AS_Image_e540a0818a6347448ed12e834b08027e",
     "imagescalemode": 1,
     "info": null,
     "iscustomlayout": false,

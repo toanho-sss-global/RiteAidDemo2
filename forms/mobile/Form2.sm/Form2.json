@@ -38,8 +38,8 @@
     },
     "canUpdateUI": true,
     "children": [
-        "HeaderBar",
         "flxListOrderHistory",
+        "HeaderBar",
         "FooterDemo"
     ],
     "containerweight": 100,

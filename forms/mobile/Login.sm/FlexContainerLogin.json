@@ -40,7 +40,8 @@
         "txtBoxPassword",
         "labelPassword",
         "checkBoxRmPassword",
-        "btnLogin"
+        "btnLogin",
+        "HeaderBar"
     ],
     "clipbounds": false,
     "containerweight": 100,

@@ -1,8 +1,12 @@
 {
     "DNDConfig": null,
-    "_height_": {
+    "_bottom_": {
         "type": "string",
-        "value": "67dp"
+        "value": "10dp"
+    },
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
     },
     "_left_": {
         "type": "string",
@@ -25,21 +29,21 @@
     "_skin_": "s227bab1c0ad47b5a7f20a7a2c41711e",
     "_top_": {
         "type": "string",
-        "value": "382dp"
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
-        "value": "90%"
+        "value": "96%"
     },
     "allboxes": [],
-    "autogrowmode": 0,
+    "autogrowmode": 1,
     "canUpdateUI": true,
     "centerx": {
         "type": "string",
         "value": "50.23%"
     },
     "children": [
-        "Label0b4e1e804b62e4b"
+        "NoStoreLabel"
     ],
     "clipbounds": false,
     "containerweight": 100,
@@ -47,9 +51,9 @@
     "id": "NoNearByTextContainer",
     "info": null,
     "iscustomlayout": false,
-    "isvisible": true,
+    "isvisible": false,
     "kuid": "b36f74a4c9b949b9bc1c03b6abeeddca",
-    "layouttype": 2,
+    "layouttype": 3,
     "name": "kony.ui.FlexContainer",
     "parent": "MapContainer",
     "pf": "CheckoutShippingMethod",

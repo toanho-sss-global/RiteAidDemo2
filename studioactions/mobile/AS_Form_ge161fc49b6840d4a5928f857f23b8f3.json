@@ -43,7 +43,7 @@
             "disabled": null,
             "source": "controller"
         }, {
-            "id": "INVOKE_FUNCTION__befcec27f81447218b1accb35736320a",
+            "id": "INVOKE_FUNCTION__bfdc525dd45042f880c9eafdac76dd8e",
             "type": "INVOKE_FUNCTION",
             "sequenceKUID": "getCartBadgeCount",
             "display": "getCartBadgeCount",
