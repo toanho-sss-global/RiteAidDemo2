@@ -62,7 +62,7 @@ define({
         lblID: item.id_product,
         id: item.id,
         lblDescription: item.lblDescription,
-        lblCost: "$" + ((item.unitPrice * item.ProductQuantity) / 100).toFixed(2),
+        lblCost: "$" + (item.unitPrice / 100).toFixed(2),
         unitPrice: item.unitPrice,
         DeleteIcon: {
           src: item.DeleteIcon,
@@ -136,6 +136,7 @@ define({
           console.log("Get cart response1:", response);
           self.handleCartProducts(response.data);
           self.calculateTotal(response.data.activeOrder);
+           console.log("XXXXXXXXXXXXXXXXXXXXX get cart run");
         }
       }
     };
@@ -197,9 +198,9 @@ define({
       if (httpclient.readyState === 4 && httpclient.status === 200) {
         var response = JSON.parse(httpclient.response);
         console.log("Update Quantity Success: ", response);
-		
+		self.GetCart();
         if (quantity === 0){
-          	self.GetCart();
+          	
           	self.getCartBadgeCount();
           }
       }
@@ -250,7 +251,7 @@ define({
 
     // Instead of setData(), use setDataAt() to update only the changed row
     this.view.CartProductList.ProductList.setDataAt(segmentData[rowIndex], rowIndex);
-    this.calculateTotal();
+    //this.calculateTotal();
 
     // Map the data to the new format
     var mappedData = segmentData.map(function (item) {
@@ -282,7 +283,7 @@ define({
       // Use setDataAt() to update only the modified row
       this.view.CartProductList.ProductList
         .setDataAt(segmentData[rowIndex], rowIndex);
-      this.calculateTotal();
+      //this.calculateTotal();
 
       // Map the data to the new format
       var mappedData = segmentData.map(function (item) {
@@ -310,6 +311,7 @@ define({
     this.view.EstAmount.text = "$" + (itemCart.totalWithTax /100).toFixed(2);
     this.view.SubtotalLabel.text = `SubTotal (${itemCart.totalQuantity} items)`;
      voltmx.store.setItem("CartItemQuantity", itemCart.totalQuantity);
+    console.log("XXXXXXXXXXXXXXXXXXXXX calculate total run");
   },
 
   navigateToCheckout: function () {
