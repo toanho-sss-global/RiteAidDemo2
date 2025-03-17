@@ -41,10 +41,47 @@ define({
   stopPropagation: function (){
     event.stopPropagation();
   },
+
+  ApiSetDeliveryType: function(ShippingOptions) {
+    var deliveryType = ""
+    if (ShippingOptions === "2") {
+      deliveryType = "pickup";
+    } else if (ShippingOptions === "1") {
+      deliveryType = "ship";
+    }
+    var httpclient = new voltmx.net.HttpRequest();
+    var token =  localStorage.getItem("vendure-auth-token");
+    httpclient.open(constants.HTTP_METHOD_POST,"https://vendure.demo.universalcommerce.io/shop-api");
+    httpclient.setRequestHeader("Content-Type", "application/json");
+    httpclient.setRequestHeader("Authorization",`Bearer ${token}`);
+    console.log("checkout shipping method token: ", token)
+    var jsonStr2 = JSON.stringify({
+      "query": "mutation SetOrderCustomFields($customFields: UpdateOrderCustomFieldsInput!) { setOrderCustomFields(input: { customFields: $customFields }) { ... on Order { id code customFields { deliveryType } } ... on NoActiveOrderError { errorCode message } } }",
+      "variables": {
+        "customFields": {
+          "deliveryType": deliveryType
+        }
+      }
+    });
+    
+    httpclient.onReadyStateChange = function () {
+      if (httpclient.readyState === 4 && httpclient.status === 200) {
+        var response = JSON.parse(httpclient.response);
+        var itemData = response.data;
+        if(itemData) {
+         console.log("777777777777",itemData);
+        }
+      }
+    }.bind(this);
+    httpclient.send(jsonStr2);
+  },
+
+
   ApiShipingMethod: function() {
     var ShippingOptions = this.view.CheckoutShippingMethodContainer.ShippingModeContainer.ShippingOptions.selectedKey;
     var httpclient = new voltmx.net.HttpRequest();
     var token =  localStorage.getItem("vendure-auth-token");
+         this.ApiSetDeliveryType(ShippingOptions);  
 
     httpclient.open(constants.HTTP_METHOD_POST,"https://vendure.demo.universalcommerce.io/shop-api");
     httpclient.setRequestHeader("Content-Type", "application/json");
@@ -118,11 +155,11 @@ define({
               if(response2 && response2.data) {
                 console.log("Response Api Map: ", response2)
                 this.storeLocation = 
-                      response2.data.productVariants.items.map(item => {
+                  response2.data.productVariants.items.map(item => {
                   const channels = 
                         item.channels.filter(channel => 
-                    channel.seller && channel.seller.customFields
-                    && channel.seller.customFields.googleMapLink);
+                                             channel.seller && channel.seller.customFields
+                                             && channel.seller.customFields.googleMapLink);
                   return {
                     id           : item.id,
                     name         : item.name,
@@ -136,7 +173,7 @@ define({
                         longitude    : channel.seller.customFields.longitude,
                       }
                     }
-                  )}
+                                                )}
                 });
               }
             }
@@ -161,7 +198,7 @@ define({
       this.generateGoogleMapUI();
     } else if (ShippingOptions === "1") {
       this.showConfirmationSameLocation();
-      
+
     }
   },
   generateGoogleMapUI: function() {
@@ -235,7 +272,7 @@ define({
     }, function (error) {
       console.log("Error Location: " + error);
     },
-    {
+                                       {
       enableHighAccuracy: true, 
       timeout: 5000,
     });
@@ -299,7 +336,7 @@ define({
     this.view.MapStoreLocation.setData(segmentData);
     this.selectedLocation = segmentData[rowIndex];
     this.selectedIndex = rowIndex;
-    
+
     this.onTriggerContinueAction();
   },
   getDistance: function (srcLocation, targetLocation) {
@@ -308,7 +345,7 @@ define({
     const lat2 = targetLocation.lat;
     const lon2 = targetLocation.lon;
     function toRad(value) {
-        return value * Math.PI / 180;
+      return value * Math.PI / 180;
     }
 
     var R = 6371; // Radius of Earth in km
@@ -320,7 +357,7 @@ define({
         Math.sin(dLon / 2) * Math.sin(dLon / 2);
     var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
     var distance = R * c;
-	if(distance < 0.1) {
+    if(distance < 0.1) {
       return (distance * 1000).toFixed(0) + 'm';
     }
     return distance.toFixed(1) + 'km'; // in km

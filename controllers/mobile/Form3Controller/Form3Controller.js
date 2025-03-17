@@ -23,7 +23,7 @@ define({
       }
     });
     httpclient.send(jsonStr);
-    
+
 
     httpclient.onReadyStateChange = function () {
       if (httpclient.readyState === 4) {
@@ -38,17 +38,28 @@ define({
           // Update UI after the response is received
           this.view.OrderStatusLabel.text = orderDetail.state;
           this.qrData.status = orderDetail.state;
+
+          var DeliveryTypeText = orderDetail.customFields.deliveryType ? orderDetail.customFields.deliveryType : "Not Specified";
+          var newDeliveryTypeText = "";
+          if (DeliveryTypeText === "ship") {
+            newDeliveryTypeText = DeliveryTypeText.replace("s", "S");
+          } else if (DeliveryTypeText === "pickup") {
+            newDeliveryTypeText = DeliveryTypeText.replace("p", "P");
+          }
           
-            var skin = "";
-        if (orderDetail.state === "Cancelled") {
+          console.log("33333333",DeliveryTypeText)
+          console.log("44444444",newDeliveryTypeText)
+
+          var skin = "";
+          if (orderDetail.state === "Cancelled") {
             skin = "sknCancelled";
-        } else if (orderDetail.state === "Delivered") {
+          } else if (orderDetail.state === "Delivered") {
             skin = "sknDelivered";
-        } else {
+          } else {
             skin = "sknPaymentSettled";
-        }
-    this.view.OrderStatusLabel.skin = skin;
-          
+          }
+          this.view.OrderStatusLabel.skin = skin;
+
           this.view.OrderIDText.text = `#${orderDetail.id}`;
           this.qrData.orderId = orderDetail.id;
           this.view.OrderDateText.text = formattedDate;
@@ -56,7 +67,7 @@ define({
           this.view.OrderShippingText.text = "$" + (orderDetail.shippingWithTax / 100).toFixed(2);
           this.view.OrderTotalPrice.text = "$" + (orderDetail.totalWithTax / 100).toFixed(2);
           this.qrData.total ="USD" + orderDetail.totalWithTax;
-          this.view.DeliveryTypeText.text = orderDetail.customFields.deliveryType ? orderDetail.customFields.deliveryType : "Not Specified";
+          this.view.DeliveryTypeText.text = newDeliveryTypeText;
 
           var mappedData = orderDetail.lines.map(item => ({
             ItemOrderedImg: item.productVariant.featuredAsset.preview, 
@@ -76,21 +87,21 @@ define({
           this.view.OrderFullNameLabel.text = orderDetail.shippingAddress.fullName;
           this.view.OrderPhoneLabel.text = orderDetail.shippingAddress.phoneNumber;
           this.view.OrderAddress1Label.text = this.truncateText(orderDetail.shippingAddress.streetLine1, 10), 
-          this.view.OrderAddress2Label.text = this.truncateText(orderDetail.shippingAddress.streetLine2, 10), 
-          this.view.OrderCityStateZipCodeLabel.text = 
-    [orderDetail.shippingAddress.city, orderDetail.shippingAddress.province, orderDetail.shippingAddress.postalCode]
-    .filter(Boolean)
-    .join(" ");
+            this.view.OrderAddress2Label.text = this.truncateText(orderDetail.shippingAddress.streetLine2, 10), 
+            this.view.OrderCityStateZipCodeLabel.text = 
+            [orderDetail.shippingAddress.city, orderDetail.shippingAddress.province, orderDetail.shippingAddress.postalCode]
+            .filter(Boolean)
+            .join(" ");
           this.view.OrderCountryLabel.text = orderDetail.shippingAddress.country;
 
           this.view.OrderFullNameLabel2.text = orderDetail.billingAddress.fullName;
           this.view.OrderPhoneLabel2.text = orderDetail.billingAddress.phoneNumber;
           this.view.OrderAddress1Label2.text = orderDetail.billingAddress.streetLine1;
           this.view.OrderAddress2Label2.text = orderDetail.billingAddress.streetLine2;
-        this.view.OrderCityStateZipCode2.text = 
-    [orderDetail.billingAddress.city, orderDetail.billingAddress.province, orderDetail.billingAddress.postalCode]
-    .filter(Boolean)
-    .join(" ");
+          this.view.OrderCityStateZipCode2.text = 
+            [orderDetail.billingAddress.city, orderDetail.billingAddress.province, orderDetail.billingAddress.postalCode]
+            .filter(Boolean)
+            .join(" ");
           this.view.OrderCountryLabel2.text = orderDetail.billingAddress.country;
 
           var data = JSON.stringify(this.qrData);
