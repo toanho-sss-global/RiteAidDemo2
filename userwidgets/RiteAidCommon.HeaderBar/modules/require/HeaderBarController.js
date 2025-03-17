@@ -3,8 +3,8 @@ define(function() {
   return {
     constructor: function(baseConfig, layoutConfig, pspConfig) {
 		setInterval(() => {
-                var count = localStorage.getItem("count-item-in-cart");
-                this.view.cartBadgeCount.text = String(count);
+                var count = localStorage.getItem("count-item-in-cart")
+				this.view.cartBadgeCount.text = count ? count : "0";
             }, 1000);
     },
     //Logic for getters/setters of custom properties
@@ -60,7 +60,7 @@ define(function() {
     Logout: function() {
       if(this.checkIsLogin()) {
         voltmx.store.removeItem('userData');
-
+		localStorage.removeItem("count-item-in-cart");
         var nav = new voltmx.mvc.Navigation("Login");
         nav.navigate();  
       }
