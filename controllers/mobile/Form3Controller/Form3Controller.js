@@ -45,6 +45,8 @@ define({
             newDeliveryTypeText = DeliveryTypeText.replace("s", "S");
           } else if (DeliveryTypeText === "pickup") {
             newDeliveryTypeText = DeliveryTypeText.replace("p", "P");
+          } else {
+            newDeliveryTypeText = DeliveryTypeText;
           }
           
           console.log("33333333",DeliveryTypeText)

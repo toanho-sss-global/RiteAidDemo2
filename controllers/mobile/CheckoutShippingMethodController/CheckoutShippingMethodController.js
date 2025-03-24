@@ -63,13 +63,13 @@ define({
         }
       }
     });
-    
+
     httpclient.onReadyStateChange = function () {
       if (httpclient.readyState === 4 && httpclient.status === 200) {
         var response = JSON.parse(httpclient.response);
         var itemData = response.data;
         if(itemData) {
-         console.log("777777777777",itemData);
+          console.log("777777777777",itemData);
         }
       }
     }.bind(this);
@@ -81,7 +81,7 @@ define({
     var ShippingOptions = this.view.CheckoutShippingMethodContainer.ShippingModeContainer.ShippingOptions.selectedKey;
     var httpclient = new voltmx.net.HttpRequest();
     var token =  localStorage.getItem("vendure-auth-token");
-         this.ApiSetDeliveryType(ShippingOptions);  
+    this.ApiSetDeliveryType(ShippingOptions);  
 
     httpclient.open(constants.HTTP_METHOD_POST,"https://vendure.demo.universalcommerce.io/shop-api");
     httpclient.setRequestHeader("Content-Type", "application/json");
@@ -202,37 +202,40 @@ define({
     }
   },
   generateGoogleMapUI: function() {
-    var self = this;
-    //The below function is the callback function for onPinClick event.
-    function onPinClickCallBck(map) {
-      console.log("onPinClick event triggered");
+    var map = this.view.widgets().find(e => e.id === "googleMapView");
+    if(!map) {
+      //The below function is the callback function for onPinClick event.
+
+      //Defining the map properties
+      var mapBasicConf = {
+        id             : "googleMapView",
+        provider       : constants.MAP_PROVIDER_GOOGLE,
+        mapKey         : GOOGLE_MAP_API_KEY, //Provide your own Google map key.
+        defaultPinImage: "map_pin_red.png",
+        isVisible      : true,
+        onPinClick     : function () {
+          console.log("onPinClick event triggered");
+        }
+      };
+
+      var mapLayoutConf = {
+        margin         : [0, 0, 0, 0],
+        containerWeight: 100,
+        widgetAlignment: constants.WIDGET_ALIGN_CENTER,
+        padding        : [0, 0, 0, 0],
+        hExpand        : false,
+        vExpand        : false
+      };
+
+      var mapPSPConf = {
+        mode               : constants.MAP_VIEW_MODE_NORMAL,
+        showCurrentLocation: constants.MAP_VIEW_SHOW_CURRENT_LOCATION_AS_PIN
+      };
+      //Creating the map with the properties defined above.
+      map = new voltmx.ui.Map(mapBasicConf, mapLayoutConf, mapPSPConf);
     }
+    var self = this;
 
-    //Defining the map properties
-    var mapBasicConf = {
-      id             : "map1",
-      provider       : constants.MAP_PROVIDER_GOOGLE,
-      mapKey         : GOOGLE_MAP_API_KEY, //Provide your own Google map key.
-      defaultPinImage: "map_pin_red.png",
-      isVisible      : true,
-      onPinClick     : onPinClickCallBck
-    };
-
-    var mapLayoutConf = {
-      margin         : [0, 0, 0, 0],
-      containerWeight: 100,
-      widgetAlignment: constants.WIDGET_ALIGN_CENTER,
-      padding        : [0, 0, 0, 0],
-      hExpand        : false,
-      vExpand        : false
-    };
-
-    var mapPSPConf = {
-      mode               : constants.MAP_VIEW_MODE_NORMAL,
-      showCurrentLocation: constants.MAP_VIEW_SHOW_CURRENT_LOCATION_AS_PIN
-    };
-    //Creating the map with the properties defined above.
-    var map = new voltmx.ui.Map(mapBasicConf, mapLayoutConf, mapPSPConf);
     // Adding Location map to the view
     var location = [];
     const myLocation = {
